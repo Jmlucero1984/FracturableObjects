@@ -1,0 +1,1102 @@
+{
+  "7be6ec43-74a8-4c1c-a1ad-2924afe2aea4": {
+    "url": "db://assets/Images",
+    "value": {}
+  },
+  "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388": {
+    "url": "db://assets/Images/Background.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388@6c48a": {
+    "url": "db://assets/Images/Background.jpg@6c48a",
+    "value": {
+      "depends": [
+        "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388"
+      ]
+    }
+  },
+  "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388@f9941": {
+    "url": "db://assets/Images/Background.jpg@f9941",
+    "value": {
+      "depends": [
+        "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388@6c48a"
+      ]
+    }
+  },
+  "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8": {
+    "url": "db://assets/Scripts",
+    "value": {}
+  },
+  "808b19be-b1fb-45a1-a11c-1210958b8736": {
+    "url": "db://assets/Scripts/Legacy/BluePrintManager.ts",
+    "value": {}
+  },
+  "8e91b389-2c21-4d4f-b17c-0df5bb18dcef": {
+    "url": "db://assets/Scripts/Legacy/ButtonTest.ts",
+    "value": {}
+  },
+  "f89dd3c7-5442-418b-9f67-665a87026b08": {
+    "url": "db://assets/Scripts/DelaunayPackage",
+    "value": {}
+  },
+  "4fb8f73a-469c-421e-9ddf-23a27c46e3e6": {
+    "url": "db://assets/Scripts/Legacy/DetectColl.ts",
+    "value": {}
+  },
+  "7fc6685f-e0e2-4b8c-ba52-e39df7d714bb": {
+    "url": "db://assets/Scripts/Legacy/Detonator.ts",
+    "value": {}
+  },
+  "4c32fae4-2d86-49c6-9a31-1d5975c10064": {
+    "url": "db://assets/Scripts/Legacy/Draggable.ts",
+    "value": {}
+  },
+  "a6002f00-0852-442b-99a8-ebed3fbe45cb": {
+    "url": "db://assets/Scripts/Legacy/DraggableItem.ts",
+    "value": {}
+  },
+  "bceda573-e8eb-42ae-9b94-b596a79c63f1": {
+    "url": "db://assets/Scripts/DraggableStomper.ts",
+    "value": {}
+  },
+  "7cc525cc-9219-4efc-9610-43ae5e29e1ca": {
+    "url": "db://assets/Scripts/Legacy/earcut.ts",
+    "value": {}
+  },
+  "67c95955-ba3b-4b45-a71c-3648655153d1": {
+    "url": "db://assets/Scripts/Legacy/Eliminator.ts",
+    "value": {}
+  },
+  "30f6a774-cbf8-4428-9d67-f6331e486a99": {
+    "url": "db://assets/Scripts/Legacy/FracturableAssembler.ts",
+    "value": {}
+  },
+  "bb97ab12-daba-48f2-8b90-c73a494ef770": {
+    "url": "db://assets/Scripts/Legacy/FracturaImplementer.ts",
+    "value": {}
+  },
+  "707377a5-4184-4ee4-ab63-fcbdb22dcd83": {
+    "url": "db://assets/Scripts/Legacy/FractwithAssembler.ts",
+    "value": {}
+  },
+  "2c5c9851-1d3f-40fc-8759-d58c372b3787": {
+    "url": "db://assets/Scripts/Legacy/GeneralManager.ts",
+    "value": {}
+  },
+  "a9e96d04-0354-49f0-bb6f-9ff89198516f": {
+    "url": "db://assets/Scripts/Legacy/ItemsPanel.ts",
+    "value": {}
+  },
+  "0404e874-478f-495d-8f0d-108d75a276cf": {
+    "url": "db://assets/Scripts/LinkNodeClass.ts",
+    "value": {}
+  },
+  "8c30e933-1c8d-482c-9420-afde8c36563d": {
+    "url": "db://assets/Scripts/Legacy/MaskSplitter.ts",
+    "value": {}
+  },
+  "7e6d8b0d-e2f0-4d72-88bf-20c673fbbbb2": {
+    "url": "db://assets/Scripts/PlainVertexClass.ts",
+    "value": {}
+  },
+  "74f0d857-93d1-4da9-9b9b-f1564b7b7e1b": {
+    "url": "db://assets/Scripts/Legacy/SingleContact.ts",
+    "value": {}
+  },
+  "21e85986-d86a-4c3c-9188-5ad1e02f80e3": {
+    "url": "db://assets/Scripts/Legacy/StructureContainer.ts",
+    "value": {}
+  },
+  "205ac1a2-3779-4430-b9a5-61dfef634931": {
+    "url": "db://assets/Scripts/Legacy/TryingGraph.ts",
+    "value": {}
+  },
+  "0cb97678-24ed-4287-8c38-d652455deb99": {
+    "url": "db://assets/Scripts/Voronoi.ts",
+    "value": {}
+  },
+  "872abdec-75e5-40df-b485-ecc3f3647eba": {
+    "url": "db://assets/Scripts/DelaunayPackage/Delaunay.ts",
+    "value": {}
+  },
+  "4163d385-48a5-44f6-a38f-dd2addb7d65f": {
+    "url": "db://assets/Scripts/DelaunayPackage/DelaunayAssembler.ts",
+    "value": {}
+  },
+  "aefeda90-8599-4ad3-9fda-14c174d2e84a": {
+    "url": "db://assets/Scripts/DelaunayPackage/DelaunayAssemblerImplementer.ts",
+    "value": {}
+  },
+  "342e9c0b-6905-48a9-a4cd-481d94838461": {
+    "url": "db://assets/Scripts/DelaunayPackage/DelaunayFracturable.ts",
+    "value": {}
+  },
+  "4a653005-2874-4166-8d79-313c264ab0a4": {
+    "url": "db://assets/Scripts/DelaunayPackage/DelaunayFractureClass.ts",
+    "value": {}
+  },
+  "92af0796-c223-4d2a-9215-913be13beee6": {
+    "url": "db://assets/Scripts/DelaunayPackage/DelaunaySplitter.ts",
+    "value": {}
+  },
+  "fa415f24-d8e0-4f2a-8dff-06ece744c4f0": {
+    "url": "db://assets/Scripts/DelaunayPackage/earcut.ts",
+    "value": {}
+  },
+  "04a9320d-a8ad-400b-9479-7c40e99cbf65": {
+    "url": "db://assets/Scripts/DelaunayPackage/FractDelaunay.ts",
+    "value": {}
+  },
+  "1fa103ab-54ae-493e-a45e-a64d695737f9": {
+    "url": "db://assets/Scripts/DelaunayPackage/StaticFractureManager.ts",
+    "value": {}
+  },
+  "80c6ee67-0faf-4b11-8b6e-3182e3d7af9d": {
+    "url": "db://assets/Scripts/DelaunayPackage/WholeDelaunay.ts",
+    "value": {}
+  },
+  "b4ac7f95-73e4-4d01-9b88-a50e1b6f5a01": {
+    "url": "db://assets/Material",
+    "value": {}
+  },
+  "2bd3604e-801a-4819-bc22-46e887a938fa": {
+    "url": "db://assets/Prefabs",
+    "value": {}
+  },
+  "917f9265-f063-4427-95cb-d1950e02ed2c": {
+    "url": "db://assets/Textures",
+    "value": {}
+  },
+  "509b16b2-12be-4bda-9fe3-f67592b628a4": {
+    "url": "db://assets/Material/PowerLine.effect",
+    "value": {
+      "depends": []
+    }
+  },
+  "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9": {
+    "url": "db://assets/Material/DelaunayMaterial.mtl",
+    "value": {
+      "depends": [
+        "509b16b2-12be-4bda-9fe3-f67592b628a4",
+        "700f2003-1d5b-402c-a3c2-ccca175020c9@6c48a"
+      ]
+    }
+  },
+  "2cfe6327-9b4c-4a41-a5e5-aa4ba2a9949c": {
+    "url": "db://assets/Material/PowerLine.mtl",
+    "value": {
+      "depends": [
+        "89890776-f9a7-41f3-ba11-7e27f856ba79",
+        "1abf6944-c2ff-411f-857f-2df020706910@6c48a"
+      ]
+    }
+  },
+  "c40d4796-c2e1-4b41-a38a-27fb449838ee": {
+    "url": "db://assets/Prefabs/DelaunayFracturable.prefab",
+    "value": {
+      "depends": [
+        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
+        "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
+        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
+        "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9"
+      ]
+    }
+  },
+  "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967": {
+    "url": "db://assets/Textures/1680857334247.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "375f5506-1274-4c6c-893c-03ec475dfe65": {
+    "url": "db://assets/Textures/atom_B_W.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e1301764-a402-4137-914a-8bfcef3a04a6": {
+    "url": "db://assets/Textures/Background.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "bc124772-1f8e-45d7-a70d-3bb659a6f706": {
+    "url": "db://assets/Textures/Background_city.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "d7a4cbac-c931-4558-9e8f-5b4958a9baa9": {
+    "url": "db://assets/Textures/blueprint_1000_579.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "bc124772-1f8e-45d7-a70d-3bb659a6f706@6c48a": {
+    "url": "db://assets/Textures/Background_city.jpg@6c48a",
+    "value": {
+      "depends": [
+        "bc124772-1f8e-45d7-a70d-3bb659a6f706"
+      ]
+    }
+  },
+  "e1301764-a402-4137-914a-8bfcef3a04a6@6c48a": {
+    "url": "db://assets/Textures/Background.jpg@6c48a",
+    "value": {
+      "depends": [
+        "e1301764-a402-4137-914a-8bfcef3a04a6"
+      ]
+    }
+  },
+  "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967@6c48a": {
+    "url": "db://assets/Textures/1680857334247.jpg@6c48a",
+    "value": {
+      "depends": [
+        "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967"
+      ]
+    }
+  },
+  "375f5506-1274-4c6c-893c-03ec475dfe65@6c48a": {
+    "url": "db://assets/Textures/atom_B_W.png@6c48a",
+    "value": {
+      "depends": [
+        "375f5506-1274-4c6c-893c-03ec475dfe65"
+      ]
+    }
+  },
+  "bc124772-1f8e-45d7-a70d-3bb659a6f706@f9941": {
+    "url": "db://assets/Textures/Background_city.jpg@f9941",
+    "value": {
+      "depends": [
+        "bc124772-1f8e-45d7-a70d-3bb659a6f706@6c48a"
+      ]
+    }
+  },
+  "19340774-a3dd-4e59-a3c1-7d80a6044e59": {
+    "url": "db://assets/Textures/blueprint_1000_579.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "e1301764-a402-4137-914a-8bfcef3a04a6@f9941": {
+    "url": "db://assets/Textures/Background.jpg@f9941",
+    "value": {
+      "depends": [
+        "e1301764-a402-4137-914a-8bfcef3a04a6@6c48a"
+      ]
+    }
+  },
+  "11ba7e06-c11d-484b-83f8-e51d297f0cea": {
+    "url": "db://assets/Textures/ConcreteBeam_01.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "375f5506-1274-4c6c-893c-03ec475dfe65@f9941": {
+    "url": "db://assets/Textures/atom_B_W.png@f9941",
+    "value": {
+      "depends": [
+        "375f5506-1274-4c6c-893c-03ec475dfe65@6c48a"
+      ]
+    }
+  },
+  "b20988ed-9234-4676-870a-ead37205d759": {
+    "url": "db://assets/Textures/ConcreteBeam_01_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d7a4cbac-c931-4558-9e8f-5b4958a9baa9@6c48a": {
+    "url": "db://assets/Textures/blueprint_1000_579.jpg@6c48a",
+    "value": {
+      "depends": [
+        "d7a4cbac-c931-4558-9e8f-5b4958a9baa9"
+      ]
+    }
+  },
+  "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967@f9941": {
+    "url": "db://assets/Textures/1680857334247.jpg@f9941",
+    "value": {
+      "depends": [
+        "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967@6c48a"
+      ]
+    }
+  },
+  "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f": {
+    "url": "db://assets/Textures/ConcreteBlock.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b20988ed-9234-4676-870a-ead37205d759@6c48a": {
+    "url": "db://assets/Textures/ConcreteBeam_01_small.png@6c48a",
+    "value": {
+      "depends": [
+        "b20988ed-9234-4676-870a-ead37205d759"
+      ]
+    }
+  },
+  "11ba7e06-c11d-484b-83f8-e51d297f0cea@6c48a": {
+    "url": "db://assets/Textures/ConcreteBeam_01.jpg@6c48a",
+    "value": {
+      "depends": [
+        "11ba7e06-c11d-484b-83f8-e51d297f0cea"
+      ]
+    }
+  },
+  "b20988ed-9234-4676-870a-ead37205d759@f9941": {
+    "url": "db://assets/Textures/ConcreteBeam_01_small.png@f9941",
+    "value": {
+      "depends": [
+        "b20988ed-9234-4676-870a-ead37205d759@6c48a"
+      ]
+    }
+  },
+  "d7a4cbac-c931-4558-9e8f-5b4958a9baa9@f9941": {
+    "url": "db://assets/Textures/blueprint_1000_579.jpg@f9941",
+    "value": {
+      "depends": [
+        "d7a4cbac-c931-4558-9e8f-5b4958a9baa9@6c48a"
+      ]
+    }
+  },
+  "77889dd7-6417-46bd-9c0a-f7d59bd83b75": {
+    "url": "db://assets/Textures/detonator_icon_triangle.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "db7c4641-7331-4704-b99d-639f63bffbd8": {
+    "url": "db://assets/Textures/detonator_icon_triangle_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "11ba7e06-c11d-484b-83f8-e51d297f0cea@f9941": {
+    "url": "db://assets/Textures/ConcreteBeam_01.jpg@f9941",
+    "value": {
+      "depends": [
+        "11ba7e06-c11d-484b-83f8-e51d297f0cea@6c48a"
+      ]
+    }
+  },
+  "1e1d2559-66cc-45ad-a097-5523e289af0d": {
+    "url": "db://assets/Textures/GenericTestingBlock_03_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f@6c48a": {
+    "url": "db://assets/Textures/ConcreteBlock.png@6c48a",
+    "value": {
+      "depends": [
+        "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f"
+      ]
+    }
+  },
+  "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f@f9941": {
+    "url": "db://assets/Textures/ConcreteBlock.png@f9941",
+    "value": {
+      "depends": [
+        "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f@6c48a"
+      ]
+    }
+  },
+  "36d4adc1-4a97-427c-ba69-492ba459e75c": {
+    "url": "db://assets/Textures/Hormigon_10_100.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "19340774-a3dd-4e59-a3c1-7d80a6044e59@6c48a": {
+    "url": "db://assets/Textures/blueprint_1000_579.png@6c48a",
+    "value": {
+      "depends": [
+        "19340774-a3dd-4e59-a3c1-7d80a6044e59"
+      ]
+    }
+  },
+  "77889dd7-6417-46bd-9c0a-f7d59bd83b75@6c48a": {
+    "url": "db://assets/Textures/detonator_icon_triangle.png@6c48a",
+    "value": {
+      "depends": [
+        "77889dd7-6417-46bd-9c0a-f7d59bd83b75"
+      ]
+    }
+  },
+  "db7c4641-7331-4704-b99d-639f63bffbd8@6c48a": {
+    "url": "db://assets/Textures/detonator_icon_triangle_small.png@6c48a",
+    "value": {
+      "depends": [
+        "db7c4641-7331-4704-b99d-639f63bffbd8"
+      ]
+    }
+  },
+  "1e1d2559-66cc-45ad-a097-5523e289af0d@6c48a": {
+    "url": "db://assets/Textures/GenericTestingBlock_03_small.png@6c48a",
+    "value": {
+      "depends": [
+        "1e1d2559-66cc-45ad-a097-5523e289af0d"
+      ]
+    }
+  },
+  "77889dd7-6417-46bd-9c0a-f7d59bd83b75@f9941": {
+    "url": "db://assets/Textures/detonator_icon_triangle.png@f9941",
+    "value": {
+      "depends": [
+        "77889dd7-6417-46bd-9c0a-f7d59bd83b75@6c48a"
+      ]
+    }
+  },
+  "c1223856-cdd2-4319-9aa2-eccdce32df7e": {
+    "url": "db://assets/Textures/Hormigon_10_35.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "19340774-a3dd-4e59-a3c1-7d80a6044e59@f9941": {
+    "url": "db://assets/Textures/blueprint_1000_579.png@f9941",
+    "value": {
+      "depends": [
+        "19340774-a3dd-4e59-a3c1-7d80a6044e59@6c48a"
+      ]
+    }
+  },
+  "38d81373-8d31-4838-8365-c310d501d1c5": {
+    "url": "db://assets/Textures/Hormigon_10_60.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "1e1d2559-66cc-45ad-a097-5523e289af0d@f9941": {
+    "url": "db://assets/Textures/GenericTestingBlock_03_small.png@f9941",
+    "value": {
+      "depends": [
+        "1e1d2559-66cc-45ad-a097-5523e289af0d@6c48a"
+      ]
+    }
+  },
+  "db7c4641-7331-4704-b99d-639f63bffbd8@f9941": {
+    "url": "db://assets/Textures/detonator_icon_triangle_small.png@f9941",
+    "value": {
+      "depends": [
+        "db7c4641-7331-4704-b99d-639f63bffbd8@6c48a"
+      ]
+    }
+  },
+  "2b67c42f-a8da-4675-b3b1-4da17513731c": {
+    "url": "db://assets/Textures/Hormigon_25_100.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "bb62e325-133b-4c2c-afdb-1c698c246cc9": {
+    "url": "db://assets/Textures/Hormigon_25_150.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "36d4adc1-4a97-427c-ba69-492ba459e75c@6c48a": {
+    "url": "db://assets/Textures/Hormigon_10_100.jpg@6c48a",
+    "value": {
+      "depends": [
+        "36d4adc1-4a97-427c-ba69-492ba459e75c"
+      ]
+    }
+  },
+  "c1223856-cdd2-4319-9aa2-eccdce32df7e@6c48a": {
+    "url": "db://assets/Textures/Hormigon_10_35.jpg@6c48a",
+    "value": {
+      "depends": [
+        "c1223856-cdd2-4319-9aa2-eccdce32df7e"
+      ]
+    }
+  },
+  "38d81373-8d31-4838-8365-c310d501d1c5@6c48a": {
+    "url": "db://assets/Textures/Hormigon_10_60.jpg@6c48a",
+    "value": {
+      "depends": [
+        "38d81373-8d31-4838-8365-c310d501d1c5"
+      ]
+    }
+  },
+  "2b67c42f-a8da-4675-b3b1-4da17513731c@6c48a": {
+    "url": "db://assets/Textures/Hormigon_25_100.jpg@6c48a",
+    "value": {
+      "depends": [
+        "2b67c42f-a8da-4675-b3b1-4da17513731c"
+      ]
+    }
+  },
+  "36d4adc1-4a97-427c-ba69-492ba459e75c@f9941": {
+    "url": "db://assets/Textures/Hormigon_10_100.jpg@f9941",
+    "value": {
+      "depends": [
+        "36d4adc1-4a97-427c-ba69-492ba459e75c@6c48a"
+      ]
+    }
+  },
+  "41c80e26-dffa-4241-bb39-6dc49a3bc14c": {
+    "url": "db://assets/Textures/Hormigon_25_50.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "c1223856-cdd2-4319-9aa2-eccdce32df7e@f9941": {
+    "url": "db://assets/Textures/Hormigon_10_35.jpg@f9941",
+    "value": {
+      "depends": [
+        "c1223856-cdd2-4319-9aa2-eccdce32df7e@6c48a"
+      ]
+    }
+  },
+  "bb62e325-133b-4c2c-afdb-1c698c246cc9@6c48a": {
+    "url": "db://assets/Textures/Hormigon_25_150.jpg@6c48a",
+    "value": {
+      "depends": [
+        "bb62e325-133b-4c2c-afdb-1c698c246cc9"
+      ]
+    }
+  },
+  "d0ce6a7a-0a81-4d89-8310-0eae9d912252": {
+    "url": "db://assets/Textures/Hormigon_5_20.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "38d81373-8d31-4838-8365-c310d501d1c5@f9941": {
+    "url": "db://assets/Textures/Hormigon_10_60.jpg@f9941",
+    "value": {
+      "depends": [
+        "38d81373-8d31-4838-8365-c310d501d1c5@6c48a"
+      ]
+    }
+  },
+  "28059b45-38bf-4c5e-bb68-d2e29a6e7f84": {
+    "url": "db://assets/Textures/Hormigon_5_50.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "2b67c42f-a8da-4675-b3b1-4da17513731c@f9941": {
+    "url": "db://assets/Textures/Hormigon_25_100.jpg@f9941",
+    "value": {
+      "depends": [
+        "2b67c42f-a8da-4675-b3b1-4da17513731c@6c48a"
+      ]
+    }
+  },
+  "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66": {
+    "url": "db://assets/Textures/icnonitos.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "bb62e325-133b-4c2c-afdb-1c698c246cc9@f9941": {
+    "url": "db://assets/Textures/Hormigon_25_150.jpg@f9941",
+    "value": {
+      "depends": [
+        "bb62e325-133b-4c2c-afdb-1c698c246cc9@6c48a"
+      ]
+    }
+  },
+  "ac9bb448-d186-463a-8868-be3f93909803": {
+    "url": "db://assets/Textures/IconManager.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66@6c48a": {
+    "url": "db://assets/Textures/icnonitos.jpg@6c48a",
+    "value": {
+      "depends": [
+        "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66"
+      ]
+    }
+  },
+  "41c80e26-dffa-4241-bb39-6dc49a3bc14c@6c48a": {
+    "url": "db://assets/Textures/Hormigon_25_50.jpg@6c48a",
+    "value": {
+      "depends": [
+        "41c80e26-dffa-4241-bb39-6dc49a3bc14c"
+      ]
+    }
+  },
+  "d0ce6a7a-0a81-4d89-8310-0eae9d912252@6c48a": {
+    "url": "db://assets/Textures/Hormigon_5_20.jpg@6c48a",
+    "value": {
+      "depends": [
+        "d0ce6a7a-0a81-4d89-8310-0eae9d912252"
+      ]
+    }
+  },
+  "d0ce6a7a-0a81-4d89-8310-0eae9d912252@f9941": {
+    "url": "db://assets/Textures/Hormigon_5_20.jpg@f9941",
+    "value": {
+      "depends": [
+        "d0ce6a7a-0a81-4d89-8310-0eae9d912252@6c48a"
+      ]
+    }
+  },
+  "26cd1a58-8647-4184-9282-624fac150707": {
+    "url": "db://assets/Textures/icon_blow.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "28059b45-38bf-4c5e-bb68-d2e29a6e7f84@6c48a": {
+    "url": "db://assets/Textures/Hormigon_5_50.jpg@6c48a",
+    "value": {
+      "depends": [
+        "28059b45-38bf-4c5e-bb68-d2e29a6e7f84"
+      ]
+    }
+  },
+  "41c80e26-dffa-4241-bb39-6dc49a3bc14c@f9941": {
+    "url": "db://assets/Textures/Hormigon_25_50.jpg@f9941",
+    "value": {
+      "depends": [
+        "41c80e26-dffa-4241-bb39-6dc49a3bc14c@6c48a"
+      ]
+    }
+  },
+  "819ba318-0830-469f-be71-1cc7689ea8dc": {
+    "url": "db://assets/Textures/icon_blow_connectorl.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66@f9941": {
+    "url": "db://assets/Textures/icnonitos.jpg@f9941",
+    "value": {
+      "depends": [
+        "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66@6c48a"
+      ]
+    }
+  },
+  "49015e1a-e740-451f-8386-791ffb8ab08c": {
+    "url": "db://assets/Textures/icon_blow_connector_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "28059b45-38bf-4c5e-bb68-d2e29a6e7f84@f9941": {
+    "url": "db://assets/Textures/Hormigon_5_50.jpg@f9941",
+    "value": {
+      "depends": [
+        "28059b45-38bf-4c5e-bb68-d2e29a6e7f84@6c48a"
+      ]
+    }
+  },
+  "11ea5593-35ed-4725-9df7-c1d56c12a4a4": {
+    "url": "db://assets/Textures/icon_blow_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ac9bb448-d186-463a-8868-be3f93909803@6c48a": {
+    "url": "db://assets/Textures/IconManager.png@6c48a",
+    "value": {
+      "depends": [
+        "ac9bb448-d186-463a-8868-be3f93909803"
+      ]
+    }
+  },
+  "ac9bb448-d186-463a-8868-be3f93909803@f9941": {
+    "url": "db://assets/Textures/IconManager.png@f9941",
+    "value": {
+      "depends": [
+        "ac9bb448-d186-463a-8868-be3f93909803@6c48a"
+      ]
+    }
+  },
+  "b326c703-05a3-41c1-9d0e-a05eb617ba37": {
+    "url": "db://assets/Textures/icon_blow_very_small.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "26cd1a58-8647-4184-9282-624fac150707@6c48a": {
+    "url": "db://assets/Textures/icon_blow.png@6c48a",
+    "value": {
+      "depends": [
+        "26cd1a58-8647-4184-9282-624fac150707"
+      ]
+    }
+  },
+  "819ba318-0830-469f-be71-1cc7689ea8dc@6c48a": {
+    "url": "db://assets/Textures/icon_blow_connectorl.png@6c48a",
+    "value": {
+      "depends": [
+        "819ba318-0830-469f-be71-1cc7689ea8dc"
+      ]
+    }
+  },
+  "49015e1a-e740-451f-8386-791ffb8ab08c@6c48a": {
+    "url": "db://assets/Textures/icon_blow_connector_small.png@6c48a",
+    "value": {
+      "depends": [
+        "49015e1a-e740-451f-8386-791ffb8ab08c"
+      ]
+    }
+  },
+  "26cd1a58-8647-4184-9282-624fac150707@f9941": {
+    "url": "db://assets/Textures/icon_blow.png@f9941",
+    "value": {
+      "depends": [
+        "26cd1a58-8647-4184-9282-624fac150707@6c48a"
+      ]
+    }
+  },
+  "2b491d69-b686-4ed5-a652-54f9b805a4a2": {
+    "url": "db://assets/Textures/ItemsPanel.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "819ba318-0830-469f-be71-1cc7689ea8dc@f9941": {
+    "url": "db://assets/Textures/icon_blow_connectorl.png@f9941",
+    "value": {
+      "depends": [
+        "819ba318-0830-469f-be71-1cc7689ea8dc@6c48a"
+      ]
+    }
+  },
+  "a9103f60-2fba-4fb6-94d6-316e069c60c1": {
+    "url": "db://assets/Textures/palote.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "11ea5593-35ed-4725-9df7-c1d56c12a4a4@6c48a": {
+    "url": "db://assets/Textures/icon_blow_small.png@6c48a",
+    "value": {
+      "depends": [
+        "11ea5593-35ed-4725-9df7-c1d56c12a4a4"
+      ]
+    }
+  },
+  "49015e1a-e740-451f-8386-791ffb8ab08c@f9941": {
+    "url": "db://assets/Textures/icon_blow_connector_small.png@f9941",
+    "value": {
+      "depends": [
+        "49015e1a-e740-451f-8386-791ffb8ab08c@6c48a"
+      ]
+    }
+  },
+  "cd04bb35-71fb-4d79-8f32-6b350c844978": {
+    "url": "db://assets/Textures/palote_medium.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "11ea5593-35ed-4725-9df7-c1d56c12a4a4@f9941": {
+    "url": "db://assets/Textures/icon_blow_small.png@f9941",
+    "value": {
+      "depends": [
+        "11ea5593-35ed-4725-9df7-c1d56c12a4a4@6c48a"
+      ]
+    }
+  },
+  "882e5737-5cef-4a3e-b069-cecedf60b4df": {
+    "url": "db://assets/Textures/small.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "cd04bb35-71fb-4d79-8f32-6b350c844978@6c48a": {
+    "url": "db://assets/Textures/palote_medium.jpg@6c48a",
+    "value": {
+      "depends": [
+        "cd04bb35-71fb-4d79-8f32-6b350c844978"
+      ]
+    }
+  },
+  "a9103f60-2fba-4fb6-94d6-316e069c60c1@6c48a": {
+    "url": "db://assets/Textures/palote.jpg@6c48a",
+    "value": {
+      "depends": [
+        "a9103f60-2fba-4fb6-94d6-316e069c60c1"
+      ]
+    }
+  },
+  "b326c703-05a3-41c1-9d0e-a05eb617ba37@6c48a": {
+    "url": "db://assets/Textures/icon_blow_very_small.png@6c48a",
+    "value": {
+      "depends": [
+        "b326c703-05a3-41c1-9d0e-a05eb617ba37"
+      ]
+    }
+  },
+  "2b491d69-b686-4ed5-a652-54f9b805a4a2@6c48a": {
+    "url": "db://assets/Textures/ItemsPanel.png@6c48a",
+    "value": {
+      "depends": [
+        "2b491d69-b686-4ed5-a652-54f9b805a4a2"
+      ]
+    }
+  },
+  "cd04bb35-71fb-4d79-8f32-6b350c844978@f9941": {
+    "url": "db://assets/Textures/palote_medium.jpg@f9941",
+    "value": {
+      "depends": [
+        "cd04bb35-71fb-4d79-8f32-6b350c844978@6c48a"
+      ]
+    }
+  },
+  "0a3e7eae-816e-44e6-88db-5db99ae6f5cd": {
+    "url": "db://assets/Textures/SteelBeam_01.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "a9103f60-2fba-4fb6-94d6-316e069c60c1@f9941": {
+    "url": "db://assets/Textures/palote.jpg@f9941",
+    "value": {
+      "depends": [
+        "a9103f60-2fba-4fb6-94d6-316e069c60c1@6c48a"
+      ]
+    }
+  },
+  "2cd6bcd7-63bf-48cb-998f-006715f0bf65": {
+    "url": "db://assets/Textures/structure.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b326c703-05a3-41c1-9d0e-a05eb617ba37@f9941": {
+    "url": "db://assets/Textures/icon_blow_very_small.png@f9941",
+    "value": {
+      "depends": [
+        "b326c703-05a3-41c1-9d0e-a05eb617ba37@6c48a"
+      ]
+    }
+  },
+  "8f62efd7-261d-4ccf-bd7d-8d980b586e86": {
+    "url": "db://assets/Textures/uvPatterns.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "882e5737-5cef-4a3e-b069-cecedf60b4df@6c48a": {
+    "url": "db://assets/Textures/small.jpg@6c48a",
+    "value": {
+      "depends": [
+        "882e5737-5cef-4a3e-b069-cecedf60b4df"
+      ]
+    }
+  },
+  "2b491d69-b686-4ed5-a652-54f9b805a4a2@f9941": {
+    "url": "db://assets/Textures/ItemsPanel.png@f9941",
+    "value": {
+      "depends": [
+        "2b491d69-b686-4ed5-a652-54f9b805a4a2@6c48a"
+      ]
+    }
+  },
+  "700f2003-1d5b-402c-a3c2-ccca175020c9": {
+    "url": "db://assets/Textures/uvPattern_2.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0a3e7eae-816e-44e6-88db-5db99ae6f5cd@6c48a": {
+    "url": "db://assets/Textures/SteelBeam_01.jpg@6c48a",
+    "value": {
+      "depends": [
+        "0a3e7eae-816e-44e6-88db-5db99ae6f5cd"
+      ]
+    }
+  },
+  "882e5737-5cef-4a3e-b069-cecedf60b4df@f9941": {
+    "url": "db://assets/Textures/small.jpg@f9941",
+    "value": {
+      "depends": [
+        "882e5737-5cef-4a3e-b069-cecedf60b4df@6c48a"
+      ]
+    }
+  },
+  "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f": {
+    "url": "db://assets/Textures/WoodBlock.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "700f2003-1d5b-402c-a3c2-ccca175020c9@6c48a": {
+    "url": "db://assets/Textures/uvPattern_2.png@6c48a",
+    "value": {
+      "depends": [
+        "700f2003-1d5b-402c-a3c2-ccca175020c9"
+      ]
+    }
+  },
+  "0a3e7eae-816e-44e6-88db-5db99ae6f5cd@f9941": {
+    "url": "db://assets/Textures/SteelBeam_01.jpg@f9941",
+    "value": {
+      "depends": [
+        "0a3e7eae-816e-44e6-88db-5db99ae6f5cd@6c48a"
+      ]
+    }
+  },
+  "8f62efd7-261d-4ccf-bd7d-8d980b586e86@6c48a": {
+    "url": "db://assets/Textures/uvPatterns.jpg@6c48a",
+    "value": {
+      "depends": [
+        "8f62efd7-261d-4ccf-bd7d-8d980b586e86"
+      ]
+    }
+  },
+  "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a": {
+    "url": "db://assets/Textures/WoodBlock.png@6c48a",
+    "value": {
+      "depends": [
+        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f"
+      ]
+    }
+  },
+  "700f2003-1d5b-402c-a3c2-ccca175020c9@f9941": {
+    "url": "db://assets/Textures/uvPattern_2.png@f9941",
+    "value": {
+      "depends": [
+        "700f2003-1d5b-402c-a3c2-ccca175020c9@6c48a"
+      ]
+    }
+  },
+  "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@f9941": {
+    "url": "db://assets/Textures/WoodBlock.png@f9941",
+    "value": {
+      "depends": [
+        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a"
+      ]
+    }
+  },
+  "8f62efd7-261d-4ccf-bd7d-8d980b586e86@f9941": {
+    "url": "db://assets/Textures/uvPatterns.jpg@f9941",
+    "value": {
+      "depends": [
+        "8f62efd7-261d-4ccf-bd7d-8d980b586e86@6c48a"
+      ]
+    }
+  },
+  "2cd6bcd7-63bf-48cb-998f-006715f0bf65@6c48a": {
+    "url": "db://assets/Textures/structure.png@6c48a",
+    "value": {
+      "depends": [
+        "2cd6bcd7-63bf-48cb-998f-006715f0bf65"
+      ]
+    }
+  },
+  "2cd6bcd7-63bf-48cb-998f-006715f0bf65@f9941": {
+    "url": "db://assets/Textures/structure.png@f9941",
+    "value": {
+      "depends": [
+        "2cd6bcd7-63bf-48cb-998f-006715f0bf65@6c48a"
+      ]
+    }
+  },
+  "847497b2-8e64-4105-9279-9f7b40e70f31": {
+    "url": "db://assets/Prefabs/Delaunay.prefab",
+    "value": {
+      "depends": []
+    }
+  },
+  "aa957858-1796-4e79-8a23-0652a594fcfc": {
+    "url": "db://assets/Prefabs/Stomper.prefab",
+    "value": {
+      "depends": [
+        "1e1d2559-66cc-45ad-a097-5523e289af0d@f9941"
+      ]
+    }
+  },
+  "f02deb64-e971-42b9-aa77-ab54ab789347": {
+    "url": "db://assets/scene.scene",
+    "value": {
+      "depends": [
+        "f02deb64-e971-42b9-aa77-ab54ab789347",
+        "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388@f9941",
+        "847497b2-8e64-4105-9279-9f7b40e70f31",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "aa957858-1796-4e79-8a23-0652a594fcfc",
+        "ac9bb448-d186-463a-8868-be3f93909803@f9941",
+        "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+      ]
+    }
+  },
+  "03d1f773-8a6e-4844-bb3a-1e08fa2769bc": {
+    "url": "db://assets/Scripts/Legacy",
+    "value": {}
+  },
+  "3264f46e-18b2-44e6-bb19-5a5485e731c3": {
+    "url": "db://assets/Images/Platform.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "3264f46e-18b2-44e6-bb19-5a5485e731c3@6c48a": {
+    "url": "db://assets/Images/Platform.jpg@6c48a",
+    "value": {
+      "depends": [
+        "3264f46e-18b2-44e6-bb19-5a5485e731c3"
+      ]
+    }
+  },
+  "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941": {
+    "url": "db://assets/Images/Platform.jpg@f9941",
+    "value": {
+      "depends": [
+        "3264f46e-18b2-44e6-bb19-5a5485e731c3@6c48a"
+      ]
+    }
+  },
+  "5d6c7149-befa-4792-ac8d-da6a938eb58c": {
+    "url": "db://assets/Scripts/Legacy.rar",
+    "value": {
+      "depends": []
+    }
+  },
+  "8765ca2b-5808-4b45-bd83-e11b83cf86a4": {
+    "url": "db://assets/Scripts/DelaunayPackage/UnitTest.ts",
+    "value": {}
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SteelBeam_01",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 41
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 360,
+      "height": 41
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -180,
+        -20.5,
+        0,
+        180,
+        -20.5,
+        0,
+        -180,
+        20.5,
+        0,
+        180,
+        20.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        41,
+        360,
+        41,
+        0,
+        0,
+        360,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -180,
+        "y": -20.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 180,
+        "y": 20.5,
+        "z": 0
+      }
+    },
+    "texture": "0a3e7eae-816e-44e6-88db-5db99ae6f5cd@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

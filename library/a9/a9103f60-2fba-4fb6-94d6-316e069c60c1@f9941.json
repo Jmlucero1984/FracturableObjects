@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "palote",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 103,
+      "height": 300
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 103,
+      "height": 300
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -51.5,
+        -150,
+        0,
+        51.5,
+        -150,
+        0,
+        -51.5,
+        150,
+        0,
+        51.5,
+        150,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        300,
+        103,
+        300,
+        0,
+        0,
+        103,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -51.5,
+        "y": -150,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 51.5,
+        "y": 150,
+        "z": 0
+      }
+    },
+    "texture": "a9103f60-2fba-4fb6-94d6-316e069c60c1@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
