@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 18419.862299978733,
+      "mTimestamp": 18478.449900001287,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 3832125.8982000053,
-      "chunkId": "d17b9bb2f783fb1aa2a6d480e65047caf768f813",
+      "mTimestamp": 12970783.496500015,
+      "chunkId": "9b3897730c12b372132a3c203f2f22c69208f515",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -847,7 +847,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/ScrollContentSizer.ts",
           "resolved": "__unresolved_16",
           "loc": {
             "start": {
@@ -856,7 +856,21 @@
             },
             "end": {
               "line": 5,
-              "column": 1839
+              "column": 1850
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
+          "resolved": "__unresolved_17",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1866
+            },
+            "end": {
+              "line": 5,
+              "column": 1935
             }
           }
         }
@@ -978,6 +992,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/ScrollContentSizer.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts"
           },
           "messages": []
@@ -1042,7 +1063,7 @@
       "chunkId": "405b9e45f7d83143aa1a19fd3e0279c51bbda221"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1696209430736,
+      "mTimestamp": 1696244571694,
       "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
       "imports": [],
       "type": "esm",
@@ -1370,7 +1391,7 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts": {
       "mTimestamp": {
-        "mtime": 1696173854162.9116,
+        "mtime": 1696242703861.7402,
         "uuid": "872abdec-75e5-40df-b485-ecc3f3647eba"
       },
       "chunkId": "440fcd8d4976168435f8511f236e1f1045be1107",
@@ -4414,10 +4435,94 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest_2.ts": {
       "mTimestamp": {
-        "mtime": 1696213260685.5308,
+        "mtime": 1696257541397.8145,
         "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f"
       },
-      "chunkId": "66fb452a34cc245a096fd81cfd1c0d32406b6f6a",
+      "chunkId": "c63ad2570dc20a47229d7a956f7a1455ad18c706",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 102
+            },
+            "end": {
+              "line": 1,
+              "column": 106
+            }
+          }
+        },
+        {
+          "value": "./earcut",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 23
+            },
+            "end": {
+              "line": 2,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/earcut.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/ScrollContentSizer.ts": {
+      "mTimestamp": {
+        "mtime": 1696256297950.4578,
+        "uuid": "22d16668-de4c-480b-a70b-6943437f5782"
+      },
+      "chunkId": "edaacd2e57b33f0df336da7f4d363433a6206327",
       "imports": [
         {
           "value": "cc"

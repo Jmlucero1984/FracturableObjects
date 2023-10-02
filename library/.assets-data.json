@@ -1022,13 +1022,11 @@
         "aa957858-1796-4e79-8a23-0652a594fcfc",
         "ac9bb448-d186-463a-8868-be3f93909803@f9941",
         "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941",
+        "afc47931-f066-46b0-90be-9fe61f213428@f9941",
+        "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
+        "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
+        "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
         "c77ecaa8-c936-46c4-a5b0-98692673ed87"
       ]
     }
@@ -1071,6 +1069,110 @@
   },
   "3d540730-6bb9-4d9e-b131-00a7b1a55e5f": {
     "url": "db://assets/Scripts/DelaunayPackage/UnitTest_2.ts",
+    "value": {}
+  },
+  "8fe48077-ab7d-4913-a756-7ec3e7b4b7d8": {
+    "url": "db://assets/fonts",
+    "value": {}
+  },
+  "d995193d-339f-49b7-8b4a-ad72586fad78": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Bold.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "c710b458-065c-4c56-9a20-dc26ab294c3a": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-BoldItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "f6eb2b3e-23c1-44da-b715-61ee3192657c": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-ExtraBold.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "8b083092-d964-4787-85f7-846a4bf94393": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-ExtraBoldItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "6de55213-5e06-409b-aa21-efcb1045ae1a": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-ExtraLight.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "b4a70cea-bb32-4821-b231-8d69a4c3d687": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-ExtraLightItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "7e7cff5f-223a-4d20-8dd1-d78dac6e192c": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Italic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "ec701ac6-2937-4539-8e1b-610c9b902d03": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Light.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "e59d20fb-94cf-41b5-baf9-52e8c476c550": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-LightItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "08ae93c6-f547-49aa-a3c1-e553fc42e78f": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Medium.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "9474be65-39ed-4264-8812-abd2cba91a90": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-MediumItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "971610c3-9819-4c29-a283-4eeba3187e6d": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Regular.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "41b7ac18-f283-418a-abe3-1560850008ab": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-SemiBold.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "bdaa4257-fabb-44ee-b18c-017f20b4b5a6": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-SemiBoldItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "79158f8e-f5a0-487f-a0fb-0fc33f1b342a": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-Thin.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "cf1c15ed-d3aa-4ae9-887b-4c2829968951": {
+    "url": "db://assets/fonts/JetBrainsMonoNL-ThinItalic.ttf",
+    "value": {
+      "depends": []
+    }
+  },
+  "22d16668-de4c-480b-a70b-6943437f5782": {
+    "url": "db://assets/Scripts/ScrollContentSizer.ts",
     "value": {}
   }
 }

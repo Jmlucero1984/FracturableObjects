@@ -56,7 +56,7 @@
     "time": 1691765464476.423
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1696092695613.44,
+    "time": 1696252561345.4045,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
@@ -86,7 +86,7 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\Delaunay.ts": {
-    "time": 1696173854162.9116,
+    "time": 1696242703861.7402,
     "uuid": "872abdec-75e5-40df-b485-ecc3f3647eba",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1696213276557.8894,
+    "time": 1696257621128.2534,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -539,8 +539,152 @@
     "time": 1696209683307.1155
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts": {
-    "time": 1696213260685.5308,
+    "time": 1696257541397.8145,
     "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts.meta": {
+    "time": 1696250747796.3867
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts": {
+    "time": 1696250824407.5642,
+    "uuid": "8fe48077-ab7d-4913-a756-7ec3e7b4b7d8",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Bold.ttf.meta": {
+    "time": 1696250824479.5657
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-BoldItalic.ttf.meta": {
+    "time": 1696250824468.5825
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBold.ttf.meta": {
+    "time": 1696250824471.566
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBoldItalic.ttf.meta": {
+    "time": 1696250824487.5642
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLight.ttf.meta": {
+    "time": 1696250824475.5647
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLightItalic.ttf.meta": {
+    "time": 1696250824484.5642
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Italic.ttf.meta": {
+    "time": 1696250824488.564
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Light.ttf.meta": {
+    "time": 1696250824492.564
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-LightItalic.ttf.meta": {
+    "time": 1696250824495.5635
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Medium.ttf.meta": {
+    "time": 1696250824500.5642
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-MediumItalic.ttf.meta": {
+    "time": 1696250824508.5645
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Regular.ttf.meta": {
+    "time": 1696250824503.5647
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBold.ttf.meta": {
+    "time": 1696250824505.566
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBoldItalic.ttf.meta": {
+    "time": 1696250824537.567
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Thin.ttf.meta": {
+    "time": 1696250824576.5662
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ThinItalic.ttf.meta": {
+    "time": 1696250824602.566
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-BoldItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "c710b458-065c-4c56-9a20-dc26ab294c3a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBold.ttf": {
+    "time": 1627657804000,
+    "uuid": "f6eb2b3e-23c1-44da-b715-61ee3192657c",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLight.ttf": {
+    "time": 1627657804000,
+    "uuid": "6de55213-5e06-409b-aa21-efcb1045ae1a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Bold.ttf": {
+    "time": 1627657804000,
+    "uuid": "d995193d-339f-49b7-8b4a-ad72586fad78",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLightItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "b4a70cea-bb32-4821-b231-8d69a4c3d687",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBoldItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "8b083092-d964-4787-85f7-846a4bf94393",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Italic.ttf": {
+    "time": 1627657804000,
+    "uuid": "7e7cff5f-223a-4d20-8dd1-d78dac6e192c",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Light.ttf": {
+    "time": 1627657804000,
+    "uuid": "ec701ac6-2937-4539-8e1b-610c9b902d03",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-LightItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "e59d20fb-94cf-41b5-baf9-52e8c476c550",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Medium.ttf": {
+    "time": 1627657804000,
+    "uuid": "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Regular.ttf": {
+    "time": 1627657804000,
+    "uuid": "971610c3-9819-4c29-a283-4eeba3187e6d",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBold.ttf": {
+    "time": 1627657804000,
+    "uuid": "41b7ac18-f283-418a-abe3-1560850008ab",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-MediumItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "9474be65-39ed-4264-8812-abd2cba91a90",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBoldItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "bdaa4257-fabb-44ee-b18c-017f20b4b5a6",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Thin.ttf": {
+    "time": 1627657804000,
+    "uuid": "79158f8e-f5a0-487f-a0fb-0fc33f1b342a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ThinItalic.ttf": {
+    "time": 1627657804000,
+    "uuid": "cf1c15ed-d3aa-4ae9-887b-4c2829968951",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ScrollContentSizer.ts.meta": {
+    "time": 1696252561351.4055
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ScrollContentSizer.ts": {
+    "time": 1696256297950.4578,
+    "uuid": "22d16668-de4c-480b-a70b-6943437f5782",
     "missing": false
   }
 }
