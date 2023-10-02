@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 15961.198900014162,
+      "mTimestamp": 18419.862299978733,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 9054657.527999997,
-      "chunkId": "68dae8f28afcac858439ab8a6555829d6e2eeea0",
+      "mTimestamp": 3832125.8982000053,
+      "chunkId": "d17b9bb2f783fb1aa2a6d480e65047caf768f813",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -763,7 +763,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/WholeDelaunay.ts",
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest_2.ts",
           "resolved": "__unresolved_10",
           "loc": {
             "start": {
@@ -772,77 +772,91 @@
             },
             "end": {
               "line": 5,
-              "column": 1271
+              "column": 1268
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/WholeDelaunay.ts",
+          "resolved": "__unresolved_11",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 1284
+            },
+            "end": {
+              "line": 5,
+              "column": 1375
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/earcut.ts",
-          "resolved": "__unresolved_11",
+          "resolved": "__unresolved_12",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1287
+              "column": 1391
             },
             "end": {
               "line": 5,
-              "column": 1371
+              "column": 1475
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DraggableStomper.ts",
-          "resolved": "__unresolved_12",
+          "resolved": "__unresolved_13",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1387
+              "column": 1491
             },
             "end": {
               "line": 5,
-              "column": 1465
+              "column": 1569
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/LinkNodeClass.ts",
-          "resolved": "__unresolved_13",
+          "resolved": "__unresolved_14",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1481
+              "column": 1585
             },
             "end": {
               "line": 5,
-              "column": 1556
+              "column": 1660
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/PlainVertexClass.ts",
-          "resolved": "__unresolved_14",
+          "resolved": "__unresolved_15",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1572
+              "column": 1676
             },
             "end": {
               "line": 5,
-              "column": 1650
+              "column": 1754
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
-          "resolved": "__unresolved_15",
+          "resolved": "__unresolved_16",
           "loc": {
             "start": {
               "line": 5,
-              "column": 1666
+              "column": 1770
             },
             "end": {
               "line": 5,
-              "column": 1735
+              "column": 1839
             }
           }
         }
@@ -916,6 +930,13 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest_2.ts"
           },
           "messages": []
         },
@@ -1021,7 +1042,7 @@
       "chunkId": "405b9e45f7d83143aa1a19fd3e0279c51bbda221"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1696198673955,
+      "mTimestamp": 1696209430736,
       "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
       "imports": [],
       "type": "esm",
@@ -4267,7 +4288,7 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest.ts": {
       "mTimestamp": {
-        "mtime": 1696207727447.6692,
+        "mtime": 1696212239092.6223,
         "uuid": "8765ca2b-5808-4b45-bd83-e11b83cf86a4"
       },
       "chunkId": "ea87968ea3710275fdf0eff729de096745babc9e",
@@ -4386,6 +4407,58 @@
           "resolved": {
             "type": "module",
             "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/earcut.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest_2.ts": {
+      "mTimestamp": {
+        "mtime": 1696213260685.5308,
+        "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f"
+      },
+      "chunkId": "66fb452a34cc245a096fd81cfd1c0d32406b6f6a",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 78
+            },
+            "end": {
+              "line": 1,
+              "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
           },
           "messages": []
         }

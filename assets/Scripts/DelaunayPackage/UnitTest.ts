@@ -8,7 +8,7 @@ const { ccclass, property, executeInEditMode } = _decorator;
 
 
 @ccclass('UnitTest')
-@executeInEditMode
+ @executeInEditMode
 export class UnitTest extends Component {
 
     @property(RichText)

@@ -61,7 +61,7 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage": {
-    "time": 1696185268500.578,
+    "time": 1696209683295.1167,
     "uuid": "f89dd3c7-5442-418b-9f67-665a87026b08",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1696206570658.3025,
+    "time": 1696213276557.8894,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -531,8 +531,16 @@
     "time": 1696185268513.5808
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest.ts": {
-    "time": 1696207727447.6692,
+    "time": 1696212239092.6223,
     "uuid": "8765ca2b-5808-4b45-bd83-e11b83cf86a4",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts.meta": {
+    "time": 1696209683307.1155
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts": {
+    "time": 1696213260685.5308,
+    "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   }
 }

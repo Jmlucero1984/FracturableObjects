@@ -2064,7 +2064,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 180,
-      "height": 184.68
+      "height": 58.67999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2083,7 +2083,7 @@
     "_enabled": true,
     "__prefab": null,
     "_lineHeight": 18,
-    "_string": "<color=#ffffff>- - - - -  RUNNING TESTS  - - - - -\n </color><color=#00ff00>AngleTest1\n</color><color=#00ff00> >PASSED\n</color><color=#00ff00>EarcutAreaCasitaTest\n</color><color=#00ff00> >PASSED\n</color><color=#00ff00>EarcutAreaHexagonoTest\n</color><color=#00ff00> >PASSED\n</color><color=#00ff00>EarcutAreaEstrellaTest\n</color><color=#00ff00> >PASSED\n</color>",
+    "_string": "<color=#ffffff>- Running -\n </color><color=#00ff00> >PASSED\n</color>",
     "_horizontalAlign": 0,
     "_verticalAlign": 2,
     "_fontSize": 12,
@@ -2117,20 +2117,6 @@
       "y": 1
     },
     "_id": "f1AxhbuVpISrEP8i8QGEfI"
-  },
-  {
-    "__type__": "8765corWAhLRb2D4RuDz4ak",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 100
-    },
-    "_enabled": true,
-    "__prefab": null,
-    "outputText": {
-      "__id__": 103
-    },
-    "_id": "46/W4IpKBJrodML0sTl3yy"
   },
   {
     "__type__": "cc.Sprite",
@@ -2169,6 +2155,20 @@
     "_useGrayscale": false,
     "_atlas": null,
     "_id": "8bbj5HARNDoLQj1e2b1VJ4"
+  },
+  {
+    "__type__": "3d540cwa7lNnrExAKexpV5f",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 100
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "richtText": {
+      "__id__": 103
+    },
+    "_id": "feJDIIQThAG5CwvtiqREfc"
   },
   {
     "__type__": "cc.Node",
