@@ -1,5 +1,6 @@
 import { _decorator, assert, assertID, Color, Component, Gradient, Graphics, Node, RichText, TextAsset, UITransform, Vec2, VerticalTextAlignment } from 'cc';
 import { earcut } from './earcut';
+ 
 import { resizer } from '../ScrollContentSizer';
 
 const { ccclass, property, executeInEditMode } = _decorator;
@@ -14,6 +15,52 @@ function isString(value: unknown): asserts value is string {
 function splitEdge(init:Vec2, end:Vec2, rndPrecision:number) {
     return new Vec2(round((end.x+init.x)/2,rndPrecision),round((end.y+init.y)/2,rndPrecision))
 }
+
+function splitEdgeTessPoints(borderTessPts:TessPoint[], alreadyPlacedTessPoints:TessPoint[], init:TessPoint, end:TessPoint, rndPrecision:number) {
+
+let tentativeNewTessPoint: TessPoint = null
+    let newPos= new Vec2(round((end.getPos().x+init.getPos().x)/2,rndPrecision),round((end.getPos().y+init.getPos().y)/2,rndPrecision))
+    let newTessPoint = new TessPoint(newPos)
+    for(let i=0; i<alreadyPlacedTessPoints.length;i++) {
+        if(sameTessPoint(alreadyPlacedTessPoints[i],newTessPoint)){
+            tentativeNewTessPoint=alreadyPlacedTessPoints[i];
+        }
+    }
+    if(tentativeNewTessPoint==null ) {
+        tentativeNewTessPoint=newTessPoint;
+    }
+     
+    if(init.isBorder()&&end.isBorder()) {
+        for(let i=0; i<borderTessPts.length; i++ ) {
+            
+            if(sameTessPoint(borderTessPts[i], init)&&sameTessPoint(borderTessPts[i].getSucesor(),end)) {
+
+            tentativeNewTessPoint.setSucesor(borderTessPts[i].getSucesor())
+            borderTessPts[i].setSucesor(tentativeNewTessPoint)
+            tentativeNewTessPoint.setBorder(true)
+            insertInto(borderTessPts,i+1,tentativeNewTessPoint)    
+             
+            }
+        } 
+    }
+    
+
+    alreadyPlacedTessPoints.push(tentativeNewTessPoint)
+    return tentativeNewTessPoint
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -30,12 +77,27 @@ function Testeable(target: any, propertyKey: string, descriptor: PropertyDescrip
 function drawTriangles(triangles:Triangle[]) {
     
     let gr=UnitTest_2.testGraphics;
-    gr.strokeColor= new Color(25,25,25)
+    gr.strokeColor= new Color(250,250,250)
     for(let i =0 ; i<triangles.length; i++) {
         gr.moveTo(triangles[i].getVertexA().x,triangles[i].getVertexA().y)
         gr.lineTo(triangles[i].getVertexB().x,triangles[i].getVertexB().y)
         gr.lineTo(triangles[i].getVertexC().x,triangles[i].getVertexC().y)
         gr.lineTo(triangles[i].getVertexA().x,triangles[i].getVertexA().y)
+    }
+    gr.stroke()
+}
+
+drawTessTriangles
+
+function drawTessTriangles(triangles:TessTriangle[]) {
+    
+    let gr=UnitTest_2.testGraphics;
+    gr.strokeColor= new Color(250,250,250)
+    for(let i =0 ; i<triangles.length; i++) {
+        gr.moveTo(triangles[i].getTessPointA().getPos().x,triangles[i].getTessPointA().getPos().y)
+        gr.lineTo(triangles[i].getTessPointB().getPos().x,triangles[i].getTessPointB().getPos().y)
+        gr.lineTo(triangles[i].getTessPointC().getPos().x,triangles[i].getTessPointC().getPos().y)
+        gr.lineTo(triangles[i].getTessPointA().getPos().x,triangles[i].getTessPointA().getPos().y)
     }
     gr.stroke()
 }
@@ -79,6 +141,13 @@ function round(value:number, decimals:number){
     if(v1.x-v2.x==0 && v1.y-v2.y==0) return true;
     return false;
  }
+
+
+ 
+ function sameTessPoint(tp1:TessPoint, tp2:TessPoint) {
+    if(tp1.getPos().x-tp2.getPos().x==0 && tp1.getPos().y-tp2.getPos().y==0) return true;
+    return false;
+ }
 function updateBorderPoints(borderPoints:BorderPoint[], points:Vec2[]) {
     for(let i=0; i<borderPoints.length; i++ ) {
   
@@ -120,6 +189,94 @@ class BorderPoint {
 
     public toString = () : string => {
         return `POINT (${this.point})   SUCESOR (${this.sucesor})`;
+    }
+}
+
+export class TessPoint {
+    point:Vec2;
+    sucesor:TessPoint;
+    links:Set<TessPoint>=new Set()
+    border:boolean
+ 
+
+    public constructor(point:Vec2, border?:boolean, sucesor?:TessPoint, links?:TessPoint[] ){
+       
+        this.point=point;
+        this.border=border;
+        this.sucesor = sucesor;
+        if(links!=null) {
+        links.forEach(tp=> {
+            this.links.add(tp)
+        })
+         }
+    }
+    public setBorder(border:boolean) {
+        this.border=border;
+    }
+
+    public isBorder() {
+        return this.border
+    }
+    public setSucesor(sucesor:TessPoint) {
+        this.sucesor=sucesor;
+    }
+
+    public addTessPointToLinks(tp:TessPoint) {
+        this.links.add(tp)
+    }
+
+    public addMultipleTessPointToLinks(tps?:TessPoint[]) {
+        tps.forEach(tp=> {
+            this.links.add(tp)
+        })
+    }
+
+    public getSucesor() {
+        return this.sucesor;
+    }
+
+    public getLinks() {
+        return this.links
+    }
+
+    public getPos() {
+         return this.point;
+    }
+
+    public setPos(pos:Vec2) {
+        this.point=pos
+    }
+
+    public toString = () : string => {
+        return `POINT (${this.point})   SUCESOR (${this.sucesor})`;
+    }
+}
+
+
+class TessTriangle {
+    tessPointA:TessPoint;
+    tessPointB:TessPoint;
+    tessPointC:TessPoint;
+
+    constructor(tessPoints:[TessPoint,TessPoint,TessPoint]) {
+        this.tessPointA=tessPoints[0]
+        this.tessPointB=tessPoints[1]
+        this.tessPointC=tessPoints[2]
+ 
+    }
+
+    public getTessPoints() {
+        return [this.tessPointA,this.tessPointB,this.tessPointC]
+    }
+
+    public getTessPointA() {
+        return this.tessPointA;
+    }
+    public getTessPointB() {
+        return this.tessPointB;
+    }
+    public getTessPointC() {
+        return this.tessPointC;
     }
 }
  
@@ -266,6 +423,12 @@ export class UnitTest_2 extends Component {
         return [testResult, testResult ? successful : failed]
     }
 
+    /*
+    =======================================================================================
+        In this first approach we are gonna attemp to  dip our toe in, just
+        to sketch the nuts and bolts of the strucure.
+    =======================================================================================
+    */
 
     @Testeable
     Tess_TesselateSubTriangles_Test(): [boolean, string] {
@@ -318,18 +481,115 @@ export class UnitTest_2 extends Component {
                 newTriangles.push(new Triangle([ca_InterPoint,ab_InterPoint,bc_InterPoint]))
             } 
         }
- 
+         /*
         drawTriangles(newTriangles);
         let percent=0
         let increment = 1/borderPoints.length
-
         borderPoints.forEach(element => {
-        
             percent+=increment;
-
             drawCircles(element.getPoint(),percent);
         });
+        */
+        let cantVerts=envolCoords.length;
+        let expectedTriangles = Math.pow(cantVerts-2,1+iters)
+        successful=`Theoretical triangles cant: ${expectedTriangles} is equal to actual cant: ${newTriangles.length}`
+        failed =`Theoretical triangles cant: ${expectedTriangles} is NOT equal to actual cant: ${newTriangles.length}`
+        let testResult = expectedTriangles==newTriangles.length
+        return [testResult, testResult ? successful : failed]
+    }
 
+ 
+
+    /*
+    =======================================================================================
+        Now we are gonna try tu improve the entities to implement a later
+        "relaxation algorigthm" in order to try to smooth the topology
+    =======================================================================================
+    */
+
+    @Testeable
+    Tess_TessAlgorithmImprovement_Test(): [boolean, string] {
+        let successful = "" // Defined later
+        let failed = "" //Definde later
+        let nums: number[] = [];
+        let borderTessPoints:TessPoint[]=[];
+
+        // Consider using a DoubleLinkedList for this
+        for(let i=0;i<envolCoords.length;i++ ) {
+            nums.push(envolCoords[i].x)
+            nums.push(envolCoords[i].y)
+           
+            borderTessPoints.push(new TessPoint(envolCoords[i],true))
+            if(i>0) {
+                borderTessPoints[i-1].setSucesor(borderTessPoints[i])
+            }
+        }
+        borderTessPoints[borderTessPoints.length-1].setSucesor(borderTessPoints[0])
+ 
+        let indexes = earcut(nums, null, 2)
+        let triangles:TessTriangle[]=[];
+    
+        //Assuming earcut returns counterclockwised indexes.
+        for (let i = 0; i < indexes.length; i += 3) {
+            triangles.push(new TessTriangle([borderTessPoints[indexes[i]],borderTessPoints[indexes[i+1]],borderTessPoints[indexes[i+2]]]))
+        }
+
+       
+        let newTriangles:TessTriangle[]=triangles
+        let previousTriangles:TessTriangle[]=[]
+        let iters = 2;
+
+        let alreadyPlacedTessPoints:TessPoint[]=borderTessPoints
+
+
+        
+        for(let it=0; it<iters; it++) {
+            previousTriangles = newTriangles;
+            newTriangles=[]
+            for(let i = 0; i<previousTriangles.length;i ++ ) {
+                let tpA=previousTriangles[i].getTessPointA()
+                let tpB=previousTriangles[i].getTessPointB()
+                let tpC=previousTriangles[i].getTessPointC()
+    
+                let ab_InterTessPoint = splitEdgeTessPoints(borderTessPoints,alreadyPlacedTessPoints,tpA, tpB,0)
+          
+                let bc_InterTessPoint = splitEdgeTessPoints(borderTessPoints,alreadyPlacedTessPoints,tpB, tpC,0)
+            
+                let ca_InterTessPoint = splitEdgeTessPoints(borderTessPoints,alreadyPlacedTessPoints,tpC, tpA,0)
+        
+
+                newTriangles.push(new TessTriangle([tpA,ab_InterTessPoint,ca_InterTessPoint]))
+                newTriangles.push(new TessTriangle([ab_InterTessPoint,tpB,bc_InterTessPoint]))
+                newTriangles.push(new TessTriangle([bc_InterTessPoint,tpC,ca_InterTessPoint]))
+                newTriangles.push(new TessTriangle([ca_InterTessPoint,ab_InterTessPoint,bc_InterTessPoint]))
+            } 
+        }
+
+        newTriangles.forEach(tessTri=>{
+            tessTri.getTessPointA().addTessPointToLinks(tessTri.getTessPointB())
+            tessTri.getTessPointA().addTessPointToLinks(tessTri.getTessPointC())
+            tessTri.getTessPointB().addTessPointToLinks(tessTri.getTessPointA())
+            tessTri.getTessPointB().addTessPointToLinks(tessTri.getTessPointC())
+            tessTri.getTessPointC().addTessPointToLinks(tessTri.getTessPointA())
+            tessTri.getTessPointC().addTessPointToLinks(tessTri.getTessPointB())
+            
+        })
+
+        newTriangles.forEach(tessTri=>{
+        console.log("LINKS de "+tessTri.getTessPointA().getPos())
+            console.log("LINKS de "+tessTri.getTessPointA().getLinks().size)
+            if(!tessTri.getTessPointA().isBorder()){
+            let pos =tessTri.getTessPointA().getPos()
+           tessTri.getTessPointA().setPos(new Vec2(pos.x+Math.random()*2,pos.y+Math.random()*2))
+            }
+        })
+        drawTessTriangles(newTriangles);
+     /*   let percent=0
+        let increment = 1/borderPoints.length
+        borderPoints.forEach(element => {
+            percent+=increment;
+            drawCircles(element.getPoint(),percent);
+        });*/
         let cantVerts=envolCoords.length;
         let expectedTriangles = Math.pow(cantVerts-2,1+iters)
         successful=`Theoretical triangles cant: ${expectedTriangles} is equal to actual cant: ${newTriangles.length}`

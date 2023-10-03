@@ -2154,7 +2154,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 184,
-      "height": 661.1619999999999
+      "height": 729.6619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2173,7 +2173,7 @@
     "_enabled": true,
     "__prefab": null,
     "_lineHeight": 13.7,
-    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
+    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
     "_horizontalAlign": 0,
     "_verticalAlign": 2,
     "_fontSize": 10,
@@ -2893,7 +2893,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 184,
-      "height": 661.1619999999999
+      "height": 729.6619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2912,7 +2912,7 @@
     "_enabled": true,
     "__prefab": null,
     "_lineHeight": 13.7,
-    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
+    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
     "_horizontalAlign": 0,
     "_verticalAlign": 2,
     "_fontSize": 10,
@@ -2941,7 +2941,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 190,
-      "height": 661.1619999999999
+      "height": 729.6619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3110,13 +3110,13 @@
     "_lineWidth": 0.4,
     "_strokeColor": {
       "__type__": "cc.Color",
-      "r": 0,
-      "g": 203,
-      "b": 0,
+      "r": 250,
+      "g": 250,
+      "b": 250,
       "a": 255
     },
-    "_lineJoin": 2,
-    "_lineCap": 0,
+    "_lineJoin": 1,
+    "_lineCap": 1,
     "_fillColor": {
       "__type__": "cc.Color",
       "r": 255,
@@ -3124,7 +3124,7 @@
       "b": 255,
       "a": 255
     },
-    "_miterLimit": 10,
+    "_miterLimit": 5,
     "_id": "d0D5pnpghHN70LoVs6d8gI"
   },
   {
