@@ -3,7 +3,7 @@
     "time": 1696087786995.4202
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images": {
-    "time": 1696092603571.2893,
+    "time": 1696269469510.3645,
     "uuid": "7be6ec43-74a8-4c1c-a1ad-2924afe2aea4",
     "missing": false
   },
@@ -56,7 +56,7 @@
     "time": 1691765464476.423
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1696252561345.4045,
+    "time": 1696283478241.621,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
@@ -66,7 +66,7 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DraggableStomper.ts": {
-    "time": 1696121937260.753,
+    "time": 1696305840096.633,
     "uuid": "bceda573-e8eb-42ae-9b94-b596a79c63f1",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1696257621128.2534,
+    "time": 1696342091795.1787,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -539,7 +539,7 @@
     "time": 1696209683307.1155
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts": {
-    "time": 1696257541397.8145,
+    "time": 1696342044263.4993,
     "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   },
@@ -685,6 +685,22 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ScrollContentSizer.ts": {
     "time": 1696256297950.4578,
     "uuid": "22d16668-de4c-480b-a70b-6943437f5782",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\blackTile.png.meta": {
+    "time": 1696269469711.3618
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\blackTile.png": {
+    "time": 1696269465562.7263,
+    "uuid": "b47e517a-a5a4-4585-a6b3-1a7b6692a42b",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestClasses.ts.meta": {
+    "time": 1696283478244.621
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestClasses.ts": {
+    "time": 1696283520488.658,
+    "uuid": "1278696e-e127-47b7-83b4-202c46cdda03",
     "missing": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 18506.614199995995,
+      "mTimestamp": 11652.321199953556,
       "chunkId": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
       "imports": [
         {
@@ -409,8 +409,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 12970939.267199993,
-      "chunkId": "e1932cb926b2ebc6549e20f7fc38da2cc8c5e01f",
+      "mTimestamp": 39233163.863599956,
+      "chunkId": "b0011e66783811138f06fba2e1a95c4d9aeec2b7",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -651,7 +651,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestClasses.ts",
           "resolved": "__unresolved_17",
           "loc": {
             "start": {
@@ -660,6 +660,20 @@
             },
             "end": {
               "line": 21,
+              "column": 80
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
+          "resolved": "__unresolved_18",
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 7
+            },
+            "end": {
+              "line": 22,
               "column": 76
             }
           }
@@ -789,6 +803,13 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestClasses.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts"
           },
           "messages": []
@@ -853,7 +874,7 @@
       "chunkId": "8734ae453c795212d5fc5584920f2f89d694748f"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1696244571694,
+      "mTimestamp": 1696302813254,
       "chunkId": "cceb4f795e6e637cc67c120b5b44ef3a584b486a",
       "imports": [],
       "type": "esm",
@@ -2004,10 +2025,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DraggableStomper.ts": {
       "mTimestamp": {
-        "mtime": 1696121937260.753,
+        "mtime": 1696305840096.633,
         "uuid": "bceda573-e8eb-42ae-9b94-b596a79c63f1"
       },
-      "chunkId": "0a5105e9d872ed4cfdbf3a5585c3d17f49542924",
+      "chunkId": "faa61e087b62ed55ee5289b4b85fb92b53578f69",
       "imports": [
         {
           "value": "cc"
@@ -4225,10 +4246,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest_2.ts": {
       "mTimestamp": {
-        "mtime": 1696257541397.8145,
+        "mtime": 1696342044263.4993,
         "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f"
       },
-      "chunkId": "12111ef0914273b4483b7b45bc17ceeed374ed03",
+      "chunkId": "0a1cc39368d0d7d9d718b4b1e3d7293eac478286",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4245,11 +4266,11 @@
           "loc": {
             "start": {
               "line": 1,
-              "column": 102
+              "column": 152
             },
             "end": {
               "line": 1,
-              "column": 106
+              "column": 156
             }
           }
         },
@@ -4330,6 +4351,58 @@
             "end": {
               "line": 1,
               "column": 82
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestClasses.ts": {
+      "mTimestamp": {
+        "mtime": 1696283520488.658,
+        "uuid": "1278696e-e127-47b7-83b4-202c46cdda03"
+      },
+      "chunkId": "528fd6528cbdd0afc1286222cd728608b2effb48",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 50
+            },
+            "end": {
+              "line": 1,
+              "column": 54
             }
           }
         }

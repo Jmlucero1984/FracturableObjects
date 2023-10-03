@@ -1022,6 +1022,8 @@
         "aa957858-1796-4e79-8a23-0652a594fcfc",
         "ac9bb448-d186-463a-8868-be3f93909803@f9941",
         "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941",
+        "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
+        "b47e517a-a5a4-4585-a6b3-1a7b6692a42b@f9941",
         "afc47931-f066-46b0-90be-9fe61f213428@f9941",
         "ffb88a8f-af62-48f4-8f1d-3cb606443a43@f9941",
         "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
@@ -1173,6 +1175,32 @@
   },
   "22d16668-de4c-480b-a70b-6943437f5782": {
     "url": "db://assets/Scripts/ScrollContentSizer.ts",
+    "value": {}
+  },
+  "b47e517a-a5a4-4585-a6b3-1a7b6692a42b": {
+    "url": "db://assets/Images/blackTile.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b47e517a-a5a4-4585-a6b3-1a7b6692a42b@6c48a": {
+    "url": "db://assets/Images/blackTile.png@6c48a",
+    "value": {
+      "depends": [
+        "b47e517a-a5a4-4585-a6b3-1a7b6692a42b"
+      ]
+    }
+  },
+  "b47e517a-a5a4-4585-a6b3-1a7b6692a42b@f9941": {
+    "url": "db://assets/Images/blackTile.png@f9941",
+    "value": {
+      "depends": [
+        "b47e517a-a5a4-4585-a6b3-1a7b6692a42b@6c48a"
+      ]
+    }
+  },
+  "1278696e-e127-47b7-83b4-202c46cdda03": {
+    "url": "db://assets/Scripts/TestClasses.ts",
     "value": {}
   }
 }

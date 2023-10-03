@@ -15,7 +15,7 @@ export class DraggableStomper extends Component {
 
 
     start() {
-        console.clear();
+       // console.clear();
      
     }
 
