@@ -56,12 +56,12 @@
     "time": 1691765464476.423
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1696283478241.621,
+    "time": 1696531849794.565,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage": {
-    "time": 1696209683295.1167,
+    "time": 1696473099910.0447,
     "uuid": "f89dd3c7-5442-418b-9f67-665a87026b08",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1696366855978.6108,
+    "time": 1696538538474.373,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -533,14 +533,6 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest.ts": {
     "time": 1696212239092.6223,
     "uuid": "8765ca2b-5808-4b45-bd83-e11b83cf86a4",
-    "missing": false
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts.meta": {
-    "time": 1696209683307.1155
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest_2.ts": {
-    "time": 1696366054936.1162,
-    "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts.meta": {
@@ -701,6 +693,86 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestClasses.ts": {
     "time": 1696283520488.658,
     "uuid": "1278696e-e127-47b7-83b4-202c46cdda03",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation.meta": {
+    "time": 1696435044801.3054
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation": {
+    "time": 1696473146617.0186,
+    "uuid": "4cd074b3-4b68-4985-bf3b-8879c70d1b00",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts.meta": {
+    "time": 1696435066212.6824
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts": {
+    "time": 1696438446780.8037,
+    "uuid": "05a1bfb5-57ce-4f8b-ab52-d426550da754",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter.meta": {
+    "time": 1696473099919.0425
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter": {
+    "time": 1696473316860.0183,
+    "uuid": "fca5afa5-67ec-4020-9057-1ba12f315440",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests.meta": {
+    "time": 1696436101593.3645
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests": {
+    "time": 1696538388313.462,
+    "uuid": "0b5a5476-02e3-4968-992b-1967cd69601c",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests.meta": {
+    "time": 1696473314055.4634
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests": {
+    "time": 1696475627689.6467,
+    "uuid": "a58cba0b-bff5-4ee5-8d1c-eb8f8e7a51c6",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestLoader.ts.meta": {
+    "time": 1696473950341.0273
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestLoader.ts": {
+    "time": 1696538809011.2754,
+    "uuid": "e5755326-c75c-483c-9ba5-0424102a58c3",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UnitTest.ts.meta": {
+    "time": 1696474570498.658
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UnitTest.ts": {
+    "time": 1696474644474.7708,
+    "uuid": "74979ea6-d23a-4070-8819-7d46b7a77112",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts.meta": {
+    "time": 1696473303625.3008
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts": {
+    "time": 1696538736588.9724,
+    "uuid": "c7f30b5d-b1b4-4a0d-a68d-734237233ca2",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UTest.ts.meta": {
+    "time": 1696531849850.7473
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UTest.ts": {
+    "time": 1696539048974.6396,
+    "uuid": "adb985e6-ac26-4693-9fac-2d2ea43d4b4a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts.meta": {
+    "time": 1696209683307.1155
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts": {
+    "time": 1696539345708.083,
+    "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   }
 }

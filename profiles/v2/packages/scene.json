@@ -58,8 +58,8 @@
     },
     "f02deb64-e971-42b9-aa77-ab54ab789347": {
       "position": {
-        "x": 447.46236138625324,
-        "y": 412.25585880206626,
+        "x": 513.9857205730747,
+        "y": 333.0335507955412,
         "z": 5000
       },
       "rotation": {
@@ -77,5 +77,18 @@
   },
   "camera-uuids": [
     "f02deb64-e971-42b9-aa77-ab54ab789347"
-  ]
+  ],
+  "float-window": {
+    "position": {
+      "cc": {
+        "Camera": {
+          "dock": false,
+          "top": null,
+          "bottom": 10,
+          "left": null,
+          "right": 10
+        }
+      }
+    }
+  }
 }

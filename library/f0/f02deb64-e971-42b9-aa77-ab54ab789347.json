@@ -21,7 +21,7 @@
     "_active": true,
     "_components": [],
     "_prefab": {
-      "__id__": 144
+      "__id__": 149
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -52,7 +52,7 @@
     },
     "autoReleaseAssets": false,
     "_globals": {
-      "__id__": 145
+      "__id__": 150
     },
     "_id": "f02deb64-e971-42b9-aa77-ab54ab789347"
   },
@@ -93,25 +93,28 @@
       },
       {
         "__id__": 139
+      },
+      {
+        "__id__": 142
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 141
+        "__id__": 146
       },
       {
-        "__id__": 142
+        "__id__": 147
       },
       {
-        "__id__": 143
+        "__id__": 148
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 480.00000000000006,
-      "y": 320.00000000000006,
+      "x": 480,
+      "y": 320,
       "z": 0
     },
     "_lrot": {
@@ -2068,8 +2071,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 490.23,
-      "y": 298.635,
+      "x": 499.897,
+      "y": 294.517,
       "z": 0
     },
     "_lrot": {
@@ -2154,7 +2157,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 184,
-      "height": 729.6619999999999
+      "height": 798.1619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2173,7 +2176,7 @@
     "_enabled": true,
     "__prefab": null,
     "_lineHeight": 13.7,
-    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
+    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#00ffff>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#00ffff>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#00ffff>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● Tess_Relaxation_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#00ffff>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#00ffff>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#00ffff>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#00ffff>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#00ffff>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#00ffff>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#00ffff>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
     "_horizontalAlign": 0,
     "_verticalAlign": 2,
     "_fontSize": 10,
@@ -2271,12 +2274,15 @@
       },
       {
         "__id__": 137
+      },
+      {
+        "__id__": 141
       }
     ],
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 269.451,
+      "x": 263.312,
       "y": 300,
       "z": 0
     },
@@ -2333,8 +2339,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": 3.089,
-      "y": -2.439,
+      "x": 3.741,
+      "y": -3.981,
       "z": 0
     },
     "_lrot": {
@@ -2893,7 +2899,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 184,
-      "height": 729.6619999999999
+      "height": 798.1619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2912,7 +2918,7 @@
     "_enabled": true,
     "__prefab": null,
     "_lineHeight": 13.7,
-    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#1e81b0>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#1e81b0>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#1e81b0>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#1e81b0>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#1e81b0>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#1e81b0>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#1e81b0>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#1e81b0>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
+    "_string": "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color><color=#00ffff>● Tess_ExpectedTrianglesTest_Test\n</color><color=#00ff00>>PASSED\nTriangles lenght as expected\n\n</color><color=#00ffff>● Tess_DetectEdges_Test\n</color><color=#00ff00>>PASSED\nEdges were detected succesfully\n\n</color><color=#00ffff>● Tess_TesselateSubTriangles_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● Tess_TessAlgorithmImprovement_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● Tess_Relaxation_Test\n</color><color=#00ff00>>PASSED\nTheoretical triangles cant: 64 is equal to actual cant: 64\n\n</color><color=#00ffff>● CompareVectorsFunction_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (EQUAL)\n\n</color><color=#00ffff>● CompareVectorsFunction_2_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#00ffff>● CompareVectorsFunction_3_Test\n</color><color=#00ff00>>PASSED\nSuccessfully compared (NOT EQUAL)\n\n</color><color=#00ffff>● RoundValue_2Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#00ffff>● RoundValue_3Decimals_Test\n</color><color=#00ff00>>PASSED\nSuccessfully rounded\n\n</color><color=#00ffff>● ArrayInsertionFirt_Test\n</color><color=#00ff00>>PASSED\nSuccessfully first place inserted\n\n</color><color=#00ffff>● ArrayInsertionAmong_Test\n</color><color=#00ff00>>PASSED\nSuccessfully among place inserted\n\n</color><color=#00ffff>● ArrayInsertionLast_Test\n</color><color=#00ff00>>PASSED\nSuccessfully last place inserted\n\n</color>",
     "_horizontalAlign": 0,
     "_verticalAlign": 2,
     "_fontSize": 10,
@@ -2941,7 +2947,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 190,
-      "height": 729.6619999999999
+      "height": 798.1619999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3020,8 +3026,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 206,
-      "height": 203
+      "width": 210,
+      "height": 207.7
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -3044,9 +3050,9 @@
     "_dstBlendFactor": 4,
     "_color": {
       "__type__": "cc.Color",
-      "r": 42,
-      "g": 42,
-      "b": 42,
+      "r": 255,
+      "g": 92,
+      "b": 0,
       "a": 255
     },
     "_spriteFrame": {
@@ -3063,13 +3069,13 @@
     },
     "_fillStart": 1,
     "_fillRange": 0,
-    "_isTrimmedMode": true,
+    "_isTrimmedMode": false,
     "_useGrayscale": false,
     "_atlas": null,
     "_id": "8bbj5HARNDoLQj1e2b1VJ4"
   },
   {
-    "__type__": "3d540cwa7lNnrExAKexpV5f",
+    "__type__": "e5755Mmx1xIPJulBCQQKljD",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -3077,6 +3083,8 @@
     },
     "_enabled": true,
     "__prefab": null,
+    "tipoTest": 0,
+    "ActiveTest": true,
     "richtText": {
       "__id__": 131
     },
@@ -3086,7 +3094,8 @@
     "testGrp": {
       "__id__": 138
     },
-    "_id": "feJDIIQThAG5CwvtiqREfc"
+    "time_Mult": 10,
+    "_id": "51ZeE3jk5Dq7XN6M2qfZ5v"
   },
   {
     "__type__": "cc.Graphics",
@@ -3147,8 +3156,8 @@
     "_prefab": null,
     "_lpos": {
       "__type__": "cc.Vec3",
-      "x": -128.103,
-      "y": 82.35,
+      "x": -20.916,
+      "y": -183.929,
       "z": 0
     },
     "_lrot": {
@@ -3160,8 +3169,8 @@
     },
     "_lscale": {
       "__type__": "cc.Vec3",
-      "x": 4,
-      "y": 4,
+      "x": 2,
+      "y": 2,
       "z": 1
     },
     "_mobility": 0,
@@ -3194,6 +3203,154 @@
       "y": 0
     },
     "_id": "00l3qQFqFOfIIXg4yC/Nd3"
+  },
+  {
+    "__type__": "c7f30tdsbRKDaaNc0I3Izyi",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 113
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "richtText": {
+      "__id__": 131
+    },
+    "richtText_unmasked": {
+      "__id__": 110
+    },
+    "testGrp": {
+      "__id__": 138
+    },
+    "_id": "6c0oaG3i1EgZCbg4chcGxX"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Node",
+    "_objFlags": 0,
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 143
+      },
+      {
+        "__id__": 144
+      },
+      {
+        "__id__": 145
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "feQNxYnZ1KJpHcdKvpS0cp"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 88.51,
+      "height": 54.4
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "d3eIm1rwdCR64aCqvY9Xgw"
+  },
+  {
+    "__type__": "cc.Label",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_string": "label",
+    "_horizontalAlign": 1,
+    "_verticalAlign": 1,
+    "_actualFontSize": 40,
+    "_fontSize": 40,
+    "_fontFamily": "Arial",
+    "_lineHeight": 40,
+    "_overflow": 0,
+    "_enableWrapText": true,
+    "_font": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_isItalic": false,
+    "_isBold": false,
+    "_isUnderline": false,
+    "_underlineHeight": 2,
+    "_cacheMode": 0,
+    "_id": "5aNY4zI25JeLDzI+NHvCbc"
+  },
+  {
+    "__type__": "cc.LabelOutline",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 142
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_width": 2,
+    "_id": "beceAYkxVMSrFUZUJi5xWt"
   },
   {
     "__type__": "cc.UITransform",
@@ -3240,12 +3397,12 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "_alignFlags": 45,
+    "_alignFlags": 8,
     "_target": null,
-    "_left": 5.684341886080802e-14,
-    "_right": 5.684341886080802e-14,
-    "_top": 5.684341886080802e-14,
-    "_bottom": 5.684341886080802e-14,
+    "_left": -2.2648549702353193e-14,
+    "_right": 479.99999999999994,
+    "_top": 319.99999999999994,
+    "_bottom": 319.99999999999994,
     "_horizontalCenter": 0,
     "_verticalCenter": 0,
     "_isAbsLeft": true,
@@ -3282,22 +3439,22 @@
   {
     "__type__": "cc.SceneGlobals",
     "ambient": {
-      "__id__": 146
+      "__id__": 151
     },
     "shadows": {
-      "__id__": 147
+      "__id__": 152
     },
     "_skybox": {
-      "__id__": 148
+      "__id__": 153
     },
     "fog": {
-      "__id__": 149
+      "__id__": 154
     },
     "octree": {
-      "__id__": 150
+      "__id__": 155
     },
     "lightProbeInfo": {
-      "__id__": 151
+      "__id__": 156
     },
     "bakedWithStationaryMainLight": false,
     "bakedWithHighpLightmap": false
