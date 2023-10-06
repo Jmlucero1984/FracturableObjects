@@ -62,37 +62,9 @@ export class StocasticsUTest extends UTest {
  
     }
 
-    launch(){
-        StocasticsUTest.optRTx = this.richtText;
-        StocasticsUTest.outputRichtText_unmasked = this.richtText_unmasked;
-        StocasticsUTest.testGraphics = this.testGrp;
-        console.log("on Start")
-        StocasticsUTest.optRTx.string = "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color>"
-        console.log("CANTIDAD DE TESTS: " + tests.length)
-      this.launchTest(0,tests.length-1)
-
-    }
-
-    launchTest(i: number, total: number) {
-        let tlcl= Color.CYAN.toHEX() // Title color
-        let fdcl= Color.RED.toHEX() // Failed color
-        let sfcl= Color.GREEN.toHEX() // Success color
  
-        StocasticsUTest.optRTx.string += "<color=#"+tlcl+">● " + tests[i].name + "\n</color>"
-        let rslt = tests[i]();
-      
-        StocasticsUTest.optRTx.string += rslt[0]?"<color=#"+sfcl+">>PASSED\n" + rslt[1] + "\n\n</color>":"<color=#"+fdcl+">>FAILED\n" + rslt[1] + "\n\n</color>"
 
-        let newHeight = StocasticsUTest.optRTx.getComponent(UITransform).height;
-
-        StocasticsUTest.optRTx.node.parent.getComponent(UITransform).height = newHeight
-        StocasticsUTest.outputRichtText_unmasked.string = StocasticsUTest.optRTx.string;
-        if (i < total) {
-            setTimeout(() => {
-                this.launchTest(++i, total)
-            }, 100)
-        }
-    }
+ 
     @Testeable
     Tess_ExpectedTrianglesTest_Test(): [boolean, string] {
         let successful = "Triangles lenght as expected"

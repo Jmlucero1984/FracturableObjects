@@ -1,0 +1,8 @@
+Hasta la rama main teniamos el metodo de etiquetas @Testeable
+Pero requeria que tengamos una constante en cada archivo de clase
+
+el 6/10/23 Creamos la rama TLImproved (TestLoader Improved)
+En la cual desacomplamos un poco al leer primero los metodos que contiene
+la clase, al estilo Reflection, para luego filtrar aquellos que
+terminen con "Test" y pasarselos a la misma clase para que los ejecute
+

@@ -1,4 +1,4 @@
-import { _decorator,   CCBoolean,   Component, Enum,  Graphics,  RichText } from 'cc';
+import { _decorator,   CCBoolean,   CCClass,   Component, Enum,  Graphics,  RichText } from 'cc';
 
 import { TessellationTest } from './Tesselation/Tests/TessellationTest';
 import { StocasticsUTest } from './DelaunayPackage/StocasticsScatter/Tests/StocasticsUTest';
@@ -39,7 +39,7 @@ export class TestLoader extends Component {
     richtText_unmasked: RichText
     @property({ group: "Graphic" })
     @property(Graphics)
-    testGrp: Graphics
+     testGrp: Graphics
     @property({ group: "Graphic" })
     @property({ slide: true, range: [-20, 20], step: 0.1 })
     time_Mult: number = 10;
@@ -48,10 +48,30 @@ export class TestLoader extends Component {
 
     testsArray = [TessellationTest, StocasticsUTest]
     previousUTests: UnitTests = this.tipoTest;
+    testsFunctions:Function[]=[];
 
+    static stGrps:Graphics;
+
+
+
+
+    loadFunctions(unitTest:UTest) {
+        let  tstFuncs:Function[]=[]
+        let protoOfTest = Object.getPrototypeOf(unitTest);
+        let objs = Object.getOwnPropertyNames(protoOfTest);  
+ 
+        objs.forEach(t=> {
+            if(t.split("_").pop()=="Test") {
+                let fun = eval("unitTest."+t)
+                tstFuncs.push(fun)
+ 
+            }
+        })
+        return tstFuncs
+    }
 
     loadTest() {
-
+ 
         if (this.ActiveTest == true) {
 
             if (this.tipoTest != this.previousUTests) {
@@ -62,10 +82,10 @@ export class TestLoader extends Component {
                 this.loadedUT = this.node.addComponent(this.testsArray[this.tipoTest])
 
                 this.previousUTests = this.tipoTest;
-                this.loadedUT.richtText = this.richtText
-                this.loadedUT.richtText_unmasked = this.richtText_unmasked
-                this.loadedUT.testGrp = this.testGrp
-                this.loadedUT.launch()
+                this.loadedUT.optRTx = this.richtText
+                this.loadedUT.outputRichtText_unmasked = this.richtText_unmasked
+                this.loadedUT.setGraphics(TestLoader.stGrps)
+                this.loadedUT.launch( this.loadFunctions(this.loadedUT))
             }
         }
 
@@ -79,6 +99,7 @@ export class TestLoader extends Component {
 
 
     protected onLoad(): void {
+        TestLoader.stGrps = this.testGrp
 
 
 

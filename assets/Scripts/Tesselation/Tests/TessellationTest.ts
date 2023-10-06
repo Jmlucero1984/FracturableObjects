@@ -19,17 +19,17 @@ function isString(value: unknown): asserts value is string {
 function Testeable(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
     // a reference to our original method
     const originalMethod = descriptor.value;
- 
+ /*
     if (tests.indexOf(originalMethod) < 0) {
         tests.push(originalMethod)
     }
-
+*/
 }
 
 
-function drawTriangles(triangles: Triangle[]) {
+function drawTriangles(triangles: Triangle[], gr:Graphics) {
 
-    let gr = TessellationTest.testGraphics;
+ 
     gr.strokeColor = new Color(250, 250, 250)
     for (let i = 0; i < triangles.length; i++) {
         gr.moveTo(triangles[i].getVertexA().x, triangles[i].getVertexA().y)
@@ -41,9 +41,9 @@ function drawTriangles(triangles: Triangle[]) {
 }
 
 
-function drawTessTriangles(triangles: TessTriangle[]) {
+function drawTessTriangles(triangles: TessTriangle[], gr:Graphics) {
 
-    let gr = TessellationTest.testGraphics;
+  
     gr.strokeColor = new Color(250, 250, 250)
     for (let i = 0; i < triangles.length; i++) {
         gr.moveTo(triangles[i].getTessPointA().getPos().x, triangles[i].getTessPointA().getPos().y)
@@ -54,10 +54,10 @@ function drawTessTriangles(triangles: TessTriangle[]) {
     gr.stroke()
 }
 
-function drawCircles(point: Vec2, percent: number) {
+function drawCircles(point: Vec2, percent: number ,gr :Graphics) {
 
     console.log("PERCENT: " + percent)
-    let gr = TessellationTest.testGraphics;
+    
     gr.strokeColor = new Color(255 * (1 - percent), 255 * percent * 0.8, 0)
     gr.circle(point.x, point.y, 0.5 + 6 * percent)
     gr.stroke()
@@ -94,9 +94,7 @@ function generateAngles() {
 
 
 
-
-const tests: Function[] = [];
-
+ 
 
 
 
@@ -106,58 +104,13 @@ export class TessellationTest extends UTest {
 
 
 
-    static optRTx: RichText;
-    static outputRichtText_unmasked: RichText;
-    static testGraphics: Graphics
 
-
-
-
+ 
 
     onLoad() {
-
-
-
-        console.log("ON LOAD UNIT TEST 2")
-
-
+   
 
     }
-
-    // onEnable() {
-
-    launch() {
-        TessellationTest.optRTx = this.richtText;
-        TessellationTest.outputRichtText_unmasked = this.richtText_unmasked;
-        TessellationTest.testGraphics = this.testGrp;
-        console.log("on Start")
-        TessellationTest.optRTx.string = "<color=#ffffff> - - - - - - -  RUNNING TESTS  - - - - - - -\n\n</color>"
-        console.log("CANTIDAD DE TESTS: " + tests.length)
-        this.launchTest(0, tests.length - 1)
-
-    }
-
-    launchTest(i: number, total: number) {
-        let tlcl = Color.CYAN.toHEX() // Title color
-        let fdcl = Color.RED.toHEX() // Failed color
-        let sfcl = Color.GREEN.toHEX() // Success color
-
-        TessellationTest.optRTx.string += "<color=#" + tlcl + ">● " + tests[i].name + "\n</color>"
-        let rslt = tests[i]();
-
-        TessellationTest.optRTx.string += rslt[0] ? "<color=#" + sfcl + ">>PASSED\n" + rslt[1] + "\n\n</color>" : "<color=#" + fdcl + ">>FAILED\n" + rslt[1] + "\n\n</color>"
-
-        let newHeight = TessellationTest.optRTx.getComponent(UITransform).height;
-
-        TessellationTest.optRTx.node.parent.getComponent(UITransform).height = newHeight
-        TessellationTest.outputRichtText_unmasked.string = TessellationTest.optRTx.string;
-        if (i < total) {
-            setTimeout(() => {
-                this.launchTest(++i, total)
-            }, 100)
-        }
-    }
-
 
 
     @Testeable
@@ -412,7 +365,7 @@ export class TessellationTest extends UTest {
             })
         })
 
-        drawTessTriangles(triangles);
+        drawTessTriangles(triangles, UTest.testGraphics);
         let cantVerts = envolCoords.length;
         let expectedTriangles = Math.pow(cantVerts - 2, 1 + iters)
         successful = `Theoretical triangles cant: ${expectedTriangles} is equal to actual cant: ${triangles.length}`
