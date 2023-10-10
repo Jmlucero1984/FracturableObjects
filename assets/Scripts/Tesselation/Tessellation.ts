@@ -270,7 +270,7 @@ export class Triangle {
         this.vertexA = vertexs[0]
         this.vertexB = vertexs[1]
         this.vertexC = vertexs[2]
-        console.log(this.vertexA.x + "  " + this.vertexA.y)
+   
     }
 
     public getVertexs() {

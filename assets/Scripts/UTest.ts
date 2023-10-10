@@ -1,6 +1,10 @@
 import { _decorator, Color, Component, Graphics, Node, RichText, UITransform } from 'cc';
 const { ccclass, property } = _decorator;
+export function getInstance(param:string) {
+    console.log("CALLED GET INSTANCE")
 
+    return this
+}
 @ccclass('UTest')
 export class UTest extends Component {
     public optRTx: RichText;
@@ -23,6 +27,30 @@ export class UTest extends Component {
 
     }
 
+    public getInstance(param:string)  {
+        console.log("CALLED GET INSTANCE")
+        let tstFuncs: string[] = []
+        let protoOfTest = Object.getPrototypeOf(this);
+        let unitTeststr=this.name
+        console.log("EL NAME: "+unitTeststr)
+        let objs = Object.getOwnPropertyNames(protoOfTest);  
+        console.log("CANT OF OBJECTS: " + objs.length)
+        objs.forEach(t=> {
+            console.log("Type: " + typeof t)
+          //  console.log(t)
+            if(t.split("_").pop()=="Test") {
+                 let fun = t
+                tstFuncs.push(fun)
+ 
+            }
+        })
+       /* console.log("FUNCTIONS: " + tstFuncs.length)
+        tstFuncs.forEach(u=> {
+            if(u!=null)
+            console.log(u.name)
+        })*/
+        return tstFuncs
+    }
 
  
     

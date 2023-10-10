@@ -1242,5 +1242,21 @@
   "adb985e6-ac26-4693-9fac-2d2ea43d4b4a": {
     "url": "db://assets/Scripts/UTest.ts",
     "value": {}
+  },
+  "f081c753-2637-4472-a910-84a23defd32e": {
+    "url": "db://assets/Scripts/ButtonScript.ts",
+    "value": {}
+  },
+  "9c740f3a-0dac-4de3-852d-ac02b664f304": {
+    "url": "db://assets/Scripts/mytest.test.ts",
+    "value": {}
+  },
+  "e4a9ec73-899a-420a-bf37-b5086f7dd490": {
+    "url": "db://assets/Scripts/mytest.test.ts",
+    "value": {}
+  },
+  "2dc7b192-04ae-479d-b3a0-3a8e9ff8b9f2": {
+    "url": "db://assets/Utest.utest.ts",
+    "value": {}
   }
 }

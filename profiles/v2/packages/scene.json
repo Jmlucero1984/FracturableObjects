@@ -12,7 +12,7 @@
     ],
     "isIconGizmo3D": false,
     "iconGizmoSize": 2,
-    "isGridVisible": true
+    "isGridVisible": false
   },
   "__version__": "1.0.0",
   "builder": {},
@@ -58,8 +58,8 @@
     },
     "f02deb64-e971-42b9-aa77-ab54ab789347": {
       "position": {
-        "x": 513.9857205730747,
-        "y": 333.0335507955412,
+        "x": 654.3360514660621,
+        "y": 411.6397391346203,
         "z": 5000
       },
       "rotation": {
@@ -76,7 +76,7 @@
     }
   },
   "camera-uuids": [
-    "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+    "f02deb64-e971-42b9-aa77-ab54ab789347"
   ],
   "float-window": {
     "position": {

@@ -108,6 +108,8 @@ export class TessellationTest extends UTest {
  
 
     onLoad() {
+
+      
    
 
     }
@@ -132,7 +134,6 @@ export class TessellationTest extends UTest {
             nums.push(v.y)
         })
         let indexes = earcut(nums, null, 2)
-        console.log("INDEXES: " + indexes)
         let numTrianglesExpected = 4
         let testResult = indexes.length == numTrianglesExpected * 3
         return [testResult, testResult ? successful : failed]
@@ -365,7 +366,7 @@ export class TessellationTest extends UTest {
             })
         })
 
-        drawTessTriangles(triangles, UTest.testGraphics);
+       // drawTessTriangles(triangles, UTest.testGraphics);
         let cantVerts = envolCoords.length;
         let expectedTriangles = Math.pow(cantVerts - 2, 1 + iters)
         successful = `Theoretical triangles cant: ${expectedTriangles} is equal to actual cant: ${triangles.length}`
@@ -381,7 +382,7 @@ export class TessellationTest extends UTest {
         let successful = "Successfully compared (EQUAL)"
         let failed = "Failed comparing (MUST BE EQUAL)"
 
-        let testResult = compareVectors([0, 2, 3, 5, 6, 4, 5, 6], [0, 2, 3, 5, 6, 4, 5, 6])
+        let testResult = compareVectors([0, 2, 3, 5, 6, 4, 5, 6], [1, 2, 3, 5, 6, 4, 5, 6])
         return [testResult, testResult ? successful : failed]
 
     }
@@ -474,9 +475,7 @@ export class TessellationTest extends UTest {
         let nums: number[] = [];
         let vectores = generateVectors()
         let angulos = generateAngles()
-        vectores.forEach(t => {
-            console.log(t)
-        })
+        
         let testResult = vectores.length == angulos.length + 1;
         return [testResult, testResult ? successful : failed]
     }
@@ -492,7 +491,7 @@ export class TessellationTest extends UTest {
             nums.push(v.y)
         })
         let indexes = earcut(nums, null, 2)
-        console.log("INDEXES: " + indexes)
+         
         let testResult = indexes.length == 9
         return [testResult, testResult ? successful : failed]
 
