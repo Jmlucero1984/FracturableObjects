@@ -4,6 +4,8 @@ import packageJSON from '../../../package.json';
 import { CreateNodeOptions, ExecuteComponentMethodOptions, ExecuteSceneScriptMethodOptions } from '../../../@types/packages/scene/@types/public';
 import { runInNewContext, runInThisContext } from 'vm';
 import { methods } from '../../main';
+import { Node } from '../../../@types/packages/engine-extends/@types/glTF';
+import { uuid } from '../../../@types/packages/engine/@types/editor-extends/utils/uuid';
 const fs = require('fs');
 const path = require('path');
 /**
@@ -12,8 +14,10 @@ const path = require('path');
  */
 // Editor.Panel.define = Editor.Panel.define || function(options: any) { return options }
 var stringToCode: string
-var testAvailable: string[] = []
+
+var testAvailable: Map<String, String> = new Map()
 var uuidTestNode: string;
+var selectedTest: string;
 module.exports = Editor.Panel.define({
     listeners: {
         show() { console.log('showing'); },
@@ -41,10 +45,9 @@ module.exports = Editor.Panel.define({
                 console.log('[cocos-panel-html.default]: hello');
             }
         },
-    
+
     },
-  
-   
+
     ready() {
         if (this.$.app) {
             this.$.app.innerHTML = 'Listo para cargar los tests.';
@@ -57,6 +60,13 @@ module.exports = Editor.Panel.define({
                 }
             })
         }
+        if (this.$.availableTestsList) {
+            this.$.availableTestsList.addEventListener('change', (event) => {
+                selectedTest = String(this.$.availableTestsList?.getAttribute("value"))
+                console.log("TEST SELECCIONADO: " + selectedTest)
+
+            })
+        }
         if (this.$.dropFile) {
             this.$.dropFile.addEventListener('change', (event) => {
                 let theFile;
@@ -67,93 +77,87 @@ module.exports = Editor.Panel.define({
         }
 
         if (this.$.testCodeButton) {
-           /* this.$.testCodeButton.addEventListener('change', (event) => {
-                Editor.Message.send('scene', runInThisContext(stringToCode));
-            })*/
+            /* this.$.testCodeButton.addEventListener('change', (event) => {
+                 Editor.Message.send('scene', runInThisContext(stringToCode));
+             })*/
             this.$.testCodeButton.addEventListener('change', (event) => {
-            console.log("BUTTON PRESSED")
-            console.log(this.$.textArea?.getAttribute("value"))
-
-
-  
-            let innerResults=""
-            var promises:any[]=[]
-            Editor.Message.request('scene', 'query-node-tree',this.$.textArea?.getAttribute("value")).then(t => {
-               console.log("TREE NODE DATA")
-               console.log(t)
-               Editor.Message.request('scene', 'query-classes',{extends:'UTest'}).then(cc=> {
-                console.log("CLASSES3")
-                console.log(cc)})
-            
-              let  tstFuncs:Function[]=[]
-              const options: ExecuteComponentMethodOptions = {
-                uuid: t.components[1].value,//String(this.$.textArea?.getAttribute("value")),//String(assetUuid),
-                name: 'getInstance',
-                args: [""]
-              }
-              let chainedString="";
-            //Editor.Message.send('scene','execute-scene-script', options)
-              function chainedExecute(uTestUuid:string, elems:string[], current:number,field:HTMLElement ) {
-                
-                let icon="";
-                let msg="";
-                let opt: ExecuteComponentMethodOptions = {
-                    uuid: uTestUuid,
-                    name: elems[current],
-                    args: [""]
-                };
-                Editor.Message.request('scene', 'execute-component-method', opt).then(rr => {
-
-                    icon = rr[0] ? "success" : "error";
-                    msg = rr[1];
-                    console.log("ITER: "+current)
-                    console.log("RESULT: " + rr)
-                    /*
-                    <div><ui-icon color value="success" style="font-size: 12px;"></ui-icon> Equality Test</div>
-                    <div><ui-icon color value="error" style="font-size: 12px;"></ui-icon> Inequality Test</div>
-                    <div><ui-icon color value="warn" style="font-size: 12px;"></ui-icon> Same Version Test</div>
-                    */
-
-                    chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  '+ elems[current] + ' :: ' + msg + '</div>\n';
-                    current++
-                    if(current<elems.length-1){
-                          chainedExecute(uTestUuid,  elems , current,field) 
+                console.log("BUTTON PRESSED")
+                console.log(this.$.textArea?.getAttribute("value"))
+                let innerResults = ""
+                var promises: any[] = []
+                Editor.Message.request('scene', 'query-node-tree').then(nodes => {
+                    let testNodeUuid = ""
+                    let elementNode: any
+                    nodes.children.forEach((element: any) => {
+                        if (element.name === "~~ UTester Node ~~") {
+                            console.log("EXIST!")
+                            elementNode = element
+                            testNodeUuid = element.uuid
+                        }
+                    });
+                    if (testNodeUuid === "") {
+                        console.log("NO EXISTE EL NODO PRINCIPAL")
                     }
-                    field.innerHTML=chainedString
-                    console.log("EN TEORI AESTO ES LO QUE SE IRIA ACUMULANDO" )
-                    console.log(chainedString)
-               })
-            
-            }
-           
-              Editor.Message.request('scene', 'execute-component-method', options).then( j=>{
-                console.log("CANTIDAD DE FUNCIONES REGRESADAS: "+j.length)
- 
-                    console.log("AVAILABLE!")
-                    if(this.$.scrollableResults){ 
-                        chainedExecute( t.components[1].value,j,0,this.$.scrollableResults ) 
-               
-                     }
-    
- 
-            }) 
-       
- 
+                    return elementNode
+                }).then((elementNode: any) => {
+                    console.log("ELEMENT NODE uuid " + elementNode.uuid)
+                    console.log("ELEMENT NODE name " + elementNode.name)
+                    console.log("SELECTED :" + selectedTest)
+                    testAvailable.forEach((value, key) => {
+                        console.log("KEY " + key)
+                        console.log("VALUE " + value)
+                    })
 
+                    
+                    let targetUuid= String(testAvailable.get(selectedTest))
+                    console.log("THE SELECTED: "+targetUuid)
+                    const options: ExecuteComponentMethodOptions = {
+
+                        uuid: targetUuid,//String(this.$.textArea?.getAttribute("value")),//String(assetUuid),
+                        name: 'getInstance',
+                        args: [""]
+                    }
+                    let chainedString = "";
+                    //Editor.Message.send('scene','execute-scene-script', options)
+                    function chainedExecute(uTestUuid: string, elems: string[], current: number, field: HTMLElement) {
+                        let icon = "";
+                        let msg = "";
+                        let opt: ExecuteComponentMethodOptions = {
+                            uuid: uTestUuid,
+                            name: elems[current],
+                            args: [""]
+                        };
+                        Editor.Message.request('scene', 'execute-component-method', opt).then(rr => {
+                            icon = rr[0] ? "success" : "error";
+                            msg = rr[1];
+                            console.log("ITER: " + current)
+                            console.log("RESULT: " + rr)
+                            chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
+                            current++
+                            if (current < elems.length - 1) {
+                                chainedExecute(uTestUuid, elems, current, field)
+                            }
+                            field.innerHTML = chainedString
+                            console.log("EN TEORI AESTO ES LO QUE SE IRIA ACUMULANDO")
+                            console.log(chainedString)
+                        })
+                    }
+                    Editor.Message.request('scene', 'execute-component-method', options).then(j => {
+                        console.log("CANTIDAD DE FUNCIONES REGRESADAS: " + j.length)
+                        if (this.$.scrollableResults) {
+                            chainedExecute(targetUuid, j, 0, this.$.scrollableResults)
+                        }
+                    })
+                })
             })
-                        
-         
-        })
-               
-            
         }
         if (this.$.dropScript) {
-            this.$.dropScript.addEventListener('change', async (event) => {
+            this.$.dropScript.addEventListener('change', async (event: any) => {
                 // change value
                 const theAssetUuid = this.$.dropScript?.getAttribute("value")
 
                 let rootNode: string
-                Editor.Message.request('scene', 'query-node-tree').then(t => {
+                Editor.Message.request('scene', 'query-node-tree').then(async t => {
                     let isPresent = false;
                     t.children.forEach((ee: any) => {
                         if (ee.name === "~~ UTester Node ~~") {
@@ -174,50 +178,60 @@ module.exports = Editor.Panel.define({
                             type: "cc.Script",
                             canvasRequired: false,
                             unlinkPrefab: true,
-                            assetUuid: String(theAssetUuid)
+                            assetUuid: undefined
                         }
-                        Editor.Message.request('scene', 'create-node', creationOptions).then(t => {
-                            uuidTestNode = t
-                            console.log(uuidTestNode)
-                        } )
+                        uuidTestNode = await Editor.Message.request('scene', 'create-node', creationOptions)
                     }
 
                 }).then(() => {
-                    console.log("uuidTesNode: " + uuidTestNode)
+                    console.log("uuidTesNode: " + uuidTestNode) // EL NODO DONDE SE CARGAN LOS TESTS
+                    let createNew = true;
                     let trueName = ""
                     let classId = ""
                     Editor.Message.request('asset-db', 'query-asset-info', theAssetUuid).then(t => {
-                        trueName = t.name
+                        console.log("TRUE NAME? "+t.name)
+                        trueName = t.name.substring(0,t.name.lastIndexOf("."))
                         classId = t.uuid
-                        if (testAvailable.indexOf(trueName) < 0) {
-                            testAvailable.push(trueName)
+                        if ( testAvailable.has(trueName)) {
+
+                            createNew = false;
                         }
-                        let innerList = ""
-                        for (let i = 0; i < testAvailable.length; i++) {
-                            innerList += '<option value="' + (i + 1) + '">' + testAvailable[i] + '</option>\n'
-                        }
-                        if (this.$.availableTestsList) {
-                            this.$.availableTestsList.innerHTML = innerList
-                        }
-                    }).then(() => {
-                        console.log("CLASSID: " + classId)
-                        console.log("uuidTesNode: " + uuidTestNode)
-                   
- 
-                        let className =trueName.substring(0,trueName.lastIndexOf("."))  
+                    
+                    }).then(async ( ) => {
+                        if (createNew) {
+                            console.log("CLASSID: " + classId)
+                            console.log("uuidTesNode: " + uuidTestNode)
+                       
                             const CreateComponentOptions = {
                                 uuid: uuidTestNode,
-                                component: className//classId  //{string} classId (cid) (is recommended) or className
+                                component: trueName//classId  //{string} classId (cid) (is recommended) or className
                             }
-                           
-                            Editor.Message.request('scene', 'create-component', CreateComponentOptions).then(t=> {
-                                console.log("THE NEW UUID: "+ t)
-                            })
-                        
+                            result = await Editor.Message.request('scene', 'create-component', CreateComponentOptions)
+                        }
+                    }).then(() => {
+                        console.log("IIIINNNFOOOOOO")
+                        Editor.Message.request('scene', 'query-node-tree', uuidTestNode).then(infoTree => {
+                            let innerList = ""
+                            console.log("INFO TREE")
+                            console.log(infoTree)
+                            console.log("..............")
+                            infoTree.components.forEach((element: any) => {
+                                
+                                testAvailable.set(element.type, element.value)
+                                innerList += '<option value="' + element.type + '">' + element.type + '</option>\n'
+                                // console.log(element)
+                                /*type: 'TessellationTest',
+                                    value: 'd3QqIVkf9NKZVWv08I5Z1j',
+                                    extends: [ 'UTest', 'cc.Component', 'cc.Object' ]*/
+                            });
+                            if (this.$.availableTestsList) {
+                                this.$.availableTestsList.innerHTML = innerList
+                            }
+                        })
                     })
                 })
 
-                Editor.Message.send('scene', 'set-grid-visible', false)
+
                 const options: ExecuteComponentMethodOptions = {
                     uuid: "51ZeE3jk5Dq7XN6M2qfZ5v",//String(assetUuid),
                     name: 'tarkan',
@@ -228,7 +242,7 @@ module.exports = Editor.Panel.define({
             })
         }
         if (this.$.firstButton) {
-            this.$.firstButton.addEventListener('change', (event) => {
+            this.$.firstButton.addEventListener('change', (event: any) => {
                 methods.methodOP()
                 const contextObject = {
                     animal: 'cat',

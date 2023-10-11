@@ -109,8 +109,20 @@ export class TessellationTest extends UTest {
 
     onLoad() {
 
-      
+        let dirs:Map<String,String> = new Map();
+        dirs.set("clave","946846")
+        dirs.set("clabe2", "88")
+        dirs.set("ckla3","45651")
+
+        dirs.forEach((t,k)=> {
+            console.log ( "CLABE "+ t + " VACLOR "+k)
+        })
+
+console.log("------------------------------")
+       console.log( dirs.get("clabe2"))
+       console.log( dirs.get("88"))
    
+console.log("------------------------------")
 
     }
 
