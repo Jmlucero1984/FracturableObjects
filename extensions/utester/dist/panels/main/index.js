@@ -39,7 +39,8 @@ module.exports = Editor.Panel.define({
         availableTestsList: '#availableTestsList',
         scrollableResults: '#scrollableResults',
         progressBar: '#progressBar',
-        testResultsSection: '#testResults'
+        testResultsSection: '#testResults',
+        canvas: '#myCanvas'
     },
     methods: {
         hello() {
@@ -48,6 +49,16 @@ module.exports = Editor.Panel.define({
                 console.log('[cocos-panel-html.default]: hello');
             }
         },
+        drawCircle() {
+            console.log("BUTTON 3 CLICKED");
+            console.log(event);
+            if (this.$.canvas) {
+                let ctx = (this.$.canvas).getContext("2d", undefined);
+                ctx === null || ctx === void 0 ? void 0 : ctx.beginPath();
+                ctx === null || ctx === void 0 ? void 0 : ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+                ctx === null || ctx === void 0 ? void 0 : ctx.stroke();
+            }
+        }
     },
     ready() {
         async function initTestNode() {
@@ -102,7 +113,7 @@ module.exports = Editor.Panel.define({
         };
         initTestNode();
         if (this.$.app) {
-            this.$.app.innerHTML = 'Listo para cargar los tests.';
+            this.$.app.innerHTML = 'UTester';
         }
         if (this.$.textArea) {
             this.$.textArea.addEventListener('change', (event) => {
@@ -139,6 +150,7 @@ module.exports = Editor.Panel.define({
             /* this.$.testCodeButton.addEventListener('change', (event) => {
                  Editor.Message.send('scene', runInThisContext(stringToCode));
              })*/
+            this.drawCircle();
             this.$.testCodeButton.addEventListener('change', (event) => {
                 var _a;
                 console.log("BUTTON PRESSED");

@@ -38,6 +38,7 @@ module.exports = Editor.Panel.define({
         button1: "#button1",
         button2: "#button2",
         button3: "#button3",
+        canvas: '#myCanvas',
  
         scrollableResults: '#scrollableResults'
     },
@@ -123,6 +124,23 @@ module.exports = Editor.Panel.define({
 
             })
         }
+        if(this.$.button3) {
+            this.$.button3.addEventListener('click', async (event)=> {
+                console.log("BUTTON 3 CLICKED")
+                console.log(event)
+
+                if(this.$.canvas) {
+             
+           
+                let ctx= (<HTMLCanvasElement> (this.$.canvas)).getContext("2d",undefined)
+                ctx?.beginPath();
+                ctx?.arc(95, 50, 40, 0, 2 * Math.PI);
+                ctx?.stroke();
+                }
+
+            })
+        }
+
 
 
 

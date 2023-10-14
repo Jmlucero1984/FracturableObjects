@@ -41,7 +41,8 @@ module.exports = Editor.Panel.define({
         availableTestsList: '#availableTestsList',
         scrollableResults: '#scrollableResults',
         progressBar: '#progressBar',
-        testResultsSection: '#testResults'
+        testResultsSection: '#testResults',
+        canvas: '#myCanvas'
 
     },
     methods: {
@@ -51,6 +52,20 @@ module.exports = Editor.Panel.define({
                 console.log('[cocos-panel-html.default]: hello');
             }
         },
+
+        drawCircle() {
+            console.log("DRAW CIRCLE")
+       
+
+            if(this.$.canvas) {
+         
+       
+            let ctx= (<HTMLCanvasElement> (this.$.canvas)).getContext("2d",undefined)
+            ctx?.beginPath();
+            ctx?.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx?.stroke();
+            }
+        }
 
     },
 
@@ -113,7 +128,7 @@ module.exports = Editor.Panel.define({
         initTestNode();
 
         if (this.$.app) {
-            this.$.app.innerHTML = 'Listo para cargar los tests.';
+            this.$.app.innerHTML = 'UTester';
         }
         if (this.$.textArea) {
             this.$.textArea.addEventListener('change', (event) => {
@@ -150,6 +165,7 @@ module.exports = Editor.Panel.define({
             /* this.$.testCodeButton.addEventListener('change', (event) => {
                  Editor.Message.send('scene', runInThisContext(stringToCode));
              })*/
+            this.drawCircle()
             this.$.testCodeButton.addEventListener('change', (event) => {
                 console.log("BUTTON PRESSED")
                 console.log(this.$.textArea?.getAttribute("value"))
@@ -170,15 +186,9 @@ module.exports = Editor.Panel.define({
                     }
                     return elementNode
                 }).then(async (elementNode: any) => {
-                    console.log("ELEMENT NODE uuid " + elementNode.uuid)
-                    console.log("ELEMENT NODE name " + elementNode.name)
+       
                     console.log("SELECTED :" + selectedTest)
-                    testAvailable.forEach((value, key) => {
-                        console.log("KEY " + key)
-                        console.log("VALUE " + value)
-                    })
-
-                    
+ 
                     let targetUuid= String(testAvailable.get(selectedTest))
                     console.log("THE SELECTED: "+targetUuid)
                     const options: ExecuteComponentMethodOptions = {
@@ -200,17 +210,12 @@ module.exports = Editor.Panel.define({
                             icon = rr[0] ? "success" : "error";
                             msg = rr[1];
                             chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
-                            console.log(">>>> ACTUAL: "+current)
-                            console.log(">>>> ACTUAL: "+elems.length)
-                    
+ 
                             current++
-                     
                             let newActualProgress = Math.ceil((((current)*100)/elems.length))
                             if(newActualProgress>100) newActualProgress=100;
-                            console.log(">>>> PERCENT: "+newActualProgress)
                             progress.setAttribute("value",String(newActualProgress) )
                             if (current < elems.length) {
-                               
                                 chainedExecute(uTestUuid, elems, current, field, progress)
                             }
                             field.innerHTML = chainedString

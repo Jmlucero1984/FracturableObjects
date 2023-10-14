@@ -38,6 +38,7 @@ module.exports = Editor.Panel.define({
         button1: "#button1",
         button2: "#button2",
         button3: "#button3",
+        canvas: '#myCanvas',
         scrollableResults: '#scrollableResults'
     },
     methods: {
@@ -107,6 +108,18 @@ module.exports = Editor.Panel.define({
                 });
                 console.log("TOTAL ELEMENTOS: " + numItems);
                 this.printString("Button 2 Clicked\nCantidad de Elementos: " + numItems);
+            });
+        }
+        if (this.$.button3) {
+            this.$.button3.addEventListener('click', async (event) => {
+                console.log("BUTTON 3 CLICKED");
+                console.log(event);
+                if (this.$.canvas) {
+                    let ctx = (this.$.canvas).getContext("2d", undefined);
+                    ctx === null || ctx === void 0 ? void 0 : ctx.beginPath();
+                    ctx === null || ctx === void 0 ? void 0 : ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+                    ctx === null || ctx === void 0 ? void 0 : ctx.stroke();
+                }
             });
         }
         if (this.$.app) {

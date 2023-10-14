@@ -1,6 +1,7 @@
 #app {
     color: var(--color-normal-contrast-weakest);
-    margin: 15px;
+    margin: auto;
+    margin-top: 12px;
     width: 90%;
  
 }
@@ -15,18 +16,30 @@
  
 }
 
-#testResults, #progressBar {
+#myCanvas {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#testResults, #progressBar,#drawingPanel {
+    margin: auto;
+
+    margin-top: 10px;
     height:fit-content ;
     color: var(--color-normal-contrast-weakest);
-    margin: 15px;
     width: 90%;
 }
 
 
-#dropUTest, #availableTestsList{
+#dropUTest,#dropUFile, #availableTestsList{
     color: var(--color-normal-contrast-weakest);
-    margin: 15px;
+    margin: auto;
+    
     width: 90%;
+}
+
+#availableTestsList{
+    margin-top: 10px;
 }
 
 #firstButton {
@@ -38,8 +51,30 @@
 
 #textArea, #codeArea{
     color: var(--color-normal-contrast-weakest);
-    margin: 15px;
+
+    margin: auto;
     width: 90%;
+}
+
+ 
+
+#tag_and_drop {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    min-height:50px;
+    width: fit-content;
+ 
+ 
+ 
+}
+
+
+.ui-label {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 20px;
 }
 
 #testCodeButton {
@@ -48,12 +83,12 @@
     width: 90%;
 }
 #scrollableResults {
-    margin: 15px;
+    margin: auto;
     background-color: #29012a;
     width: 90%;
     height: fit-content;
     overflow-x: hidden;
     /*overflow-y: auto;*/
     text-align: left;
-    padding: 10px;
+    padding: 5%;
 }

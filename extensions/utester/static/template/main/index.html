@@ -1,28 +1,40 @@
 <div id="mainDiv">
     <h1 id="app"></h1>
     <ui-prop id="dropUTest" type="dump" dump="cc.Asset">
-        <ui-label slot="label" value="CustomMaterial" tooltip="Cargo su script">Insert Your Test </ui-label>
-        <ui-asset slot="content" id="dropScript" droppable="cc.Script" placeholder="cc.Script" value=""></ui-asset>
+        <div id="tag_and_drop">
+            <ui-label slot="label" class="ui-label" style="vertical-align: middle;" value="CustomMaterial" tooltip="Cargo su script">Insert Your Test
+            </ui-label>
+            <ui-asset slot="content" id="dropScript" style="vertical-align: middle;" droppable="cc.Script" placeholder="cc.Script" value=""></ui-asset>
+        </div>
     </ui-prop>
-    <ui-select id="availableTestsList" placeholder="Lista de test disponibles">
+    <ui-select id="availableTestsList" placeholder="Available Tests List">
     </ui-select>
     <div>
         <ui-button id="testCodeButton" type="primary">Run Test</ui-button>
         <ui-progress id="progressBar" percent></ui-progress>
-        <ui-section class="config" id="testResults" header="Resultados de los test">
+        <ui-section class="config" id="testResults" header="Test Results">
             <div id="scrollableResults">
             </div>
         </ui-section>
+        <ui-section class="config" id="drawingPanel" header="Graphics for Tests">
+            <canvas id="myCanvas" width="250" height="250" style="border:1px solid #575758; background-color: #0c2760;"></canvas>
+        </ui-section>
+        
     </div>
-     <div> 
+    <div>
         <ui-button id="firstButton" type="primary">primary</ui-button>
         <ui-textarea id="textArea" value="47fxIznNhL6I3IB8ghF43S" placeholder="Test your code"></ui-textarea>
-        <ui-code id = "codeArea" language="typescript"></ui-code>
-       
+
+        <ui-code id="codeArea" language="typescript"></ui-code>
     </div>
-    <ui-prop id="dropUTest" type="dump" dump="cc.Asset">
-        <ui-label slot="label" value="CustomFile" tooltip="Cargo su archivo de test">Insert Your File</ui-label>
-  
-        <ui-file id="dropFile" type="file" value=C:\Users\jmluc\FracturableObjects\assets\Utest.utest.ts></ui-file>
-    </ui-prop> 
+    <ui-prop id="dropUFile" type="dump" dump="cc.Asset">
+ 
+            <div id="tag_and_drop">
+                <ui-label slot="label" class="ui-label" style="vertical-align: middle;" value="CustomFile"
+                    tooltip="Cargo su archivo de test">Insert Your File</ui-label>
+                <ui-file id="dropFile" type="file" style="vertical-align: middle;"
+                    value=C:\Users\jmluc\FracturableObjects\assets\Utest.utest.ts></ui-file>
+            </div>
+        
+    </ui-prop>
 </div>
