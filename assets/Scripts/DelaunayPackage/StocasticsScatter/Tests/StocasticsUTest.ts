@@ -1,5 +1,6 @@
 import { _decorator, Color, Component,  Graphics,   RichText, UITransform, Vec2 } from 'cc';
 import { UTest } from '../../../UTest';
+import { System } from 'cc';
  
 
 const { ccclass, property, executeInEditMode } = _decorator;
@@ -43,9 +44,8 @@ function getEnvolvCoords() {
      return angulos
  }
 
-
-
-
+ const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+ 
 @ccclass('StocasticsUTest')
 @executeInEditMode
 export class StocasticsUTest extends UTest {
@@ -73,7 +73,54 @@ export class StocasticsUTest extends UTest {
         return [testResult, testResult ? successful : failed]
     }
 
+    @Testeable
+    Tess_2_ExpectedTrianglesTest_Test():  [boolean, string] {
+        console.log("BEFORE")
+        let successful = "Triangles lenght as expected"
+        let failed = "Triangles length did't matched"
+        let testResult=true;
+        for(let i=0;i< 36450000; i++) {
+            let c = Math.sqrt(i)
+            if(i>36449998) {
+                console.log(c)
+            }
+        }
+        console.log("AFTER")
+        return [testResult, testResult ? successful : failed]
+    }
 
+    @Testeable
+    Tess_2_ExpectedTrissdfsdfTest_Test():  [boolean, string] {
+        console.log("BEFORE")
+        let successful = "Triangles lenght as expected"
+        let failed = "Triangles length did't matched"
+        let testResult=true;
+        for(let i=0;i< 36450000; i++) {
+            let c = Math.sqrt(i)
+            if(i> 36449998) {
+                console.log(c)
+            }
+        }
+        console.log("AFTER")
+        return [testResult, testResult ? successful : failed]
+    }
+
+
+    @Testeable
+    async Tess_2_ExpectedTrissdasdasdfsdfTest_Test():  Promise<[boolean, string]> {
+        console.log("BEFORE")
+        let successful = "Triangles lenght as expected"
+        let failed = "Triangles length did't matched"
+        let testResult=true;
+        await sleep(2000);
+        console.log("AFTER")
+        return [testResult, testResult ? successful : failed]
+    }
+
+
+
+  
 }
 
+ 
 

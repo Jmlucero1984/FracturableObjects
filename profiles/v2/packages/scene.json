@@ -12,7 +12,7 @@
     ],
     "isIconGizmo3D": false,
     "iconGizmoSize": 2,
-    "isGridVisible": false
+    "isGridVisible": true
   },
   "__version__": "1.0.0",
   "builder": {},
@@ -58,8 +58,8 @@
     },
     "f02deb64-e971-42b9-aa77-ab54ab789347": {
       "position": {
-        "x": 888.1914812783345,
-        "y": 326.6580016378387,
+        "x": 889.6914812783345,
+        "y": 328.1580016378387,
         "z": 5000
       },
       "rotation": {

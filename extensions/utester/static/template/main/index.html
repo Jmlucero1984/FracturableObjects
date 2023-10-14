@@ -1,34 +1,28 @@
 <div id="mainDiv">
     <h1 id="app"></h1>
     <ui-prop id="dropUTest" type="dump" dump="cc.Asset">
-
         <ui-label slot="label" value="CustomMaterial" tooltip="Cargo su script">Insert Your Test </ui-label>
         <ui-asset slot="content" id="dropScript" droppable="cc.Script" placeholder="cc.Script" value=""></ui-asset>
     </ui-prop>
     <ui-select id="availableTestsList" placeholder="Lista de test disponibles">
-
     </ui-select>
+    <div>
+        <ui-button id="testCodeButton" type="primary">Run Test</ui-button>
+        <ui-progress id="progressBar" percent></ui-progress>
+        <ui-section class="config" id="testResults" header="Resultados de los test">
+            <div id="scrollableResults">
+            </div>
+        </ui-section>
+    </div>
+     <div> 
+        <ui-button id="firstButton" type="primary">primary</ui-button>
+        <ui-textarea id="textArea" value="47fxIznNhL6I3IB8ghF43S" placeholder="Test your code"></ui-textarea>
+        <ui-code id = "codeArea" language="typescript"></ui-code>
+       
+    </div>
     <ui-prop id="dropUTest" type="dump" dump="cc.Asset">
         <ui-label slot="label" value="CustomFile" tooltip="Cargo su archivo de test">Insert Your File</ui-label>
   
         <ui-file id="dropFile" type="file" value=C:\Users\jmluc\FracturableObjects\assets\Utest.utest.ts></ui-file>
     </ui-prop> 
-    
-
-
-     <div> 
-        <ui-button id="firstButton" type="primary">primary</ui-button>
-        <ui-textarea id="textArea" value="47fxIznNhL6I3IB8ghF43S" placeholder="Test your code"></ui-textarea>
-        <ui-code id = "codeArea" language="typescript"></ui-code>
-        <ui-button id="testCodeButton" type="primary">EJECUTAR!</ui-button>
-    </div>
-    <div>
-        <ui-section class="config" id="testResults" header="Resultados de los test">
-            <div id="scrollableResults">
-         
-         
-        </div>
-        </ui-section>
-
-    </div>
 </div>

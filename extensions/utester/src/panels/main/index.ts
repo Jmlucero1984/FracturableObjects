@@ -6,6 +6,7 @@ import { runInNewContext, runInThisContext } from 'vm';
 import { methods } from '../../main';
 import { Node } from '../../../@types/packages/engine-extends/@types/glTF';
 import { uuid } from '../../../@types/packages/engine/@types/editor-extends/utils/uuid';
+import bind from '../../../@types/packages/scene/@types/cce/3d/manager/camera/listener';
 const fs = require('fs');
 const path = require('path');
 /**
@@ -16,8 +17,10 @@ const path = require('path');
 var stringToCode: string
 
 var testAvailable: Map<String, String> = new Map()
-var uuidTestNode: string;
+
 var selectedTest: string;
+const testNodeName = "~~ UTester Node ~~"
+var testNodeUuid="";
 module.exports = Editor.Panel.define({
     listeners: {
         show() { console.log('showing'); },
@@ -36,7 +39,10 @@ module.exports = Editor.Panel.define({
         codeArea: '#codeArea',
         dropFile: '#dropFile',
         availableTestsList: '#availableTestsList',
-        scrollableResults: '#scrollableResults'
+        scrollableResults: '#scrollableResults',
+        progressBar: '#progressBar',
+        testResultsSection: '#testResults'
+
     },
     methods: {
         hello() {
@@ -49,6 +55,63 @@ module.exports = Editor.Panel.define({
     },
 
     ready() {
+        async function initTestNode() {
+            await Editor.Message.request('scene', 'query-node-tree').then(async t => {
+                let isPresent = false;
+                t.children.forEach((ee: any) => {
+                    if (ee.name === testNodeName) {
+                        testNodeUuid = ee.uuid
+                        isPresent = true;
+                    }
+                })
+
+                if (!isPresent) {
+                    console.log("EL ROOT: " + t.name)
+                    console.log("EL UUID: " + t.uuid)
+                    const creationOptions: CreateNodeOptions = {
+                        parent: String(t.uuid),
+                        components: [],
+                        name: testNodeName,
+                        dump: undefined,
+                        keepWorldTransform: true,
+                        type: "cc.Script",
+                        canvasRequired: false,
+                        unlinkPrefab: true,
+                        assetUuid: undefined
+                    }
+                    testNodeUuid = await Editor.Message.request('scene', 'create-node', creationOptions)
+                } else {
+                    updateListAndDropDown()
+
+                }
+            })
+        }
+       
+
+        const updateListAndDropDown = async () => {
+           await Editor.Message.request('scene', 'query-node-tree', testNodeUuid).then(infoTree => {
+                let innerList = ""
+                console.log("INFO TREE")
+                console.log(infoTree)
+                console.log("..............")
+                infoTree.components.forEach((element: any) => {
+                    
+                    testAvailable.set(element.type, element.value)
+                    innerList += '<option value="' + element.type + '">' + element.type + '</option>\n'
+
+                    // console.log(element)
+                    /*  type: 'TessellationTest',
+                        value: 'd3QqIVkf9NKZVWv08I5Z1j',
+                        extends: [ 'UTest', 'cc.Component', 'cc.Object' ]
+                    */
+                });
+                if (this.$.availableTestsList) {
+                    this.$.availableTestsList.innerHTML = innerList
+                }
+            })
+        }
+        initTestNode();
+
         if (this.$.app) {
             this.$.app.innerHTML = 'Listo para cargar los tests.';
         }
@@ -64,6 +127,13 @@ module.exports = Editor.Panel.define({
             this.$.availableTestsList.addEventListener('change', (event) => {
                 selectedTest = String(this.$.availableTestsList?.getAttribute("value"))
                 console.log("TEST SELECCIONADO: " + selectedTest)
+                if(this.$.progressBar) {
+                    this.$.progressBar.setAttribute("value", "0" )
+                }
+               if(this.$.scrollableResults) this.$.scrollableResults.innerHTML=""
+
+                this.$.testResultsSection?.removeAttribute("expand")
+               
 
             })
         }
@@ -99,7 +169,7 @@ module.exports = Editor.Panel.define({
                         console.log("NO EXISTE EL NODO PRINCIPAL")
                     }
                     return elementNode
-                }).then((elementNode: any) => {
+                }).then(async (elementNode: any) => {
                     console.log("ELEMENT NODE uuid " + elementNode.uuid)
                     console.log("ELEMENT NODE name " + elementNode.name)
                     console.log("SELECTED :" + selectedTest)
@@ -112,14 +182,13 @@ module.exports = Editor.Panel.define({
                     let targetUuid= String(testAvailable.get(selectedTest))
                     console.log("THE SELECTED: "+targetUuid)
                     const options: ExecuteComponentMethodOptions = {
-
                         uuid: targetUuid,//String(this.$.textArea?.getAttribute("value")),//String(assetUuid),
                         name: 'getInstance',
                         args: [""]
                     }
                     let chainedString = "";
                     //Editor.Message.send('scene','execute-scene-script', options)
-                    function chainedExecute(uTestUuid: string, elems: string[], current: number, field: HTMLElement) {
+                    async function chainedExecute(uTestUuid: string, elems: string[], current: number, field: HTMLElement, progress:HTMLElement) {
                         let icon = "";
                         let msg = "";
                         let opt: ExecuteComponentMethodOptions = {
@@ -127,27 +196,35 @@ module.exports = Editor.Panel.define({
                             name: elems[current],
                             args: [""]
                         };
-                        Editor.Message.request('scene', 'execute-component-method', opt).then(rr => {
+                       await Editor.Message.request('scene', 'execute-component-method', opt).then(rr => {
                             icon = rr[0] ? "success" : "error";
                             msg = rr[1];
-                            console.log("ITER: " + current)
-                            console.log("RESULT: " + rr)
                             chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
+                            console.log(">>>> ACTUAL: "+current)
+                            console.log(">>>> ACTUAL: "+elems.length)
+                    
                             current++
-                            if (current < elems.length - 1) {
-                                chainedExecute(uTestUuid, elems, current, field)
+                     
+                            let newActualProgress = Math.ceil((((current)*100)/elems.length))
+                            if(newActualProgress>100) newActualProgress=100;
+                            console.log(">>>> PERCENT: "+newActualProgress)
+                            progress.setAttribute("value",String(newActualProgress) )
+                            if (current < elems.length) {
+                               
+                                chainedExecute(uTestUuid, elems, current, field, progress)
                             }
                             field.innerHTML = chainedString
-                            console.log("EN TEORI AESTO ES LO QUE SE IRIA ACUMULANDO")
-                            console.log(chainedString)
                         })
                     }
-                    Editor.Message.request('scene', 'execute-component-method', options).then(j => {
-                        console.log("CANTIDAD DE FUNCIONES REGRESADAS: " + j.length)
-                        if (this.$.scrollableResults) {
-                            chainedExecute(targetUuid, j, 0, this.$.scrollableResults)
+                   await Editor.Message.request('scene', 'execute-component-method', options).then(async j => {
+                     
+                        if (this.$.scrollableResults && this.$.progressBar) {
+                           await chainedExecute(targetUuid, j, 0, this.$.scrollableResults, this.$.progressBar)
                         }
                     })
+
+                    this.$.testResultsSection?.focus();
+                    this.$.testResultsSection?.setAttribute("expand","true")
                 })
             })
         }
@@ -155,36 +232,8 @@ module.exports = Editor.Panel.define({
             this.$.dropScript.addEventListener('change', async (event: any) => {
                 // change value
                 const theAssetUuid = this.$.dropScript?.getAttribute("value")
-
-                let rootNode: string
-                Editor.Message.request('scene', 'query-node-tree').then(async t => {
-                    let isPresent = false;
-                    t.children.forEach((ee: any) => {
-                        if (ee.name === "~~ UTester Node ~~") {
-                            uuidTestNode = ee.uuid
-                            isPresent = true;
-                        }
-                    })
-
-                    if (!isPresent) {
-                        console.log("EL ROOT: " + t.name)
-                        console.log("EL UUID: " + t.uuid)
-                        const creationOptions: CreateNodeOptions = {
-                            parent: String(t.uuid),
-                            components: [],
-                            name: "~~ UTester Node ~~",
-                            dump: undefined,
-                            keepWorldTransform: true,
-                            type: "cc.Script",
-                            canvasRequired: false,
-                            unlinkPrefab: true,
-                            assetUuid: undefined
-                        }
-                        uuidTestNode = await Editor.Message.request('scene', 'create-node', creationOptions)
-                    }
-
-                }).then(() => {
-                    console.log("uuidTesNode: " + uuidTestNode) // EL NODO DONDE SE CARGAN LOS TESTS
+ 
+                    console.log("uuidTesNode: " + testNodeUuid) // EL NODO DONDE SE CARGAN LOS TESTS
                     let createNew = true;
                     let trueName = ""
                     let classId = ""
@@ -193,41 +242,19 @@ module.exports = Editor.Panel.define({
                         trueName = t.name.substring(0,t.name.lastIndexOf("."))
                         classId = t.uuid
                         if ( testAvailable.has(trueName)) {
-
                             createNew = false;
                         }
                     
                     }).then(async ( ) => {
                         if (createNew) {
-                            console.log("CLASSID: " + classId)
-                            console.log("uuidTesNode: " + uuidTestNode)
-                       
                             const CreateComponentOptions = {
-                                uuid: uuidTestNode,
+                                uuid: testNodeUuid,
                                 component: trueName//classId  //{string} classId (cid) (is recommended) or className
                             }
                             result = await Editor.Message.request('scene', 'create-component', CreateComponentOptions)
                         }
                     }).then(() => {
-                        console.log("IIIINNNFOOOOOO")
-                        Editor.Message.request('scene', 'query-node-tree', uuidTestNode).then(infoTree => {
-                            let innerList = ""
-                            console.log("INFO TREE")
-                            console.log(infoTree)
-                            console.log("..............")
-                            infoTree.components.forEach((element: any) => {
-                                
-                                testAvailable.set(element.type, element.value)
-                                innerList += '<option value="' + element.type + '">' + element.type + '</option>\n'
-                                // console.log(element)
-                                /*type: 'TessellationTest',
-                                    value: 'd3QqIVkf9NKZVWv08I5Z1j',
-                                    extends: [ 'UTest', 'cc.Component', 'cc.Object' ]*/
-                            });
-                            if (this.$.availableTestsList) {
-                                this.$.availableTestsList.innerHTML = innerList
-                            }
-                        })
+                       updateListAndDropDown();
                     })
                 })
 
@@ -239,7 +266,7 @@ module.exports = Editor.Panel.define({
                 };
                 //Editor.Message.send('scene','execute-scene-script', options)
                 let result = Editor.Message.send('scene', 'execute-component-method', options)
-            })
+            
         }
         if (this.$.firstButton) {
             this.$.firstButton.addEventListener('change', (event: any) => {
@@ -262,6 +289,7 @@ module.exports = Editor.Panel.define({
             });
         }
     },
+ 
     beforeClose() { },
     close() { },
 });

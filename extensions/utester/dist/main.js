@@ -20,6 +20,7 @@ exports.methods = {
         console.log("OPENENING");
     },
     methodOP() {
+        Editor.Panel.open(package_json_1.default.name + ".second");
         console.log("METHOD OP");
     },
     methodSTP() {

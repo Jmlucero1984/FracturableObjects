@@ -15,9 +15,20 @@
     },
     "panels": {
         "default": {
-            "title": "utester - Tester Panel",
+            "title": "Utester - Tester Panel",
             "type": "dockable",
             "main": "dist/panels/main",
+            "size": {
+                "min-width": 400,
+                "min-height": 600,
+                "width": 500,
+                "height": 700
+            }
+        },
+        "second": {
+            "title": "Utester - Tester Second Panel",
+            "type": "dockable",
+            "main": "dist/panels/second",
             "size": {
                 "min-width": 400,
                 "min-height": 600,
@@ -39,22 +50,22 @@
             {
                 "path": "i18n:menu.develop/utester",
                 "label": "i18n:utester.send_to_panel",
-                "message": "send-to-panel"
+                "message": "method-OP"
+                
             }
         ],
         "messages": {
             "open-panel": {
                 "public": true,
                 "methods": [
-                    "openPanel"
+                    "openPanel" 
                 ]
             },
-            "send-to-panel": {
+            "method-OP": {
                 "public": true,
                 "methods": [
-                    "default.hello",
-                    "methodOP",
-                    "methodSTP"
+                 
+                    "methodOP"
                 ]
             }
         },
@@ -66,7 +77,15 @@
             }
         ]
     },
-    "author": "Jose Ma Lucero",
+    "author": "José Ma Lucero",
+    "author-info":  {
+        "name" : "Jose MAria Lucero",
+        "email": "jmlucero1984@gmail.com",
+        "url": "https://----",
+        "wechat": "---",
+        "git-home": " ",
+        "official-account": ""
+      },
     "editor": ">=3.7.3",
     "scripts": {
         "build": "tsc -b",

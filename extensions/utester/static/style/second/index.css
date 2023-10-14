@@ -15,7 +15,7 @@
  
 }
 
-#testResults, #progressBar {
+#testResults {
     height:fit-content ;
     color: var(--color-normal-contrast-weakest);
     margin: 15px;
@@ -40,6 +40,7 @@
     color: var(--color-normal-contrast-weakest);
     margin: 15px;
     width: 90%;
+    height: 100px;
 }
 
 #testCodeButton {

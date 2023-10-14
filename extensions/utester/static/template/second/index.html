@@ -1,0 +1,42 @@
+<div id="mainDiv">
+    <h1 id="app"></h1>
+    <ui-prop id="dropUTest" type="dump" dump="cc.Asset">
+        <ui-label slot="label" value="CustomMaterial" tooltip="Cargo su script">Insert Your Test </ui-label>
+        <ui-asset slot="content" id="dropScript" droppable="cc.Script" placeholder="cc.Script" value=""></ui-asset>
+    </ui-prop>
+ 
+  
+     <div> 
+        <ui-button id="firstButton" type="primary">EJECUTAR EN DEFINED CONTEXT</ui-button>
+        <ui-textarea id="textArea" value="47fxIznNhL6I3IB8ghF43S" placeholder="Test your code"></ui-textarea>
+        <ui-code id = "codeArea" language="typescript"></ui-code>
+        <ui-button id="testCodeButton" type="primary">EJECUTAR!</ui-button>
+    </div>
+    <div> 
+        
+        <ui-button id="button1" tooltip="Editor equest sin await" type="default">BTN1</ui-button>
+   
+        <ui-button id="button2" tooltip="Async await to wait for result before continue"  type="danger">BTN2</ui-button>
+        <ui-button id="button3" type="primary" outline >BTN3</ui-button>
+        <ui-button id="button4" type="success" outline >BTN4</ui-button>
+        <ui-button id="button5" type="primary">BTN5</ui-button>
+        <ui-button id="button6" type="warning">BTN6</ui-button>
+    </div>
+    <div> 
+        <ui-button id="button7" type="icon"> <ui-icon value="arrow-back"></ui-icon></ui-button>
+        <ui-button id="button8" type="icon"> <ui-icon value="to-right-arrow"></ui-icon></ui-button>
+        <ui-button id="button9" type="icon"> <ui-icon value="warn-triangle"></ui-icon></ui-button>
+        <ui-button id="button10" type="icon"> <ui-icon value="extension"></ui-icon></ui-button>
+        <ui-button id="button11" type="icon"> <ui-icon value="computer"></ui-icon></ui-button>
+        <ui-button id="button12" type="icon"> <ui-icon value="save-o"></ui-icon></ui-button>
+    </div>
+    <div>
+        <ui-section class="config" id="testResults" header="Resultados de los test">
+        <div id="scrollableResults">
+         
+         
+        </div>
+        </ui-section>
+
+    </div>
+</div>
