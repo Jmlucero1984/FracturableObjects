@@ -1,0 +1,1412 @@
+14-10-2023 18:59:08 - verbose: Arguments:
+14-10-2023 18:59:08 - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.3\CocosCreator.exe: true
+14-10-2023 18:59:08 - verbose:   project: C:\Users\jmluc\FracturableObjects
+14-10-2023 18:59:08 - verbose:   dev: false
+14-10-2023 18:59:08 - verbose:   home: C:\Users\jmluc\.CocosCreator
+14-10-2023 18:59:08 - verbose:  
+14-10-2023 18:59:13 - verbose: [Package] menu@1.0.0 enable
+14-10-2023 18:59:13 - verbose: [Package] profile@1.0.0 enable
+14-10-2023 18:59:13 - verbose: [Package] project@1.0.4 enable
+14-10-2023 18:59:13 - verbose: [Package] messages@1.0.0 enable
+14-10-2023 18:59:13 - verbose: [Package] program@1.0.3 enable
+14-10-2023 18:59:13 - verbose: [Package] tester@1.0.0 enable
+14-10-2023 18:59:13 - verbose: [Package] information@1.0.0 enable
+14-10-2023 18:59:13 - verbose: [Package] preferences@1.0.0 enable
+14-10-2023 18:59:23 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine
+14-10-2023 18:59:26 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+14-10-2023 18:59:26 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\native
+14-10-2023 18:59:26 - verbose: [Package] engine@1.0.7 enable
+14-10-2023 18:59:28 - verbose: [Package] programming@1.0.0 enable
+14-10-2023 18:59:28 - verbose: [Package] device@1.0.1 enable
+14-10-2023 18:59:28 - verbose: [Package] ui-kit@1.0.1 enable
+14-10-2023 18:59:29 - verbose: [Package] asset-db@1.0.0 enable
+14-10-2023 18:59:29 - verbose: [Package] scene@1.0.0 enable
+14-10-2023 18:59:32 - verbose: [Package] server@1.0.0 enable
+14-10-2023 18:59:32 - verbose: [Package] utils@1.0.0 enable
+14-10-2023 18:59:53 - verbose: [Package] preview@1.0.1 enable
+14-10-2023 18:59:53 - verbose: [Package] animator@1.0.0 enable
+14-10-2023 18:59:54 - verbose: [Build-plugin] register pkg scene: 2ms
+14-10-2023 18:59:54 - verbose: Builder PluginManager init: 2ms
+14-10-2023 18:59:54 - verbose: [Package] builder@1.3.5 enable
+14-10-2023 18:59:54 - verbose: [Package] shortcuts@1.0.1 enable
+14-10-2023 18:59:54 - verbose: [Package] animation-graph@1.0.0 enable
+14-10-2023 18:59:55 - verbose: [Package] about@1.0.2 enable
+14-10-2023 18:59:55 - verbose: [Package] assets@1.0.0 enable
+14-10-2023 18:59:55 - verbose: [Package] console@1.0.0 enable
+14-10-2023 18:59:56 - verbose: [Package] crash-reporter@1.0.0 enable
+14-10-2023 18:59:57 - verbose: [Package] extension@3.1.1 enable
+14-10-2023 18:59:57 - verbose: [Package] hierarchy@1.0.0 enable
+14-10-2023 18:59:57 - verbose: [Package] inspector@1.0.0 enable
+14-10-2023 18:59:57 - verbose: [Package] light-probe@1.0.4 enable
+14-10-2023 18:59:57 - verbose: [Package] lightmap@1.0.4 enable
+14-10-2023 18:59:57 - verbose: [Package] node-library@1.0.1 enable
+14-10-2023 18:59:57 - verbose: [Package] package-asset@1.0.1 enable
+14-10-2023 18:59:57 - verbose: [Package] process@1.0.0 enable
+14-10-2023 18:59:57 - verbose: [Package] reference-image@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] reflection-probe@1.0.4 enable
+14-10-2023 18:59:58 - verbose: [Package] engine-extends@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] alipay-mini-game@1.0.1 enable
+14-10-2023 18:59:58 - verbose: [Package] android@1.0.1 enable
+14-10-2023 18:59:58 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+14-10-2023 18:59:58 - verbose: [Package] certificate@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] channel-upload-tools@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] fb-instant-games@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] huawei-agc@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] huawei-quick-game@1.0.1 enable
+14-10-2023 18:59:58 - verbose: [Package] ios@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] linux@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] mac@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] native@1.0.2 enable
+14-10-2023 18:59:58 - verbose: [Build-plugin] register pkg native: 183ms
+14-10-2023 18:59:58 - verbose: [Package] ohos@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] open-harmonyos@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] oppo-mini-game@1.0.1 enable
+14-10-2023 18:59:58 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] taobao-creative-app@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] taobao-mini-game@1.0.0 enable
+14-10-2023 18:59:58 - verbose: [Package] vivo-mini-game@1.0.1 enable
+14-10-2023 18:59:59 - verbose: [Package] web-desktop@1.0.1 enable
+14-10-2023 18:59:59 - verbose: [Package] web-mobile@1.0.1 enable
+14-10-2023 18:59:59 - verbose: [Package] wechatgame@1.0.2 enable
+14-10-2023 18:59:59 - verbose: [Package] wechatprogram@1.0.2 enable
+14-10-2023 19:00:17 - verbose: [Package] cocos-service@3.0.7 enable
+14-10-2023 19:00:17 - verbose: [Build-plugin] register pkg cocos-service: 338ms
+14-10-2023 19:00:17 - verbose: [Package] windows@1.0.1 enable
+14-10-2023 19:00:17 - verbose: asset-db is ready!
+14-10-2023 19:00:17 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+14-10-2023 19:00:29 - verbose: [Package] im-plugin@3.0.10 enable
+14-10-2023 19:00:29 - verbose: [Package] utester@1.0.0 enable
+14-10-2023 19:00:29 - verbose: [Package] placeholder@1.0.0 enable
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg huawei-agc: 31754ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg android: 32084ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg fb-instant-games: 31852ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg ios: 31843ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg huawei-quick-game: 31882ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg ohos: 31484ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg taobao-mini-game: 31396ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg oppo-mini-game: 31482ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg taobao-creative-app: 31437ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg wechatgame: 31208ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg vivo-mini-game: 31413ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg alipay-mini-game: 32333ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg bytedance-mini-game: 32132ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg web-desktop: 31319ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg windows: 12761ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg web-mobile: 31432ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 12741ms
+14-10-2023 19:00:30 - verbose: [Build-plugin] register pkg mac: 32201ms
+14-10-2023 19:00:36 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+14-10-2023 19:00:36 - info: [Scene] [PHYSICS]: using builtin.
+14-10-2023 19:00:37 - log: [Scene] Cocos Creator v3.7.3
+14-10-2023 19:00:37 - info: [Scene] Forward render pipeline initialized.
+14-10-2023 19:00:38 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+14-10-2023 19:00:38 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+14-10-2023 19:00:38 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+14-10-2023 19:00:38 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+14-10-2023 19:00:39 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+14-10-2023 19:00:49 - log: [Scene] ONLOAD
+14-10-2023 19:00:49 - log: [Scene] [
+  Vec2 { x: 0, y: 0 },    Vec2 { x: 10, y: 0 },
+  Vec2 { x: 20, y: 0 },   Vec2 { x: 20, y: 10 },
+  Vec2 { x: 20, y: 20 },  Vec2 { x: 20, y: 30 },
+  Vec2 { x: 20, y: 40 },  Vec2 { x: 30, y: 40 },
+  Vec2 { x: 40, y: 40 },  Vec2 { x: 50, y: 40 },
+  Vec2 { x: 60, y: 40 },  Vec2 { x: 70, y: 40 },
+  Vec2 { x: 80, y: 40 },  Vec2 { x: 90, y: 40 },
+  Vec2 { x: 100, y: 40 }, Vec2 { x: 110, y: 40 },
+  Vec2 { x: 120, y: 40 }, Vec2 { x: 120, y: 30 },
+  Vec2 { x: 120, y: 20 }, Vec2 { x: 120, y: 10 },
+  Vec2 { x: 120, y: 0 },  Vec2 { x: 130, y: 0 },
+  Vec2 { x: 140, y: 0 },  Vec2 { x: 140, y: 10 },
+  Vec2 { x: 140, y: 20 }, Vec2 { x: 140, y: 30 },
+  Vec2 { x: 140, y: 40 }, Vec2 { x: 140, y: 50 },
+  Vec2 { x: 140, y: 60 }, Vec2 { x: 130, y: 60 },
+  Vec2 { x: 120, y: 60 }, Vec2 { x: 110, y: 60 },
+  Vec2 { x: 100, y: 60 }, Vec2 { x: 90, y: 60 },
+  Vec2 { x: 80, y: 60 },  Vec2 { x: 70, y: 60 },
+  Vec2 { x: 60, y: 60 },  Vec2 { x: 50, y: 60 },
+  Vec2 { x: 40, y: 60 },  Vec2 { x: 30, y: 60 },
+  Vec2 { x: 20, y: 60 },  Vec2 { x: 10, y: 60 },
+  Vec2 { x: 0, y: 60 },   Vec2 { x: 0, y: 50 },
+  Vec2 { x: 0, y: 40 },   Vec2 { x: 0, y: 30 },
+  Vec2 { x: 0, y: 20 },   Vec2 { x: 0, y: 10 }
+]
+14-10-2023 19:00:49 - log: [Scene] CLABE 946846 VACLOR clave
+14-10-2023 19:00:49 - log: [Scene] CLABE 88 VACLOR clabe2
+14-10-2023 19:00:49 - log: [Scene] CLABE 45651 VACLOR ckla3
+14-10-2023 19:00:49 - log: [Scene] ------------------------------
+14-10-2023 19:00:49 - log: [Scene] 88
+14-10-2023 19:00:49 - log: [Scene] undefined
+14-10-2023 19:00:49 - log: [Scene] ------------------------------
+14-10-2023 19:00:49 - log: [Scene] CLABE 946846 VACLOR clave
+14-10-2023 19:00:49 - log: [Scene] CLABE 88 VACLOR clabe2
+14-10-2023 19:00:49 - log: [Scene] CLABE 45651 VACLOR ckla3
+14-10-2023 19:00:49 - log: [Scene] ------------------------------
+14-10-2023 19:00:49 - log: [Scene] 88
+14-10-2023 19:00:49 - log: [Scene] undefined
+14-10-2023 19:00:49 - log: [Scene] ------------------------------
+14-10-2023 19:00:49 - log: [Scene] ON ENABLE
+14-10-2023 19:00:50 - log: [Scene] ON START
+14-10-2023 19:10:50 - log: OPENENING
+14-10-2023 19:10:53 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:10:53 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:10:54 - log: [Window] INFO TREE
+14-10-2023 19:10:54 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:10:54 - log: [Window] ..............
+14-10-2023 19:10:57 - log: [Window] METHOD OP
+14-10-2023 19:10:57 - log: [Window] { animal: 'cat', count: 3, name: 'kitty' }
+14-10-2023 19:10:57 - log: [Scene] CONTENT
+14-10-2023 19:10:57 - log: [Scene] carade pedo
+fdosfojasdf
+dfadfasdf
+14-10-2023 19:10:57 - log: [Scene] Files in the directory:
+14-10-2023 19:10:57 - log: [Scene] file1.txt
+14-10-2023 19:10:57 - log: [Scene] file2.txt
+14-10-2023 19:11:00 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:11:00 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:11:19 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:11:19 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:11:22 - log: [Window] showing
+14-10-2023 19:11:24 - log: [Window] BUTTON 1 CLICKED
+14-10-2023 19:11:24 - log: [Window] MouseEvent { isTrusted: [Getter] }
+14-10-2023 19:11:24 - log: [Window] TOTAL ELEMENTOS: 0
+14-10-2023 19:11:24 - log: [Window] CHILDREN
+14-10-2023 19:11:24 - log: [Window] {
+  name: 'Canvas',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'beI88Z2HpFELqR4T5EMHpg',
+  children: [
+    {
+      name: 'Background',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'f4bYBGAKdCDpVdVGr8avxb',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Background',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Delaunay',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cf8Yg/rH1FZ4yMN6WRyuyl',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Delaunay',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Camera',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'ebFwiq8gBFaYpqYbdoDODe',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Camera',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'DelaunayFracturable',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '5b2Jl5jNBPmbzsHt97rEI5',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/DelaunayFracturable',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Stomper',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '20WuGo141IdIUncbwqR6DU',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Stomper',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'CentralManager',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'edaYoWX1RAhbXg6YW7DXeX',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/CentralManager',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Platform',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'd1caSMVm1JPKRUEyqSH5dv',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Platform',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'TestTextBackground',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '36O+ryG09P0Lp+/2U5ZHiG',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/TestTextBackground',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'UnitTest',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '39S2C/lwtAvqpD5rJo8EDE',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/UnitTest',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'PanelForDrawings',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cfKaT9dvRGCLWEz/dg3aVF',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/PanelForDrawings',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    }
+  ],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: 'Canvas',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'cc.UITransform',
+      value: 'd6rUX5yfhMlKoWX2bSbawx',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Canvas',
+      value: '12O/ljcVlEqLmVm3U2gEOQ',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Widget',
+      value: 'c5V1EV8IpMtrIvY1OE9t2u',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:24 - log: [Window] CHILDREN
+14-10-2023 19:11:24 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:25 - log: [Window] BUTTON 2 CLICKED
+14-10-2023 19:11:25 - log: [Window] MouseEvent { isTrusted: [Getter] }
+14-10-2023 19:11:25 - log: [Window] CHILDREN
+14-10-2023 19:11:25 - log: [Window] {
+  name: 'Canvas',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'beI88Z2HpFELqR4T5EMHpg',
+  children: [
+    {
+      name: 'Background',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'f4bYBGAKdCDpVdVGr8avxb',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Background',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Delaunay',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cf8Yg/rH1FZ4yMN6WRyuyl',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Delaunay',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Camera',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'ebFwiq8gBFaYpqYbdoDODe',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Camera',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'DelaunayFracturable',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '5b2Jl5jNBPmbzsHt97rEI5',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/DelaunayFracturable',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Stomper',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '20WuGo141IdIUncbwqR6DU',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Stomper',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'CentralManager',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'edaYoWX1RAhbXg6YW7DXeX',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/CentralManager',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Platform',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'd1caSMVm1JPKRUEyqSH5dv',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Platform',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'TestTextBackground',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '36O+ryG09P0Lp+/2U5ZHiG',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/TestTextBackground',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'UnitTest',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '39S2C/lwtAvqpD5rJo8EDE',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/UnitTest',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'PanelForDrawings',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cfKaT9dvRGCLWEz/dg3aVF',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/PanelForDrawings',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    }
+  ],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: 'Canvas',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'cc.UITransform',
+      value: 'd6rUX5yfhMlKoWX2bSbawx',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Canvas',
+      value: '12O/ljcVlEqLmVm3U2gEOQ',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Widget',
+      value: 'c5V1EV8IpMtrIvY1OE9t2u',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:25 - log: [Window] CHILDREN
+14-10-2023 19:11:25 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:25 - log: [Window] TOTAL ELEMENTOS: 2
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] 116
+14-10-2023 19:11:26 - log: [Window] 2
+14-10-2023 19:11:26 - log: [Window] null
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] 116
+14-10-2023 19:11:26 - log: [Window] 8
+14-10-2023 19:11:26 - log: [Window] null
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] 116
+14-10-2023 19:11:26 - log: [Window] 14
+14-10-2023 19:11:26 - log: [Window] null
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:26 - log: [Window] 116
+14-10-2023 19:11:26 - log: [Window] 16
+14-10-2023 19:11:26 - log: [Window] null
+14-10-2023 19:11:26 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] BUTTON 1 CLICKED
+14-10-2023 19:11:29 - log: [Window] MouseEvent { isTrusted: [Getter] }
+14-10-2023 19:11:29 - log: [Window] TOTAL ELEMENTOS: 0
+14-10-2023 19:11:29 - log: [Window] CHILDREN
+14-10-2023 19:11:29 - log: [Window] {
+  name: 'Canvas',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'beI88Z2HpFELqR4T5EMHpg',
+  children: [
+    {
+      name: 'Background',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'f4bYBGAKdCDpVdVGr8avxb',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Background',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Delaunay',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cf8Yg/rH1FZ4yMN6WRyuyl',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Delaunay',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Camera',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'ebFwiq8gBFaYpqYbdoDODe',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Camera',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'DelaunayFracturable',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '5b2Jl5jNBPmbzsHt97rEI5',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/DelaunayFracturable',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Stomper',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '20WuGo141IdIUncbwqR6DU',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Stomper',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'CentralManager',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'edaYoWX1RAhbXg6YW7DXeX',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/CentralManager',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Platform',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'd1caSMVm1JPKRUEyqSH5dv',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Platform',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'TestTextBackground',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '36O+ryG09P0Lp+/2U5ZHiG',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/TestTextBackground',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'UnitTest',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '39S2C/lwtAvqpD5rJo8EDE',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/UnitTest',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'PanelForDrawings',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cfKaT9dvRGCLWEz/dg3aVF',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/PanelForDrawings',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    }
+  ],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: 'Canvas',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'cc.UITransform',
+      value: 'd6rUX5yfhMlKoWX2bSbawx',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Canvas',
+      value: '12O/ljcVlEqLmVm3U2gEOQ',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Widget',
+      value: 'c5V1EV8IpMtrIvY1OE9t2u',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:29 - log: [Window] CHILDREN
+14-10-2023 19:11:29 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 18
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 24
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 35
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 46
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 56
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 62
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:29 - log: [Window] 164
+14-10-2023 19:11:29 - log: [Window] 64
+14-10-2023 19:11:29 - log: [Window] null
+14-10-2023 19:11:29 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] BUTTON 1 CLICKED
+14-10-2023 19:11:30 - log: [Window] MouseEvent { isTrusted: [Getter] }
+14-10-2023 19:11:30 - log: [Window] TOTAL ELEMENTOS: 0
+14-10-2023 19:11:30 - log: [Window] CHILDREN
+14-10-2023 19:11:30 - log: [Window] {
+  name: 'Canvas',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'beI88Z2HpFELqR4T5EMHpg',
+  children: [
+    {
+      name: 'Background',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'f4bYBGAKdCDpVdVGr8avxb',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Background',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Delaunay',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cf8Yg/rH1FZ4yMN6WRyuyl',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Delaunay',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Camera',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'ebFwiq8gBFaYpqYbdoDODe',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Camera',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'DelaunayFracturable',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '5b2Jl5jNBPmbzsHt97rEI5',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/DelaunayFracturable',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Stomper',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '20WuGo141IdIUncbwqR6DU',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Stomper',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'CentralManager',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'edaYoWX1RAhbXg6YW7DXeX',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/CentralManager',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'Platform',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'd1caSMVm1JPKRUEyqSH5dv',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/Platform',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'TestTextBackground',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '36O+ryG09P0Lp+/2U5ZHiG',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/TestTextBackground',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'UnitTest',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: '39S2C/lwtAvqpD5rJo8EDE',
+      children: [Array],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/UnitTest',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    },
+    {
+      name: 'PanelForDrawings',
+      active: true,
+      locked: false,
+      type: 'cc.Node',
+      uuid: 'cfKaT9dvRGCLWEz/dg3aVF',
+      children: [],
+      prefab: [Object],
+      parent: 'beI88Z2HpFELqR4T5EMHpg',
+      path: 'Canvas/PanelForDrawings',
+      isScene: false,
+      readonly: false,
+      components: [Array]
+    }
+  ],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: 'Canvas',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'cc.UITransform',
+      value: 'd6rUX5yfhMlKoWX2bSbawx',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Canvas',
+      value: '12O/ljcVlEqLmVm3U2gEOQ',
+      extends: [Array]
+    },
+    {
+      type: 'cc.Widget',
+      value: 'c5V1EV8IpMtrIvY1OE9t2u',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:30 - log: [Window] CHILDREN
+14-10-2023 19:11:30 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 66
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 72
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 83
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 94
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 104
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 110
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:11:30 - log: [Window] 212
+14-10-2023 19:11:30 - log: [Window] 112
+14-10-2023 19:11:30 - log: [Window] null
+14-10-2023 19:11:30 - log: [Window] ---------------------------------------
+14-10-2023 19:41:36 - info: [Window] Download the Vue Devtools extension for a better development experience:
+https://github.com/vuejs/vue-devtools
+14-10-2023 19:41:36 - info: [Window] You are running Vue in development mode.
+Make sure to turn on production mode when deploying for production.
+See more tips at https://vuejs.org/guide/deployment.html
+14-10-2023 19:41:42 - verbose: [Package] utester@1.0.0 disable
+14-10-2023 19:41:43 - verbose: [Package] utester@1.0.0 enable
+14-10-2023 19:41:49 - log: METHOD OP
+14-10-2023 19:41:51 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:41:51 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:41:54 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:41:54 - log: [Window] MouseEvent { isTrusted: [Getter] }
+14-10-2023 19:48:48 - verbose: [Package] utester@1.0.0 disable
+14-10-2023 19:48:49 - verbose: [Package] utester@1.0.0 enable
+14-10-2023 19:48:54 - log: OPENENING
+14-10-2023 19:48:56 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:48:56 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:48:56 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:48:57 - log: [Window] undefined
+14-10-2023 19:48:57 - log: [Window] INFO TREE
+14-10-2023 19:48:57 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:48:57 - log: [Window] ..............
+14-10-2023 19:52:07 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:52:07 - log: [Window] undefined
+14-10-2023 19:52:07 - log: [Window] INFO TREE
+14-10-2023 19:52:07 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:52:07 - log: [Window] ..............
+14-10-2023 19:55:34 - verbose: [Package] utester@1.0.0 disable
+14-10-2023 19:55:34 - verbose: [Package] utester@1.0.0 enable
+14-10-2023 19:55:42 - log: OPENENING
+14-10-2023 19:55:45 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:55:45 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:55:45 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:55:45 - log: [Window] undefined
+14-10-2023 19:55:45 - log: [Window] INFO TREE
+14-10-2023 19:55:45 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:55:45 - log: [Window] ..............
+14-10-2023 19:57:23 - log: OPENENING
+14-10-2023 19:57:25 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:57:25 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:57:25 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:57:25 - log: [Window] undefined
+14-10-2023 19:57:25 - log: [Window] INFO TREE
+14-10-2023 19:57:25 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:57:25 - log: [Window] ..............
+14-10-2023 19:58:52 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:58:52 - log: [Window] undefined
+14-10-2023 19:58:59 - log: OPENENING
+14-10-2023 19:59:01 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+14-10-2023 19:59:01 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+14-10-2023 19:59:01 - log: [Window] BUTTON 3 CLICKED
+14-10-2023 19:59:01 - log: [Window] undefined
+14-10-2023 19:59:01 - log: [Window] INFO TREE
+14-10-2023 19:59:01 - log: [Window] {
+  name: '~~ UTester Node ~~',
+  active: true,
+  locked: false,
+  type: 'cc.Node',
+  uuid: 'b97Po62iZNl4o+iUgjlSqc',
+  children: [],
+  prefab: {
+    state: 0,
+    isUnwrappable: false,
+    isRevertable: false,
+    isApplicable: false,
+    isAddedChild: false,
+    assetUuid: ''
+  },
+  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
+  path: '~~ UTester Node ~~',
+  isScene: false,
+  readonly: false,
+  components: [
+    {
+      type: 'StocasticsUTest',
+      value: '5f3apcaEZAsp5559BmiyPI',
+      extends: [Array]
+    },
+    {
+      type: 'TessellationTest',
+      value: '61LUU2y9BHToF4YCX8kvXN',
+      extends: [Array]
+    }
+  ]
+}
+14-10-2023 19:59:01 - log: [Window] ..............
+14-10-2023 19:59:58 - log: [Window] TEST SELECCIONADO: StocasticsUTest
+14-10-2023 19:59:59 - log: [Window] BUTTON PRESSED
+14-10-2023 19:59:59 - log: [Window] 47fxIznNhL6I3IB8ghF43S
+14-10-2023 19:59:59 - log: [Window] EXIST!
+14-10-2023 19:59:59 - log: [Window] ELEMENT NODE uuid b97Po62iZNl4o+iUgjlSqc
+14-10-2023 19:59:59 - log: [Window] ELEMENT NODE name ~~ UTester Node ~~
+14-10-2023 19:59:59 - log: [Window] SELECTED :StocasticsUTest
+14-10-2023 19:59:59 - log: [Window] KEY StocasticsUTest
+14-10-2023 19:59:59 - log: [Window] VALUE 5f3apcaEZAsp5559BmiyPI
+14-10-2023 19:59:59 - log: [Window] KEY TessellationTest
+14-10-2023 19:59:59 - log: [Window] VALUE 61LUU2y9BHToF4YCX8kvXN
+14-10-2023 19:59:59 - log: [Window] THE SELECTED: 5f3apcaEZAsp5559BmiyPI
+14-10-2023 19:59:59 - log: [Scene] CALLED GET INSTANCE
+14-10-2023 19:59:59 - log: [Scene] EL NAME: ~~ UTester Node ~~<StocasticsUTest>
+14-10-2023 19:59:59 - log: [Scene] CANT OF OBJECTS: 9
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Scene] Type: string
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 0
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 4
+14-10-2023 19:59:59 - log: [Window] >>>> PERCENT: 25
+14-10-2023 19:59:59 - log: [Scene] BEFORE
+14-10-2023 19:59:59 - log: [Scene] 6037.383456432099
+14-10-2023 19:59:59 - log: [Scene] AFTER
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 1
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 4
+14-10-2023 19:59:59 - log: [Window] >>>> PERCENT: 50
+14-10-2023 19:59:59 - log: [Scene] BEFORE
+14-10-2023 19:59:59 - log: [Scene] 6037.383456432099
+14-10-2023 19:59:59 - log: [Scene] AFTER
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 2
+14-10-2023 19:59:59 - log: [Window] >>>> ACTUAL: 4
+14-10-2023 19:59:59 - log: [Window] >>>> PERCENT: 75
+14-10-2023 19:59:59 - log: [Scene] BEFORE
+14-10-2023 20:00:01 - log: [Scene] AFTER
+14-10-2023 20:00:01 - log: [Window] >>>> ACTUAL: 3
+14-10-2023 20:00:01 - log: [Window] >>>> ACTUAL: 4
+14-10-2023 20:00:01 - log: [Window] >>>> PERCENT: 100
