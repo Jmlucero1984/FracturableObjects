@@ -17,9 +17,29 @@ const path = require('path');
 // Editor.Panel.define = Editor.Panel.define || function(options: any) { return options }
 var stringToCode;
 var testAvailable = new Map();
+class CustomMeshData {
+    constructor(vc, ic, stride, vData, iData, indexStart) {
+        this.vc = 0;
+        this.ic = 0;
+        this.stride = 0;
+        this.vData = new Float32Array;
+        this.iData = new Uint16Array;
+        this.indexStart = 0;
+        this.iData = iData;
+        this.ic = ic;
+        this.vc = vc;
+        this.stride = stride;
+        this.vData = vData;
+        this.indexStart = indexStart;
+    }
+}
 var selectedTest;
 const testNodeName = "~~ UTester Node ~~";
 var testNodeUuid = "";
+var canvasElement;
+var context2d;
+var cvsW;
+var cvsH;
 module.exports = Editor.Panel.define({
     listeners: {
         show() { console.log('showing'); },
@@ -49,18 +69,54 @@ module.exports = Editor.Panel.define({
                 console.log('[cocos-panel-html.default]: hello');
             }
         },
-        drawCircle() {
-            console.log("BUTTON 3 CLICKED");
-            console.log(event);
-            if (this.$.canvas) {
-                let ctx = (this.$.canvas).getContext("2d", undefined);
-                ctx === null || ctx === void 0 ? void 0 : ctx.beginPath();
-                ctx === null || ctx === void 0 ? void 0 : ctx.arc(95, 50, 40, 0, 2 * Math.PI);
-                ctx === null || ctx === void 0 ? void 0 : ctx.stroke();
-            }
-        }
     },
     ready() {
+        function drawReturnedMeshData(meshData) {
+            console.log("ADENTRO DE DRAW RETURNED MESH DATA");
+            if (context2d) {
+                context2d.lineWidth = 0;
+                console.log("DATA: " + meshData.iData);
+                context2d.clearRect(0, 0, cvsW, cvsH);
+                let st = meshData.stride - 1;
+                let offsetx = cvsW / 2;
+                let offsety = cvsH / 2;
+                for (let i = 0; i <= meshData.indexStart - 3; i += 3) {
+                    context2d.beginPath();
+                    let r = Math.round((meshData.vData[meshData.iData[i] * st + 3] + meshData.vData[meshData.iData[i + 1] * st + 3] + meshData.vData[meshData.iData[i + 2] * st + 3]) * (255 / 3));
+                    let g = Math.round((meshData.vData[meshData.iData[i] * st + 4] + meshData.vData[meshData.iData[i + 1] * st + 4] + meshData.vData[meshData.iData[i + 2] * st + 4]) * (255 / 3));
+                    let b = Math.round((meshData.vData[meshData.iData[i] * st + 5] + meshData.vData[meshData.iData[i + 1] * st + 5] + meshData.vData[meshData.iData[i + 2] * st + 5]) * (255 / 3));
+                    //context2d.strokeStyle= `rgb(${r},${g},${b})`
+                    context2d.fillStyle = `rgb(${r},${g},${b})`;
+                    context2d.moveTo(meshData.vData[meshData.iData[i] * st] + offsetx, meshData.vData[meshData.iData[i] * st + 1] * -1 + offsety);
+                    context2d.lineTo(meshData.vData[meshData.iData[i + 1] * st] + offsetx, meshData.vData[meshData.iData[i + 1] * st + 1] * -1 + offsety);
+                    context2d.lineTo(meshData.vData[meshData.iData[i + 2] * st] + offsetx, meshData.vData[meshData.iData[i + 2] * st + 1] * -1 + offsety);
+                    context2d.closePath();
+                    context2d.fill();
+                }
+            }
+        }
+        const setContext = () => {
+            if (this.$.canvas) {
+                canvasElement = (this.$.canvas);
+                cvsW = canvasElement.width;
+                cvsH = canvasElement.height;
+                context2d = (this.$.canvas).getContext("2d", undefined);
+                /* if(context2d){
+                     context2d.beginPath();
+                     context2d.strokeStyle= `rgb(127,127,127)`
+                     context2d.lineWidth=2;
+                     context2d.moveTo(0,0);
+                     context2d.lineTo(15,15)
+                     context2d.stroke();
+                  
+                     console.log("DATA FROM INDEX:TS")
+                     console.log(context2d.getImageData(0,0,30,30))
+                   
+                     
+                 }*/
+            }
+        };
+        setContext();
         async function initTestNode() {
             await Editor.Message.request('scene', 'query-node-tree').then(async (t) => {
                 let isPresent = false;
@@ -150,7 +206,6 @@ module.exports = Editor.Panel.define({
             /* this.$.testCodeButton.addEventListener('change', (event) => {
                  Editor.Message.send('scene', runInThisContext(stringToCode));
              })*/
-            this.drawCircle();
             this.$.testCodeButton.addEventListener('change', (event) => {
                 var _a;
                 console.log("BUTTON PRESSED");
@@ -173,13 +228,7 @@ module.exports = Editor.Panel.define({
                     return elementNode;
                 }).then(async (elementNode) => {
                     var _a, _b;
-                    console.log("ELEMENT NODE uuid " + elementNode.uuid);
-                    console.log("ELEMENT NODE name " + elementNode.name);
                     console.log("SELECTED :" + selectedTest);
-                    testAvailable.forEach((value, key) => {
-                        console.log("KEY " + key);
-                        console.log("VALUE " + value);
-                    });
                     let targetUuid = String(testAvailable.get(selectedTest));
                     console.log("THE SELECTED: " + targetUuid);
                     const options = {
@@ -192,6 +241,7 @@ module.exports = Editor.Panel.define({
                     async function chainedExecute(uTestUuid, elems, current, field, progress) {
                         let icon = "";
                         let msg = "";
+                        let graphics;
                         let opt = {
                             uuid: uTestUuid,
                             name: elems[current],
@@ -200,14 +250,16 @@ module.exports = Editor.Panel.define({
                         await Editor.Message.request('scene', 'execute-component-method', opt).then(rr => {
                             icon = rr[0] ? "success" : "error";
                             msg = rr[1];
+                            if (rr[2]) {
+                                console.log("LLEGO DATA PARA DIBUJAR");
+                                console.log(rr[2]);
+                                drawReturnedMeshData(rr[2]);
+                            }
                             chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
-                            console.log(">>>> ACTUAL: " + current);
-                            console.log(">>>> ACTUAL: " + elems.length);
                             current++;
                             let newActualProgress = Math.ceil((((current) * 100) / elems.length));
                             if (newActualProgress > 100)
                                 newActualProgress = 100;
-                            console.log(">>>> PERCENT: " + newActualProgress);
                             progress.setAttribute("value", String(newActualProgress));
                             if (current < elems.length) {
                                 chainedExecute(uTestUuid, elems, current, field, progress);
