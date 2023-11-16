@@ -288,7 +288,7 @@ module.exports = Editor.Panel.define({
                             msg = rr[1];
                             if(rr[2]) {
                                 console.log("LLEGO DATA PARA DIBUJAR")
-                                console.log(rr[2])
+                              //  console.log(rr[2])
                                 drawReturnedMeshData(rr[2])
                             }
                             chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
@@ -357,6 +357,20 @@ module.exports = Editor.Panel.define({
         }
         if (this.$.firstButton) {
             this.$.firstButton.addEventListener('change', (event: any) => {
+                Editor.Message.send('scene', runInThisContext(stringToCode));
+            })
+        };
+        
+        
+        
+        
+        
+        
+        
+        
+        /*
+        if (this.$.firstButton) {
+            this.$.firstButton.addEventListener('change', (event: any) => {
                 methods.methodOP()
                 const contextObject = {
                     animal: 'cat',
@@ -375,6 +389,7 @@ module.exports = Editor.Panel.define({
                 let result3 = Editor.Message.request('scene', 'execute-scene-script', options2)
             });
         }
+        */
     },
  
     beforeClose() { },

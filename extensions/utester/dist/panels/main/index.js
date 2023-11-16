@@ -1,13 +1,8 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
 const fs_extra_1 = require("fs-extra");
 const path_1 = require("path");
-const package_json_1 = __importDefault(require("../../../package.json"));
 const vm_1 = require("vm");
-const main_1 = require("../../main");
 const fs = require('fs');
 const path = require('path');
 /**
@@ -252,7 +247,7 @@ module.exports = Editor.Panel.define({
                             msg = rr[1];
                             if (rr[2]) {
                                 console.log("LLEGO DATA PARA DIBUJAR");
-                                console.log(rr[2]);
+                                //  console.log(rr[2])
                                 drawReturnedMeshData(rr[2]);
                             }
                             chainedString += '<div><ui-icon color value="' + icon + '" style="font-size: 12px;"></ui-icon>  ' + elems[current] + ' :: ' + msg + '</div>\n';
@@ -315,22 +310,32 @@ module.exports = Editor.Panel.define({
         }
         if (this.$.firstButton) {
             this.$.firstButton.addEventListener('change', (event) => {
-                main_1.methods.methodOP();
+                Editor.Message.send('scene', (0, vm_1.runInThisContext)(stringToCode));
+            });
+        }
+        ;
+        /*
+        if (this.$.firstButton) {
+            this.$.firstButton.addEventListener('change', (event: any) => {
+                methods.methodOP()
                 const contextObject = {
                     animal: 'cat',
                     count: 2
                 };
-                Editor.Message.send('scene', (0, vm_1.runInNewContext)('count += 1; name = "kitty"', contextObject));
+
+                Editor.Message.send('scene', runInNewContext('count += 1; name = "kitty"', contextObject));
                 console.log(contextObject);
-                const options2 = {
+                const options2: ExecuteSceneScriptMethodOptions = {
                     //  name: "utester",
-                    name: package_json_1.default.name,
+                    name: packageJSON.name,
                     method: 'getFiles',
                     args: []
                 };
-                let result3 = Editor.Message.request('scene', 'execute-scene-script', options2);
+
+                let result3 = Editor.Message.request('scene', 'execute-scene-script', options2)
             });
         }
+        */
     },
     beforeClose() { },
     close() { },

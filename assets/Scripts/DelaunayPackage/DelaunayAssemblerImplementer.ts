@@ -1,9 +1,10 @@
 import { _decorator, Component, Node, PolygonCollider2D, Vec2 } from 'cc';
 import { DelaunayAssembler } from './DelaunayAssembler';
 import { linkNode, plainVertex } from './DelaunaySplitter';
-const { ccclass, property } = _decorator;
+const { ccclass, property,executeInEditMode } = _decorator;
 
 @ccclass('DelaunayAssemblerImplementer')
+ //@executeInEditMode
 export class DelaunayAssemblerImplementer extends DelaunayAssembler {
  
  
@@ -13,7 +14,7 @@ export class DelaunayAssemblerImplementer extends DelaunayAssembler {
         this.modifyPoints(polPoints);
         this.stroke();
     }
-
+ 
   
 
     start() {

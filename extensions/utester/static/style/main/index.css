@@ -51,11 +51,14 @@
 
 #textArea, #codeArea{
     color: var(--color-normal-contrast-weakest);
-
+    min-height:50px;
     margin: auto;
     width: 90%;
 }
 
+#codeTest {
+    margin-top: 10px;
+}
  
 
 #tag_and_drop {

@@ -1,0 +1,109 @@
+if (this.$.firstButton) {
+	this.$.firstButton.addEventListener('change', (event: any) => {
+		methods.methodOP()
+		const contextObject = {
+			animal: 'cat',
+			count: 2
+		};
+
+		Editor.Message.send('scene', runInNewContext('count += 1; name = "kitty"', contextObject));
+		console.log(contextObject);
+		const options2: ExecuteSceneScriptMethodOptions = {
+			//  name: "utester",
+			name: packageJSON.name,
+			method: 'getFiles',
+			args: []
+		};
+
+		let result3 = Editor.Message.request('scene', 'execute-scene-script', options2)
+	});
+}
+
+// IN packageJSON
+ "contributions": {
+        "scene": {
+            "script": "./dist/scene.js"
+        },
+        "menu": [
+            {
+                "path": "i18n:menu.panel/utester",
+                "label": "i18n:utester.open_panel",
+                "message": "open-panel"
+            },
+            {
+                "path": "i18n:menu.develop/utester",
+                "label": "i18n:utester.send_to_panel",
+                "message": "method-OP"
+                
+            }
+        ],
+		
+		
+IN scene.ts
+ 
+import { join } from 'path';
+import packageJSON from '../package.json';
+import { suma } from './main';
+ 
+const fs = require('fs');
+const path = require('path');
+ 
+
+module.paths.push(join(Editor.App.path, 'node_modules'));
+
+export function load() {};
+
+export function unload() {};
+
+export const methods = {
+    rotateCamera() {
+        const { director } = require('cc');
+        let mainCamera = director.getScene().getChildByName("Main Camera");
+        if(mainCamera){
+            let euler = mainCamera.eulerAngles;
+            euler.y += 10;
+            mainCamera.setRotationFromEuler(euler);
+            return true;
+        }
+        console.log("LLMARON AL SCRIP")
+        return false;
+    },
+    getFiles() {
+         
+        const directoryPath = path.resolve(__dirname, './userFiles')
+       let firstFile;
+        fs.readdir(directoryPath, (err: any, files: any[]) => {
+          if (err) {
+            console.error('Error reading directory:', err);
+            return;
+          }
+        
+          // Filter out directories from the list of files
+          const fileList = files.filter((file) => {
+            return fs.statSync(path.join(directoryPath, file)).isFile();
+          });
+        
+          console.log('Files in the directory:');
+          fileList.forEach((file) => {
+            console.log(file);
+          });
+          firstFile=fileList[0]
+        });
+        const logo = fs.readFileSync( path.resolve(__dirname, './userFiles/file1.txt'),  'utf-8')
+   
+        console.log("CONTENT")
+        console.log(logo)
+ 
+    }
+};
+		
+		 <ui-prop id="dropUFile" type="dump" dump="cc.Asset">
+ 
+            <div id="tag_and_drop">
+                <ui-label slot="label" class="ui-label" style="vertical-align: middle;" value="CustomFile"
+                    tooltip="Cargo su archivo de test">Insert Your File</ui-label>
+                <ui-file id="dropFile" type="file" style="vertical-align: middle;"
+                    value=C:\Users\jmluc\FracturableObjects\assets\Utest.utest.ts></ui-file>
+            </div>
+        
+    </ui-prop>

@@ -4,5 +4,8 @@
     "current": {
       "platform": "browser"
     }
+  },
+  "general": {
+    "start_scene": "current_scene"
   }
 }

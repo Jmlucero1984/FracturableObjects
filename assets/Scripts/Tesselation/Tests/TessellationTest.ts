@@ -3,7 +3,11 @@ import { _decorator, Color, Component, Graphics, RichText, UITransform, Vec2 } f
 
 import { BorderPoint, compareVectors, generateTessellation, insertInto, round, splitEdge, splitEdgeTessPoints, TessPoint, TessTriangle, Triangle, updateBorderPoints } from '../../Tesselation/Tessellation';
 import { earcut } from '../../DelaunayPackage/earcut';
-import { UTest } from '../../UTest';
+import { CustomMeshData,    Testeable,    UTest } from '../../UTest';
+import { Canvas } from 'cc';
+import { graphicsAssembler } from 'cc';
+import { IRenderData } from 'cc';
+import { MeshRenderData } from 'cc';
 
 const { ccclass, property, executeInEditMode } = _decorator;
 
@@ -16,21 +20,12 @@ function isString(value: unknown): asserts value is string {
 
 
 
-function Testeable(target: any, propertyKey: string, descriptor: PropertyDescriptor) {
-    // a reference to our original method
-    const originalMethod = descriptor.value;
- /*
-    if (tests.indexOf(originalMethod) < 0) {
-        tests.push(originalMethod)
-    }
-*/
-}
+function drawTriangles(triangles: Triangle[], gr: Graphics) {
 
 
-function drawTriangles(triangles: Triangle[], gr:Graphics) {
-
- 
     gr.strokeColor = new Color(250, 250, 250)
+    gr.lineJoin = 1  /* BEVEL =0 , ROUND = 1 , MITTER= 2*/
+    gr.lineCap = 1   /* BUTT = 0, ROUND = 1, SQUARE = 2 */
     for (let i = 0; i < triangles.length; i++) {
         gr.moveTo(triangles[i].getVertexA().x, triangles[i].getVertexA().y)
         gr.lineTo(triangles[i].getVertexB().x, triangles[i].getVertexB().y)
@@ -41,10 +36,14 @@ function drawTriangles(triangles: Triangle[], gr:Graphics) {
 }
 
 
-function drawTessTriangles(triangles: TessTriangle[], gr:Graphics) {
+function drawTessTriangles(triangles: TessTriangle[]): CustomMeshData {
 
-  
-    gr.strokeColor = new Color(250, 250, 250)
+    let gr = new Graphics()
+
+    gr.strokeColor = Color.RED
+    gr.lineWidth = 1;
+    gr.lineJoin = 1  /* BEVEL =0 , ROUND = 1 , MITTER= 2*/
+    gr.lineCap = 1   /* BUTT = 0, ROUND = 1, SQUARE = 2 */
     for (let i = 0; i < triangles.length; i++) {
         gr.moveTo(triangles[i].getTessPointA().getPos().x, triangles[i].getTessPointA().getPos().y)
         gr.lineTo(triangles[i].getTessPointB().getPos().x, triangles[i].getTessPointB().getPos().y)
@@ -52,12 +51,26 @@ function drawTessTriangles(triangles: TessTriangle[], gr:Graphics) {
         gr.lineTo(triangles[i].getTessPointA().getPos().x, triangles[i].getTessPointA().getPos().y)
     }
     gr.stroke()
+    let md: MeshRenderData[] = gr.impl.getRenderDataList()
+
+    /*
+
+    - Warning! What if the graphics data is too much large to fit into a single element? maybe we should deal with more parts
+    md[1]..md[2] and so on
+    - It would be better if we strip 0 values?
+    - What about JSON? 
+        -> JSON with coordinates?
+        -> JSON with "translated draw instructions? (Graphics -> Canvas.Context2d)"
+
+    */
+
+    return new CustomMeshData(md[0].indexCount, md[0].vertexCount, md[0].floatStride, md[0].vData, md[0].iData, md[0].indexStart)
 }
 
-function drawCircles(point: Vec2, percent: number ,gr :Graphics) {
+function drawCircles(point: Vec2, percent: number, gr: Graphics) {
 
     console.log("PERCENT: " + percent)
-    
+
     gr.strokeColor = new Color(255 * (1 - percent), 255 * percent * 0.8, 0)
     gr.circle(point.x, point.y, 0.5 + 6 * percent)
     gr.stroke()
@@ -67,11 +80,11 @@ function drawCircles(point: Vec2, percent: number ,gr :Graphics) {
 function getEnvolvCoords() {
     let envolCoords: Vec2[] = []
     envolCoords.push(new Vec2(0, 0))
-    envolCoords.push(new Vec2(20, 0))
-    envolCoords.push(new Vec2(20, 20))
-    envolCoords.push(new Vec2(40, 20))
+    envolCoords.push(new Vec2(40, 0))
     envolCoords.push(new Vec2(40, 40))
-    envolCoords.push(new Vec2(0, 40))
+    envolCoords.push(new Vec2(80, 40))
+    envolCoords.push(new Vec2(80, 80))
+    envolCoords.push(new Vec2(0, 80))
     return envolCoords;
 }
 
@@ -94,7 +107,7 @@ function generateAngles() {
 
 
 
- 
+
 
 
 
@@ -103,27 +116,45 @@ function generateAngles() {
 export class TessellationTest extends UTest {
 
 
+    private valor_x:number =15
+    private cadena:string ="Milei"
 
 
- 
+
+
 
     onLoad() {
 
-        let dirs:Map<String,String> = new Map();
-        dirs.set("clave","946846")
+        let dirs: Map<String, String> = new Map();
+        dirs.set("clave", "946846")
         dirs.set("clabe2", "88")
-        dirs.set("ckla3","45651")
+        dirs.set("ckla3", "45651")
 
-        dirs.forEach((t,k)=> {
-            console.log ( "CLABE "+ t + " VACLOR "+k)
+        dirs.forEach((t, k) => {
+            console.log("CLABE " + t + " VACLOR " + k)
         })
 
-console.log("------------------------------")
-       console.log( dirs.get("clabe2"))
-       console.log( dirs.get("88"))
-   
-console.log("------------------------------")
+        console.log("------------------------------")
+        console.log(dirs.get("clabe2"))
+        console.log(dirs.get("88"))
 
+        console.log("------------------------------")
+
+    }
+
+    BasicComprobation_Test():[boolean, string] {
+        let successful = "Triangles lenght as expected"
+        let failed = "Triangles length did't matched"
+        let testResult = this.cadena.length == 5;
+
+        return [testResult, testResult ? successful : failed]
+    }
+    BasicComprobation2_Test():[boolean, string] {
+        let successful = "Triangles lenght as expected"
+        let failed = "Triangles length did't matched"
+        let testResult = this.valor_x == 15;
+        
+        return [testResult, testResult ? successful : failed]
     }
 
 
@@ -150,6 +181,8 @@ console.log("------------------------------")
         let testResult = indexes.length == numTrianglesExpected * 3
         return [testResult, testResult ? successful : failed]
     }
+
+
 
 
     @Testeable
@@ -187,7 +220,7 @@ console.log("------------------------------")
         to sketch the nuts and bolts of the strucure.
     =======================================================================================
     */
-
+ 
     @Testeable
     Tess_TesselateSubTriangles_Test(): [boolean, string] {
         let successful = "" // Defined later
@@ -278,10 +311,10 @@ console.log("------------------------------")
 
             borderTessPoints.push(new TessPoint(envolCoords[i], true))
             if (i > 0) {
-                borderTessPoints[i - 1].setSucesor(borderTessPoints[i])
+                borderTessPoints[i - 1].setSucessor(borderTessPoints[i])
             }
         }
-        borderTessPoints[borderTessPoints.length - 1].setSucesor(borderTessPoints[0])
+        borderTessPoints[borderTessPoints.length - 1].setSucessor(borderTessPoints[0])
 
         let indexes = earcut(nums, null, 2)
         let triangles: TessTriangle[] = [];
@@ -348,8 +381,8 @@ console.log("------------------------------")
         return [testResult, testResult ? successful : failed]
     }
 
-    @Testeable
-    Tess_Relaxation_Test(): [boolean, string] {
+     @Testeable
+    Tess_Relaxation_Test(): [boolean, string, CustomMeshData] {
         let envolCoords = getEnvolvCoords();
         let successful = "" // Defined later
         let failed = "" //Definde later
@@ -378,13 +411,13 @@ console.log("------------------------------")
             })
         })
 
-       // drawTessTriangles(triangles, UTest.testGraphics);
+        let meshData = drawTessTriangles(triangles);
         let cantVerts = envolCoords.length;
         let expectedTriangles = Math.pow(cantVerts - 2, 1 + iters)
         successful = `Theoretical triangles cant: ${expectedTriangles} is equal to actual cant: ${triangles.length}`
         failed = `Theoretical triangles cant: ${expectedTriangles} is NOT equal to actual cant: ${triangles.length}`
         let testResult = expectedTriangles == triangles.length
-        return [testResult, testResult ? successful : failed]
+        return [testResult, testResult ? successful : failed, meshData]
     }
 
 
@@ -487,7 +520,7 @@ console.log("------------------------------")
         let nums: number[] = [];
         let vectores = generateVectors()
         let angulos = generateAngles()
-        
+
         let testResult = vectores.length == angulos.length + 1;
         return [testResult, testResult ? successful : failed]
     }
@@ -503,7 +536,7 @@ console.log("------------------------------")
             nums.push(v.y)
         })
         let indexes = earcut(nums, null, 2)
-         
+
         let testResult = indexes.length == 9
         return [testResult, testResult ? successful : failed]
 
@@ -511,4 +544,6 @@ console.log("------------------------------")
 
 
 }
+
+
 

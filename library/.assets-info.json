@@ -56,12 +56,12 @@
     "time": 1691765464476.423
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1696817846330.5825,
+    "time": 1700049832498.522,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage": {
-    "time": 1696563923659.3176,
+    "time": 1700073663686.4392,
     "uuid": "f89dd3c7-5442-418b-9f67-665a87026b08",
     "missing": false
   },
@@ -91,12 +91,12 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssembler.ts": {
-    "time": 1696112246412.3206,
+    "time": 1700135454863.0308,
     "uuid": "4163d385-48a5-44f6-a38f-dd2addb7d65f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerImplementer.ts": {
-    "time": 1696090335462.9504,
+    "time": 1700135450487.1152,
     "uuid": "aefeda90-8599-4ad3-9fda-14c174d2e84a",
     "missing": false
   },
@@ -121,7 +121,7 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\FractDelaunay.ts": {
-    "time": 1696206651086.4248,
+    "time": 1700135492481.1963,
     "uuid": "04a9320d-a8ad-400b-9479-7c40e99cbf65",
     "missing": false
   },
@@ -303,7 +303,7 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\DelaunayFracturable.prefab": {
-    "time": 1696201531208.662,
+    "time": 1700135021152.3904,
     "uuid": "c40d4796-c2e1-4b41-a38a-27fb449838ee",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1697263952328.0432,
+    "time": 1700135282381.3364,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -707,7 +707,7 @@
     "time": 1696435066212.6824
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts": {
-    "time": 1696954632620.0051,
+    "time": 1700092766612.1401,
     "uuid": "05a1bfb5-57ce-4f8b-ab52-d426550da754",
     "missing": false
   },
@@ -723,7 +723,7 @@
     "time": 1696436101593.3645
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests": {
-    "time": 1696815331619.5603,
+    "time": 1700073663686.4392,
     "uuid": "0b5a5476-02e3-4968-992b-1967cd69601c",
     "missing": false
   },
@@ -763,7 +763,7 @@
     "time": 1696531849850.7473
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UTest.ts": {
-    "time": 1696954284987.649,
+    "time": 1700093817254.1338,
     "uuid": "adb985e6-ac26-4693-9fac-2d2ea43d4b4a",
     "missing": false
   },
@@ -771,7 +771,7 @@
     "time": 1696209683307.1155
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts": {
-    "time": 1696994436263.885,
+    "time": 1700082326862.4636,
     "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   },
@@ -789,6 +789,30 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Utest.utest.ts": {
     "time": 1696887146869.1826,
     "uuid": "2dc7b192-04ae-479d-b3a0-3a8e9ff8b9f2",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\SimpleTest.ts.meta": {
+    "time": 1700049832504.5144
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\SimpleTest.ts": {
+    "time": 1700054313768.5322,
+    "uuid": "02178aeb-3e29-43d2-acb0-c03880acb85a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\unimplmented.txt.meta": {
+    "time": 1700070121451.2805
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\unimplmented.txt": {
+    "time": 1700076080639.3486,
+    "uuid": "efff5561-067c-490f-afe3-9a5c18bafe48",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessToJsonTest.ts.meta": {
+    "time": 1700073658664.3904
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessToJsonTest.ts": {
+    "time": 1700133854834.6714,
+    "uuid": "f0ed06eb-66ee-45c8-9be1-ea096479d6ca",
     "missing": false
   }
 }

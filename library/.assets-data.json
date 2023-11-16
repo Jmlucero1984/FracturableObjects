@@ -198,8 +198,6 @@
     "value": {
       "depends": [
         "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
-        "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
-        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
         "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9"
       ]
     }
@@ -1017,9 +1015,8 @@
         "f02deb64-e971-42b9-aa77-ab54ab789347",
         "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388@f9941",
         "847497b2-8e64-4105-9279-9f7b40e70f31",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
-        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
         "aa957858-1796-4e79-8a23-0652a594fcfc",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
         "ac9bb448-d186-463a-8868-be3f93909803@f9941",
         "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941",
         "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
@@ -1029,7 +1026,7 @@
         "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+        "f02deb64-e971-42b9-aa77-ab54ab789347"
       ]
     }
   },
@@ -1257,6 +1254,24 @@
   },
   "2dc7b192-04ae-479d-b3a0-3a8e9ff8b9f2": {
     "url": "db://assets/Utest.utest.ts",
+    "value": {}
+  },
+  "02178aeb-3e29-43d2-acb0-c03880acb85a": {
+    "url": "db://assets/Scripts/SimpleTest.ts",
+    "value": {}
+  },
+  "3448fda3-2dc5-4af0-8c09-0bd136d406a2": {
+    "url": "db://assets/unimplmented.ts",
+    "value": {}
+  },
+  "efff5561-067c-490f-afe3-9a5c18bafe48": {
+    "url": "db://assets/unimplmented.txt",
+    "value": {
+      "depends": []
+    }
+  },
+  "f0ed06eb-66ee-45c8-9be1-ea096479d6ca": {
+    "url": "db://assets/Scripts/Tesselation/Tests/TessToJsonTest.ts",
     "value": {}
   }
 }

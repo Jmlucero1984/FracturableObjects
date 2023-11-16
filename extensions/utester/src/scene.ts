@@ -51,11 +51,6 @@ export const methods = {
    
         console.log("CONTENT")
         console.log(logo)
-
-
-
-
-  
-
+ 
     }
 };

@@ -1,7 +1,7 @@
 {
   "modules": {
     "cce:/internal/x/cc": {
-      "mTimestamp": 26050.47460000217,
+      "mTimestamp": 22811.665399968624,
       "chunkId": "cee638a986ad8fae09398db255647defcaa6612a",
       "imports": [
         {
@@ -619,8 +619,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 62376.95309999585,
-      "chunkId": "6ed4722ff6be933fd8ab965042735d13a4bcfa16",
+      "mTimestamp": 3706346.80430001,
+      "chunkId": "0c146fe3eb4259fdb26870e54e2ac76bca11ed62",
       "imports": [
         {
           "value": "file:///C:/ProgramData/cocos/editors/Creator/3.7.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts",
@@ -875,7 +875,7 @@
           }
         },
         {
-          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts",
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/SimpleTest.ts",
           "resolved": "__unresolved_18",
           "loc": {
             "start": {
@@ -884,105 +884,133 @@
             },
             "end": {
               "line": 5,
-              "column": 2071
+              "column": 2057
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts",
+          "resolved": "__unresolved_19",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2073
+            },
+            "end": {
+              "line": 5,
+              "column": 2159
+            }
+          }
+        },
+        {
+          "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessToJsonTest.ts",
+          "resolved": "__unresolved_20",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 2175
+            },
+            "end": {
+              "line": 5,
+              "column": 2269
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessellationTest.ts",
-          "resolved": "__unresolved_19",
+          "resolved": "__unresolved_21",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2087
+              "column": 2285
             },
             "end": {
               "line": 5,
-              "column": 2183
+              "column": 2381
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestClasses.ts",
-          "resolved": "__unresolved_20",
+          "resolved": "__unresolved_22",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2199
+              "column": 2397
             },
             "end": {
               "line": 5,
-              "column": 2272
+              "column": 2470
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestLoader.ts",
-          "resolved": "__unresolved_21",
+          "resolved": "__unresolved_23",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2288
+              "column": 2486
             },
             "end": {
               "line": 5,
-              "column": 2360
+              "column": 2558
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UTest.ts",
-          "resolved": "__unresolved_22",
+          "resolved": "__unresolved_24",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2376
+              "column": 2574
             },
             "end": {
               "line": 5,
-              "column": 2443
+              "column": 2641
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UnitTest.ts",
-          "resolved": "__unresolved_23",
+          "resolved": "__unresolved_25",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2459
+              "column": 2657
             },
             "end": {
               "line": 5,
-              "column": 2529
+              "column": 2727
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts",
-          "resolved": "__unresolved_24",
+          "resolved": "__unresolved_26",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2545
+              "column": 2743
             },
             "end": {
               "line": 5,
-              "column": 2614
+              "column": 2812
             }
           }
         },
         {
           "value": "file:///C:/Users/jmluc/FracturableObjects/assets/Utest.utest.ts",
-          "resolved": "__unresolved_25",
+          "resolved": "__unresolved_27",
           "loc": {
             "start": {
               "line": 5,
-              "column": 2630
+              "column": 2828
             },
             "end": {
               "line": 5,
-              "column": 2695
+              "column": 2893
             }
           }
         }
@@ -1118,7 +1146,21 @@
         {
           "resolved": {
             "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/SimpleTest.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
             "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessToJsonTest.ts"
           },
           "messages": []
         },
@@ -1231,7 +1273,7 @@
       "chunkId": "405b9e45f7d83143aa1a19fd3e0279c51bbda221"
     },
     "cce:/internal/code-quality/cr.mjs": {
-      "mTimestamp": 1697320766945,
+      "mTimestamp": 1700131788208,
       "chunkId": "be027f973d8ff1c6fe3dcfebbc993118a793ec1b",
       "imports": [],
       "type": "esm",
@@ -1720,7 +1762,7 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssembler.ts": {
       "mTimestamp": {
-        "mtime": 1696112246412.3206,
+        "mtime": 1700135454863.0308,
         "uuid": "4163d385-48a5-44f6-a38f-dd2addb7d65f"
       },
       "chunkId": "864f2e785ed525e713be86df9b1a65c5bfe16033",
@@ -1826,10 +1868,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssemblerImplementer.ts": {
       "mTimestamp": {
-        "mtime": 1696090335462.9504,
+        "mtime": 1700135450487.1152,
         "uuid": "aefeda90-8599-4ad3-9fda-14c174d2e84a"
       },
-      "chunkId": "82c17f7a8bea3623c8c674d4f88a234ad1c4d346",
+      "chunkId": "0bde32baa5b5ec0bb5d70fbf85747024132c6930",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -2025,10 +2067,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/FractDelaunay.ts": {
       "mTimestamp": {
-        "mtime": 1696206651086.4248,
+        "mtime": 1700135492481.1963,
         "uuid": "04a9320d-a8ad-400b-9479-7c40e99cbf65"
       },
-      "chunkId": "db52f7a4934e6350888d761c692fe1f33f034202",
+      "chunkId": "327f494d5b813fbf6ad3dc4c423db0b7ac94da0d",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4916,10 +4958,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts": {
       "mTimestamp": {
-        "mtime": 1696954632620.0051,
+        "mtime": 1700092766612.1401,
         "uuid": "05a1bfb5-57ce-4f8b-ab52-d426550da754"
       },
-      "chunkId": "73f38368bb90b61358bb570f1dc23c23d26296ec",
+      "chunkId": "6c39c635ed5075611a6378835ac07f8b9898833b",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5690,11 +5732,15 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UTest.ts": {
       "mTimestamp": {
-        "mtime": 1696954284987.649,
+        "mtime": 1700093817254.1338,
         "uuid": "adb985e6-ac26-4693-9fac-2d2ea43d4b4a"
       },
-      "chunkId": "128229c6307d3b5ca7d4cd8f3c0c9802b83f9964",
+      "chunkId": "cd6e528fbed3ccfd96c6e83afdd653a09d6766af",
       "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
         {
           "value": "cc"
         },
@@ -5705,11 +5751,11 @@
           "value": "cc",
           "loc": {
             "start": {
-              "line": 1,
+              "line": 2,
               "column": 84
             },
             "end": {
-              "line": 1,
+              "line": 2,
               "column": 88
             }
           }
@@ -5717,6 +5763,13 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",
@@ -5742,10 +5795,10 @@
     },
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessellationTest.ts": {
       "mTimestamp": {
-        "mtime": 1696994436263.885,
+        "mtime": 1700082326862.4636,
         "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f"
       },
-      "chunkId": "85750d76e36e8f2f00177974cb3d377638953e8d",
+      "chunkId": "1e3912c9505683f084a19e4e8ee4372b17fd8031",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5804,11 +5857,11 @@
           "loc": {
             "start": {
               "line": 6,
-              "column": 22
+              "column": 55
             },
             "end": {
               "line": 6,
-              "column": 35
+              "column": 68
             }
           }
         }
@@ -6029,6 +6082,307 @@
       ],
       "type": "esm",
       "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/SimpleTest.ts": {
+      "mTimestamp": {
+        "mtime": 1700054313768.5322,
+        "uuid": "02178aeb-3e29-43d2-acb0-c03880acb85a"
+      },
+      "chunkId": "bfa2bbf4348f74031d56aa8656bde01dd5f05057",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "./UTest",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 33
+            },
+            "end": {
+              "line": 2,
+              "column": 42
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UTest.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/TessToJsonTest.ts": {
+      "mTimestamp": {
+        "mtime": 1700073658639.39,
+        "uuid": "f0ed06eb-66ee-45c8-9be1-ea096479d6ca"
+      },
+      "chunkId": "07c5accb2039a53a267a5376a4c97bc9d0354a58",
+      "imports": [
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessToJsonTest.ts": {
+      "mTimestamp": {
+        "mtime": 1700133854834.6714,
+        "uuid": "f0ed06eb-66ee-45c8-9be1-ea096479d6ca"
+      },
+      "chunkId": "418990cb7694edfa8925488c4518b5a677aa17c3",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 44
+            },
+            "end": {
+              "line": 1,
+              "column": 48
+            }
+          }
+        },
+        {
+          "value": "../../UTest",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 38
+            },
+            "end": {
+              "line": 2,
+              "column": 51
+            }
+          }
+        },
+        {
+          "value": "../Tessellation",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 62
+            },
+            "end": {
+              "line": 3,
+              "column": 79
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 21
+            },
+            "end": {
+              "line": 4,
+              "column": 25
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 6,
+              "column": 25
+            },
+            "end": {
+              "line": 6,
+              "column": 29
+            }
+          }
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 7,
+              "column": 22
+            },
+            "end": {
+              "line": 7,
+              "column": 26
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UTest.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts"
+          },
+          "messages": []
+        },
         {
           "resolved": {
             "type": "module",

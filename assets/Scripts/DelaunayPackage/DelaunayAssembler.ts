@@ -223,7 +223,7 @@ export class DelaunayAssembler extends Graphics {
                 this.getSharedMaterial(0).setProperty("texture1", this.baseTexture);
         }
         polygonPoints = this.polygon;
-        super.onLoad();
+       super.onLoad();
     }
 
 
@@ -446,6 +446,7 @@ export class DelaunayAssembler extends Graphics {
         const subModelList = this.model.subModels;
         for (let i = 0; i < renderDataList.length; i++) {
             const renderData = renderDataList[i];
+        
             const ia = subModelList[i].inputAssembler;
             if (renderData.lastFilledVertex === renderData.vertexStart) { continue; }
             const vb = new Float32Array(renderData.vData.buffer, 0, renderData.vertexStart * componentPerVertex2);

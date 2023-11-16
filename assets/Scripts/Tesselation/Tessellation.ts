@@ -24,10 +24,16 @@ export function splitEdgeTessPoints(borderTessPts: TessPoint[], alreadyPlacedTes
     if (init.isBorder() && end.isBorder()) {
         for (let i = 0; i < borderTessPts.length; i++) {
 
-            if (sameTessPoint(borderTessPts[i], init) && sameTessPoint(borderTessPts[i].getSucesor(), end)) {
+            if (sameTessPoint(borderTessPts[i], init) && sameTessPoint(borderTessPts[i].getSucessor(), end)) {
 
-                tentativeNewTessPoint.setSucesor(borderTessPts[i].getSucesor())
-                borderTessPts[i].setSucesor(tentativeNewTessPoint)
+                tentativeNewTessPoint.setSucessor(borderTessPts[i].getSucessor())
+          
+
+                borderTessPts[i].setSucessor(tentativeNewTessPoint)
+
+               
+                
+
                 tentativeNewTessPoint.setBorder(true)
                 insertInto(borderTessPts, i + 1, tentativeNewTessPoint)
 
@@ -97,11 +103,13 @@ export function generateTessellation(envolCoords:Vec2[], iters:number):TessTrian
 
         borderTessPoints.push(new TessPoint(envolCoords[i], true))
         if (i > 0) {
-            borderTessPoints[i - 1].setSucesor(borderTessPoints[i])
+            borderTessPoints[i - 1].setSucessor(borderTessPoints[i])
+           
         }
     }
-    borderTessPoints[borderTessPoints.length - 1].setSucesor(borderTessPoints[0])
-
+    borderTessPoints[borderTessPoints.length - 1].setSucessor(borderTessPoints[0])
+    
+ 
     let indexes = earcut(nums, null, 2)
     let triangles: TessTriangle[] = [];
 
@@ -134,6 +142,11 @@ export function generateTessellation(envolCoords:Vec2[], iters:number):TessTrian
             newTriangles.push(new TessTriangle([ca_InterTessPoint, ab_InterTessPoint, bc_InterTessPoint]))
         }
     }
+    borderTessPoints.forEach(element => {
+        if(element.isBorder())
+        element.getSucessor().setPredecessor(element)
+    });
+
 
     newTriangles.forEach(tessTri => {
         tessTri.getTessPointA().addTessPointToLinks(tessTri.getTessPointB())
@@ -143,7 +156,7 @@ export function generateTessellation(envolCoords:Vec2[], iters:number):TessTrian
         tessTri.getTessPointC().addTessPointToLinks(tessTri.getTessPointA())
         tessTri.getTessPointC().addTessPointToLinks(tessTri.getTessPointB())
     })
-
+  
     return newTriangles
 }
 
@@ -175,16 +188,17 @@ export class BorderPoint {
 
 export class TessPoint {
     point: Vec2;
-    sucesor: TessPoint;
+    sucessor: TessPoint;
+    predecessor: TessPoint;
     links: Set<TessPoint> = new Set()
-    border: boolean
+    border: boolean = false
 
 
-    public constructor(point: Vec2, border?: boolean, sucesor?: TessPoint, links?: TessPoint[]) {
+    public constructor(point: Vec2, border?: boolean, sucessor?: TessPoint, links?: TessPoint[]) {
 
         this.point = point;
-        this.border = border;
-        this.sucesor = sucesor;
+        if(border!==undefined) this.border = border;
+        this.sucessor = sucessor;
         if (links != null) {
             links.forEach(tp => {
                 this.links.add(tp)
@@ -198,8 +212,13 @@ export class TessPoint {
     public isBorder() {
         return this.border
     }
-    public setSucesor(sucesor: TessPoint) {
-        this.sucesor = sucesor;
+    public setSucessor(sucessor: TessPoint) {
+        this.sucessor = sucessor;
+    }
+
+ 
+    public setPredecessor(predecessor: TessPoint) {
+        this.predecessor = predecessor;
     }
 
     public addTessPointToLinks(tp: TessPoint) {
@@ -212,8 +231,12 @@ export class TessPoint {
         })
     }
 
-    public getSucesor() {
-        return this.sucesor;
+    public getSucessor() {
+        return this.sucessor;
+    }
+    
+    public getPredecessor() {
+        return this.predecessor;
     }
 
     public getLinks() {
@@ -229,7 +252,7 @@ export class TessPoint {
     }
 
     public toString = (): string => {
-        return `POINT (${this.point})   SUCESOR (${this.sucesor})`;
+        return `POINT (${this.point})   SUCESOR (${this.sucessor})`;
     }
 }
 
@@ -259,6 +282,14 @@ export class TessTriangle {
     public getTessPointC() {
         return this.tessPointC;
     }
+    public toString = (): string => {
+        return `TRIANGLE :: (${this.tessPointA.getPos().x},${this.tessPointA.getPos().y},${this.tessPointA.isBorder()})|`+
+        `(${this.tessPointB.getPos().x},${this.tessPointB.getPos().y},${this.tessPointB.isBorder()})|`+
+        `(${this.tessPointC.getPos().x},${this.tessPointC.getPos().y},${this.tessPointC.isBorder()})\n`
+         
+    }
+
+
 }
 
 export class Triangle {

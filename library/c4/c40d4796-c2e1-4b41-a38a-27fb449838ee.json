@@ -30,13 +30,10 @@
       },
       {
         "__id__": 8
-      },
-      {
-        "__id__": 10
       }
     ],
     "_prefab": {
-      "__id__": 12
+      "__id__": 10
     },
     "_lpos": {
       "__type__": "cc.Vec3",
@@ -105,7 +102,7 @@
     "__prefab": {
       "__id__": 5
     },
-    "enabledContactListener": false,
+    "enabledContactListener": true,
     "bullet": false,
     "awakeOnLoad": true,
     "_group": 1,
@@ -184,60 +181,6 @@
   {
     "__type__": "cc.CompPrefabInfo",
     "fileId": "e95VEwfW9L15h7fN2Diiu0"
-  },
-  {
-    "__type__": "aefedqQhZlK05/aFMF00uhK",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 1
-    },
-    "_enabled": true,
-    "__prefab": {
-      "__id__": 11
-    },
-    "_customMaterial": null,
-    "_srcBlendFactor": 2,
-    "_dstBlendFactor": 4,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_lineWidth": 1,
-    "_strokeColor": {
-      "__type__": "cc.Color",
-      "r": 0,
-      "g": 0,
-      "b": 0,
-      "a": 255
-    },
-    "_lineJoin": 2,
-    "_lineCap": 0,
-    "_fillColor": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_miterLimit": 10,
-    "baseTexture": {
-      "__uuid__": "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
-      "__expectedType__": "cc.Texture2D"
-    },
-    "Render_Mat": {
-      "__uuid__": "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
-      "__expectedType__": "cc.Material"
-    },
-    "polygon": [],
-    "_id": ""
-  },
-  {
-    "__type__": "cc.CompPrefabInfo",
-    "fileId": "74q3v9INNNHYzwwjDDBVWg"
   },
   {
     "__type__": "cc.PrefabInfo",

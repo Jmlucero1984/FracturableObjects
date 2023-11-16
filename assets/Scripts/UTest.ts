@@ -1,22 +1,103 @@
+import { Canvas } from 'cc';
 import { _decorator, Color, Component, Graphics, Node, RichText, UITransform } from 'cc';
+import { Context, Script } from 'vm';
+import { TessellationTest } from './Tesselation/Tests/TessellationTest';
 const { ccclass, property } = _decorator;
-export function getInstance(param:string) {
-    console.log("CALLED GET INSTANCE")
+/*
+export function Testeable(target: any, propertyKey: string, descriptor: PropertyDescriptor):TypedPropertyDescriptor<() => [boolean, string]> {
+    throw new Error('Function not implemented.');
+}*/
 
-    return this
+export function Testeable (target: any, propertyKey: string, descriptor: PropertyDescriptor )   {
 }
+
+ 
+export const Testeable2:MethodDecorator = (target: any, propertyKey: string, descriptor: PropertyDescriptor ) =>     {
+ 
+    const originalMethod = descriptor.value;
+    // Override the decorated method's behavior with new behavior
+    descriptor.value = function (...args: any[]) {
+        let msg: string;
+        // The decorated method's parameters will be passed in as args.
+        // We'll assume the decorated method might only have a single parameter,
+        // check to see if it's been passed in the method
+        if(args[0]){
+            msg = (`${propertyKey}, that has a parameter value: ${args[0]}`)
+        }
+        else{
+            msg = `${propertyKey}`
+        }
+        // Emit a message to the console
+        console.log(`Logger says - calling the method: ${msg}`);
+        // Execute the behavior originally programmed in
+        // the decorated method
+        const result = originalMethod.apply(this, args);
+        // if the decorated method returned a value when executed,
+        // capture that result
+        if(result){
+            msg = `${propertyKey} and returned: ${JSON.stringify(result)}`;
+        }
+        else{
+            msg = `${propertyKey}`;
+        }
+        // Having executed the decorated method's behavior, emit
+        // a message to the console report what happened
+        console.log(`Logger says - called the method: ${msg}`);
+        
+    }
+ 
+ 
+ };
+
+
+ 
+ 
+ export class CustomMeshData {
+   public vc:number=0;
+   public ic:number=0;
+   public stride:number=0;
+   public vData:Float32Array=new Float32Array
+   public iData:Uint16Array = new Uint16Array
+   public indexStart:number=0;
+
+   public constructor(vc:number,ic:number,stride:number,vData:Float32Array,iData:Uint16Array,indexStart:number) {
+    this.iData=iData;
+    this.ic=ic;
+    this.vc=vc;
+    this.stride=stride;
+    this.vData=vData;
+    this.indexStart=indexStart
+
+   }
+
+}
+type ExtractInstanceType<T> = T extends new (...args: any[]) => infer R ? R : T extends { prototype: infer P } ? P : any;
+type ExtractMethodNames<T> = { [K in keyof T]: T[K] extends (...args: any[]) => any ? K : never }[keyof T];
+type ExtractMethods<T> = Pick<T, ExtractMethodNames<T>>;
+    type SomeClassMethods = ExtractMethods<TessellationTest>;
+   
+ 
+   
 @ccclass('UTest')
 export class UTest extends Component {
     public optRTx: RichText;
     public outputRichtText_unmasked: RichText;
     public static testGraphics: Graphics
+    public static canvasElement:HTMLCanvasElement
+    testsNames:string[] = [];
+ 
    
     
     tests: Function[] = [];
+ 
 
-    public setGraphics(gr:Graphics) {
-        UTest.testGraphics = gr
-    }
+    
+
+    /*
+    Some time ago, i've tried to decorate functions with @Testeable. At the loading moment all marked as Testeable
+    would have been called and the decorator function would push each one's decorated into a funtion[] to be call 
+    later
+    */
     launch(functions:Function[]) {
         this.tests=functions;
     
@@ -27,28 +108,37 @@ export class UTest extends Component {
 
     }
 
+    /*
+       const getMethods = (obj) => {
+        let properties = new Set()
+        let currentObj = obj
+        do {
+            Object.getOwnPropertyDescriptors(obj,"function").map(item => properties.add(item))
+        } while ((currentObj = Object.getPrototypeOf(currentObj)))
+        console.log("TIPOS")
+        properties.forEach(element => {
+            console.log(typeof element)
+        });
+        return [...properties.keys()].filter(item => typeof item === 'function')
+        }
+*/
+
     public getInstance(param:string)  {
         console.log("CALLED GET INSTANCE")
         let tstFuncs: string[] = []
-        let protoOfTest = Object.getPrototypeOf(this);
-        let unitTeststr=this.name
-        console.log("EL NAME: "+unitTeststr)
+        let protoOfTest:Object = Object.getPrototypeOf(this);
         let objs = Object.getOwnPropertyNames(protoOfTest);  
         console.log("CANT OF OBJECTS: " + objs.length)
         objs.forEach(t=> {
-            console.log("Type: " + typeof t)
-          //  console.log(t)
+          //  console.log("Type: " + typeof t)
             if(t.split("_").pop()=="Test") {
                  let fun = t
                 tstFuncs.push(fun)
  
             }
-        })
-       /* console.log("FUNCTIONS: " + tstFuncs.length)
-        tstFuncs.forEach(u=> {
-            if(u!=null)
-            console.log(u.name)
-        })*/
+        }) 
+ 
+ 
         return tstFuncs
     }
 
