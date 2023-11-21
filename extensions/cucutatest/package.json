@@ -1,0 +1,70 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "cucutatest",
+    "description": "i18n:cucutatest.description",
+    "main": "./dist/main.js",
+    "dependencies": {
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^9.0.13",
+     
+        "@types/node": "^16.0.1",
+        "typescript": "^4.3.4"
+    },
+    "panels": {
+        "default": {
+            "title": "CucutaTest - Tester Panel",
+            "type": "dockable",
+            "main": "dist/panels/main",
+            "size": {
+                "min-width": 400,
+                "min-height": 600,
+                "width": 500,
+                "height": 700
+            }
+        } 
+    },
+    "contributions": {
+        "scene": {
+            "script": "./dist/scene.js"
+        },
+        "menu": [
+            {
+                "path": "i18n:menu.panel/CucutaTest",
+                "label": "i18n:cucutatest.open_panel",
+                "message": "open-panel"
+            }
+        ],
+        "messages": {
+            "open-panel": {
+                "public": true,
+                "methods": [
+                    "openPanel" 
+                ]
+            } 
+        },
+        "shortcuts": [
+            {
+                "message": "open-panel",
+                "win": "Shift+F2",
+                "mac": "F2"
+            }
+        ]
+    },
+    "author": "José Ma Lucero",
+    "author-info":  {
+        "name" : "Jose Maria Lucero",
+        "email": "jmlucero1984@gmail.com",
+        "url": "https://github.com/Jmlucero1984",
+        "wechat": "---",
+        "git-home": " ",
+        "official-account": ""
+      },
+    "editor": ">=3.7.3",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    }
+}

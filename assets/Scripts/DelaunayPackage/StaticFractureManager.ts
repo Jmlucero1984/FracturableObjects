@@ -84,7 +84,7 @@ export class StaticFractureManager extends Component {
             let a2= calculateEnvolArea2D(earcut(coordsB,null,2),coordsB)
             console.log("REAL AREA 1: "+a1);
             console.log("REAL AREA 2: "+a2);
-            if (a1>minArea&& a2>minArea) {
+            if (a1>minArea && a2>minArea) {
                 frac.recursiveness--;
                 let pc = nodeF.getComponent(PolygonCollider2D)
                 let points: Vec2[] = []
@@ -136,7 +136,10 @@ export class StaticFractureManager extends Component {
             console.log("*****************////  FALLÓ   ////********************")
             console.log("*******************************************************")
         }
-        setTimeout(() => { frac.available = true; }, 0);
+        setTimeout(() => { 
+            frac.available = true; 
+            console.log("MAKE AVAILABLE")
+        }, 10);
         StaticFractureManager.working=false;
     }
 }

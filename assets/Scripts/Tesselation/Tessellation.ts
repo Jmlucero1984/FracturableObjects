@@ -109,8 +109,10 @@ export function generateTessellation(envolCoords:Vec2[], iters:number):TessTrian
     }
     borderTessPoints[borderTessPoints.length - 1].setSucessor(borderTessPoints[0])
     
- 
+ console.log("BEFORE EARCUT")
     let indexes = earcut(nums, null, 2)
+    console.log(indexes)
+    console.log("AFTER EARCUT")
     let triangles: TessTriangle[] = [];
 
     //Assuming earcut returns counterclockwised indexes.

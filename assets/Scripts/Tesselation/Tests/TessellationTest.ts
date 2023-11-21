@@ -3,11 +3,12 @@ import { _decorator, Color, Component, Graphics, RichText, UITransform, Vec2 } f
 
 import { BorderPoint, compareVectors, generateTessellation, insertInto, round, splitEdge, splitEdgeTessPoints, TessPoint, TessTriangle, Triangle, updateBorderPoints } from '../../Tesselation/Tessellation';
 import { earcut } from '../../DelaunayPackage/earcut';
-import { CustomMeshData,    Testeable,    UTest } from '../../UTest';
+ 
 import { Canvas } from 'cc';
 import { graphicsAssembler } from 'cc';
 import { IRenderData } from 'cc';
 import { MeshRenderData } from 'cc';
+import { CucutaTestBase, CustomMeshData } from './CucutaTestBase';
 
 const { ccclass, property, executeInEditMode } = _decorator;
 
@@ -113,7 +114,7 @@ function generateAngles() {
 
 @ccclass('TessellationTest')
 @executeInEditMode
-export class TessellationTest extends UTest {
+export class TessellationTest extends CucutaTestBase {
 
 
     private valor_x:number =15
@@ -158,7 +159,7 @@ export class TessellationTest extends UTest {
     }
 
 
-    @Testeable
+ 
     Tess_ExpectedTrianglesTest_Test(): [boolean, string] {
         let successful = "Triangles lenght as expected"
         let failed = "Triangles length did't matched"
@@ -185,7 +186,7 @@ export class TessellationTest extends UTest {
 
 
 
-    @Testeable
+ 
     Tess_DetectEdges_Test(): [boolean, string] {
         let successful = "Edges were detected succesfully"
         let failed = "Edges were not treated as expected"
@@ -221,7 +222,7 @@ export class TessellationTest extends UTest {
     =======================================================================================
     */
  
-    @Testeable
+ 
     Tess_TesselateSubTriangles_Test(): [boolean, string] {
         let successful = "" // Defined later
         let failed = "" //Definde later
@@ -297,7 +298,7 @@ export class TessellationTest extends UTest {
     =======================================================================================
     */
 
-    @Testeable
+ 
     Tess_TessAlgorithmImprovement_Test(): [boolean, string] {
         let successful = "" // Defined later
         let failed = "" //Definde later
@@ -381,7 +382,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
     }
 
-     @Testeable
+ 
     Tess_Relaxation_Test(): [boolean, string, CustomMeshData] {
         let envolCoords = getEnvolvCoords();
         let successful = "" // Defined later
@@ -422,7 +423,7 @@ export class TessellationTest extends UTest {
 
 
 
-    @Testeable
+ 
     CompareVectorsFunction_Test(): [boolean, string] {
         let successful = "Successfully compared (EQUAL)"
         let failed = "Failed comparing (MUST BE EQUAL)"
@@ -431,7 +432,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
 
     }
-    @Testeable
+ 
     CompareVectorsFunction_2_Test(): [boolean, string] {
         let successful = "Successfully compared (NOT EQUAL)"
         let failed = "Failed comparing (MUST BE NOT EQUAL)"
@@ -440,8 +441,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
 
     }
-
-    @Testeable
+ 
     CompareVectorsFunction_3_Test(): [boolean, string] {
         let successful = "Successfully compared (NOT EQUAL)"
         let failed = "Failed comparing (MUST BE NOT EQUAL)"
@@ -452,7 +452,7 @@ export class TessellationTest extends UTest {
     }
 
 
-    @Testeable
+   
     RoundValue_2Decimals_Test(): [boolean, string] {
         let successful = "Successfully rounded"
         let failed = "Failed to round"
@@ -465,7 +465,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
 
     }
-    @Testeable
+ 
     RoundValue_3Decimals_Test(): [boolean, string] {
         let successful = "Successfully rounded"
         let failed = "Failed to round"
@@ -480,7 +480,7 @@ export class TessellationTest extends UTest {
     }
 
 
-    @Testeable
+ 
     ArrayInsertionFirt_Test(): [boolean, string] {
         let successful = "Successfully first place inserted"
         let failed = "Failed.."
@@ -491,7 +491,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
 
     }
-    @Testeable
+ 
     ArrayInsertionAmong_Test(): [boolean, string] {
         let successful = "Successfully among place inserted"
         let failed = "Failed..."
@@ -501,7 +501,7 @@ export class TessellationTest extends UTest {
         return [testResult, testResult ? successful : failed]
 
     }
-    @Testeable
+   
     ArrayInsertionLast_Test(): [boolean, string] {
         let successful = "Successfully last place inserted"
         let failed = "Failed..."

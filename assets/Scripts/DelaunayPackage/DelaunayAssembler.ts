@@ -190,8 +190,8 @@ const computeUv = function (points: Vec2[], width: number, height: number) {
     let uvs: Vec2[] = [];
     for (const p of points) {
         // The uv origin is the upper left corner
-        let x = math.clamp(0, 1, (p.x + width / 2) / width);
-        let y = math.clamp(0, 1, 1. - (p.y + height / 2) / height);
+        let x = math.clamp(0, 1, (p.x) / (width));
+        let y = math.clamp(0, 1, 1. - (p.y) / (height));
         uvs.push(v2(x, y));
     }
     return uvs;
@@ -296,7 +296,7 @@ export class DelaunayAssembler extends Graphics {
             let my_i_data: number[] = [];
             let my_v_data: Float32List = [];
             if (true) {
-                let theUvs = computeUv(polygonPoints, textureWidth * 2, textureHeight * 2);
+                let theUvs = computeUv(polygonPoints, textureWidth, textureHeight);
                 //  console.log(theUvs)
                 for (let index = 0; index < polygonPoints.length; index++) {
                     pushInto(my_v_data, [polygonPoints[index].x, polygonPoints[index].y, 0, 1, 1, 1, 1, theUvs[index].x, theUvs[index].y]);

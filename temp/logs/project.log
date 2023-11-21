@@ -1,1643 +1,829 @@
-16-11-2023 07:49:39 - verbose: Arguments:
-16-11-2023 07:49:39 - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.3\CocosCreator.exe: true
-16-11-2023 07:49:39 - verbose:   project: C:\Users\jmluc\FracturableObjects
-16-11-2023 07:49:39 - verbose:   can-show-upgrade-dialog: true
-16-11-2023 07:49:39 - verbose:   dev: false
-16-11-2023 07:49:39 - verbose:   home: C:\Users\jmluc\.CocosCreator
-16-11-2023 07:49:39 - verbose:  
-16-11-2023 07:49:43 - verbose: [Package] menu@1.0.0 enable
-16-11-2023 07:49:43 - verbose: [Package] profile@1.0.0 enable
-16-11-2023 07:49:43 - verbose: [Package] project@1.0.4 enable
-16-11-2023 07:49:43 - verbose: [Package] messages@1.0.0 enable
-16-11-2023 07:49:43 - verbose: [Package] program@1.0.3 enable
-16-11-2023 07:49:44 - verbose: [Package] tester@1.0.0 enable
-16-11-2023 07:49:44 - verbose: [Package] information@1.0.0 enable
-16-11-2023 07:49:44 - verbose: [Package] preferences@1.0.0 enable
-16-11-2023 07:49:47 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine
-16-11-2023 07:49:48 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
-16-11-2023 07:49:48 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\native
-16-11-2023 07:49:48 - verbose: [Package] engine@1.0.7 enable
-16-11-2023 07:49:49 - verbose: [Package] programming@1.0.0 enable
-16-11-2023 07:49:49 - verbose: [Package] device@1.0.1 enable
-16-11-2023 07:49:49 - verbose: [Package] ui-kit@1.0.1 enable
-16-11-2023 07:49:49 - verbose: [Package] asset-db@1.0.0 enable
-16-11-2023 07:49:49 - verbose: [Package] scene@1.0.0 enable
-16-11-2023 07:49:50 - verbose: [Package] server@1.0.0 enable
-16-11-2023 07:49:50 - verbose: [Package] utils@1.0.0 enable
-16-11-2023 07:50:11 - verbose: [Package] preview@1.0.1 enable
-16-11-2023 07:50:11 - verbose: [Package] animator@1.0.0 enable
-16-11-2023 07:50:11 - verbose: [Build-plugin] register pkg scene: 2ms
-16-11-2023 07:50:11 - verbose: Builder PluginManager init: 3ms
-16-11-2023 07:50:11 - verbose: [Package] builder@1.3.5 enable
-16-11-2023 07:50:12 - verbose: [Package] shortcuts@1.0.1 enable
-16-11-2023 07:50:12 - verbose: [Package] animation-graph@1.0.0 enable
-16-11-2023 07:50:12 - verbose: [Package] about@1.0.2 enable
-16-11-2023 07:50:12 - verbose: [Package] assets@1.0.0 enable
-16-11-2023 07:50:12 - verbose: [Package] console@1.0.0 enable
-16-11-2023 07:50:13 - verbose: [Package] crash-reporter@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] extension@3.1.1 enable
-16-11-2023 07:50:14 - verbose: [Package] hierarchy@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] inspector@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] light-probe@1.0.4 enable
-16-11-2023 07:50:14 - verbose: [Package] lightmap@1.0.4 enable
-16-11-2023 07:50:14 - verbose: [Package] node-library@1.0.1 enable
-16-11-2023 07:50:14 - verbose: [Package] package-asset@1.0.1 enable
-16-11-2023 07:50:14 - verbose: [Package] process@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] reference-image@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] reflection-probe@1.0.4 enable
-16-11-2023 07:50:14 - verbose: [Package] engine-extends@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] alipay-mini-game@1.0.1 enable
-16-11-2023 07:50:14 - verbose: [Package] android@1.0.1 enable
-16-11-2023 07:50:14 - verbose: [Package] bytedance-mini-game@1.0.2 enable
-16-11-2023 07:50:14 - verbose: [Package] certificate@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] channel-upload-tools@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] fb-instant-games@1.0.0 enable
-16-11-2023 07:50:14 - verbose: [Package] huawei-agc@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] huawei-quick-game@1.0.1 enable
-16-11-2023 07:50:15 - verbose: [Package] ios@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] linux@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] mac@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] native@1.0.2 enable
-16-11-2023 07:50:15 - verbose: [Build-plugin] register pkg native: 166ms
-16-11-2023 07:50:15 - verbose: [Package] ohos@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] open-harmonyos@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] oppo-mini-game@1.0.1 enable
-16-11-2023 07:50:15 - verbose: [Build-plugin] register pkg alipay-mini-game: 1010ms
-16-11-2023 07:50:15 - verbose: [Package] runtime-dev-tools@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] taobao-creative-app@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] taobao-mini-game@1.0.0 enable
-16-11-2023 07:50:15 - verbose: [Package] vivo-mini-game@1.0.1 enable
-16-11-2023 07:50:15 - verbose: [Package] web-desktop@1.0.1 enable
-16-11-2023 07:50:15 - verbose: [Build-plugin] register pkg android: 1170ms
-16-11-2023 07:50:15 - verbose: [Build-plugin] register pkg fb-instant-games: 972ms
-16-11-2023 07:50:15 - verbose: [Package] web-mobile@1.0.1 enable
-16-11-2023 07:50:16 - verbose: [Build-plugin] register pkg bytedance-mini-game: 1135ms
-16-11-2023 07:50:19 - verbose: [Package] cocos-service@3.0.7 enable
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg cocos-service: 125ms
-16-11-2023 07:50:19 - verbose: [Package] wechatgame@1.0.2 enable
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg huawei-agc: 4853ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg mac: 4732ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg taobao-mini-game: 4104ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg ohos: 4238ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg vivo-mini-game: 4089ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg oppo-mini-game: 4201ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg ios: 4819ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg huawei-quick-game: 4863ms
-16-11-2023 07:50:19 - verbose: [Build-plugin] register pkg taobao-creative-app: 4166ms
-16-11-2023 07:50:19 - verbose: asset-db is ready!
-16-11-2023 07:50:19 - verbose: [Package] wechatprogram@1.0.2 enable
-16-11-2023 07:50:19 - verbose: [Package] windows@1.0.1 enable
-16-11-2023 07:50:20 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
-16-11-2023 07:50:21 - verbose: [Package] im-plugin@3.0.10 enable
-16-11-2023 07:50:21 - verbose: [Build-plugin] register pkg web-desktop: 6096ms
-16-11-2023 07:50:22 - verbose: [Build-plugin] register pkg web-mobile: 6019ms
-16-11-2023 07:50:22 - verbose: [Build-plugin] register pkg wechatgame: 2212ms
-16-11-2023 07:50:22 - verbose: [Build-plugin] register pkg windows: 2048ms
-16-11-2023 07:50:22 - verbose: [Package] utester@1.0.0 enable
-16-11-2023 07:50:22 - verbose: [Package] placeholder@1.0.0 enable
-16-11-2023 07:50:22 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 2474ms
-16-11-2023 07:50:30 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
-16-11-2023 07:50:30 - info: [Scene] [PHYSICS]: using builtin.
-16-11-2023 07:50:32 - log: [Scene] Cocos Creator v3.7.3
-16-11-2023 07:50:32 - info: [Scene] Forward render pipeline initialized.
-16-11-2023 07:50:32 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
-16-11-2023 07:50:32 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
-16-11-2023 07:50:32 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
-16-11-2023 07:50:32 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
-16-11-2023 07:50:32 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
-16-11-2023 07:52:48 - log: [Scene] ONLOAD ---
-16-11-2023 07:52:48 - log: [Scene] ANCESTOR
-16-11-2023 07:52:48 - log: [Scene] [
-  Vec2 { x: 0, y: 0 },
-  Vec2 { x: 20, y: 0 },
-  Vec2 { x: 40, y: 0 },
-  Vec2 { x: 40, y: 20 },
-  Vec2 { x: 40, y: 40 },
-  Vec2 { x: 20, y: 40 },
-  Vec2 { x: 0, y: 40 },
-  Vec2 { x: 0, y: 20 }
-]
-16-11-2023 07:52:48 - log: [Scene] ON ENABLE
-16-11-2023 07:52:48 - log: [Scene] ON START
-16-11-2023 07:53:47 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-16-11-2023 07:53:47 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+20-11-2023 18:44:02 - verbose: Arguments:
+20-11-2023 18:44:02 - verbose:   C:\ProgramData\cocos\editors\Creator\3.7.3\CocosCreator.exe: true
+20-11-2023 18:44:02 - verbose:   project: C:\Users\jmluc\FracturableObjects
+20-11-2023 18:44:02 - verbose:   can-show-upgrade-dialog: true
+20-11-2023 18:44:02 - verbose:   dev: false
+20-11-2023 18:44:02 - verbose:   home: C:\Users\jmluc\.CocosCreator
+20-11-2023 18:44:02 - verbose:  
+20-11-2023 18:44:09 - verbose: [Package] menu@1.0.0 enable
+20-11-2023 18:44:09 - verbose: [Package] profile@1.0.0 enable
+20-11-2023 18:44:09 - verbose: [Package] project@1.0.4 enable
+20-11-2023 18:44:09 - verbose: [Package] messages@1.0.0 enable
+20-11-2023 18:44:09 - verbose: [Package] program@1.0.3 enable
+20-11-2023 18:44:09 - verbose: [Package] tester@1.0.0 enable
+20-11-2023 18:44:09 - verbose: [Package] information@1.0.0 enable
+20-11-2023 18:44:09 - verbose: [Package] preferences@1.0.0 enable
+20-11-2023 18:44:13 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine
+20-11-2023 18:44:13 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,dragon-bones,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+20-11-2023 18:44:13 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\native
+20-11-2023 18:44:13 - verbose: [Package] engine@1.0.7 enable
+20-11-2023 18:44:15 - verbose: [Package] programming@1.0.0 enable
+20-11-2023 18:44:15 - verbose: [Package] device@1.0.1 enable
+20-11-2023 18:44:15 - verbose: [Package] ui-kit@1.0.1 enable
+20-11-2023 18:44:15 - verbose: [Package] asset-db@1.0.0 enable
+20-11-2023 18:44:15 - verbose: [Package] scene@1.0.0 enable
+20-11-2023 18:44:16 - verbose: [Package] server@1.0.0 enable
+20-11-2023 18:44:16 - verbose: [Package] utils@1.0.0 enable
+20-11-2023 18:44:29 - verbose: [Package] preview@1.0.1 enable
+20-11-2023 18:44:29 - verbose: [Package] animator@1.0.0 enable
+20-11-2023 18:44:29 - verbose: [Build-plugin] register pkg scene: 3ms
+20-11-2023 18:44:29 - verbose: Builder PluginManager init: 4ms
+20-11-2023 18:44:29 - verbose: [Package] builder@1.3.5 enable
+20-11-2023 18:44:29 - verbose: [Package] shortcuts@1.0.1 enable
+20-11-2023 18:44:30 - verbose: [Package] animation-graph@1.0.0 enable
+20-11-2023 18:44:30 - verbose: [Package] about@1.0.2 enable
+20-11-2023 18:44:30 - verbose: [Package] assets@1.0.0 enable
+20-11-2023 18:44:30 - verbose: [Package] console@1.0.0 enable
+20-11-2023 18:44:30 - verbose: [Package] crash-reporter@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] extension@3.1.1 enable
+20-11-2023 18:44:32 - verbose: [Package] hierarchy@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] inspector@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] light-probe@1.0.4 enable
+20-11-2023 18:44:32 - verbose: [Package] lightmap@1.0.4 enable
+20-11-2023 18:44:32 - verbose: [Package] node-library@1.0.1 enable
+20-11-2023 18:44:32 - verbose: [Package] package-asset@1.0.1 enable
+20-11-2023 18:44:32 - verbose: [Package] process@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] reference-image@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] reflection-probe@1.0.4 enable
+20-11-2023 18:44:32 - verbose: [Package] engine-extends@1.0.0 enable
+20-11-2023 18:44:32 - verbose: [Package] alipay-mini-game@1.0.1 enable
+20-11-2023 18:44:32 - verbose: [Package] android@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Package] bytedance-mini-game@1.0.2 enable
+20-11-2023 18:44:33 - verbose: [Package] certificate@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] channel-upload-tools@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] fb-instant-games@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] huawei-agc@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] huawei-quick-game@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Package] ios@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] linux@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] mac@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] native@1.0.2 enable
+20-11-2023 18:44:33 - verbose: [Build-plugin] register pkg native: 266ms
+20-11-2023 18:44:33 - verbose: [Package] ohos@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] open-harmonyos@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] oppo-mini-game@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Package] runtime-dev-tools@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] taobao-creative-app@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Package] taobao-mini-game@1.0.0 enable
+20-11-2023 18:44:33 - verbose: [Build-plugin] register pkg alipay-mini-game: 940ms
+20-11-2023 18:44:33 - verbose: [Package] vivo-mini-game@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Package] web-desktop@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Build-plugin] register pkg android: 993ms
+20-11-2023 18:44:33 - verbose: [Package] web-mobile@1.0.1 enable
+20-11-2023 18:44:33 - verbose: [Build-plugin] register pkg bytedance-mini-game: 919ms
+20-11-2023 18:44:34 - verbose: [Package] wechatgame@1.0.2 enable
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg fb-instant-games: 877ms
+20-11-2023 18:44:34 - verbose: [Package] wechatprogram@1.0.2 enable
+20-11-2023 18:44:34 - verbose: [Package] windows@1.0.1 enable
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg huawei-agc: 915ms
+20-11-2023 18:44:34 - verbose: [Package] cocos-service@3.0.7 enable
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg cocos-service: 139ms
+20-11-2023 18:44:34 - verbose: [Package] xiaomi-quick-game@1.0.1 enable
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg huawei-quick-game: 1524ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg oppo-mini-game: 975ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg ios: 1502ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg taobao-creative-app: 928ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg taobao-mini-game: 902ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg vivo-mini-game: 879ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg web-desktop: 821ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg web-mobile: 788ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg mac: 1471ms
+20-11-2023 18:44:34 - verbose: [Build-plugin] register pkg ohos: 1056ms
+20-11-2023 18:44:35 - verbose: [Package] im-plugin@3.0.10 enable
+20-11-2023 18:44:35 - verbose: [Build-plugin] register pkg wechatgame: 1240ms
+20-11-2023 18:44:35 - verbose: [Package] cucutatest@1.0.0 enable
+20-11-2023 18:44:35 - verbose: [Package] plugin-import-2x@1.1.10 enable
+20-11-2023 18:44:35 - verbose: [Package] placeholder@1.0.0 enable
+20-11-2023 18:44:35 - verbose: [Build-plugin] register pkg windows: 1559ms
+20-11-2023 18:44:35 - verbose: [Build-plugin] register pkg xiaomi-quick-game: 978ms
+20-11-2023 18:44:36 - verbose: asset-db is ready!
+20-11-2023 18:44:36 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+20-11-2023 18:44:36 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
 https://github.com/highlightjs/highlight.js/issues/2277
-16-11-2023 07:57:12 - log: OPENENING
-16-11-2023 07:57:16 - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
-16-11-2023 07:57:16 - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
-https://github.com/highlightjs/highlight.js/issues/2277
-16-11-2023 07:57:16 - log: [Window] INFO TREE
-16-11-2023 07:57:16 - log: [Window] {
-  name: '~~ UTester Node ~~',
-  active: true,
-  locked: false,
-  type: 'cc.Node',
-  uuid: '99NU663HpNg45CZ+1iZENU',
-  children: [],
-  prefab: {
-    state: 0,
-    isUnwrappable: false,
-    isRevertable: false,
-    isApplicable: false,
-    isAddedChild: false,
-    assetUuid: ''
-  },
-  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
-  path: '~~ UTester Node ~~',
-  isScene: false,
-  readonly: false,
-  components: [
-    {
-      type: 'TessToJsonTest',
-      value: '65uQtKbTFBJ4pvWAcOAABe',
-      extends: [Array]
-    }
-  ]
-}
-16-11-2023 07:57:16 - log: [Window] ..............
-16-11-2023 07:57:28 - log: [Window] uuidTesNode: 99NU663HpNg45CZ+1iZENU
-16-11-2023 07:57:28 - log: [Window] TRUE NAME? TessToJsonTest.ts
-16-11-2023 07:57:28 - log: [Window] INFO TREE
-16-11-2023 07:57:28 - log: [Window] {
-  name: '~~ UTester Node ~~',
-  active: true,
-  locked: false,
-  type: 'cc.Node',
-  uuid: '99NU663HpNg45CZ+1iZENU',
-  children: [],
-  prefab: {
-    state: 0,
-    isUnwrappable: false,
-    isRevertable: false,
-    isApplicable: false,
-    isAddedChild: false,
-    assetUuid: ''
-  },
-  parent: 'f02deb64-e971-42b9-aa77-ab54ab789347',
-  path: '~~ UTester Node ~~',
-  isScene: false,
-  readonly: false,
-  components: [
-    {
-      type: 'TessToJsonTest',
-      value: '65uQtKbTFBJ4pvWAcOAABe',
-      extends: [Array]
-    }
-  ]
-}
-16-11-2023 07:57:28 - log: [Window] ..............
-16-11-2023 07:57:30 - log: [Window] TEST SELECCIONADO: TessToJsonTest
-16-11-2023 07:57:30 - log: [Window] BUTTON PRESSED
-16-11-2023 07:57:30 - log: [Window] 
-16-11-2023 07:57:30 - log: [Window] EXIST!
-16-11-2023 07:57:30 - log: [Window] SELECTED :TessToJsonTest
-16-11-2023 07:57:30 - log: [Window] THE SELECTED: 65uQtKbTFBJ4pvWAcOAABe
-16-11-2023 07:57:30 - log: [Scene] CALLED GET INSTANCE
-16-11-2023 07:57:30 - log: [Scene] CANT OF OBJECTS: 14
-16-11-2023 07:57:30 - log: [Scene] TRIANGLES
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 07:57:30 - log: [Scene] ALL POINTS
-16-11-2023 07:57:30 - log: [Scene] Set(9) {
-  <ref *1> TessPoint {
-    point: Vec2 { x: 0, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *1],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *1],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *2> TessPoint {
-    point: Vec2 { x: 20, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *2],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *2],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *3> TessPoint {
-    point: Vec2 { x: 40, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *3],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *2> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *3],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *4> TessPoint {
-    point: Vec2 { x: 40, y: 20 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *4],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *3> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *4],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *5> TessPoint {
-    point: Vec2 { x: 40, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *5],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *4> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *5],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *6> TessPoint {
-    point: Vec2 { x: 20, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *6],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *5> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *6],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *7> TessPoint {
-    point: Vec2 { x: 0, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *7],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *6> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *7],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *8> TessPoint {
-    point: Vec2 { x: 0, y: 20 },
-    sucessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *8],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *7> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *8],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  TessPoint {
-    point: Vec2 { x: 20, y: 20 },
-    sucessor: undefined,
-    predecessor: undefined,
-    links: Set(6) {
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint]
-    },
-    border: false,
-    toString: [Function (anonymous)]
-  }
-}
-16-11-2023 07:57:30 - log: [Scene] -----------------
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 0
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 1
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 2
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 3
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 4
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 5
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 6
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 7
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 07:57:30 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 07:57:30 - log: [Scene] PUNTO: 8
-16-11-2023 07:57:30 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 07:57:30 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":0.785}]},{"x":20,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":1.571},{"x":40,"y":20,"_angle":0.785}]},{"x":40,"y":0,"border":true,"links":[null]},{"x":40,"y":20,"border":true,"links":[{"x":20,"y":0,"_angle":3.927},{"x":20,"y":20,"_angle":3.142}]},{"x":40,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":3.927}]},{"x":20,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":4.712},{"x":0,"y":20,"_angle":3.927}]},{"x":0,"y":40,"border":true,"links":[null]},{"x":0,"y":20,"border":true,"links":[{"x":20,"y":40,"_angle":0.785},{"x":20,"y":20,"_angle":0}]},{"x":20,"y":20,"border":false,"links":[{"x":40,"y":40,"_angle":0.785},{"x":20,"y":40,"_angle":1.571},{"x":0,"y":20,"_angle":3.142},{"x":0,"y":0,"_angle":3.927},{"x":20,"y":0,"_angle":4.712},{"x":40,"y":20,"_angle":0}]}]
-16-11-2023 07:57:30 - log: [Window] LLEGO DATA PARA DIBUJAR
-16-11-2023 07:57:30 - log: [Window] ADENTRO DE DRAW RETURNED MESH DATA
-16-11-2023 07:57:30 - log: [Window] DATA: [object Object]
-16-11-2023 08:08:47 - log: [Window] BUTTON PRESSED
-16-11-2023 08:08:47 - log: [Window] 
-16-11-2023 08:08:47 - log: [Window] EXIST!
-16-11-2023 08:08:47 - log: [Window] SELECTED :TessToJsonTest
-16-11-2023 08:08:47 - log: [Window] THE SELECTED: 65uQtKbTFBJ4pvWAcOAABe
-16-11-2023 08:08:47 - log: [Scene] CALLED GET INSTANCE
-16-11-2023 08:08:47 - log: [Scene] CANT OF OBJECTS: 14
-16-11-2023 08:08:47 - log: [Scene] TRIANGLES
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:08:47 - log: [Scene] ALL POINTS
-16-11-2023 08:08:47 - log: [Scene] Set(9) {
-  <ref *1> TessPoint {
-    point: Vec2 { x: 0, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *1],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *1],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *2> TessPoint {
-    point: Vec2 { x: 20, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *2],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *2],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *3> TessPoint {
-    point: Vec2 { x: 40, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *3],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *2> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *3],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *4> TessPoint {
-    point: Vec2 { x: 40, y: 20 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *4],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *3> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *4],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *5> TessPoint {
-    point: Vec2 { x: 40, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *5],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *4> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *5],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *6> TessPoint {
-    point: Vec2 { x: 20, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *6],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *5> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *6],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *7> TessPoint {
-    point: Vec2 { x: 0, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *7],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *6> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *7],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *8> TessPoint {
-    point: Vec2 { x: 0, y: 20 },
-    sucessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *8],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *7> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *8],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  TessPoint {
-    point: Vec2 { x: 20, y: 20 },
-    sucessor: undefined,
-    predecessor: undefined,
-    links: Set(6) {
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint]
-    },
-    border: false,
-    toString: [Function (anonymous)]
-  }
-}
-16-11-2023 08:08:47 - log: [Scene] -----------------
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 0
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 1
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 2
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 3
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 4
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 5
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 6
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 7
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:08:47 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:08:47 - log: [Scene] PUNTO: 8
-16-11-2023 08:08:47 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:08:47 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":0.785}]},{"x":20,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":1.571},{"x":40,"y":20,"_angle":0.785}]},{"x":40,"y":0,"border":true,"links":[null]},{"x":40,"y":20,"border":true,"links":[{"x":20,"y":0,"_angle":3.927},{"x":20,"y":20,"_angle":3.142}]},{"x":40,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":3.927}]},{"x":20,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":4.712},{"x":0,"y":20,"_angle":3.927}]},{"x":0,"y":40,"border":true,"links":[null]},{"x":0,"y":20,"border":true,"links":[{"x":20,"y":40,"_angle":0.785},{"x":20,"y":20,"_angle":0}]},{"x":20,"y":20,"border":false,"links":[{"x":40,"y":40,"_angle":0.785},{"x":20,"y":40,"_angle":1.571},{"x":0,"y":20,"_angle":3.142},{"x":0,"y":0,"_angle":3.927},{"x":20,"y":0,"_angle":4.712},{"x":40,"y":20,"_angle":0}]}]
-16-11-2023 08:08:47 - log: [Window] LLEGO DATA PARA DIBUJAR
-16-11-2023 08:08:47 - log: [Window] ADENTRO DE DRAW RETURNED MESH DATA
-16-11-2023 08:08:47 - log: [Window] DATA: [object Object]
-16-11-2023 08:08:48 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
-16-11-2023 08:08:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
-16-11-2023 08:08:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
-16-11-2023 08:08:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
-16-11-2023 08:08:48 - log: [Scene] ONLOAD ---
-16-11-2023 08:08:48 - log: [Scene] ANCESTOR
-16-11-2023 08:08:48 - log: [Scene] [
-  Vec2 { x: 0, y: 0 },
-  Vec2 { x: 20, y: 0 },
-  Vec2 { x: 40, y: 0 },
-  Vec2 { x: 40, y: 20 },
-  Vec2 { x: 40, y: 40 },
-  Vec2 { x: 20, y: 40 },
-  Vec2 { x: 0, y: 40 },
-  Vec2 { x: 0, y: 20 }
+20-11-2023 18:44:36 - error: [Window] Cannot read property 'children' of nullTypeError: Cannot read property 'children' of null
+    at C:\Users\jmluc\FracturableObjects\extensions\cucutatest\dist\panels\main\index.js:106:19
+    at async initTestNode (C:\Users\jmluc\FracturableObjects\extensions\cucutatest\dist\panels\main\index.js:104:13)
+20-11-2023 18:44:47 - info: [Scene] [Physics][Bullet]: Using asmjs Bullet libs.
+20-11-2023 18:44:47 - info: [Scene] [PHYSICS]: using builtin.
+20-11-2023 18:44:48 - log: [Scene] Cocos Creator v3.7.3
+20-11-2023 18:44:48 - info: [Scene] Forward render pipeline initialized.
+20-11-2023 18:44:48 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 18:44:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 18:44:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 18:44:48 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 18:44:48 - info: [Scene] [PHYSICS2D]: switch from builtin to box2d.
+20-11-2023 18:44:49 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 18:44:49 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 18:44:49 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 18:44:49 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 18:44:49 - log: [Scene] ONLOAD ---
+20-11-2023 18:44:49 - log: [Scene] ANCESTOR
+20-11-2023 18:44:49 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
 ]
-16-11-2023 08:08:48 - log: [Scene] ON ENABLE
-16-11-2023 08:08:48 - log: [Scene] ON START
-16-11-2023 08:09:00 - log: [Window] BUTTON PRESSED
-16-11-2023 08:09:00 - log: [Window] 
-16-11-2023 08:09:00 - log: [Window] EXIST!
-16-11-2023 08:09:00 - log: [Window] SELECTED :TessToJsonTest
-16-11-2023 08:09:00 - log: [Window] THE SELECTED: 65uQtKbTFBJ4pvWAcOAABe
-16-11-2023 08:09:00 - log: [Scene] CALLED GET INSTANCE
-16-11-2023 08:09:00 - log: [Scene] CANT OF OBJECTS: 20
-16-11-2023 08:09:00 - log: [Scene] TRIANGLES
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:09:00 - log: [Scene] ALL POINTS
-16-11-2023 08:09:00 - log: [Scene] Set(9) {
-  <ref *1> TessPoint {
-    point: Vec2 { x: 0, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *1],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *1],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *2> TessPoint {
-    point: Vec2 { x: 20, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *2],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *2],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *3> TessPoint {
-    point: Vec2 { x: 40, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *3],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *2> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *3],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *4> TessPoint {
-    point: Vec2 { x: 40, y: 20 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *4],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *3> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *4],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *5> TessPoint {
-    point: Vec2 { x: 40, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *5],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *4> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *5],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *6> TessPoint {
-    point: Vec2 { x: 20, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *6],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *5> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *6],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *7> TessPoint {
-    point: Vec2 { x: 0, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *7],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *6> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *7],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *8> TessPoint {
-    point: Vec2 { x: 0, y: 20 },
-    sucessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *8],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *7> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *8],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  TessPoint {
-    point: Vec2 { x: 20, y: 20 },
-    sucessor: undefined,
-    predecessor: undefined,
-    links: Set(6) {
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint]
-    },
-    border: false,
-    toString: [Function (anonymous)]
-  }
-}
-16-11-2023 08:09:00 - log: [Scene] -----------------
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 0
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 1
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 2
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 3
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 4
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 5
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 6
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 7
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 8
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:09:00 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":0.785}]},{"x":20,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":1.571},{"x":40,"y":20,"_angle":0.785}]},{"x":40,"y":0,"border":true,"links":[null]},{"x":40,"y":20,"border":true,"links":[{"x":20,"y":0,"_angle":3.927},{"x":20,"y":20,"_angle":3.142}]},{"x":40,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":3.927}]},{"x":20,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":4.712},{"x":0,"y":20,"_angle":3.927}]},{"x":0,"y":40,"border":true,"links":[null]},{"x":0,"y":20,"border":true,"links":[{"x":20,"y":40,"_angle":0.785},{"x":20,"y":20,"_angle":0}]},{"x":20,"y":20,"border":false,"links":[{"x":40,"y":40,"_angle":0.785},{"x":20,"y":40,"_angle":1.571},{"x":0,"y":20,"_angle":3.142},{"x":0,"y":0,"_angle":3.927},{"x":20,"y":0,"_angle":4.712},{"x":40,"y":20,"_angle":0}]}]
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 0
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 1
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 2
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 3
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 4
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 5
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 6
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 7
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:09:00 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:09:00 - log: [Scene] PUNTO: 8
-16-11-2023 08:09:00 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:09:00 - log: [Window] LLEGO DATA PARA DIBUJAR
-16-11-2023 08:09:00 - log: [Window] ADENTRO DE DRAW RETURNED MESH DATA
-16-11-2023 08:09:00 - log: [Window] DATA: [object Object]
-16-11-2023 08:19:14 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
-16-11-2023 08:19:14 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
-16-11-2023 08:19:14 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
-16-11-2023 08:19:14 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
-16-11-2023 08:19:14 - log: [Scene] ONLOAD ---
-16-11-2023 08:19:14 - log: [Scene] ANCESTOR
-16-11-2023 08:19:14 - log: [Scene] [
-  Vec2 { x: 0, y: 0 },
-  Vec2 { x: 20, y: 0 },
-  Vec2 { x: 40, y: 0 },
-  Vec2 { x: 40, y: 20 },
-  Vec2 { x: 40, y: 40 },
-  Vec2 { x: 20, y: 40 },
-  Vec2 { x: 0, y: 40 },
-  Vec2 { x: 0, y: 20 }
+20-11-2023 18:44:49 - log: [Scene] ON ENABLE
+20-11-2023 18:44:49 - log: [Scene] ON START
+20-11-2023 18:57:57 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 18:57:57 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 18:57:57 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 18:57:57 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 18:57:57 - log: [Scene] ONLOAD ---
+20-11-2023 18:57:57 - log: [Scene] ANCESTOR
+20-11-2023 18:57:57 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
 ]
-16-11-2023 08:19:14 - log: [Scene] ON ENABLE
-16-11-2023 08:19:14 - log: [Scene] ON START
-16-11-2023 08:19:14 - log: [Window] BUTTON PRESSED
-16-11-2023 08:19:14 - log: [Window] 
-16-11-2023 08:19:14 - log: [Window] EXIST!
-16-11-2023 08:19:14 - log: [Window] SELECTED :TessToJsonTest
-16-11-2023 08:19:14 - log: [Window] THE SELECTED: 65uQtKbTFBJ4pvWAcOAABe
-16-11-2023 08:19:14 - log: [Scene] CALLED GET INSTANCE
-16-11-2023 08:19:14 - log: [Scene] CANT OF OBJECTS: 20
-16-11-2023 08:19:14 - log: [Scene] TRIANGLES
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] TRIANGLE :: (40,40,true)|(20,40,true)|(20,20,false)
-,TRIANGLE :: (20,40,true)|(0,40,true)|(0,20,true)
-,TRIANGLE :: (0,20,true)|(0,0,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,40,true)|(0,20,true)
-,TRIANGLE :: (0,0,true)|(20,0,true)|(20,20,false)
-,TRIANGLE :: (20,0,true)|(40,0,true)|(40,20,true)
-,TRIANGLE :: (40,20,true)|(40,40,true)|(20,20,false)
-,TRIANGLE :: (20,20,false)|(20,0,true)|(40,20,true)
-
-16-11-2023 08:19:14 - log: [Scene] ALL POINTS
-16-11-2023 08:19:14 - log: [Scene] Set(9) {
-  <ref *1> TessPoint {
-    point: Vec2 { x: 0, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *1],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *1],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *2> TessPoint {
-    point: Vec2 { x: 20, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *2],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *2],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *3> TessPoint {
-    point: Vec2 { x: 40, y: 0 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *3],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *2> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *3],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *4> TessPoint {
-    point: Vec2 { x: 40, y: 20 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *4],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *3> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *4],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *5> TessPoint {
-    point: Vec2 { x: 40, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *5],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *4> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *5],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(3) { [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *6> TessPoint {
-    point: Vec2 { x: 20, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *6],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *5> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *6],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *7> TessPoint {
-    point: Vec2 { x: 0, y: 40 },
-    sucessor: TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *7],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *6> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *7],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(2) { [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  <ref *8> TessPoint {
-    point: Vec2 { x: 0, y: 20 },
-    sucessor: <ref *1> TessPoint {
-      point: [Vec2],
-      sucessor: [TessPoint],
-      predecessor: [Circular *8],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    predecessor: <ref *7> TessPoint {
-      point: [Vec2],
-      sucessor: [Circular *8],
-      predecessor: [TessPoint],
-      links: [Set],
-      border: true,
-      toString: [Function (anonymous)]
-    },
-    links: Set(4) { [TessPoint], [TessPoint], [TessPoint], [TessPoint] },
-    border: true,
-    toString: [Function (anonymous)]
-  },
-  TessPoint {
-    point: Vec2 { x: 20, y: 20 },
-    sucessor: undefined,
-    predecessor: undefined,
-    links: Set(6) {
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint],
-      [TessPoint]
-    },
-    border: false,
-    toString: [Function (anonymous)]
-  }
-}
-16-11-2023 08:19:14 - log: [Scene] -----------------
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 0
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 1
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 2
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 3
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 4
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 5
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 6
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 7
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 8
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:19:14 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":0.785}]},{"x":20,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":1.571},{"x":40,"y":20,"_angle":0.785}]},{"x":40,"y":0,"border":true,"links":[null]},{"x":40,"y":20,"border":true,"links":[{"x":20,"y":0,"_angle":3.927},{"x":20,"y":20,"_angle":3.142}]},{"x":40,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":3.927}]},{"x":20,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":4.712},{"x":0,"y":20,"_angle":3.927}]},{"x":0,"y":40,"border":true,"links":[null]},{"x":0,"y":20,"border":true,"links":[{"x":20,"y":40,"_angle":0.785},{"x":20,"y":20,"_angle":0}]},{"x":20,"y":20,"border":false,"links":[{"x":40,"y":40,"_angle":0.785},{"x":20,"y":40,"_angle":1.571},{"x":0,"y":20,"_angle":3.142},{"x":0,"y":0,"_angle":3.927},{"x":20,"y":0,"_angle":4.712},{"x":40,"y":20,"_angle":0}]}]
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 0
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 1
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 2
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 3
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 4
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 5
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 6
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 7
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:19:14 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:19:14 - log: [Scene] PUNTO: 8
-16-11-2023 08:19:14 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:19:14 - log: [Window] LLEGO DATA PARA DIBUJAR
-16-11-2023 08:19:14 - log: [Window] ADENTRO DE DRAW RETURNED MESH DATA
-16-11-2023 08:19:14 - log: [Window] DATA: [object Object]
-16-11-2023 08:24:17 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
-16-11-2023 08:24:17 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
-16-11-2023 08:24:17 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
-16-11-2023 08:24:17 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
-16-11-2023 08:24:18 - log: [Scene] ONLOAD ---
-16-11-2023 08:24:18 - log: [Scene] ANCESTOR
-16-11-2023 08:24:18 - log: [Scene] [
-  Vec2 { x: 0, y: 0 },
-  Vec2 { x: 20, y: 0 },
-  Vec2 { x: 40, y: 0 },
-  Vec2 { x: 40, y: 20 },
-  Vec2 { x: 40, y: 40 },
-  Vec2 { x: 20, y: 40 },
-  Vec2 { x: 0, y: 40 },
-  Vec2 { x: 0, y: 20 }
+20-11-2023 18:57:57 - log: [Scene] ON ENABLE
+20-11-2023 18:57:57 - log: [Scene] ON START
+20-11-2023 18:57:57 - log: [Scene] [class plainVertex extends Vec2]
+20-11-2023 18:58:16 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 18:58:16 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 18:58:16 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 18:58:16 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 18:58:16 - log: [Scene] ONLOAD ---
+20-11-2023 18:58:16 - log: [Scene] ANCESTOR
+20-11-2023 18:58:16 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
 ]
-16-11-2023 08:24:18 - log: [Scene] ON ENABLE
-16-11-2023 08:24:18 - log: [Scene] ON START
-16-11-2023 08:24:19 - log: [Window] BUTTON PRESSED
-16-11-2023 08:24:19 - log: [Window] 
-16-11-2023 08:24:19 - log: [Window] EXIST!
-16-11-2023 08:24:19 - log: [Window] SELECTED :TessToJsonTest
-16-11-2023 08:24:19 - log: [Window] THE SELECTED: 65uQtKbTFBJ4pvWAcOAABe
-16-11-2023 08:24:19 - log: [Scene] CALLED GET INSTANCE
-16-11-2023 08:24:19 - log: [Scene] CANT OF OBJECTS: 17
-16-11-2023 08:24:19 - log: [Scene] JSON
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 0
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 1
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 2
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 3
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 4
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 5
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 6
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 7
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 8
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:24:19 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":0.785}]},{"x":20,"y":0,"border":true,"links":[{"x":20,"y":20,"_angle":1.571},{"x":40,"y":20,"_angle":0.785}]},{"x":40,"y":0,"border":true,"links":[null]},{"x":40,"y":20,"border":true,"links":[{"x":20,"y":0,"_angle":3.927},{"x":20,"y":20,"_angle":3.142}]},{"x":40,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":3.927}]},{"x":20,"y":40,"border":true,"links":[{"x":20,"y":20,"_angle":4.712},{"x":0,"y":20,"_angle":3.927}]},{"x":0,"y":40,"border":true,"links":[null]},{"x":0,"y":20,"border":true,"links":[{"x":20,"y":40,"_angle":0.785},{"x":20,"y":20,"_angle":0}]},{"x":20,"y":20,"border":false,"links":[{"x":40,"y":40,"_angle":0.785},{"x":20,"y":40,"_angle":1.571},{"x":0,"y":20,"_angle":3.142},{"x":0,"y":0,"_angle":3.927},{"x":20,"y":0,"_angle":4.712},{"x":40,"y":20,"_angle":0}]}]
-16-11-2023 08:24:19 - log: [Scene] 
-
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 0
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 20.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 1
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (40.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 2
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 0 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (40.00, 20.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 3
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 20 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 0.00)   SUCESSOR: (40.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 4
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 40, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 20.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 5
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (40.00, 40.00)   SUCESSOR: (0.00, 40.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 6
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 40 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (0.00, 20.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 7
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 0, y: 20 }
-16-11-2023 08:24:19 - log: [Scene] PREDECESSOR: (0.00, 40.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:24:19 - log: [Scene] PUNTO: 8
-16-11-2023 08:24:19 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:24:20 - log: [Window] LLEGO DATA PARA DIBUJAR
-16-11-2023 08:24:20 - log: [Window] ADENTRO DE DRAW RETURNED MESH DATA
-16-11-2023 08:24:20 - log: [Window] DATA: [object Object]
-16-11-2023 08:24:20 - log: [Scene] JSON
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 0
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 0, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (0.00, 30.00)   SUCESSOR: (10.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 1
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 10, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (0.00, 0.00)   SUCESSOR: (20.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 2
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 20, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (10.00, 0.00)   SUCESSOR: (20.00, 20.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 3
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 20, y: 20 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (20.00, 0.00)   SUCESSOR: (20.00, 40.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 4
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 20, y: 40 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (20.00, 20.00)   SUCESSOR: (70.00, 40.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 5
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 70, y: 40 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (20.00, 40.00)   SUCESSOR: (120.00, 40.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 6
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 120, y: 40 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (70.00, 40.00)   SUCESSOR: (120.00, 20.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 7
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 120, y: 20 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (120.00, 40.00)   SUCESSOR: (120.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 8
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 120, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (120.00, 20.00)   SUCESSOR: (130.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 9
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 130, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (120.00, 0.00)   SUCESSOR: (140.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 10
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 140, y: 0 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (130.00, 0.00)   SUCESSOR: (140.00, 30.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 11
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 140, y: 30 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (140.00, 0.00)   SUCESSOR: (140.00, 60.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 12
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 140, y: 60 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (140.00, 30.00)   SUCESSOR: (70.00, 60.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 13
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 70, y: 60 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (140.00, 60.00)   SUCESSOR: (0.00, 60.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 14
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 0, y: 60 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (70.00, 60.00)   SUCESSOR: (0.00, 30.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 15
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 0, y: 30 }
-16-11-2023 08:24:20 - log: [Scene] PREDECESSOR: (0.00, 60.00)   SUCESSOR: (0.00, 0.00)
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 16
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 10, y: 30 }
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 17
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 130, y: 20 }
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 18
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 10, y: 50 }
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 19
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 130, y: 50 }
-16-11-2023 08:24:20 - log: [Scene] PUNTO: 20
-16-11-2023 08:24:20 - log: [Scene] Vec2 { x: 80, y: 50 }
-16-11-2023 08:24:20 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[null]},{"x":10,"y":0,"border":true,"links":[{"x":0,"y":30,"_angle":1.893},{"x":10,"y":30,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[{"x":10,"y":30,"_angle":1.893}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":30,"_angle":2.356},{"x":10,"y":50,"_angle":1.893}]},{"x":20,"y":40,"border":true,"links":[{"x":10,"y":50,"_angle":2.356},{"x":80,"y":50,"_angle":0.165}]},{"x":70,"y":40,"border":true,"links":[{"x":80,"y":50,"_angle":0.785},{"x":130,"y":50,"_angle":0.165}]},{"x":120,"y":40,"border":true,"links":[{"x":130,"y":20,"_angle":5.176},{"x":130,"y":50,"_angle":0.785}]},{"x":120,"y":20,"border":true,"links":[{"x":130,"y":20,"_angle":0},{"x":130,"y":0,"_angle":5.176}]},{"x":120,"y":0,"border":true,"links":[null]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":20,"_angle":2.034},{"x":130,"y":20,"_angle":1.571}]},{"x":140,"y":0,"border":true,"links":[{"x":130,"y":20,"_angle":2.034}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":20,"_angle":3.927},{"x":130,"y":50,"_angle":2.034}]},{"x":140,"y":60,"border":true,"links":[{"x":130,"y":50,"_angle":3.927},{"x":80,"y":50,"_angle":3.307}]},{"x":70,"y":60,"border":true,"links":[{"x":80,"y":50,"_angle":5.498},{"x":10,"y":50,"_angle":3.307}]},{"x":0,"y":60,"border":true,"links":[{"x":10,"y":30,"_angle":5.034},{"x":10,"y":50,"_angle":5.498}]},{"x":0,"y":30,"border":true,"links":[{"x":10,"y":30,"_angle":0},{"x":10,"y":0,"_angle":5.034}]},{"x":10,"y":30,"border":false,"links":[{"x":0,"y":60,"_angle":1.893},{"x":0,"y":30,"_angle":3.142},{"x":10,"y":0,"_angle":4.712},{"x":20,"y":0,"_angle":5.034},{"x":10,"y":50,"_angle":1.571},{"x":20,"y":20,"_angle":5.498}]},{"x":130,"y":20,"border":false,"links":[{"x":120,"y":40,"_angle":2.034},{"x":120,"y":20,"_angle":3.142},{"x":130,"y":0,"_angle":4.712},{"x":140,"y":0,"_angle":5.176},{"x":130,"y":50,"_angle":1.571},{"x":140,"y":30,"_angle":0.785}]},{"x":10,"y":50,"border":false,"links":[{"x":0,"y":60,"_angle":2.356},{"x":10,"y":30,"_angle":4.712},{"x":20,"y":20,"_angle":5.034},{"x":20,"y":40,"_angle":5.498},{"x":70,"y":60,"_angle":0.165},{"x":80,"y":50,"_angle":0}]},{"x":130,"y":50,"border":false,"links":[{"x":120,"y":40,"_angle":3.927},{"x":130,"y":20,"_angle":4.712},{"x":140,"y":30,"_angle":5.176},{"x":140,"y":60,"_angle":0.785},{"x":70,"y":40,"_angle":3.307},{"x":80,"y":50,"_angle":3.142}]},{"x":80,"y":50,"border":false,"links":[{"x":140,"y":60,"_angle":0.165},{"x":70,"y":60,"_angle":2.356},{"x":10,"y":50,"_angle":3.142},{"x":20,"y":40,"_angle":3.307},{"x":70,"y":40,"_angle":3.927},{"x":130,"y":50,"_angle":0}]}]
-16-11-2023 08:24:20 - log: [Scene] 
-
+20-11-2023 18:58:16 - log: [Scene] ON ENABLE
+20-11-2023 18:58:16 - log: [Scene] ON START
+20-11-2023 18:58:16 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 18:58:16 - log: [Scene] [class plainVertex extends Vec2]
+20-11-2023 18:58:42 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 18:58:42 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 18:58:42 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 18:58:42 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 18:58:42 - log: [Scene] ONLOAD ---
+20-11-2023 18:58:42 - log: [Scene] ANCESTOR
+20-11-2023 18:58:42 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 18:58:42 - log: [Scene] ON ENABLE
+20-11-2023 18:58:43 - log: [Scene] ON START
+20-11-2023 18:58:43 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 18:58:43 - log: [Scene] undefined
+20-11-2023 19:36:05 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:36:05 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:36:05 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:36:05 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:36:05 - log: [Scene] ONLOAD ---
+20-11-2023 19:36:05 - log: [Scene] ANCESTOR
+20-11-2023 19:36:05 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:36:05 - log: [Scene] ON ENABLE
+20-11-2023 19:36:05 - log: [Scene] ON START
+20-11-2023 19:36:05 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:36:05 - error: [Scene] Cannot read property 'x' of nullTypeError: Cannot read property 'x' of null
+    at plainVertex.toString (file:///C:/Users/jmluc/FracturableObjects/temp/programming/packer-driver/targets/editor/chunks/95/file:/C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts:37:35)
+    at Delaunay.start (file:///C:/Users/jmluc/FracturableObjects/temp/programming/packer-driver/targets/editor/chunks/95/file:/C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts:325:41)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43960:16)
+    at OneOffInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43773:9)
+    at OneOffInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43897:18)
+    at ComponentScheduler.startPhase (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44155:29)
+    at Director.tick (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:20166:35)
+    at EngineManager.tickInEditMode (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\app.asar\builtin\scene\dist\script\3d\manager\engine\index.ccc:1:2996)
+    at EngineManager._tick (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\app.asar\builtin\scene\dist\script\3d\manager\engine\index.ccc:1:4096)
+20-11-2023 19:38:44 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:38:44 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:38:44 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:38:44 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:38:44 - log: [Scene] ONLOAD ---
+20-11-2023 19:38:44 - log: [Scene] ANCESTOR
+20-11-2023 19:38:44 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:38:44 - log: [Scene] ON ENABLE
+20-11-2023 19:38:44 - log: [Scene] ON START
+20-11-2023 19:38:44 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:38:44 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[]},{"x":10,"y":0,"border":true,"links":[{"x":20,"y":10,"_angle":0.785},{"x":0,"y":10,"_angle":2.356},{"x":10,"y":13,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[]},{"x":20,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":3.927},{"x":10,"y":13,"_angle":2.85}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":3.752},{"x":11,"y":26,"_angle":2.554}]},{"x":20,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":2.4},{"x":11,"y":26,"_angle":3.56}]},{"x":20,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":3.058},{"x":18,"y":47,"_angle":1.849}]},{"x":30,"y":40,"border":true,"links":[{"x":18,"y":47,"_angle":2.614},{"x":31,"y":52,"_angle":1.488}]},{"x":40,"y":40,"border":true,"links":[{"x":31,"y":52,"_angle":2.214},{"x":48,"y":48,"_angle":0.785}]},{"x":50,"y":40,"border":true,"links":[{"x":48,"y":48,"_angle":1.816},{"x":60,"y":51,"_angle":0.833}]},{"x":60,"y":40,"border":true,"links":[{"x":60,"y":51,"_angle":1.571},{"x":68,"y":52,"_angle":0.983}]},{"x":70,"y":40,"border":true,"links":[{"x":68,"y":52,"_angle":1.736},{"x":81,"y":49,"_angle":0.686}]},{"x":80,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":1.46}]},{"x":90,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":2.356},{"x":90,"y":52,"_angle":1.571},{"x":99,"y":50,"_angle":0.838}]},{"x":100,"y":40,"border":true,"links":[{"x":99,"y":50,"_angle":1.67},{"x":110,"y":51,"_angle":0.833}]},{"x":110,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":1.571}]},{"x":120,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":2.309},{"x":119,"y":52,"_angle":1.654},{"x":128,"y":49,"_angle":0.844},{"x":130,"y":41,"_angle":0.1}]},{"x":120,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":0.833},{"x":131,"y":26,"_angle":5.934}]},{"x":120,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":5.564},{"x":131,"y":26,"_angle":0.499}]},{"x":120,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":5.498},{"x":128,"y":13,"_angle":0.359}]},{"x":120,"y":0,"border":true,"links":[]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":10,"_angle":2.356},{"x":140,"y":10,"_angle":0.785},{"x":128,"y":13,"_angle":1.723}]},{"x":140,"y":0,"border":true,"links":[]},{"x":140,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":3.927},{"x":128,"y":13,"_angle":2.897}]},{"x":140,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":3.67},{"x":131,"y":26,"_angle":2.554}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":2.309},{"x":131,"y":26,"_angle":3.56}]},{"x":140,"y":40,"border":true,"links":[{"x":130,"y":41,"_angle":3.042}]},{"x":140,"y":50,"border":true,"links":[{"x":130,"y":60,"_angle":2.356},{"x":128,"y":49,"_angle":3.225},{"x":130,"y":41,"_angle":3.874}]},{"x":140,"y":60,"border":true,"links":[]},{"x":130,"y":60,"border":true,"links":[{"x":140,"y":50,"_angle":5.498},{"x":119,"y":52,"_angle":3.77},{"x":128,"y":49,"_angle":4.533}]},{"x":120,"y":60,"border":true,"links":[{"x":119,"y":52,"_angle":4.588}]},{"x":110,"y":60,"border":true,"links":[{"x":110,"y":51,"_angle":4.712},{"x":119,"y":52,"_angle":5.557}]},{"x":100,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":3.816},{"x":99,"y":50,"_angle":4.613},{"x":110,"y":51,"_angle":5.55}]},{"x":90,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":4.712}]},{"x":80,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":3.73},{"x":81,"y":49,"_angle":4.803},{"x":90,"y":52,"_angle":5.608}]},{"x":70,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":4.467}]},{"x":60,"y":60,"border":true,"links":[{"x":60,"y":51,"_angle":4.712},{"x":68,"y":52,"_angle":5.498}]},{"x":50,"y":60,"border":true,"links":[{"x":48,"y":48,"_angle":4.547},{"x":60,"y":51,"_angle":5.55}]},{"x":40,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":3.868},{"x":48,"y":48,"_angle":5.3}]},{"x":30,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":4.837}]},{"x":20,"y":60,"border":true,"links":[{"x":18,"y":47,"_angle":4.56},{"x":31,"y":52,"_angle":5.654}]},{"x":10,"y":60,"border":true,"links":[{"x":0,"y":50,"_angle":3.927},{"x":9,"y":48,"_angle":4.629},{"x":18,"y":47,"_angle":5.264}]},{"x":0,"y":60,"border":true,"links":[]},{"x":0,"y":50,"border":true,"links":[{"x":10,"y":60,"_angle":0.785},{"x":8,"y":41,"_angle":5.439},{"x":9,"y":48,"_angle":6.065}]},{"x":0,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":0.124}]},{"x":0,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":0.942},{"x":11,"y":26,"_angle":5.934}]},{"x":0,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":5.672},{"x":11,"y":26,"_angle":0.499}]},{"x":0,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":5.498},{"x":10,"y":13,"_angle":0.291}]},{"x":8,"y":41,"border":false,"links":[{"x":0,"y":50,"_angle":2.297},{"x":0,"y":40,"_angle":3.266},{"x":20,"y":30,"_angle":5.541},{"x":20,"y":40,"_angle":6.2},{"x":0,"y":30,"_angle":4.084},{"x":9,"y":48,"_angle":1.429},{"x":11,"y":26,"_angle":4.91},{"x":18,"y":47,"_angle":0.54}]},{"x":9,"y":48,"border":false,"links":[{"x":10,"y":60,"_angle":1.488},{"x":0,"y":50,"_angle":2.923},{"x":8,"y":41,"_angle":4.57},{"x":18,"y":47,"_angle":6.173}]},{"x":10,"y":13,"border":false,"links":[{"x":10,"y":0,"_angle":4.712},{"x":20,"y":10,"_angle":5.992},{"x":0,"y":10,"_angle":3.433},{"x":20,"y":20,"_angle":0.611},{"x":0,"y":20,"_angle":2.531},{"x":11,"y":26,"_angle":1.494}]},{"x":11,"y":26,"border":false,"links":[{"x":20,"y":20,"_angle":5.695},{"x":20,"y":30,"_angle":0.418},{"x":0,"y":30,"_angle":2.793},{"x":0,"y":20,"_angle":3.641},{"x":8,"y":41,"_angle":1.768},{"x":10,"y":13,"_angle":4.636}]},{"x":18,"y":47,"border":false,"links":[{"x":20,"y":40,"_angle":4.991},{"x":30,"y":40,"_angle":5.755},{"x":20,"y":60,"_angle":1.418},{"x":10,"y":60,"_angle":2.122},{"x":9,"y":48,"_angle":3.031},{"x":8,"y":41,"_angle":3.682},{"x":31,"y":52,"_angle":0.367}]},{"x":31,"y":52,"border":false,"links":[{"x":30,"y":40,"_angle":4.629},{"x":40,"y":40,"_angle":5.356},{"x":40,"y":60,"_angle":0.727},{"x":30,"y":60,"_angle":1.695},{"x":18,"y":47,"_angle":3.509},{"x":20,"y":60,"_angle":2.513},{"x":48,"y":48,"_angle":6.052}]},{"x":48,"y":48,"border":false,"links":[{"x":40,"y":40,"_angle":3.927},{"x":50,"y":40,"_angle":4.957},{"x":50,"y":60,"_angle":1.406},{"x":40,"y":60,"_angle":2.159},{"x":31,"y":52,"_angle":2.911},{"x":60,"y":51,"_angle":0.245}]},{"x":60,"y":51,"border":false,"links":[{"x":50,"y":40,"_angle":3.975},{"x":60,"y":40,"_angle":4.712},{"x":48,"y":48,"_angle":3.387},{"x":60,"y":60,"_angle":1.571},{"x":50,"y":60,"_angle":2.409},{"x":68,"y":52,"_angle":0.124}]},{"x":68,"y":52,"border":false,"links":[{"x":80,"y":60,"_angle":0.588},{"x":70,"y":60,"_angle":1.326},{"x":60,"y":40,"_angle":4.124},{"x":70,"y":40,"_angle":4.878},{"x":60,"y":51,"_angle":3.266},{"x":60,"y":60,"_angle":2.356},{"x":81,"y":49,"_angle":6.056}]},{"x":81,"y":49,"border":false,"links":[{"x":80,"y":40,"_angle":4.602},{"x":90,"y":40,"_angle":5.498},{"x":70,"y":40,"_angle":3.827},{"x":68,"y":52,"_angle":2.915},{"x":80,"y":60,"_angle":1.661},{"x":90,"y":52,"_angle":0.322}]},{"x":90,"y":52,"border":false,"links":[{"x":100,"y":60,"_angle":0.675},{"x":90,"y":60,"_angle":1.571},{"x":81,"y":49,"_angle":3.463},{"x":90,"y":40,"_angle":4.712},{"x":80,"y":60,"_angle":2.467},{"x":99,"y":50,"_angle":6.065}]},{"x":99,"y":50,"border":false,"links":[{"x":90,"y":40,"_angle":3.98},{"x":100,"y":40,"_angle":4.812},{"x":90,"y":52,"_angle":2.923},{"x":100,"y":60,"_angle":1.471},{"x":110,"y":51,"_angle":0.091}]},{"x":110,"y":51,"border":false,"links":[{"x":110,"y":40,"_angle":4.712},{"x":120,"y":40,"_angle":5.45},{"x":100,"y":40,"_angle":3.975},{"x":99,"y":50,"_angle":3.232},{"x":110,"y":60,"_angle":1.571},{"x":100,"y":60,"_angle":2.409},{"x":119,"y":52,"_angle":0.111}]},{"x":119,"y":52,"border":false,"links":[{"x":130,"y":60,"_angle":0.629},{"x":120,"y":60,"_angle":1.446},{"x":110,"y":51,"_angle":3.252},{"x":120,"y":40,"_angle":4.796},{"x":110,"y":60,"_angle":2.415},{"x":128,"y":49,"_angle":5.961}]},{"x":128,"y":49,"border":false,"links":[{"x":119,"y":52,"_angle":2.82},{"x":120,"y":40,"_angle":3.986},{"x":140,"y":50,"_angle":0.083},{"x":130,"y":60,"_angle":1.391},{"x":130,"y":41,"_angle":4.957}]},{"x":130,"y":41,"border":false,"links":[{"x":120,"y":40,"_angle":3.241},{"x":120,"y":30,"_angle":3.975},{"x":140,"y":30,"_angle":5.45},{"x":140,"y":40,"_angle":6.184},{"x":128,"y":49,"_angle":1.816},{"x":140,"y":50,"_angle":0.733},{"x":131,"y":26,"_angle":4.779}]},{"x":128,"y":13,"border":false,"links":[{"x":120,"y":10,"_angle":3.5},{"x":130,"y":0,"_angle":4.865},{"x":140,"y":10,"_angle":6.038},{"x":120,"y":20,"_angle":2.423},{"x":140,"y":20,"_angle":0.528},{"x":131,"y":26,"_angle":1.344}]},{"x":131,"y":26,"border":false,"links":[{"x":120,"y":30,"_angle":2.793},{"x":120,"y":20,"_angle":3.641},{"x":140,"y":20,"_angle":5.695},{"x":140,"y":30,"_angle":0.418},{"x":130,"y":41,"_angle":1.637},{"x":128,"y":13,"_angle":4.486}]}
+20-11-2023 19:43:35 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:43:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:43:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:43:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:43:35 - log: [Scene] ONLOAD ---
+20-11-2023 19:43:35 - log: [Scene] ANCESTOR
+20-11-2023 19:43:35 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:43:35 - log: [Scene] ON ENABLE
+20-11-2023 19:43:35 - log: [Scene] ON START
+20-11-2023 19:43:35 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 20, y: 10, _angle: 0.785 },
+  linkNode { x: 0, y: 10, _angle: 2.356 },
+  linkNode { x: 10, y: 13, _angle: 1.571 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 0, _angle: 3.927 },
+  linkNode { x: 10, y: 13, _angle: 2.85 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 13, _angle: 3.752 },
+  linkNode { x: 11, y: 26, _angle: 2.554 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 8, y: 41, _angle: 2.4 },
+  linkNode { x: 11, y: 26, _angle: 3.56 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 8, y: 41, _angle: 3.058 },
+  linkNode { x: 18, y: 47, _angle: 1.849 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 18, y: 47, _angle: 2.614 },
+  linkNode { x: 31, y: 52, _angle: 1.488 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 31, y: 52, _angle: 2.214 },
+  linkNode { x: 48, y: 48, _angle: 0.785 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 48, y: 48, _angle: 1.816 },
+  linkNode { x: 60, y: 51, _angle: 0.833 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 60, y: 51, _angle: 1.571 },
+  linkNode { x: 68, y: 52, _angle: 0.983 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 68, y: 52, _angle: 1.736 },
+  linkNode { x: 81, y: 49, _angle: 0.686 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 81, y: 49, _angle: 1.46 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 81, y: 49, _angle: 2.356 },
+  linkNode { x: 90, y: 52, _angle: 1.571 },
+  linkNode { x: 99, y: 50, _angle: 0.838 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 99, y: 50, _angle: 1.67 },
+  linkNode { x: 110, y: 51, _angle: 0.833 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 110, y: 51, _angle: 1.571 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 110, y: 51, _angle: 2.309 },
+  linkNode { x: 119, y: 52, _angle: 1.654 },
+  linkNode { x: 128, y: 49, _angle: 0.844 },
+  linkNode { x: 130, y: 41, _angle: 0.1 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 41, _angle: 0.833 },
+  linkNode { x: 131, y: 26, _angle: 5.934 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 128, y: 13, _angle: 5.564 },
+  linkNode { x: 131, y: 26, _angle: 0.499 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 0, _angle: 5.498 },
+  linkNode { x: 128, y: 13, _angle: 0.359 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 120, y: 10, _angle: 2.356 },
+  linkNode { x: 140, y: 10, _angle: 0.785 },
+  linkNode { x: 128, y: 13, _angle: 1.723 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 0, _angle: 3.927 },
+  linkNode { x: 128, y: 13, _angle: 2.897 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 128, y: 13, _angle: 3.67 },
+  linkNode { x: 131, y: 26, _angle: 2.554 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 41, _angle: 2.309 },
+  linkNode { x: 131, y: 26, _angle: 3.56 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 130, y: 41, _angle: 3.042 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 60, _angle: 2.356 },
+  linkNode { x: 128, y: 49, _angle: 3.225 },
+  linkNode { x: 130, y: 41, _angle: 3.874 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 140, y: 50, _angle: 5.498 },
+  linkNode { x: 119, y: 52, _angle: 3.77 },
+  linkNode { x: 128, y: 49, _angle: 4.533 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 119, y: 52, _angle: 4.588 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 110, y: 51, _angle: 4.712 },
+  linkNode { x: 119, y: 52, _angle: 5.557 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 90, y: 52, _angle: 3.816 },
+  linkNode { x: 99, y: 50, _angle: 4.613 },
+  linkNode { x: 110, y: 51, _angle: 5.55 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 90, y: 52, _angle: 4.712 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 68, y: 52, _angle: 3.73 },
+  linkNode { x: 81, y: 49, _angle: 4.803 },
+  linkNode { x: 90, y: 52, _angle: 5.608 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 68, y: 52, _angle: 4.467 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 60, y: 51, _angle: 4.712 },
+  linkNode { x: 68, y: 52, _angle: 5.498 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 48, y: 48, _angle: 4.547 },
+  linkNode { x: 60, y: 51, _angle: 5.55 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 31, y: 52, _angle: 3.868 },
+  linkNode { x: 48, y: 48, _angle: 5.3 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 31, y: 52, _angle: 4.837 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 18, y: 47, _angle: 4.56 },
+  linkNode { x: 31, y: 52, _angle: 5.654 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 0, y: 50, _angle: 3.927 },
+  linkNode { x: 9, y: 48, _angle: 4.629 },
+  linkNode { x: 18, y: 47, _angle: 5.264 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ null ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 60, _angle: 0.785 },
+  linkNode { x: 8, y: 41, _angle: 5.439 },
+  linkNode { x: 9, y: 48, _angle: 6.065 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [ linkNode { x: 8, y: 41, _angle: 0.124 } ]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 8, y: 41, _angle: 0.942 },
+  linkNode { x: 11, y: 26, _angle: 5.934 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 13, _angle: 5.672 },
+  linkNode { x: 11, y: 26, _angle: 0.499 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 0, _angle: 5.498 },
+  linkNode { x: 10, y: 13, _angle: 0.291 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 0, y: 50, _angle: 2.297 },
+  linkNode { x: 0, y: 40, _angle: 3.266 },
+  linkNode { x: 20, y: 30, _angle: 5.541 },
+  linkNode { x: 20, y: 40, _angle: 6.2 },
+  linkNode { x: 0, y: 30, _angle: 4.084 },
+  linkNode { x: 9, y: 48, _angle: 1.429 },
+  linkNode { x: 11, y: 26, _angle: 4.91 },
+  linkNode { x: 18, y: 47, _angle: 0.54 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 60, _angle: 1.488 },
+  linkNode { x: 0, y: 50, _angle: 2.923 },
+  linkNode { x: 8, y: 41, _angle: 4.57 },
+  linkNode { x: 18, y: 47, _angle: 6.173 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 10, y: 0, _angle: 4.712 },
+  linkNode { x: 20, y: 10, _angle: 5.992 },
+  linkNode { x: 0, y: 10, _angle: 3.433 },
+  linkNode { x: 20, y: 20, _angle: 0.611 },
+  linkNode { x: 0, y: 20, _angle: 2.531 },
+  linkNode { x: 11, y: 26, _angle: 1.494 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 20, y: 20, _angle: 5.695 },
+  linkNode { x: 20, y: 30, _angle: 0.418 },
+  linkNode { x: 0, y: 30, _angle: 2.793 },
+  linkNode { x: 0, y: 20, _angle: 3.641 },
+  linkNode { x: 8, y: 41, _angle: 1.768 },
+  linkNode { x: 10, y: 13, _angle: 4.636 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 20, y: 40, _angle: 4.991 },
+  linkNode { x: 30, y: 40, _angle: 5.755 },
+  linkNode { x: 20, y: 60, _angle: 1.418 },
+  linkNode { x: 10, y: 60, _angle: 2.122 },
+  linkNode { x: 9, y: 48, _angle: 3.031 },
+  linkNode { x: 8, y: 41, _angle: 3.682 },
+  linkNode { x: 31, y: 52, _angle: 0.367 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 30, y: 40, _angle: 4.629 },
+  linkNode { x: 40, y: 40, _angle: 5.356 },
+  linkNode { x: 40, y: 60, _angle: 0.727 },
+  linkNode { x: 30, y: 60, _angle: 1.695 },
+  linkNode { x: 18, y: 47, _angle: 3.509 },
+  linkNode { x: 20, y: 60, _angle: 2.513 },
+  linkNode { x: 48, y: 48, _angle: 6.052 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 40, y: 40, _angle: 3.927 },
+  linkNode { x: 50, y: 40, _angle: 4.957 },
+  linkNode { x: 50, y: 60, _angle: 1.406 },
+  linkNode { x: 40, y: 60, _angle: 2.159 },
+  linkNode { x: 31, y: 52, _angle: 2.911 },
+  linkNode { x: 60, y: 51, _angle: 0.245 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 50, y: 40, _angle: 3.975 },
+  linkNode { x: 60, y: 40, _angle: 4.712 },
+  linkNode { x: 48, y: 48, _angle: 3.387 },
+  linkNode { x: 60, y: 60, _angle: 1.571 },
+  linkNode { x: 50, y: 60, _angle: 2.409 },
+  linkNode { x: 68, y: 52, _angle: 0.124 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 80, y: 60, _angle: 0.588 },
+  linkNode { x: 70, y: 60, _angle: 1.326 },
+  linkNode { x: 60, y: 40, _angle: 4.124 },
+  linkNode { x: 70, y: 40, _angle: 4.878 },
+  linkNode { x: 60, y: 51, _angle: 3.266 },
+  linkNode { x: 60, y: 60, _angle: 2.356 },
+  linkNode { x: 81, y: 49, _angle: 6.056 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 80, y: 40, _angle: 4.602 },
+  linkNode { x: 90, y: 40, _angle: 5.498 },
+  linkNode { x: 70, y: 40, _angle: 3.827 },
+  linkNode { x: 68, y: 52, _angle: 2.915 },
+  linkNode { x: 80, y: 60, _angle: 1.661 },
+  linkNode { x: 90, y: 52, _angle: 0.322 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 100, y: 60, _angle: 0.675 },
+  linkNode { x: 90, y: 60, _angle: 1.571 },
+  linkNode { x: 81, y: 49, _angle: 3.463 },
+  linkNode { x: 90, y: 40, _angle: 4.712 },
+  linkNode { x: 80, y: 60, _angle: 2.467 },
+  linkNode { x: 99, y: 50, _angle: 6.065 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 90, y: 40, _angle: 3.98 },
+  linkNode { x: 100, y: 40, _angle: 4.812 },
+  linkNode { x: 90, y: 52, _angle: 2.923 },
+  linkNode { x: 100, y: 60, _angle: 1.471 },
+  linkNode { x: 110, y: 51, _angle: 0.091 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 110, y: 40, _angle: 4.712 },
+  linkNode { x: 120, y: 40, _angle: 5.45 },
+  linkNode { x: 100, y: 40, _angle: 3.975 },
+  linkNode { x: 99, y: 50, _angle: 3.232 },
+  linkNode { x: 110, y: 60, _angle: 1.571 },
+  linkNode { x: 100, y: 60, _angle: 2.409 },
+  linkNode { x: 119, y: 52, _angle: 0.111 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 130, y: 60, _angle: 0.629 },
+  linkNode { x: 120, y: 60, _angle: 1.446 },
+  linkNode { x: 110, y: 51, _angle: 3.252 },
+  linkNode { x: 120, y: 40, _angle: 4.796 },
+  linkNode { x: 110, y: 60, _angle: 2.415 },
+  linkNode { x: 128, y: 49, _angle: 5.961 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 119, y: 52, _angle: 2.82 },
+  linkNode { x: 120, y: 40, _angle: 3.986 },
+  linkNode { x: 140, y: 50, _angle: 0.083 },
+  linkNode { x: 130, y: 60, _angle: 1.391 },
+  linkNode { x: 130, y: 41, _angle: 4.957 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 120, y: 40, _angle: 3.241 },
+  linkNode { x: 120, y: 30, _angle: 3.975 },
+  linkNode { x: 140, y: 30, _angle: 5.45 },
+  linkNode { x: 140, y: 40, _angle: 6.184 },
+  linkNode { x: 128, y: 49, _angle: 1.816 },
+  linkNode { x: 140, y: 50, _angle: 0.733 },
+  linkNode { x: 131, y: 26, _angle: 4.779 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 120, y: 10, _angle: 3.5 },
+  linkNode { x: 130, y: 0, _angle: 4.865 },
+  linkNode { x: 140, y: 10, _angle: 6.038 },
+  linkNode { x: 120, y: 20, _angle: 2.423 },
+  linkNode { x: 140, y: 20, _angle: 0.528 },
+  linkNode { x: 131, y: 26, _angle: 1.344 }
+]
+20-11-2023 19:43:35 - log: [Scene] ----- LINKS -----
+20-11-2023 19:43:35 - log: [Scene] [
+  linkNode { x: 120, y: 30, _angle: 2.793 },
+  linkNode { x: 120, y: 20, _angle: 3.641 },
+  linkNode { x: 140, y: 20, _angle: 5.695 },
+  linkNode { x: 140, y: 30, _angle: 0.418 },
+  linkNode { x: 130, y: 41, _angle: 1.637 },
+  linkNode { x: 128, y: 13, _angle: 4.486 }
+]
+20-11-2023 19:43:35 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[]},{"x":10,"y":0,"border":true,"links":[{"x":20,"y":10,"_angle":0.785},{"x":0,"y":10,"_angle":2.356},{"x":10,"y":13,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[]},{"x":20,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":3.927},{"x":10,"y":13,"_angle":2.85}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":3.752},{"x":11,"y":26,"_angle":2.554}]},{"x":20,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":2.4},{"x":11,"y":26,"_angle":3.56}]},{"x":20,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":3.058},{"x":18,"y":47,"_angle":1.849}]},{"x":30,"y":40,"border":true,"links":[{"x":18,"y":47,"_angle":2.614},{"x":31,"y":52,"_angle":1.488}]},{"x":40,"y":40,"border":true,"links":[{"x":31,"y":52,"_angle":2.214},{"x":48,"y":48,"_angle":0.785}]},{"x":50,"y":40,"border":true,"links":[{"x":48,"y":48,"_angle":1.816},{"x":60,"y":51,"_angle":0.833}]},{"x":60,"y":40,"border":true,"links":[{"x":60,"y":51,"_angle":1.571},{"x":68,"y":52,"_angle":0.983}]},{"x":70,"y":40,"border":true,"links":[{"x":68,"y":52,"_angle":1.736},{"x":81,"y":49,"_angle":0.686}]},{"x":80,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":1.46}]},{"x":90,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":2.356},{"x":90,"y":52,"_angle":1.571},{"x":99,"y":50,"_angle":0.838}]},{"x":100,"y":40,"border":true,"links":[{"x":99,"y":50,"_angle":1.67},{"x":110,"y":51,"_angle":0.833}]},{"x":110,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":1.571}]},{"x":120,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":2.309},{"x":119,"y":52,"_angle":1.654},{"x":128,"y":49,"_angle":0.844},{"x":130,"y":41,"_angle":0.1}]},{"x":120,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":0.833},{"x":131,"y":26,"_angle":5.934}]},{"x":120,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":5.564},{"x":131,"y":26,"_angle":0.499}]},{"x":120,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":5.498},{"x":128,"y":13,"_angle":0.359}]},{"x":120,"y":0,"border":true,"links":[]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":10,"_angle":2.356},{"x":140,"y":10,"_angle":0.785},{"x":128,"y":13,"_angle":1.723}]},{"x":140,"y":0,"border":true,"links":[]},{"x":140,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":3.927},{"x":128,"y":13,"_angle":2.897}]},{"x":140,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":3.67},{"x":131,"y":26,"_angle":2.554}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":2.309},{"x":131,"y":26,"_angle":3.56}]},{"x":140,"y":40,"border":true,"links":[{"x":130,"y":41,"_angle":3.042}]},{"x":140,"y":50,"border":true,"links":[{"x":130,"y":60,"_angle":2.356},{"x":128,"y":49,"_angle":3.225},{"x":130,"y":41,"_angle":3.874}]},{"x":140,"y":60,"border":true,"links":[]},{"x":130,"y":60,"border":true,"links":[{"x":140,"y":50,"_angle":5.498},{"x":119,"y":52,"_angle":3.77},{"x":128,"y":49,"_angle":4.533}]},{"x":120,"y":60,"border":true,"links":[{"x":119,"y":52,"_angle":4.588}]},{"x":110,"y":60,"border":true,"links":[{"x":110,"y":51,"_angle":4.712},{"x":119,"y":52,"_angle":5.557}]},{"x":100,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":3.816},{"x":99,"y":50,"_angle":4.613},{"x":110,"y":51,"_angle":5.55}]},{"x":90,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":4.712}]},{"x":80,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":3.73},{"x":81,"y":49,"_angle":4.803},{"x":90,"y":52,"_angle":5.608}]},{"x":70,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":4.467}]},{"x":60,"y":60,"border":true,"links":[{"x":60,"y":51,"_angle":4.712},{"x":68,"y":52,"_angle":5.498}]},{"x":50,"y":60,"border":true,"links":[{"x":48,"y":48,"_angle":4.547},{"x":60,"y":51,"_angle":5.55}]},{"x":40,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":3.868},{"x":48,"y":48,"_angle":5.3}]},{"x":30,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":4.837}]},{"x":20,"y":60,"border":true,"links":[{"x":18,"y":47,"_angle":4.56},{"x":31,"y":52,"_angle":5.654}]},{"x":10,"y":60,"border":true,"links":[{"x":0,"y":50,"_angle":3.927},{"x":9,"y":48,"_angle":4.629},{"x":18,"y":47,"_angle":5.264}]},{"x":0,"y":60,"border":true,"links":[]},{"x":0,"y":50,"border":true,"links":[{"x":10,"y":60,"_angle":0.785},{"x":8,"y":41,"_angle":5.439},{"x":9,"y":48,"_angle":6.065}]},{"x":0,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":0.124}]},{"x":0,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":0.942},{"x":11,"y":26,"_angle":5.934}]},{"x":0,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":5.672},{"x":11,"y":26,"_angle":0.499}]},{"x":0,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":5.498},{"x":10,"y":13,"_angle":0.291}]},{"x":8,"y":41,"border":false,"links":[{"x":0,"y":50,"_angle":2.297},{"x":0,"y":40,"_angle":3.266},{"x":20,"y":30,"_angle":5.541},{"x":20,"y":40,"_angle":6.2},{"x":0,"y":30,"_angle":4.084},{"x":9,"y":48,"_angle":1.429},{"x":11,"y":26,"_angle":4.91},{"x":18,"y":47,"_angle":0.54}]},{"x":9,"y":48,"border":false,"links":[{"x":10,"y":60,"_angle":1.488},{"x":0,"y":50,"_angle":2.923},{"x":8,"y":41,"_angle":4.57},{"x":18,"y":47,"_angle":6.173}]},{"x":10,"y":13,"border":false,"links":[{"x":10,"y":0,"_angle":4.712},{"x":20,"y":10,"_angle":5.992},{"x":0,"y":10,"_angle":3.433},{"x":20,"y":20,"_angle":0.611},{"x":0,"y":20,"_angle":2.531},{"x":11,"y":26,"_angle":1.494}]},{"x":11,"y":26,"border":false,"links":[{"x":20,"y":20,"_angle":5.695},{"x":20,"y":30,"_angle":0.418},{"x":0,"y":30,"_angle":2.793},{"x":0,"y":20,"_angle":3.641},{"x":8,"y":41,"_angle":1.768},{"x":10,"y":13,"_angle":4.636}]},{"x":18,"y":47,"border":false,"links":[{"x":20,"y":40,"_angle":4.991},{"x":30,"y":40,"_angle":5.755},{"x":20,"y":60,"_angle":1.418},{"x":10,"y":60,"_angle":2.122},{"x":9,"y":48,"_angle":3.031},{"x":8,"y":41,"_angle":3.682},{"x":31,"y":52,"_angle":0.367}]},{"x":31,"y":52,"border":false,"links":[{"x":30,"y":40,"_angle":4.629},{"x":40,"y":40,"_angle":5.356},{"x":40,"y":60,"_angle":0.727},{"x":30,"y":60,"_angle":1.695},{"x":18,"y":47,"_angle":3.509},{"x":20,"y":60,"_angle":2.513},{"x":48,"y":48,"_angle":6.052}]},{"x":48,"y":48,"border":false,"links":[{"x":40,"y":40,"_angle":3.927},{"x":50,"y":40,"_angle":4.957},{"x":50,"y":60,"_angle":1.406},{"x":40,"y":60,"_angle":2.159},{"x":31,"y":52,"_angle":2.911},{"x":60,"y":51,"_angle":0.245}]},{"x":60,"y":51,"border":false,"links":[{"x":50,"y":40,"_angle":3.975},{"x":60,"y":40,"_angle":4.712},{"x":48,"y":48,"_angle":3.387},{"x":60,"y":60,"_angle":1.571},{"x":50,"y":60,"_angle":2.409},{"x":68,"y":52,"_angle":0.124}]},{"x":68,"y":52,"border":false,"links":[{"x":80,"y":60,"_angle":0.588},{"x":70,"y":60,"_angle":1.326},{"x":60,"y":40,"_angle":4.124},{"x":70,"y":40,"_angle":4.878},{"x":60,"y":51,"_angle":3.266},{"x":60,"y":60,"_angle":2.356},{"x":81,"y":49,"_angle":6.056}]},{"x":81,"y":49,"border":false,"links":[{"x":80,"y":40,"_angle":4.602},{"x":90,"y":40,"_angle":5.498},{"x":70,"y":40,"_angle":3.827},{"x":68,"y":52,"_angle":2.915},{"x":80,"y":60,"_angle":1.661},{"x":90,"y":52,"_angle":0.322}]},{"x":90,"y":52,"border":false,"links":[{"x":100,"y":60,"_angle":0.675},{"x":90,"y":60,"_angle":1.571},{"x":81,"y":49,"_angle":3.463},{"x":90,"y":40,"_angle":4.712},{"x":80,"y":60,"_angle":2.467},{"x":99,"y":50,"_angle":6.065}]},{"x":99,"y":50,"border":false,"links":[{"x":90,"y":40,"_angle":3.98},{"x":100,"y":40,"_angle":4.812},{"x":90,"y":52,"_angle":2.923},{"x":100,"y":60,"_angle":1.471},{"x":110,"y":51,"_angle":0.091}]},{"x":110,"y":51,"border":false,"links":[{"x":110,"y":40,"_angle":4.712},{"x":120,"y":40,"_angle":5.45},{"x":100,"y":40,"_angle":3.975},{"x":99,"y":50,"_angle":3.232},{"x":110,"y":60,"_angle":1.571},{"x":100,"y":60,"_angle":2.409},{"x":119,"y":52,"_angle":0.111}]},{"x":119,"y":52,"border":false,"links":[{"x":130,"y":60,"_angle":0.629},{"x":120,"y":60,"_angle":1.446},{"x":110,"y":51,"_angle":3.252},{"x":120,"y":40,"_angle":4.796},{"x":110,"y":60,"_angle":2.415},{"x":128,"y":49,"_angle":5.961}]},{"x":128,"y":49,"border":false,"links":[{"x":119,"y":52,"_angle":2.82},{"x":120,"y":40,"_angle":3.986},{"x":140,"y":50,"_angle":0.083},{"x":130,"y":60,"_angle":1.391},{"x":130,"y":41,"_angle":4.957}]},{"x":130,"y":41,"border":false,"links":[{"x":120,"y":40,"_angle":3.241},{"x":120,"y":30,"_angle":3.975},{"x":140,"y":30,"_angle":5.45},{"x":140,"y":40,"_angle":6.184},{"x":128,"y":49,"_angle":1.816},{"x":140,"y":50,"_angle":0.733},{"x":131,"y":26,"_angle":4.779}]},{"x":128,"y":13,"border":false,"links":[{"x":120,"y":10,"_angle":3.5},{"x":130,"y":0,"_angle":4.865},{"x":140,"y":10,"_angle":6.038},{"x":120,"y":20,"_angle":2.423},{"x":140,"y":20,"_angle":0.528},{"x":131,"y":26,"_angle":1.344}]},{"x":131,"y":26,"border":false,"links":[{"x":120,"y":30,"_angle":2.793},{"x":120,"y":20,"_angle":3.641},{"x":140,"y":20,"_angle":5.695},{"x":140,"y":30,"_angle":0.418},{"x":130,"y":41,"_angle":1.637},{"x":128,"y":13,"_angle":4.486}]}
+20-11-2023 19:44:27 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:44:27 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:44:27 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:44:27 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:44:27 - log: [Scene] ONLOAD ---
+20-11-2023 19:44:27 - log: [Scene] ANCESTOR
+20-11-2023 19:44:27 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:44:27 - log: [Scene] ON ENABLE
+20-11-2023 19:44:27 - log: [Scene] ON START
+20-11-2023 19:44:27 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:44:27 - error: [Scene] Cannot read property 'x' of nullTypeError: Cannot read property 'x' of null
+    at plainVertex.toString (file:///C:/Users/jmluc/FracturableObjects/temp/programming/packer-driver/targets/editor/chunks/56/file:/C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts:39:35)
+    at Delaunay.start (file:///C:/Users/jmluc/FracturableObjects/temp/programming/packer-driver/targets/editor/chunks/56/file:/C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts:328:41)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43960:16)
+    at OneOffInvoker.eval [as _invoke] (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43773:9)
+    at OneOffInvoker.invoke (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:43897:18)
+    at ComponentScheduler.startPhase (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:44155:29)
+    at Director.tick (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:20166:35)
+    at EngineManager.tickInEditMode (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\app.asar\builtin\scene\dist\script\3d\manager\engine\index.ccc:1:2996)
+    at EngineManager._tick (C:\ProgramData\cocos\editors\Creator\3.7.3\resources\app.asar\builtin\scene\dist\script\3d\manager\engine\index.ccc:1:4096)
+20-11-2023 19:44:52 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:44:52 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:44:52 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:44:52 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:44:52 - log: [Scene] ONLOAD ---
+20-11-2023 19:44:52 - log: [Scene] ANCESTOR
+20-11-2023 19:44:52 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:44:52 - log: [Scene] ON ENABLE
+20-11-2023 19:44:52 - log: [Scene] ON START
+20-11-2023 19:44:52 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:44:52 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[null]},{"x":10,"y":0,"border":true,"links":[{"x":20,"y":10,"_angle":0.785},{"x":0,"y":10,"_angle":2.356},{"x":10,"y":13,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[null]},{"x":20,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":3.927},{"x":10,"y":13,"_angle":2.85}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":3.752},{"x":11,"y":26,"_angle":2.554}]},{"x":20,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":2.4},{"x":11,"y":26,"_angle":3.56}]},{"x":20,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":3.058},{"x":18,"y":47,"_angle":1.849}]},{"x":30,"y":40,"border":true,"links":[{"x":18,"y":47,"_angle":2.614},{"x":31,"y":52,"_angle":1.488}]},{"x":40,"y":40,"border":true,"links":[{"x":31,"y":52,"_angle":2.214},{"x":48,"y":48,"_angle":0.785}]},{"x":50,"y":40,"border":true,"links":[{"x":48,"y":48,"_angle":1.816},{"x":60,"y":51,"_angle":0.833}]},{"x":60,"y":40,"border":true,"links":[{"x":60,"y":51,"_angle":1.571},{"x":68,"y":52,"_angle":0.983}]},{"x":70,"y":40,"border":true,"links":[{"x":68,"y":52,"_angle":1.736},{"x":81,"y":49,"_angle":0.686}]},{"x":80,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":1.46}]},{"x":90,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":2.356},{"x":90,"y":52,"_angle":1.571},{"x":99,"y":50,"_angle":0.838}]},{"x":100,"y":40,"border":true,"links":[{"x":99,"y":50,"_angle":1.67},{"x":110,"y":51,"_angle":0.833}]},{"x":110,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":1.571}]},{"x":120,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":2.309},{"x":119,"y":52,"_angle":1.654},{"x":128,"y":49,"_angle":0.844},{"x":130,"y":41,"_angle":0.1}]},{"x":120,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":0.833},{"x":131,"y":26,"_angle":5.934}]},{"x":120,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":5.564},{"x":131,"y":26,"_angle":0.499}]},{"x":120,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":5.498},{"x":128,"y":13,"_angle":0.359}]},{"x":120,"y":0,"border":true,"links":[null]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":10,"_angle":2.356},{"x":140,"y":10,"_angle":0.785},{"x":128,"y":13,"_angle":1.723}]},{"x":140,"y":0,"border":true,"links":[null]},{"x":140,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":3.927},{"x":128,"y":13,"_angle":2.897}]},{"x":140,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":3.67},{"x":131,"y":26,"_angle":2.554}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":2.309},{"x":131,"y":26,"_angle":3.56}]},{"x":140,"y":40,"border":true,"links":[{"x":130,"y":41,"_angle":3.042}]},{"x":140,"y":50,"border":true,"links":[{"x":130,"y":60,"_angle":2.356},{"x":128,"y":49,"_angle":3.225},{"x":130,"y":41,"_angle":3.874}]},{"x":140,"y":60,"border":true,"links":[null]},{"x":130,"y":60,"border":true,"links":[{"x":140,"y":50,"_angle":5.498},{"x":119,"y":52,"_angle":3.77},{"x":128,"y":49,"_angle":4.533}]},{"x":120,"y":60,"border":true,"links":[{"x":119,"y":52,"_angle":4.588}]},{"x":110,"y":60,"border":true,"links":[{"x":110,"y":51,"_angle":4.712},{"x":119,"y":52,"_angle":5.557}]},{"x":100,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":3.816},{"x":99,"y":50,"_angle":4.613},{"x":110,"y":51,"_angle":5.55}]},{"x":90,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":4.712}]},{"x":80,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":3.73},{"x":81,"y":49,"_angle":4.803},{"x":90,"y":52,"_angle":5.608}]},{"x":70,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":4.467}]},{"x":60,"y":60,"border":true,"links":[{"x":60,"y":51,"_angle":4.712},{"x":68,"y":52,"_angle":5.498}]},{"x":50,"y":60,"border":true,"links":[{"x":48,"y":48,"_angle":4.547},{"x":60,"y":51,"_angle":5.55}]},{"x":40,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":3.868},{"x":48,"y":48,"_angle":5.3}]},{"x":30,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":4.837}]},{"x":20,"y":60,"border":true,"links":[{"x":18,"y":47,"_angle":4.56},{"x":31,"y":52,"_angle":5.654}]},{"x":10,"y":60,"border":true,"links":[{"x":0,"y":50,"_angle":3.927},{"x":9,"y":48,"_angle":4.629},{"x":18,"y":47,"_angle":5.264}]},{"x":0,"y":60,"border":true,"links":[null]},{"x":0,"y":50,"border":true,"links":[{"x":10,"y":60,"_angle":0.785},{"x":8,"y":41,"_angle":5.439},{"x":9,"y":48,"_angle":6.065}]},{"x":0,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":0.124}]},{"x":0,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":0.942},{"x":11,"y":26,"_angle":5.934}]},{"x":0,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":5.672},{"x":11,"y":26,"_angle":0.499}]},{"x":0,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":5.498},{"x":10,"y":13,"_angle":0.291}]},{"x":8,"y":41,"border":false,"links":[{"x":0,"y":50,"_angle":2.297},{"x":0,"y":40,"_angle":3.266},{"x":20,"y":30,"_angle":5.541},{"x":20,"y":40,"_angle":6.2},{"x":0,"y":30,"_angle":4.084},{"x":9,"y":48,"_angle":1.429},{"x":11,"y":26,"_angle":4.91},{"x":18,"y":47,"_angle":0.54}]},{"x":9,"y":48,"border":false,"links":[{"x":10,"y":60,"_angle":1.488},{"x":0,"y":50,"_angle":2.923},{"x":8,"y":41,"_angle":4.57},{"x":18,"y":47,"_angle":6.173}]},{"x":10,"y":13,"border":false,"links":[{"x":10,"y":0,"_angle":4.712},{"x":20,"y":10,"_angle":5.992},{"x":0,"y":10,"_angle":3.433},{"x":20,"y":20,"_angle":0.611},{"x":0,"y":20,"_angle":2.531},{"x":11,"y":26,"_angle":1.494}]},{"x":11,"y":26,"border":false,"links":[{"x":20,"y":20,"_angle":5.695},{"x":20,"y":30,"_angle":0.418},{"x":0,"y":30,"_angle":2.793},{"x":0,"y":20,"_angle":3.641},{"x":8,"y":41,"_angle":1.768},{"x":10,"y":13,"_angle":4.636}]},{"x":18,"y":47,"border":false,"links":[{"x":20,"y":40,"_angle":4.991},{"x":30,"y":40,"_angle":5.755},{"x":20,"y":60,"_angle":1.418},{"x":10,"y":60,"_angle":2.122},{"x":9,"y":48,"_angle":3.031},{"x":8,"y":41,"_angle":3.682},{"x":31,"y":52,"_angle":0.367}]},{"x":31,"y":52,"border":false,"links":[{"x":30,"y":40,"_angle":4.629},{"x":40,"y":40,"_angle":5.356},{"x":40,"y":60,"_angle":0.727},{"x":30,"y":60,"_angle":1.695},{"x":18,"y":47,"_angle":3.509},{"x":20,"y":60,"_angle":2.513},{"x":48,"y":48,"_angle":6.052}]},{"x":48,"y":48,"border":false,"links":[{"x":40,"y":40,"_angle":3.927},{"x":50,"y":40,"_angle":4.957},{"x":50,"y":60,"_angle":1.406},{"x":40,"y":60,"_angle":2.159},{"x":31,"y":52,"_angle":2.911},{"x":60,"y":51,"_angle":0.245}]},{"x":60,"y":51,"border":false,"links":[{"x":50,"y":40,"_angle":3.975},{"x":60,"y":40,"_angle":4.712},{"x":48,"y":48,"_angle":3.387},{"x":60,"y":60,"_angle":1.571},{"x":50,"y":60,"_angle":2.409},{"x":68,"y":52,"_angle":0.124}]},{"x":68,"y":52,"border":false,"links":[{"x":80,"y":60,"_angle":0.588},{"x":70,"y":60,"_angle":1.326},{"x":60,"y":40,"_angle":4.124},{"x":70,"y":40,"_angle":4.878},{"x":60,"y":51,"_angle":3.266},{"x":60,"y":60,"_angle":2.356},{"x":81,"y":49,"_angle":6.056}]},{"x":81,"y":49,"border":false,"links":[{"x":80,"y":40,"_angle":4.602},{"x":90,"y":40,"_angle":5.498},{"x":70,"y":40,"_angle":3.827},{"x":68,"y":52,"_angle":2.915},{"x":80,"y":60,"_angle":1.661},{"x":90,"y":52,"_angle":0.322}]},{"x":90,"y":52,"border":false,"links":[{"x":100,"y":60,"_angle":0.675},{"x":90,"y":60,"_angle":1.571},{"x":81,"y":49,"_angle":3.463},{"x":90,"y":40,"_angle":4.712},{"x":80,"y":60,"_angle":2.467},{"x":99,"y":50,"_angle":6.065}]},{"x":99,"y":50,"border":false,"links":[{"x":90,"y":40,"_angle":3.98},{"x":100,"y":40,"_angle":4.812},{"x":90,"y":52,"_angle":2.923},{"x":100,"y":60,"_angle":1.471},{"x":110,"y":51,"_angle":0.091}]},{"x":110,"y":51,"border":false,"links":[{"x":110,"y":40,"_angle":4.712},{"x":120,"y":40,"_angle":5.45},{"x":100,"y":40,"_angle":3.975},{"x":99,"y":50,"_angle":3.232},{"x":110,"y":60,"_angle":1.571},{"x":100,"y":60,"_angle":2.409},{"x":119,"y":52,"_angle":0.111}]},{"x":119,"y":52,"border":false,"links":[{"x":130,"y":60,"_angle":0.629},{"x":120,"y":60,"_angle":1.446},{"x":110,"y":51,"_angle":3.252},{"x":120,"y":40,"_angle":4.796},{"x":110,"y":60,"_angle":2.415},{"x":128,"y":49,"_angle":5.961}]},{"x":128,"y":49,"border":false,"links":[{"x":119,"y":52,"_angle":2.82},{"x":120,"y":40,"_angle":3.986},{"x":140,"y":50,"_angle":0.083},{"x":130,"y":60,"_angle":1.391},{"x":130,"y":41,"_angle":4.957}]},{"x":130,"y":41,"border":false,"links":[{"x":120,"y":40,"_angle":3.241},{"x":120,"y":30,"_angle":3.975},{"x":140,"y":30,"_angle":5.45},{"x":140,"y":40,"_angle":6.184},{"x":128,"y":49,"_angle":1.816},{"x":140,"y":50,"_angle":0.733},{"x":131,"y":26,"_angle":4.779}]},{"x":128,"y":13,"border":false,"links":[{"x":120,"y":10,"_angle":3.5},{"x":130,"y":0,"_angle":4.865},{"x":140,"y":10,"_angle":6.038},{"x":120,"y":20,"_angle":2.423},{"x":140,"y":20,"_angle":0.528},{"x":131,"y":26,"_angle":1.344}]},{"x":131,"y":26,"border":false,"links":[{"x":120,"y":30,"_angle":2.793},{"x":120,"y":20,"_angle":3.641},{"x":140,"y":20,"_angle":5.695},{"x":140,"y":30,"_angle":0.418},{"x":130,"y":41,"_angle":1.637},{"x":128,"y":13,"_angle":4.486}]}
+20-11-2023 19:46:40 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:46:40 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:46:40 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:46:40 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:46:40 - log: [Scene] ONLOAD ---
+20-11-2023 19:46:40 - log: [Scene] ANCESTOR
+20-11-2023 19:46:40 - log: [Scene] [
+  Vec2 { x: 2.01, y: 173.36 },
+  Vec2 { x: 4.01, y: 201.42000000000002 },
+  Vec2 { x: 26.060000000000002, y: 222.46 },
+  Vec2 { x: 44.1, y: 201.42000000000002 },
+  Vec2 { x: 271.57, y: 199.42000000000002 },
+  Vec2 { x: 289.61, y: 222.46 },
+  Vec2 { x: 313.66, y: 198.41000000000003 },
+  Vec2 { x: 312.66, y: 174.36 },
+  Vec2 { x: 315.66, y: 7.02 },
+  Vec2 { x: 262.55, y: 7.02 },
+  Vec2 { x: 259.54, y: 73.14999999999999 },
+  Vec2 { x: 217.46, y: 133.28 },
+  Vec2 { x: 161.34, y: 145.3 },
+  Vec2 { x: 100.21, y: 126.26 },
+  Vec2 { x: 60.13, y: 81.17 },
+  Vec2 { x: 57.120000000000005, y: 3.01 },
+  Vec2 { x: 0, y: 0 }
+]
+20-11-2023 19:46:40 - log: [Scene] ON ENABLE
+20-11-2023 19:46:40 - log: [Scene] ON START
+20-11-2023 19:46:40 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:46:40 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[null]},{"x":10,"y":0,"border":true,"links":[{"x":20,"y":10,"_angle":0.785},{"x":0,"y":10,"_angle":2.356},{"x":10,"y":13,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[null]},{"x":20,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":3.927},{"x":10,"y":13,"_angle":2.85}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":3.752},{"x":11,"y":26,"_angle":2.554}]},{"x":20,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":2.4},{"x":11,"y":26,"_angle":3.56}]},{"x":20,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":3.058},{"x":18,"y":47,"_angle":1.849}]},{"x":30,"y":40,"border":true,"links":[{"x":18,"y":47,"_angle":2.614},{"x":31,"y":52,"_angle":1.488}]},{"x":40,"y":40,"border":true,"links":[{"x":31,"y":52,"_angle":2.214},{"x":48,"y":48,"_angle":0.785}]},{"x":50,"y":40,"border":true,"links":[{"x":48,"y":48,"_angle":1.816},{"x":60,"y":51,"_angle":0.833}]},{"x":60,"y":40,"border":true,"links":[{"x":60,"y":51,"_angle":1.571},{"x":68,"y":52,"_angle":0.983}]},{"x":70,"y":40,"border":true,"links":[{"x":68,"y":52,"_angle":1.736},{"x":81,"y":49,"_angle":0.686}]},{"x":80,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":1.46}]},{"x":90,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":2.356},{"x":90,"y":52,"_angle":1.571},{"x":99,"y":50,"_angle":0.838}]},{"x":100,"y":40,"border":true,"links":[{"x":99,"y":50,"_angle":1.67},{"x":110,"y":51,"_angle":0.833}]},{"x":110,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":1.571}]},{"x":120,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":2.309},{"x":119,"y":52,"_angle":1.654},{"x":128,"y":49,"_angle":0.844},{"x":130,"y":41,"_angle":0.1}]},{"x":120,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":0.833},{"x":131,"y":26,"_angle":5.934}]},{"x":120,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":5.564},{"x":131,"y":26,"_angle":0.499}]},{"x":120,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":5.498},{"x":128,"y":13,"_angle":0.359}]},{"x":120,"y":0,"border":true,"links":[null]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":10,"_angle":2.356},{"x":140,"y":10,"_angle":0.785},{"x":128,"y":13,"_angle":1.723}]},{"x":140,"y":0,"border":true,"links":[null]},{"x":140,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":3.927},{"x":128,"y":13,"_angle":2.897}]},{"x":140,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":3.67},{"x":131,"y":26,"_angle":2.554}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":2.309},{"x":131,"y":26,"_angle":3.56}]},{"x":140,"y":40,"border":true,"links":[{"x":130,"y":41,"_angle":3.042}]},{"x":140,"y":50,"border":true,"links":[{"x":130,"y":60,"_angle":2.356},{"x":128,"y":49,"_angle":3.225},{"x":130,"y":41,"_angle":3.874}]},{"x":140,"y":60,"border":true,"links":[null]},{"x":130,"y":60,"border":true,"links":[{"x":140,"y":50,"_angle":5.498},{"x":119,"y":52,"_angle":3.77},{"x":128,"y":49,"_angle":4.533}]},{"x":120,"y":60,"border":true,"links":[{"x":119,"y":52,"_angle":4.588}]},{"x":110,"y":60,"border":true,"links":[{"x":110,"y":51,"_angle":4.712},{"x":119,"y":52,"_angle":5.557}]},{"x":100,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":3.816},{"x":99,"y":50,"_angle":4.613},{"x":110,"y":51,"_angle":5.55}]},{"x":90,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":4.712}]},{"x":80,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":3.73},{"x":81,"y":49,"_angle":4.803},{"x":90,"y":52,"_angle":5.608}]},{"x":70,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":4.467}]},{"x":60,"y":60,"border":true,"links":[{"x":60,"y":51,"_angle":4.712},{"x":68,"y":52,"_angle":5.498}]},{"x":50,"y":60,"border":true,"links":[{"x":48,"y":48,"_angle":4.547},{"x":60,"y":51,"_angle":5.55}]},{"x":40,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":3.868},{"x":48,"y":48,"_angle":5.3}]},{"x":30,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":4.837}]},{"x":20,"y":60,"border":true,"links":[{"x":18,"y":47,"_angle":4.56},{"x":31,"y":52,"_angle":5.654}]},{"x":10,"y":60,"border":true,"links":[{"x":0,"y":50,"_angle":3.927},{"x":9,"y":48,"_angle":4.629},{"x":18,"y":47,"_angle":5.264}]},{"x":0,"y":60,"border":true,"links":[null]},{"x":0,"y":50,"border":true,"links":[{"x":10,"y":60,"_angle":0.785},{"x":8,"y":41,"_angle":5.439},{"x":9,"y":48,"_angle":6.065}]},{"x":0,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":0.124}]},{"x":0,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":0.942},{"x":11,"y":26,"_angle":5.934}]},{"x":0,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":5.672},{"x":11,"y":26,"_angle":0.499}]},{"x":0,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":5.498},{"x":10,"y":13,"_angle":0.291}]},{"x":8,"y":41,"border":false,"links":[{"x":0,"y":50,"_angle":2.297},{"x":0,"y":40,"_angle":3.266},{"x":20,"y":30,"_angle":5.541},{"x":20,"y":40,"_angle":6.2},{"x":0,"y":30,"_angle":4.084},{"x":9,"y":48,"_angle":1.429},{"x":11,"y":26,"_angle":4.91},{"x":18,"y":47,"_angle":0.54}]},{"x":9,"y":48,"border":false,"links":[{"x":10,"y":60,"_angle":1.488},{"x":0,"y":50,"_angle":2.923},{"x":8,"y":41,"_angle":4.57},{"x":18,"y":47,"_angle":6.173}]},{"x":10,"y":13,"border":false,"links":[{"x":10,"y":0,"_angle":4.712},{"x":20,"y":10,"_angle":5.992},{"x":0,"y":10,"_angle":3.433},{"x":20,"y":20,"_angle":0.611},{"x":0,"y":20,"_angle":2.531},{"x":11,"y":26,"_angle":1.494}]},{"x":11,"y":26,"border":false,"links":[{"x":20,"y":20,"_angle":5.695},{"x":20,"y":30,"_angle":0.418},{"x":0,"y":30,"_angle":2.793},{"x":0,"y":20,"_angle":3.641},{"x":8,"y":41,"_angle":1.768},{"x":10,"y":13,"_angle":4.636}]},{"x":18,"y":47,"border":false,"links":[{"x":20,"y":40,"_angle":4.991},{"x":30,"y":40,"_angle":5.755},{"x":20,"y":60,"_angle":1.418},{"x":10,"y":60,"_angle":2.122},{"x":9,"y":48,"_angle":3.031},{"x":8,"y":41,"_angle":3.682},{"x":31,"y":52,"_angle":0.367}]},{"x":31,"y":52,"border":false,"links":[{"x":30,"y":40,"_angle":4.629},{"x":40,"y":40,"_angle":5.356},{"x":40,"y":60,"_angle":0.727},{"x":30,"y":60,"_angle":1.695},{"x":18,"y":47,"_angle":3.509},{"x":20,"y":60,"_angle":2.513},{"x":48,"y":48,"_angle":6.052}]},{"x":48,"y":48,"border":false,"links":[{"x":40,"y":40,"_angle":3.927},{"x":50,"y":40,"_angle":4.957},{"x":50,"y":60,"_angle":1.406},{"x":40,"y":60,"_angle":2.159},{"x":31,"y":52,"_angle":2.911},{"x":60,"y":51,"_angle":0.245}]},{"x":60,"y":51,"border":false,"links":[{"x":50,"y":40,"_angle":3.975},{"x":60,"y":40,"_angle":4.712},{"x":48,"y":48,"_angle":3.387},{"x":60,"y":60,"_angle":1.571},{"x":50,"y":60,"_angle":2.409},{"x":68,"y":52,"_angle":0.124}]},{"x":68,"y":52,"border":false,"links":[{"x":80,"y":60,"_angle":0.588},{"x":70,"y":60,"_angle":1.326},{"x":60,"y":40,"_angle":4.124},{"x":70,"y":40,"_angle":4.878},{"x":60,"y":51,"_angle":3.266},{"x":60,"y":60,"_angle":2.356},{"x":81,"y":49,"_angle":6.056}]},{"x":81,"y":49,"border":false,"links":[{"x":80,"y":40,"_angle":4.602},{"x":90,"y":40,"_angle":5.498},{"x":70,"y":40,"_angle":3.827},{"x":68,"y":52,"_angle":2.915},{"x":80,"y":60,"_angle":1.661},{"x":90,"y":52,"_angle":0.322}]},{"x":90,"y":52,"border":false,"links":[{"x":100,"y":60,"_angle":0.675},{"x":90,"y":60,"_angle":1.571},{"x":81,"y":49,"_angle":3.463},{"x":90,"y":40,"_angle":4.712},{"x":80,"y":60,"_angle":2.467},{"x":99,"y":50,"_angle":6.065}]},{"x":99,"y":50,"border":false,"links":[{"x":90,"y":40,"_angle":3.98},{"x":100,"y":40,"_angle":4.812},{"x":90,"y":52,"_angle":2.923},{"x":100,"y":60,"_angle":1.471},{"x":110,"y":51,"_angle":0.091}]},{"x":110,"y":51,"border":false,"links":[{"x":110,"y":40,"_angle":4.712},{"x":120,"y":40,"_angle":5.45},{"x":100,"y":40,"_angle":3.975},{"x":99,"y":50,"_angle":3.232},{"x":110,"y":60,"_angle":1.571},{"x":100,"y":60,"_angle":2.409},{"x":119,"y":52,"_angle":0.111}]},{"x":119,"y":52,"border":false,"links":[{"x":130,"y":60,"_angle":0.629},{"x":120,"y":60,"_angle":1.446},{"x":110,"y":51,"_angle":3.252},{"x":120,"y":40,"_angle":4.796},{"x":110,"y":60,"_angle":2.415},{"x":128,"y":49,"_angle":5.961}]},{"x":128,"y":49,"border":false,"links":[{"x":119,"y":52,"_angle":2.82},{"x":120,"y":40,"_angle":3.986},{"x":140,"y":50,"_angle":0.083},{"x":130,"y":60,"_angle":1.391},{"x":130,"y":41,"_angle":4.957}]},{"x":130,"y":41,"border":false,"links":[{"x":120,"y":40,"_angle":3.241},{"x":120,"y":30,"_angle":3.975},{"x":140,"y":30,"_angle":5.45},{"x":140,"y":40,"_angle":6.184},{"x":128,"y":49,"_angle":1.816},{"x":140,"y":50,"_angle":0.733},{"x":131,"y":26,"_angle":4.779}]},{"x":128,"y":13,"border":false,"links":[{"x":120,"y":10,"_angle":3.5},{"x":130,"y":0,"_angle":4.865},{"x":140,"y":10,"_angle":6.038},{"x":120,"y":20,"_angle":2.423},{"x":140,"y":20,"_angle":0.528},{"x":131,"y":26,"_angle":1.344}]},{"x":131,"y":26,"border":false,"links":[{"x":120,"y":30,"_angle":2.793},{"x":120,"y":20,"_angle":3.641},{"x":140,"y":20,"_angle":5.695},{"x":140,"y":30,"_angle":0.418},{"x":130,"y":41,"_angle":1.637},{"x":128,"y":13,"_angle":4.486}]}]
+20-11-2023 19:47:35 - log: [Scene] PROPERTY KEY: Tess_ExpectedTrianglesTest_Test
+20-11-2023 19:47:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrianglesTest_Test
+20-11-2023 19:47:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdfsdfTest_Test
+20-11-2023 19:47:35 - log: [Scene] PROPERTY KEY: Tess_2_ExpectedTrissdasdasdfsdfTest_Test
+20-11-2023 19:47:35 - log: [Scene] ONLOAD ---
+20-11-2023 19:47:35 - log: [Scene] ANCESTOR
+20-11-2023 19:47:35 - log: [Scene] [
+  Vec2 { x: 0, y: 0 },    Vec2 { x: 10, y: 0 },
+  Vec2 { x: 20, y: 0 },   Vec2 { x: 20, y: 10 },
+  Vec2 { x: 20, y: 20 },  Vec2 { x: 20, y: 30 },
+  Vec2 { x: 20, y: 40 },  Vec2 { x: 30, y: 40 },
+  Vec2 { x: 40, y: 40 },  Vec2 { x: 50, y: 40 },
+  Vec2 { x: 60, y: 40 },  Vec2 { x: 70, y: 40 },
+  Vec2 { x: 80, y: 40 },  Vec2 { x: 90, y: 40 },
+  Vec2 { x: 100, y: 40 }, Vec2 { x: 110, y: 40 },
+  Vec2 { x: 120, y: 40 }, Vec2 { x: 120, y: 30 },
+  Vec2 { x: 120, y: 20 }, Vec2 { x: 120, y: 10 },
+  Vec2 { x: 120, y: 0 },  Vec2 { x: 130, y: 0 },
+  Vec2 { x: 140, y: 0 },  Vec2 { x: 140, y: 10 },
+  Vec2 { x: 140, y: 20 }, Vec2 { x: 140, y: 30 },
+  Vec2 { x: 140, y: 40 }, Vec2 { x: 140, y: 50 },
+  Vec2 { x: 140, y: 60 }, Vec2 { x: 130, y: 60 },
+  Vec2 { x: 120, y: 60 }, Vec2 { x: 110, y: 60 },
+  Vec2 { x: 100, y: 60 }, Vec2 { x: 90, y: 60 },
+  Vec2 { x: 80, y: 60 },  Vec2 { x: 70, y: 60 },
+  Vec2 { x: 60, y: 60 },  Vec2 { x: 50, y: 60 },
+  Vec2 { x: 40, y: 60 },  Vec2 { x: 30, y: 60 },
+  Vec2 { x: 20, y: 60 },  Vec2 { x: 10, y: 60 },
+  Vec2 { x: 0, y: 60 },   Vec2 { x: 0, y: 50 },
+  Vec2 { x: 0, y: 40 },   Vec2 { x: 0, y: 30 },
+  Vec2 { x: 0, y: 20 },   Vec2 { x: 0, y: 10 }
+]
+20-11-2023 19:47:35 - log: [Scene] ON ENABLE
+20-11-2023 19:47:35 - log: [Scene] ON START
+20-11-2023 19:47:35 - log: [Scene] ----- DELAUNAY -----
+20-11-2023 19:47:35 - log: [Scene] [{"x":0,"y":0,"border":true,"links":[null]},{"x":10,"y":0,"border":true,"links":[{"x":20,"y":10,"_angle":0.785},{"x":0,"y":10,"_angle":2.356},{"x":10,"y":13,"_angle":1.571}]},{"x":20,"y":0,"border":true,"links":[null]},{"x":20,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":3.927},{"x":10,"y":13,"_angle":2.85}]},{"x":20,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":3.752},{"x":11,"y":26,"_angle":2.554}]},{"x":20,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":2.4},{"x":11,"y":26,"_angle":3.56}]},{"x":20,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":3.058},{"x":18,"y":47,"_angle":1.849}]},{"x":30,"y":40,"border":true,"links":[{"x":18,"y":47,"_angle":2.614},{"x":31,"y":52,"_angle":1.488}]},{"x":40,"y":40,"border":true,"links":[{"x":31,"y":52,"_angle":2.214},{"x":48,"y":48,"_angle":0.785}]},{"x":50,"y":40,"border":true,"links":[{"x":48,"y":48,"_angle":1.816},{"x":60,"y":51,"_angle":0.833}]},{"x":60,"y":40,"border":true,"links":[{"x":60,"y":51,"_angle":1.571},{"x":68,"y":52,"_angle":0.983}]},{"x":70,"y":40,"border":true,"links":[{"x":68,"y":52,"_angle":1.736},{"x":81,"y":49,"_angle":0.686}]},{"x":80,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":1.46}]},{"x":90,"y":40,"border":true,"links":[{"x":81,"y":49,"_angle":2.356},{"x":90,"y":52,"_angle":1.571},{"x":99,"y":50,"_angle":0.838}]},{"x":100,"y":40,"border":true,"links":[{"x":99,"y":50,"_angle":1.67},{"x":110,"y":51,"_angle":0.833}]},{"x":110,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":1.571}]},{"x":120,"y":40,"border":true,"links":[{"x":110,"y":51,"_angle":2.309},{"x":119,"y":52,"_angle":1.654},{"x":128,"y":49,"_angle":0.844},{"x":130,"y":41,"_angle":0.1}]},{"x":120,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":0.833},{"x":131,"y":26,"_angle":5.934}]},{"x":120,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":5.564},{"x":131,"y":26,"_angle":0.499}]},{"x":120,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":5.498},{"x":128,"y":13,"_angle":0.359}]},{"x":120,"y":0,"border":true,"links":[null]},{"x":130,"y":0,"border":true,"links":[{"x":120,"y":10,"_angle":2.356},{"x":140,"y":10,"_angle":0.785},{"x":128,"y":13,"_angle":1.723}]},{"x":140,"y":0,"border":true,"links":[null]},{"x":140,"y":10,"border":true,"links":[{"x":130,"y":0,"_angle":3.927},{"x":128,"y":13,"_angle":2.897}]},{"x":140,"y":20,"border":true,"links":[{"x":128,"y":13,"_angle":3.67},{"x":131,"y":26,"_angle":2.554}]},{"x":140,"y":30,"border":true,"links":[{"x":130,"y":41,"_angle":2.309},{"x":131,"y":26,"_angle":3.56}]},{"x":140,"y":40,"border":true,"links":[{"x":130,"y":41,"_angle":3.042}]},{"x":140,"y":50,"border":true,"links":[{"x":130,"y":60,"_angle":2.356},{"x":128,"y":49,"_angle":3.225},{"x":130,"y":41,"_angle":3.874}]},{"x":140,"y":60,"border":true,"links":[null]},{"x":130,"y":60,"border":true,"links":[{"x":140,"y":50,"_angle":5.498},{"x":119,"y":52,"_angle":3.77},{"x":128,"y":49,"_angle":4.533}]},{"x":120,"y":60,"border":true,"links":[{"x":119,"y":52,"_angle":4.588}]},{"x":110,"y":60,"border":true,"links":[{"x":110,"y":51,"_angle":4.712},{"x":119,"y":52,"_angle":5.557}]},{"x":100,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":3.816},{"x":99,"y":50,"_angle":4.613},{"x":110,"y":51,"_angle":5.55}]},{"x":90,"y":60,"border":true,"links":[{"x":90,"y":52,"_angle":4.712}]},{"x":80,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":3.73},{"x":81,"y":49,"_angle":4.803},{"x":90,"y":52,"_angle":5.608}]},{"x":70,"y":60,"border":true,"links":[{"x":68,"y":52,"_angle":4.467}]},{"x":60,"y":60,"border":true,"links":[{"x":60,"y":51,"_angle":4.712},{"x":68,"y":52,"_angle":5.498}]},{"x":50,"y":60,"border":true,"links":[{"x":48,"y":48,"_angle":4.547},{"x":60,"y":51,"_angle":5.55}]},{"x":40,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":3.868},{"x":48,"y":48,"_angle":5.3}]},{"x":30,"y":60,"border":true,"links":[{"x":31,"y":52,"_angle":4.837}]},{"x":20,"y":60,"border":true,"links":[{"x":18,"y":47,"_angle":4.56},{"x":31,"y":52,"_angle":5.654}]},{"x":10,"y":60,"border":true,"links":[{"x":0,"y":50,"_angle":3.927},{"x":9,"y":48,"_angle":4.629},{"x":18,"y":47,"_angle":5.264}]},{"x":0,"y":60,"border":true,"links":[null]},{"x":0,"y":50,"border":true,"links":[{"x":10,"y":60,"_angle":0.785},{"x":8,"y":41,"_angle":5.439},{"x":9,"y":48,"_angle":6.065}]},{"x":0,"y":40,"border":true,"links":[{"x":8,"y":41,"_angle":0.124}]},{"x":0,"y":30,"border":true,"links":[{"x":8,"y":41,"_angle":0.942},{"x":11,"y":26,"_angle":5.934}]},{"x":0,"y":20,"border":true,"links":[{"x":10,"y":13,"_angle":5.672},{"x":11,"y":26,"_angle":0.499}]},{"x":0,"y":10,"border":true,"links":[{"x":10,"y":0,"_angle":5.498},{"x":10,"y":13,"_angle":0.291}]},{"x":8,"y":41,"border":false,"links":[{"x":0,"y":50,"_angle":2.297},{"x":0,"y":40,"_angle":3.266},{"x":20,"y":30,"_angle":5.541},{"x":20,"y":40,"_angle":6.2},{"x":0,"y":30,"_angle":4.084},{"x":9,"y":48,"_angle":1.429},{"x":11,"y":26,"_angle":4.91},{"x":18,"y":47,"_angle":0.54}]},{"x":9,"y":48,"border":false,"links":[{"x":10,"y":60,"_angle":1.488},{"x":0,"y":50,"_angle":2.923},{"x":8,"y":41,"_angle":4.57},{"x":18,"y":47,"_angle":6.173}]},{"x":10,"y":13,"border":false,"links":[{"x":10,"y":0,"_angle":4.712},{"x":20,"y":10,"_angle":5.992},{"x":0,"y":10,"_angle":3.433},{"x":20,"y":20,"_angle":0.611},{"x":0,"y":20,"_angle":2.531},{"x":11,"y":26,"_angle":1.494}]},{"x":11,"y":26,"border":false,"links":[{"x":20,"y":20,"_angle":5.695},{"x":20,"y":30,"_angle":0.418},{"x":0,"y":30,"_angle":2.793},{"x":0,"y":20,"_angle":3.641},{"x":8,"y":41,"_angle":1.768},{"x":10,"y":13,"_angle":4.636}]},{"x":18,"y":47,"border":false,"links":[{"x":20,"y":40,"_angle":4.991},{"x":30,"y":40,"_angle":5.755},{"x":20,"y":60,"_angle":1.418},{"x":10,"y":60,"_angle":2.122},{"x":9,"y":48,"_angle":3.031},{"x":8,"y":41,"_angle":3.682},{"x":31,"y":52,"_angle":0.367}]},{"x":31,"y":52,"border":false,"links":[{"x":30,"y":40,"_angle":4.629},{"x":40,"y":40,"_angle":5.356},{"x":40,"y":60,"_angle":0.727},{"x":30,"y":60,"_angle":1.695},{"x":18,"y":47,"_angle":3.509},{"x":20,"y":60,"_angle":2.513},{"x":48,"y":48,"_angle":6.052}]},{"x":48,"y":48,"border":false,"links":[{"x":40,"y":40,"_angle":3.927},{"x":50,"y":40,"_angle":4.957},{"x":50,"y":60,"_angle":1.406},{"x":40,"y":60,"_angle":2.159},{"x":31,"y":52,"_angle":2.911},{"x":60,"y":51,"_angle":0.245}]},{"x":60,"y":51,"border":false,"links":[{"x":50,"y":40,"_angle":3.975},{"x":60,"y":40,"_angle":4.712},{"x":48,"y":48,"_angle":3.387},{"x":60,"y":60,"_angle":1.571},{"x":50,"y":60,"_angle":2.409},{"x":68,"y":52,"_angle":0.124}]},{"x":68,"y":52,"border":false,"links":[{"x":80,"y":60,"_angle":0.588},{"x":70,"y":60,"_angle":1.326},{"x":60,"y":40,"_angle":4.124},{"x":70,"y":40,"_angle":4.878},{"x":60,"y":51,"_angle":3.266},{"x":60,"y":60,"_angle":2.356},{"x":81,"y":49,"_angle":6.056}]},{"x":81,"y":49,"border":false,"links":[{"x":80,"y":40,"_angle":4.602},{"x":90,"y":40,"_angle":5.498},{"x":70,"y":40,"_angle":3.827},{"x":68,"y":52,"_angle":2.915},{"x":80,"y":60,"_angle":1.661},{"x":90,"y":52,"_angle":0.322}]},{"x":90,"y":52,"border":false,"links":[{"x":100,"y":60,"_angle":0.675},{"x":90,"y":60,"_angle":1.571},{"x":81,"y":49,"_angle":3.463},{"x":90,"y":40,"_angle":4.712},{"x":80,"y":60,"_angle":2.467},{"x":99,"y":50,"_angle":6.065}]},{"x":99,"y":50,"border":false,"links":[{"x":90,"y":40,"_angle":3.98},{"x":100,"y":40,"_angle":4.812},{"x":90,"y":52,"_angle":2.923},{"x":100,"y":60,"_angle":1.471},{"x":110,"y":51,"_angle":0.091}]},{"x":110,"y":51,"border":false,"links":[{"x":110,"y":40,"_angle":4.712},{"x":120,"y":40,"_angle":5.45},{"x":100,"y":40,"_angle":3.975},{"x":99,"y":50,"_angle":3.232},{"x":110,"y":60,"_angle":1.571},{"x":100,"y":60,"_angle":2.409},{"x":119,"y":52,"_angle":0.111}]},{"x":119,"y":52,"border":false,"links":[{"x":130,"y":60,"_angle":0.629},{"x":120,"y":60,"_angle":1.446},{"x":110,"y":51,"_angle":3.252},{"x":120,"y":40,"_angle":4.796},{"x":110,"y":60,"_angle":2.415},{"x":128,"y":49,"_angle":5.961}]},{"x":128,"y":49,"border":false,"links":[{"x":119,"y":52,"_angle":2.82},{"x":120,"y":40,"_angle":3.986},{"x":140,"y":50,"_angle":0.083},{"x":130,"y":60,"_angle":1.391},{"x":130,"y":41,"_angle":4.957}]},{"x":130,"y":41,"border":false,"links":[{"x":120,"y":40,"_angle":3.241},{"x":120,"y":30,"_angle":3.975},{"x":140,"y":30,"_angle":5.45},{"x":140,"y":40,"_angle":6.184},{"x":128,"y":49,"_angle":1.816},{"x":140,"y":50,"_angle":0.733},{"x":131,"y":26,"_angle":4.779}]},{"x":128,"y":13,"border":false,"links":[{"x":120,"y":10,"_angle":3.5},{"x":130,"y":0,"_angle":4.865},{"x":140,"y":10,"_angle":6.038},{"x":120,"y":20,"_angle":2.423},{"x":140,"y":20,"_angle":0.528},{"x":131,"y":26,"_angle":1.344}]},{"x":131,"y":26,"border":false,"links":[{"x":120,"y":30,"_angle":2.793},{"x":120,"y":20,"_angle":3.641},{"x":140,"y":20,"_angle":5.695},{"x":140,"y":30,"_angle":0.418},{"x":130,"y":41,"_angle":1.637},{"x":128,"y":13,"_angle":4.486}]}]

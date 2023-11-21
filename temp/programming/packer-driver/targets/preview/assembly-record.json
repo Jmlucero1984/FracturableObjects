@@ -793,7 +793,7 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "45d4864d08a16464a3bd3845995f470212ecdc81"
+            "id": "ce89becd5099ef1ec902a70274e9a6dd21430b20"
           },
           "messages": []
         },
@@ -806,65 +806,6 @@
         }
       },
       "timestamp": 1696201456859
-    },
-    "970a9f417227a47545ba3658531a8d88144b926b": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "chunk",
-            "id": "82539c434ddf4c0adf1a452c09aa1822c86c1029"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-            "id": "792a3202e6b5b1dfa39b6c308f6085691a041363"
-          },
-          "messages": []
-        },
-        "__unresolved_3": {
-          "resolved": {
-            "type": "chunk",
-            "id": "0bde32baa5b5ec0bb5d70fbf85747024132c6930"
-          },
-          "messages": []
-        },
-        "__unresolved_4": {
-          "resolved": {
-            "type": "chunk",
-            "id": "baaf8a4fdd74a28a51c8aab90acb79132cb98698"
-          },
-          "messages": []
-        },
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1696207105799
-    },
-    "45d4864d08a16464a3bd3845995f470212ecdc81": {
-      "imports": {
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1696242705747
     },
     "44edcefcd7de12b1a5776f2f7e614dfdd6fe3fe2": {
       "imports": {
@@ -1146,23 +1087,28 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "e007231575f26aca7d4b6e70d7d96ebd6f81df73"
+            "id": "b73ddf6c3d700cbfb306dd3ceeef20d040813477"
           },
           "messages": []
         },
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "52ddff805e7ed97ee47f49576aed294595c8729a"
+            "id": "a5ff770daf295347eb921dc17aa7f76d67132b8a"
           },
           "messages": []
         },
         "__unresolved_3": {
           "resolved": {
-            "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
+            "type": "error",
+            "text": "Error: Module \"./UTest\" not found for file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestLoader.ts"
           },
-          "messages": []
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
         },
         "cc": {
           "resolved": {
@@ -1210,32 +1156,6 @@
       },
       "timestamp": 1696903123832
     },
-    "52ddff805e7ed97ee47f49576aed294595c8729a": {
-      "imports": {
-        "__unresolved_0": {
-          "resolved": {
-            "type": "chunk",
-            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
-          },
-          "messages": []
-        },
-        "__unresolved_1": {
-          "resolved": {
-            "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
-          },
-          "messages": []
-        },
-        "cc": {
-          "resolved": {
-            "type": "chunk",
-            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
-          },
-          "messages": []
-        }
-      },
-      "timestamp": 1697262103877
-    },
     "6ca59b994c185ed5d63dc2b669a6a166efab1bdd": {
       "imports": {
         "__unresolved_0": {
@@ -1247,10 +1167,15 @@
         },
         "__unresolved_1": {
           "resolved": {
-            "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
+            "type": "error",
+            "text": "Error: Module \"./UTest\" not found for file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/SimpleTest.ts"
           },
-          "messages": []
+          "messages": [
+            {
+              "level": "warn",
+              "text": "Did you forget the extension? Please note that you can not omit extension in module specifier."
+            }
+          ]
         },
         "cc": {
           "resolved": {
@@ -1274,7 +1199,7 @@
       },
       "timestamp": 1700073659554
     },
-    "e007231575f26aca7d4b6e70d7d96ebd6f81df73": {
+    "0bde32baa5b5ec0bb5d70fbf85747024132c6930": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1286,7 +1211,134 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "cd62419fe242b1710f5abb518b6aaeb553c3275b"
+            "id": "64f78f1c0c093dd2e92dc354ae39fbad2d73e9ca"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700135463062
+    },
+    "2d0375ef5506ff4e8bf043579a700735f4d24348": {
+      "imports": {},
+      "timestamp": 1700421029122
+    },
+    "f09391c7b83b638f66613b988224b91ae1d812aa": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700421104190
+    },
+    "41bff05409958d3c1cd1ac158acc009ff01b7aea": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700421104493
+    },
+    "a5ff770daf295347eb921dc17aa7f76d67132b8a": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700421183768
+    },
+    "6ca82f87f378d206a670b6f1e85b75d085383359": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
+          },
+          "messages": []
+        },
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700421184130
+    },
+    "b73ddf6c3d700cbfb306dd3ceeef20d040813477": {
+      "imports": {
+        "__unresolved_0": {
+          "resolved": {
+            "type": "chunk",
+            "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c"
           },
           "messages": []
         },
@@ -1300,7 +1352,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
           },
           "messages": []
         },
@@ -1312,9 +1364,9 @@
           "messages": []
         }
       },
-      "timestamp": 1700082675422
+      "timestamp": 1700423893946
     },
-    "cd62419fe242b1710f5abb518b6aaeb553c3275b": {
+    "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1338,14 +1390,28 @@
           "messages": []
         }
       },
-      "timestamp": 1700092770548
+      "timestamp": 1700437952318
     },
-    "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa": {
+    "756681ac00f265d2d8abef3283ad1694c69e90a0": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
             "type": "chunk",
             "id": "cceb4f795e6e637cc67c120b5b44ef3a584b486a"
+          },
+          "messages": []
+        },
+        "__unresolved_1": {
+          "resolved": {
+            "type": "chunk",
+            "id": "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
           },
           "messages": []
         },
@@ -1357,7 +1423,7 @@
           "messages": []
         }
       },
-      "timestamp": 1700093835321
+      "timestamp": 1700502392771
     },
     "909f786ffe128f06f5aa1b4e1e3fbbd65262915e": {
       "imports": {
@@ -1495,13 +1561,25 @@
           "messages": []
         }
       },
-      "timestamp": 1700131811457
+      "timestamp": 1700516669930
     },
     "cceb4f795e6e637cc67c120b5b44ef3a584b486a": {
       "imports": {},
-      "timestamp": 1700131811533
+      "timestamp": 1700516670060
     },
-    "7a4356059ea7d8a31226355d2ca2797d01350792": {
+    "ce89becd5099ef1ec902a70274e9a6dd21430b20": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1700529103185
+    },
+    "be497ef770e2fa6f5ba806637a977363fb519f61": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1513,14 +1591,7 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
-          },
-          "messages": []
-        },
-        "__unresolved_2": {
-          "resolved": {
-            "type": "chunk",
-            "id": "cd62419fe242b1710f5abb518b6aaeb553c3275b"
+            "id": "ce89becd5099ef1ec902a70274e9a6dd21430b20"
           },
           "messages": []
         },
@@ -1532,9 +1603,9 @@
           "messages": []
         }
       },
-      "timestamp": 1700133858315
+      "timestamp": 1700529177527
     },
-    "a3cb662f7ad9098244b15871f85be1d232ea39f2": {
+    "64f78f1c0c093dd2e92dc354ae39fbad2d73e9ca": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1558,9 +1629,9 @@
           "messages": []
         }
       },
-      "timestamp": 1700135462992
+      "timestamp": 1700531429005
     },
-    "0bde32baa5b5ec0bb5d70fbf85747024132c6930": {
+    "7cf73179488fc5aea8cf43b968fe425f6ac598d3": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1572,7 +1643,28 @@
         "__unresolved_1": {
           "resolved": {
             "type": "chunk",
-            "id": "a3cb662f7ad9098244b15871f85be1d232ea39f2"
+            "id": "7c6fddbf75903838faff70d676b08145d34a88a9"
+          },
+          "messages": []
+        },
+        "__unresolved_2": {
+          "resolved": {
+            "type": "chunk",
+            "id": "792a3202e6b5b1dfa39b6c308f6085691a041363"
+          },
+          "messages": []
+        },
+        "__unresolved_3": {
+          "resolved": {
+            "type": "chunk",
+            "id": "0bde32baa5b5ec0bb5d70fbf85747024132c6930"
+          },
+          "messages": []
+        },
+        "__unresolved_4": {
+          "resolved": {
+            "type": "chunk",
+            "id": "baaf8a4fdd74a28a51c8aab90acb79132cb98698"
           },
           "messages": []
         },
@@ -1584,9 +1676,9 @@
           "messages": []
         }
       },
-      "timestamp": 1700135463062
+      "timestamp": 1700531760399
     },
-    "010182db671f99578bcde2099a003988e813fbd4": {
+    "dd39c6859b3589883e7f620ada38d6bd4a1cc359": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1605,35 +1697,35 @@
         "__unresolved_10": {
           "resolved": {
             "type": "chunk",
-            "id": "52ddff805e7ed97ee47f49576aed294595c8729a"
+            "id": "a5ff770daf295347eb921dc17aa7f76d67132b8a"
           },
           "messages": []
         },
         "__unresolved_11": {
           "resolved": {
             "type": "chunk",
-            "id": "ec253bd4b62a2d0836f400ef2d076bf89f7ae0eb"
+            "id": "a73121f089463b0ee908405d9ffea8b8f46b7872"
           },
           "messages": []
         },
         "__unresolved_12": {
           "resolved": {
             "type": "chunk",
-            "id": "a73121f089463b0ee908405d9ffea8b8f46b7872"
+            "id": "baaf8a4fdd74a28a51c8aab90acb79132cb98698"
           },
           "messages": []
         },
         "__unresolved_13": {
           "resolved": {
             "type": "chunk",
-            "id": "baaf8a4fdd74a28a51c8aab90acb79132cb98698"
+            "id": "faa61e087b62ed55ee5289b4b85fb92b53578f69"
           },
           "messages": []
         },
         "__unresolved_14": {
           "resolved": {
             "type": "chunk",
-            "id": "faa61e087b62ed55ee5289b4b85fb92b53578f69"
+            "id": "be497ef770e2fa6f5ba806637a977363fb519f61"
           },
           "messages": []
         },
@@ -1661,74 +1753,67 @@
         "__unresolved_18": {
           "resolved": {
             "type": "chunk",
-            "id": "6ca59b994c185ed5d63dc2b669a6a166efab1bdd"
+            "id": "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c"
           },
           "messages": []
         },
         "__unresolved_19": {
           "resolved": {
             "type": "chunk",
-            "id": "cd62419fe242b1710f5abb518b6aaeb553c3275b"
+            "id": "756681ac00f265d2d8abef3283ad1694c69e90a0"
           },
           "messages": []
         },
         "__unresolved_2": {
           "resolved": {
             "type": "chunk",
-            "id": "45d4864d08a16464a3bd3845995f470212ecdc81"
+            "id": "ce89becd5099ef1ec902a70274e9a6dd21430b20"
           },
           "messages": []
         },
         "__unresolved_20": {
           "resolved": {
             "type": "chunk",
-            "id": "7a4356059ea7d8a31226355d2ca2797d01350792"
+            "id": "f09391c7b83b638f66613b988224b91ae1d812aa"
           },
           "messages": []
         },
         "__unresolved_21": {
           "resolved": {
             "type": "chunk",
-            "id": "e007231575f26aca7d4b6e70d7d96ebd6f81df73"
+            "id": "41bff05409958d3c1cd1ac158acc009ff01b7aea"
           },
           "messages": []
         },
         "__unresolved_22": {
           "resolved": {
             "type": "chunk",
-            "id": "528fd6528cbdd0afc1286222cd728608b2effb48"
+            "id": "6ca82f87f378d206a670b6f1e85b75d085383359"
           },
           "messages": []
         },
         "__unresolved_23": {
           "resolved": {
             "type": "chunk",
-            "id": "766f0f03b46552f8b81a593079350a5fde9c8ed3"
+            "id": "b73ddf6c3d700cbfb306dd3ceeef20d040813477"
           },
           "messages": []
         },
         "__unresolved_24": {
           "resolved": {
             "type": "chunk",
-            "id": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa"
+            "id": "528fd6528cbdd0afc1286222cd728608b2effb48"
           },
           "messages": []
         },
         "__unresolved_25": {
           "resolved": {
             "type": "chunk",
-            "id": "2b7cce76df7fd9772b069fc2e32b6f119ca68d78"
-          },
-          "messages": []
-        },
-        "__unresolved_26": {
-          "resolved": {
-            "type": "chunk",
             "id": "79030e4ea313a5b72c453dd53c1f4e3ed538347e"
           },
           "messages": []
         },
-        "__unresolved_27": {
+        "__unresolved_26": {
           "resolved": {
             "type": "chunk",
             "id": "959a6ec44aa07e06debd4ef5f7d4359eede6f790"
@@ -1738,7 +1823,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "a3cb662f7ad9098244b15871f85be1d232ea39f2"
+            "id": "64f78f1c0c093dd2e92dc354ae39fbad2d73e9ca"
           },
           "messages": []
         },
@@ -1773,21 +1858,21 @@
         "__unresolved_8": {
           "resolved": {
             "type": "chunk",
-            "id": "82539c434ddf4c0adf1a452c09aa1822c86c1029"
+            "id": "7c6fddbf75903838faff70d676b08145d34a88a9"
           },
           "messages": []
         },
         "__unresolved_9": {
           "resolved": {
             "type": "chunk",
-            "id": "970a9f417227a47545ba3658531a8d88144b926b"
+            "id": "7cf73179488fc5aea8cf43b968fe425f6ac598d3"
           },
           "messages": []
         }
       },
-      "timestamp": 1700135494770
+      "timestamp": 1700535296475
     },
-    "82539c434ddf4c0adf1a452c09aa1822c86c1029": {
+    "7c6fddbf75903838faff70d676b08145d34a88a9": {
       "imports": {
         "__unresolved_0": {
           "resolved": {
@@ -1813,7 +1898,7 @@
         "__unresolved_3": {
           "resolved": {
             "type": "chunk",
-            "id": "970a9f417227a47545ba3658531a8d88144b926b"
+            "id": "7cf73179488fc5aea8cf43b968fe425f6ac598d3"
           },
           "messages": []
         },
@@ -1825,12 +1910,12 @@
           "messages": []
         }
       },
-      "timestamp": 1700135495008
+      "timestamp": 1700535297224
     }
   },
   "entries": {
     "cce:/internal/x/cc": "909f786ffe128f06f5aa1b4e1e3fbbd65262915e",
-    "cce:/internal/x/prerequisite-imports": "010182db671f99578bcde2099a003988e813fbd4",
+    "cce:/internal/x/prerequisite-imports": "dd39c6859b3589883e7f620ada38d6bd4a1cc359",
     "file:///C:/ProgramData/cocos/editors/Creator/3.7.3/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "2a928a14a8e4769a651e4598805254a5fe298b6c",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Utest.utest.ts": "959a6ec44aa07e06debd4ef5f7d4359eede6f790",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/ButtonScript.ts": "3f4722bd3e96b3e49718fe8d4b3a3a194b74cb78",
@@ -1838,26 +1923,25 @@
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/LinkNodeClass.ts": "6edb33449530f5e65bbc59a41dd16f29e681a7bb",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/PlainVertexClass.ts": "d08c3886daedc884b58794274d958f481bd219d3",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/ScrollContentSizer.ts": "44edcefcd7de12b1a5776f2f7e614dfdd6fe3fe2",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/SimpleTest.ts": "6ca59b994c185ed5d63dc2b669a6a166efab1bdd",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestClasses.ts": "528fd6528cbdd0afc1286222cd728608b2effb48",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/TestLoader.ts": "766f0f03b46552f8b81a593079350a5fde9c8ed3",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UnitTest.ts": "2b7cce76df7fd9772b069fc2e32b6f119ca68d78",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/UTest.ts": "e9397a53a2a9aba1ccde4e39e31ba0fbbb249daa",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Voronoi.ts": "79030e4ea313a5b72c453dd53c1f4e3ed538347e",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts": "45d4864d08a16464a3bd3845995f470212ecdc81",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssemblerImplementer.ts": "0bde32baa5b5ec0bb5d70fbf85747024132c6930",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayFracturable.ts": "11427786faa58a65419a305e4ca18b619abb1f9d",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayFractureClass.ts": "759e3dc964e02ad3300b41dbc48163bd53e74674",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunaySplitter.ts": "792a3202e6b5b1dfa39b6c308f6085691a041363",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/earcut.ts": "baaf8a4fdd74a28a51c8aab90acb79132cb98698",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/StaticFractureManager.ts": "970a9f417227a47545ba3658531a8d88144b926b",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/UnitTest.ts": "ec253bd4b62a2d0836f400ef2d076bf89f7ae0eb",
     "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/WholeDelaunay.ts": "a73121f089463b0ee908405d9ffea8b8f46b7872",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts": "cd62419fe242b1710f5abb518b6aaeb553c3275b",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessellationTest.ts": "e007231575f26aca7d4b6e70d7d96ebd6f81df73",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/StocasticsScatter/Tests/StocasticsUTest.ts": "52ddff805e7ed97ee47f49576aed294595c8729a",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessToJsonTest.ts": "7a4356059ea7d8a31226355d2ca2797d01350792",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssembler.ts": "a3cb662f7ad9098244b15871f85be1d232ea39f2",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssemblerImplementer.ts": "0bde32baa5b5ec0bb5d70fbf85747024132c6930",
-    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/FractDelaunay.ts": "82539c434ddf4c0adf1a452c09aa1822c86c1029"
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tessellation.ts": "d3cc7f1c42ee89834afcbce07e8ba2a5d66ed30c",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/CharSTest.ts": "756681ac00f265d2d8abef3283ad1694c69e90a0",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/CucutaTestBase.ts": "f09391c7b83b638f66613b988224b91ae1d812aa",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/ExampleTest.ts": "41bff05409958d3c1cd1ac158acc009ff01b7aea",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessellationTest.ts": "b73ddf6c3d700cbfb306dd3ceeef20d040813477",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Tesselation/Tests/TessToJsonTest.ts": "6ca82f87f378d206a670b6f1e85b75d085383359",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/StocasticsScatter/Tests/StocasticsUTest.ts": "a5ff770daf295347eb921dc17aa7f76d67132b8a",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/Delaunay.ts": "ce89becd5099ef1ec902a70274e9a6dd21430b20",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/Drawer.ts": "be497ef770e2fa6f5ba806637a977363fb519f61",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/DelaunayAssembler.ts": "64f78f1c0c093dd2e92dc354ae39fbad2d73e9ca",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/StaticFractureManager.ts": "7cf73179488fc5aea8cf43b968fe425f6ac598d3",
+    "file:///C:/Users/jmluc/FracturableObjects/assets/Scripts/DelaunayPackage/FractDelaunay.ts": "7c6fddbf75903838faff70d676b08145d34a88a9"
   }
 }

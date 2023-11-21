@@ -180,7 +180,7 @@
     "value": {
       "depends": [
         "509b16b2-12be-4bda-9fe3-f67592b628a4",
-        "700f2003-1d5b-402c-a3c2-ccca175020c9@6c48a"
+        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a"
       ]
     }
   },
@@ -197,7 +197,10 @@
     "url": "db://assets/Prefabs/DelaunayFracturable.prefab",
     "value": {
       "depends": [
-        "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f@6c48a",
+        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a",
+        "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
+        "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
+        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a",
         "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9"
       ]
     }
@@ -1017,6 +1020,8 @@
         "847497b2-8e64-4105-9279-9f7b40e70f31",
         "aa957858-1796-4e79-8a23-0652a594fcfc",
         "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "c40d4796-c2e1-4b41-a38a-27fb449838ee",
+        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a",
         "ac9bb448-d186-463a-8868-be3f93909803@f9941",
         "3264f46e-18b2-44e6-bb19-5a5485e731c3@f9941",
         "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
@@ -1026,6 +1031,7 @@
         "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
         "b730527c-3233-41c2-aaf7-7cdab58f9749@f9941",
         "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "1c302bbf-ecd6-4929-802c-17286892768a@f9941",
         "f02deb64-e971-42b9-aa77-ab54ab789347"
       ]
     }
@@ -1272,6 +1278,66 @@
   },
   "f0ed06eb-66ee-45c8-9be1-ea096479d6ca": {
     "url": "db://assets/Scripts/Tesselation/Tests/TessToJsonTest.ts",
+    "value": {}
+  },
+  "b249d52c-d4ee-4221-89a3-f24881942b0d": {
+    "url": "db://assets/Scripts/Tesselation/Tests/CharSTest.ts",
+    "value": {}
+  },
+  "d4cc8c2e-f3ef-4183-b8ca-761d5ada5c3f": {
+    "url": "db://assets/Scripts/Tesselation/Tests/CucutaTestBase.ts",
+    "value": {}
+  },
+  "e08bac0c-d50d-4739-ba15-11bd19cbd82a": {
+    "url": "db://assets/Scripts/Tesselation/Tests/ExampleTest.ts",
+    "value": {}
+  },
+  "1c302bbf-ecd6-4929-802c-17286892768a": {
+    "url": "db://assets/Images/Bridge_small.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "82bed00c-a7a4-460a-94fa-c026d47127f2": {
+    "url": "db://assets/Images/westminster_bridge_centring.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "1c302bbf-ecd6-4929-802c-17286892768a@6c48a": {
+    "url": "db://assets/Images/Bridge_small.jpg@6c48a",
+    "value": {
+      "depends": [
+        "1c302bbf-ecd6-4929-802c-17286892768a"
+      ]
+    }
+  },
+  "82bed00c-a7a4-460a-94fa-c026d47127f2@6c48a": {
+    "url": "db://assets/Images/westminster_bridge_centring.jpg@6c48a",
+    "value": {
+      "depends": [
+        "82bed00c-a7a4-460a-94fa-c026d47127f2"
+      ]
+    }
+  },
+  "1c302bbf-ecd6-4929-802c-17286892768a@f9941": {
+    "url": "db://assets/Images/Bridge_small.jpg@f9941",
+    "value": {
+      "depends": [
+        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a"
+      ]
+    }
+  },
+  "82bed00c-a7a4-460a-94fa-c026d47127f2@f9941": {
+    "url": "db://assets/Images/westminster_bridge_centring.jpg@f9941",
+    "value": {
+      "depends": [
+        "82bed00c-a7a4-460a-94fa-c026d47127f2@6c48a"
+      ]
+    }
+  },
+  "5f0cf6b8-60ba-4a71-a11d-efdf788aff65": {
+    "url": "db://assets/Scripts/Drawer.ts",
     "value": {}
   }
 }

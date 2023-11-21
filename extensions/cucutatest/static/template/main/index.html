@@ -1,0 +1,33 @@
+<div id="mainDiv">
+    <h1 id="app"></h1>
+    <ui-prop id="dropCucutaTest" type="dump" dump="cc.Asset">
+        <div id="tag_and_drop">
+            <ui-label slot="label" class="ui-label" style="vertical-align: middle;" value="CustomMaterial" tooltip="Laod your script">Insert Your Test
+            </ui-label>
+            <ui-asset slot="content" id="dropScript" style="vertical-align: middle;" droppable="cc.Script" placeholder="cc.Script" value=""></ui-asset>
+        </div>
+    </ui-prop>
+    <ui-select id="availableTestsList" placeholder="Available Tests List">
+    </ui-select>
+    <div>
+        <ui-button id="testCodeButton" type="primary">Run Test</ui-button>
+        <ui-progress id="progressBar" percent></ui-progress>
+        <ui-section class="config" id="testResults" header="Test Results">
+            <div id="scrollableResults">
+            </div>
+        </ui-section>
+        <ui-section class="config" id="drawingPanel" header="Graphics for Tests">
+            <canvas id="myCanvas" width="250" height="250" style="border:1px solid #575758; background-color: #0c2760;"></canvas>
+        </ui-section>
+        
+    </div>
+    <div id ="codeTest">
+        
+        <ui-textarea id="textArea" value="" placeholder="Test your code"></ui-textarea>
+
+        <ui-code id="codeArea" language="typescript"></ui-code>
+        <ui-button id="firstButton" type="primary">Eval Code</ui-button>
+    </div>
+   
+ 
+</div>

@@ -1,15 +1,16 @@
 import { _decorator, Component, Node } from 'cc';
-import { UTest, CustomMeshData } from '../../UTest';
+ 
 import { generateTessellation, TessPoint, TessTriangle } from '../Tessellation';
 import { Vec2 } from 'cc';
 import { MeshRenderData } from 'cc';
 import { Graphics } from 'cc';
 import { Color } from 'cc';
 import { link } from 'fs';
+import { CucutaTestBase, CustomMeshData } from './CucutaTestBase';
 const { ccclass, property } = _decorator;
 
 @ccclass('TessToJsonTest')
-export class TessToJsonTest extends UTest {
+export class TessToJsonTest extends CucutaTestBase {
     start() {
 
     }

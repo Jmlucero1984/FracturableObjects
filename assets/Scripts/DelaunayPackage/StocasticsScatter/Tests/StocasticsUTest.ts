@@ -1,6 +1,7 @@
 import { _decorator, Color, Component,  Graphics,   RichText, UITransform, Vec2 } from 'cc';
-import { UTest } from '../../../UTest';
+ 
 import { System } from 'cc';
+import { CucutaTestBase } from '../../../Tesselation/Tests/CucutaTestBase';
  
 
 const { ccclass, property, executeInEditMode } = _decorator;
@@ -48,7 +49,7 @@ function getEnvolvCoords() {
  
 @ccclass('StocasticsUTest')
 @executeInEditMode
-export class StocasticsUTest extends UTest {
+export class StocasticsUTest extends CucutaTestBase {
   
  
 

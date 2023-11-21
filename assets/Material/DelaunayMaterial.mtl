@@ -13,6 +13,7 @@
   ],
   "_states": [
     {
+      "stage": 200,
       "rasterizerState": {},
       "depthStencilState": {},
       "blendState": {
@@ -25,7 +26,7 @@
   "_props": [
     {
       "texture1": {
-        "__uuid__": "700f2003-1d5b-402c-a3c2-ccca175020c9@6c48a",
+        "__uuid__": "1c302bbf-ecd6-4929-802c-17286892768a@6c48a",
         "__expectedType__": "cc.Texture2D"
       }
     }

@@ -28,7 +28,27 @@ class plainVertex extends Vec2 {
         this.y = y;
         this.border = border;
     }
+    public toString():string {
+        let output= '{"x":'+this.x+',"y":'+this.y+',"border":'+this.border+',"links":['
+        
+        if(this.links[0]==null) {output+="null"}
+        else{
+            for(let i=0;i<this.links.length;i++) {
+                let l=this.links[i]
+             
+                output+='{"x":'+l.x+',"y":'+l.y+',"_angle":'+l._angle+'}'
+                if(i!=this.links.length-1) output+=","
+              
+            }
+        }
+        output+="]}"
+        return output
+
+
+    }
 }
+
+ 
 
 class Vertex extends Vec2 {
     public x = 0;
@@ -212,6 +232,50 @@ function unitaryVector(posA: Vec2, posB: Vec2) {
 
 @ccclass('Delaunay')
 export class Delaunay extends Graphics {
+
+     generateDelaunay(externals:Vec2[],internals:Vec2[]) {
+        this.clear()
+        let vertices: Vertex[] = [];
+        console.log("EXTERNAL POINTS SIZE: "+externals.length)
+        console.log("INTERNAL POINTS SIZE: "+internals.length)
+        externals.forEach(element => {
+            vertices.push(new Vertex(element.x,element.y,true))
+        });
+        internals.forEach(element => {
+            vertices.push(new Vertex(element.x,element.y))
+        });
+        let triangles = this.triangulate(vertices)
+
+        triangles.forEach(triangle => {
+            triangle.v0.addLink(new Pair(triangle.v1,  getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v0, triangle.v1))))
+            triangle.v1.addLink(new Pair(triangle.v0, getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v1, triangle.v0))))
+            triangle.v1.addLink(new Pair(triangle.v2, getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v1, triangle.v2))))
+            triangle.v2.addLink(new Pair(triangle.v1, getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v2, triangle.v1))))
+            triangle.v0.addLink(new Pair(triangle.v2, getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v0, triangle.v2))))
+            triangle.v2.addLink(new Pair(triangle.v0, getRelativeAngle(new Vec2(1, 0), unitaryVector(triangle.v2, triangle.v0))))
+            this.moveTo(triangle.v0.x, triangle.v0.y)
+            this.lineTo(triangle.v1.x, triangle.v1.y)
+            this.lineTo(triangle.v2.x, triangle.v2.y)
+            this.lineTo(triangle.v0.x, triangle.v0.y)
+            this.stroke();
+        });
+        let plainVerts = this.plainData(vertices);
+        removeOutRunners(plainVerts)
+      
+        let outputString="[";
+        for(let i=0;i<plainVerts.length;i++) {
+            outputString+=plainVerts[i].toString()
+            if(i!=plainVerts.length-1) outputString+=","
+
+        }
+        outputString+="]"
+        console.log("----- DELAUNAY OUTPUT -----")
+        console.log(outputString)
+        
+
+    }
+
+
     start() {
         let numeros = [12, 35, 97, 35]
         numeros = numeros.filter((x) => x % 2 == 0)
@@ -299,7 +363,21 @@ export class Delaunay extends Graphics {
         });
         let plainVerts = this.plainData(vertices);
         removeOutRunners(plainVerts)
+            plainVerts.forEach(element => {
+            
+        });
+        console.log("----- DELAUNAY -----")
+        let outputString="[";
+        for(let i=0;i<plainVerts.length;i++) {
+            outputString+=plainVerts[i].toString()
+            if(i!=plainVerts.length-1) outputString+=","
+
+        }
+        outputString+="]"
+        console.log(outputString)
     }
+
+
 
     plainData(verts: Vertex[]) {
         let output: plainVertex[] = []

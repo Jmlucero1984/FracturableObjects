@@ -3,7 +3,7 @@
     "time": 1696087786995.4202
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images": {
-    "time": 1696269469510.3645,
+    "time": 1700445323659.889,
     "uuid": "7be6ec43-74a8-4c1c-a1ad-2924afe2aea4",
     "missing": false
   },
@@ -56,12 +56,12 @@
     "time": 1691765464476.423
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1700049832498.522,
+    "time": 1700445359585.5166,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage": {
-    "time": 1700073663686.4392,
+    "time": 1700421037512.81,
     "uuid": "f89dd3c7-5442-418b-9f67-665a87026b08",
     "missing": false
   },
@@ -86,12 +86,12 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\Delaunay.ts": {
-    "time": 1696242703861.7402,
+    "time": 1700529098674.683,
     "uuid": "872abdec-75e5-40df-b485-ecc3f3647eba",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssembler.ts": {
-    "time": 1700135454863.0308,
+    "time": 1700531425187.2688,
     "uuid": "4163d385-48a5-44f6-a38f-dd2addb7d65f",
     "missing": false
   },
@@ -121,12 +121,12 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\FractDelaunay.ts": {
-    "time": 1700135492481.1963,
+    "time": 1700535291338.7036,
     "uuid": "04a9320d-a8ad-400b-9479-7c40e99cbf65",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StaticFractureManager.ts": {
-    "time": 1696207099414.625,
+    "time": 1700531756720.9182,
     "uuid": "1fa103ab-54ae-493e-a45e-a64d695737f9",
     "missing": false
   },
@@ -298,12 +298,12 @@
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\DelaunayMaterial.mtl": {
-    "time": 1691464858599.5713,
+    "time": 1700531524689.7937,
     "uuid": "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\DelaunayFracturable.prefab": {
-    "time": 1700135021152.3904,
+    "time": 1700500100693.3071,
     "uuid": "c40d4796-c2e1-4b41-a38a-27fb449838ee",
     "missing": false
   },
@@ -507,7 +507,7 @@
     "time": 1696090151954.7886
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1700135282381.3364,
+    "time": 1700534996490.3013,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
@@ -525,14 +525,6 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Legacy.rar": {
     "time": 1696092687970.3132,
     "uuid": "5d6c7149-befa-4792-ac8d-da6a938eb58c",
-    "missing": false
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest.ts.meta": {
-    "time": 1696185268513.5808
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\UnitTest.ts": {
-    "time": 1696563923659.3176,
-    "uuid": "8765ca2b-5808-4b45-bd83-e11b83cf86a4",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts.meta": {
@@ -707,7 +699,7 @@
     "time": 1696435066212.6824
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts": {
-    "time": 1700092766612.1401,
+    "time": 1700437946539.3423,
     "uuid": "05a1bfb5-57ce-4f8b-ab52-d426550da754",
     "missing": false
   },
@@ -723,7 +715,7 @@
     "time": 1696436101593.3645
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests": {
-    "time": 1700073663686.4392,
+    "time": 1700421103526.2842,
     "uuid": "0b5a5476-02e3-4968-992b-1967cd69601c",
     "missing": false
   },
@@ -735,43 +727,19 @@
     "uuid": "a58cba0b-bff5-4ee5-8d1c-eb8f8e7a51c6",
     "missing": false
   },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestLoader.ts.meta": {
-    "time": 1696473950341.0273
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestLoader.ts": {
-    "time": 1696815331619.5603,
-    "uuid": "e5755326-c75c-483c-9ba5-0424102a58c3",
-    "missing": false
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UnitTest.ts.meta": {
-    "time": 1696474570498.658
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UnitTest.ts": {
-    "time": 1696474644474.7708,
-    "uuid": "74979ea6-d23a-4070-8819-7d46b7a77112",
-    "missing": false
-  },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts.meta": {
     "time": 1696473303625.3008
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts": {
-    "time": 1697262097653.2537,
+    "time": 1700421143659.6865,
     "uuid": "c7f30b5d-b1b4-4a0d-a68d-734237233ca2",
-    "missing": false
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UTest.ts.meta": {
-    "time": 1696531849850.7473
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\UTest.ts": {
-    "time": 1700093817254.1338,
-    "uuid": "adb985e6-ac26-4693-9fac-2d2ea43d4b4a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts.meta": {
     "time": 1696209683307.1155
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts": {
-    "time": 1700082326862.4636,
+    "time": 1700423884503.1548,
     "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   },
@@ -791,14 +759,6 @@
     "uuid": "2dc7b192-04ae-479d-b3a0-3a8e9ff8b9f2",
     "missing": false
   },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\SimpleTest.ts.meta": {
-    "time": 1700049832504.5144
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\SimpleTest.ts": {
-    "time": 1700054313768.5322,
-    "uuid": "02178aeb-3e29-43d2-acb0-c03880acb85a",
-    "missing": false
-  },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\unimplmented.txt.meta": {
     "time": 1700070121451.2805
   },
@@ -811,8 +771,56 @@
     "time": 1700073658664.3904
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessToJsonTest.ts": {
-    "time": 1700133854834.6714,
+    "time": 1700421172785.9424,
     "uuid": "f0ed06eb-66ee-45c8-9be1-ea096479d6ca",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CharSTest.ts.meta": {
+    "time": 1700420209244.5076
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CharSTest.ts": {
+    "time": 1700502389842.1914,
+    "uuid": "b249d52c-d4ee-4221-89a3-f24881942b0d",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CucutaTestBase.ts.meta": {
+    "time": 1700421103530.2869
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\ExampleTest.ts.meta": {
+    "time": 1700421103532.287
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CucutaTestBase.ts": {
+    "time": 1700189414000,
+    "uuid": "d4cc8c2e-f3ef-4183-b8ca-761d5ada5c3f",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\ExampleTest.ts": {
+    "time": 1700226672000,
+    "uuid": "e08bac0c-d50d-4739-ba15-11bd19cbd82a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Bridge_small.jpg.meta": {
+    "time": 1700445323958.8423
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\westminster_bridge_centring.jpg.meta": {
+    "time": 1700445323988.8433
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Bridge_small.jpg": {
+    "time": 1700445268218.174,
+    "uuid": "1c302bbf-ecd6-4929-802c-17286892768a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\westminster_bridge_centring.jpg": {
+    "time": 1700445201068.8945,
+    "uuid": "82bed00c-a7a4-460a-94fa-c026d47127f2",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Drawer.ts.meta": {
+    "time": 1700445359588.516
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Drawer.ts": {
+    "time": 1700529174386.914,
+    "uuid": "5f0cf6b8-60ba-4a71-a11d-efdf788aff65",
     "missing": false
   }
 }
