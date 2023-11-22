@@ -1,5 +1,5 @@
 # FracturableObjects
-Experimenting on fragmentation-tessellation algorithms on Cocos Creator 3.7 and TypeScript
+Experimenting on fragmentation-tessellation algorithms on Cocos Creator 3.7 and TypeScript.
 Going back and forth between image assembler, earcut, delaunay and voronoi searching for an optimized wey to smash sprites.
 
 
