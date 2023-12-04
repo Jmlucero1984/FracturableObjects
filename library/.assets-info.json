@@ -152,11 +152,8 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures.meta": {
     "time": 1701654529875.5117
   },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.effect.meta": {
-    "time": 1701690514641.1953
-  },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material": {
-    "time": 1701654582298.0972,
+    "time": 1701696831062.7432,
     "uuid": "b4ac7f95-73e4-4d01-9b88-a50e1b6f5a01",
     "missing": false
   },
@@ -170,16 +167,8 @@
     "uuid": "917f9265-f063-4427-95cb-d1950e02ed2c",
     "missing": false
   },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.effect": {
-    "time": 1701695971297.3445,
-    "uuid": "509b16b2-12be-4bda-9fe3-f67592b628a4",
-    "missing": false
-  },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\DelaunayMaterial.mtl.meta": {
     "time": 1701690514661.1956
-  },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.mtl.meta": {
-    "time": 1701654529829.507
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\DelaunayFracturable.prefab.meta": {
     "time": 1701654529836.3242
@@ -292,13 +281,8 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\WoodBlock.png.meta": {
     "time": 1701654529944.552
   },
-  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.mtl": {
-    "time": 1701654529828.5105,
-    "uuid": "2cfe6327-9b4c-4a41-a5e5-aa4ba2a9949c",
-    "missing": false
-  },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\DelaunayMaterial.mtl": {
-    "time": 1701665318760.8203,
+    "time": 1701696811053.9612,
     "uuid": "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
     "missing": false
   },
@@ -829,6 +813,14 @@
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerV2.ts": {
     "time": 1701675896387.2195,
     "uuid": "24aca7c9-99b6-44dc-9779-11f46aac780a",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\FracturableEffect.effect.meta": {
+    "time": 1701690514641.1953
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\FracturableEffect.effect": {
+    "time": 1701695971297.3445,
+    "uuid": "509b16b2-12be-4bda-9fe3-f67592b628a4",
     "missing": false
   }
 }

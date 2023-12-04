@@ -170,7 +170,7 @@
     "value": {}
   },
   "509b16b2-12be-4bda-9fe3-f67592b628a4": {
-    "url": "db://assets/Material/PowerLine.effect",
+    "url": "db://assets/Material/FracturableEffect.effect",
     "value": {
       "depends": []
     }
@@ -180,18 +180,13 @@
     "value": {
       "depends": [
         "509b16b2-12be-4bda-9fe3-f67592b628a4",
-        "1c302bbf-ecd6-4929-802c-17286892768a@6c48a"
+        "82bed00c-a7a4-460a-94fa-c026d47127f2@6c48a"
       ]
     }
   },
   "2cfe6327-9b4c-4a41-a5e5-aa4ba2a9949c": {
     "url": "db://assets/Material/PowerLine.mtl",
-    "value": {
-      "depends": [
-        "89890776-f9a7-41f3-ba11-7e27f856ba79",
-        "1abf6944-c2ff-411f-857f-2df020706910@6c48a"
-      ]
-    }
+    "value": {}
   },
   "c40d4796-c2e1-4b41-a38a-27fb449838ee": {
     "url": "db://assets/Prefabs/DelaunayFracturable.prefab",

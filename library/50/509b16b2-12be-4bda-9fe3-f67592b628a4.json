@@ -1,6 +1,6 @@
 {
   "__type__": "cc.EffectAsset",
-  "_name": "../Material/PowerLine",
+  "_name": "../Material/FracturableEffect",
   "_objFlags": 0,
   "_native": "",
   "techniques": [
@@ -21,7 +21,7 @@
           "rasterizerState": {
             "cullMode": 0
           },
-          "program": "../Material/PowerLine|vs:vert|fs:frag",
+          "program": "../Material/FracturableEffect|vs:vert|fs:frag",
           "depthStencilState": {
             "depthTest": false,
             "depthWrite": false
@@ -496,7 +496,7 @@
           "defines": []
         }
       ],
-      "name": "../Material/PowerLine|vs:vert|fs:frag"
+      "name": "../Material/FracturableEffect|vs:vert|fs:frag"
     }
   ],
   "combinations": [],
