@@ -15,7 +15,10 @@
     "isGridVisible": true
   },
   "__version__": "1.0.0",
-  "builder": {},
+  "builder": {
+    "taskOptionsMap": {},
+    "__version__": "1.3.5"
+  },
   "": {
     "sculpt_brush_rotate": 0
   },
@@ -40,8 +43,8 @@
   "camera-infos": {
     "c77ecaa8-c936-46c4-a5b0-98692673ed87": {
       "position": {
-        "x": 416.5,
-        "y": 279.5,
+        "x": 225.5,
+        "y": 230,
         "z": 5000
       },
       "rotation": {
@@ -58,8 +61,8 @@
     },
     "f02deb64-e971-42b9-aa77-ab54ab789347": {
       "position": {
-        "x": 429.49999999999994,
-        "y": 225.99999999999997,
+        "x": 365.1713290763619,
+        "y": 258.1777577645858,
         "z": 5000
       },
       "rotation": {
@@ -76,7 +79,7 @@
     }
   },
   "camera-uuids": [
-    "c77ecaa8-c936-46c4-a5b0-98692673ed87"
+    "f02deb64-e971-42b9-aa77-ab54ab789347"
   ],
   "float-window": {
     "position": {

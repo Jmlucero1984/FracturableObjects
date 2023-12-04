@@ -22,29 +22,33 @@ CCEffect %{
 }%
 
 CCProgram vs %{
-  precision highp float;
+  precision mediump float;
 
   #include <cc-global>
   #include <cc-local>
 
   in vec3 a_position;
+  in vec2 a_texCoord;
 
   in vec4 a_color;
   out vec4 v_color;
 
   in float a_dist;
+  
   out float v_dist;
+ 
+  in float a_long;
+ 
+   out vec2 uv0;
 
-  in float a_line;
-  out float v_line;
 
   vec4 vert () {
-    vec4 pos = vec4(a_position, 1);
+    vec4 pos = vec4(a_position[0],a_position[1],0, 1);
     pos = cc_matViewProj * cc_matWorld * pos;
 
     v_color = a_color;
     v_dist = a_dist;
-    v_line = a_line;
+   uv0 = vec2(a_position[2],a_dist);
 
     return pos;
   }
@@ -53,13 +57,13 @@ CCProgram vs %{
 CCProgram fs %{
   #pragma extension([GL_OES_standard_derivatives, __VERSION__ < 300])
 
-  precision highp float;
+  precision mediump float;
   #include <embedded-alpha>
    #include <builtin/uniforms/cc-global> 
 
   in vec4 v_color;
   in float v_dist;
-  in float v_line;
+  in vec2 uv0;
   uniform sampler2D texture1;
     uniform CustomMove {
     vec2 mults;
@@ -78,8 +82,8 @@ CCProgram fs %{
       float aa = fwidth(v_dist);
     #endif
     //读取纹理
-    vec2 uv0 = vec2(v_dist,v_line);
- 
+   // vec2 uv0 = vec2(o[0],o[1]);
+    o = vec4(uv0[0],uv0[1],0.0,1.0);
     o *= CCSampleWithAlphaSeparated(texture1,uv0);
 
     return o;

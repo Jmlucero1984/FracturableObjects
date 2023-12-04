@@ -7,10 +7,10 @@ import { earcut } from './earcut';
 const { ccclass, property } = _decorator;
 
 
- 
+
 const attributes2 = UIVertexFormat.vfmtPosColor.concat([
-    new gfx.Attribute('a_dist', gfx.Format.RG32F),
-  
+    new gfx.Attribute('a_dist', gfx.Format.R32F),
+    new gfx.Attribute('a_line', gfx.Format.R32F),
 ]);
 
 const componentPerVertex2 = UIVertexFormat.getComponentPerVertex(attributes2);
@@ -33,29 +33,7 @@ function calculateEnvolArea(indexes: number[], coords: number[], jump: number) {
 function cross(x1, y1, x2, y2) {
     return x1 * y2 - x2 * y1;
 }
-class Point2 extends Vec2 {
-    public dx = 0;
-    public dy = 0;
-    public dmx = 0;
-    public dmy = 0;
-    public flags = 0;
-    public len = 0;
-    public lineLength = 0;
-    constructor(x: number, y: number) {
-        super(x, y);
-        this.reset();
-    }
-
-    public reset() {
-        this.dx = 0;
-        this.dy = 0;
-        this.dmx = 0;
-        this.dmy = 0;
-        this.flags = 0;
-        this.len = 0;
-        this.lineLength = 0;
-    }
-}
+ 
 
 
 const attrBytes2 = 9;
@@ -65,13 +43,7 @@ const MAX_VERTEX = 65535;
 const MAX_INDICES = MAX_VERTEX * 2;
 
 const PI = Math.PI;
-const min = Math.min;
-const max = Math.max;
-const ceil = Math.ceil;
-const acos = Math.acos;
-const cos = Math.cos;
-const sin = Math.sin;
-const atan2 = Math.atan2;
+ 
 const _tempV2 = v2();
 
 
@@ -91,21 +63,7 @@ let textureHeight: number = 0;
 let meshWidth: number = 0;
 let uv_unit: boolean = false;
 let area: number = 0;
-
-const calculateDistances = function (points: Vec2[]): number[] {
-    let sum = 0;
-    const res = function (vector_a: Vec2, vector_b: Vec2) {
-        return v2(vector_a.x - vector_b.x, vector_a.y - vector_b.y);
-    }
-    let _distances: number[] = [];
-    for (let index = 0; index < points.length - 1; index++) {
-        let dist = res(points[index + 1], points[index]).length()
-        _distances.push(dist)
-        sum += dist;
-    }
-    _distances.push(sum);
-    return _distances;
-}
+ 
 
 const pushInto = function (receiver: any, newData: any[]) {
     for (let index = 0; index < newData.length; index++) {
@@ -113,77 +71,9 @@ const pushInto = function (receiver: any, newData: any[]) {
         receiver.push(newData[index]);
     }
 }
-const isInTriangle = function (point: Vec2, triA: Vec2, triB: Vec2, triC: Vec2) {
-    //  console.log("Helper - Is in triangle")
-    let AB: Vec2 = new Vec2();
-    Vec2.subtract(AB, triB, triA);
+ 
 
-    let AC: Vec2 = new Vec2();
-    Vec2.subtract(AC, triC, triA);
 
-    let BC: Vec2 = new Vec2();
-    Vec2.subtract(BC, triC, triB);
-
-    let AD: Vec2 = new Vec2();
-    Vec2.subtract(AD, point, triA);
-
-    let BD: Vec2 = new Vec2();
-    Vec2.subtract(BD, point, triB);
-
-    //@ts-ignore
-    return (AB.cross(AC) >= 0 ^ AB.cross(AD) < 0) && (AB.cross(AC) >= 0 ^ AC.cross(AD) >= 0) && (BC.cross(AB) > 0 ^ BC.cross(BD) >= 0);
-}
-
-const splitPolygon = function (points: Vec2[]): number[] {
-    // console.log("Helper - Split poligon") // Lo llama continuamente...
-    if (points.length <= 3) return [0, 1, 2];
-    let pointMap: { [key: string]: number } = {};     // The mapping between point and idx
-    for (let i = 0; i < points.length; i++) {
-        let p = points[i];
-        pointMap[`${p.x}-${p.y}`] = i;
-    }
-    const getIdx = (p: Vec2) => {
-        return pointMap[`${p.x}-${p.y}`]
-    }
-    points = points.concat([]);
-    let idxs: number[] = [];
-
-    let index = 0;
-    while (points.length > 3) {
-        let p1 = points[(index) % points.length]
-            , p2 = points[(index + 1) % points.length]
-            , p3 = points[(index + 2) % points.length];
-        let splitPoint = (index + 1) % points.length;
-
-        let v1: Vec2 = new Vec2();
-        Vec2.subtract(v1, p2, p1);
-        let v2: Vec2 = new Vec2();
-        Vec2.subtract(v2, p3, p2);
-
-        if (v1.cross(v2) < 0) {      // is a concave corner, look for the next
-            index = (index + 1) % points.length;
-            continue;
-        }
-        let hasPoint = false;
-        for (const p of points) {
-            if (p != p1 && p != p2 && p != p3 && isInTriangle(p, p1, p2, p3)) {
-                hasPoint = true;
-                break;
-            }
-        }
-        if (hasPoint) {      // The current triangle contains other points, find the next
-            index = (index + 1) % points.length;
-            continue;
-        }
-        // Found the ear, cut it off
-        idxs.push(getIdx(p1), getIdx(p2), getIdx(p3));
-        points.splice(splitPoint, 1);
-    }
-    for (const p of points) {
-        idxs.push(getIdx(p));
-    }
-    return idxs;
-}
 
 const computeUv = function (points: Vec2[], width: number, height: number) {
     //console.log("Helper - compute uv")
@@ -198,8 +88,8 @@ const computeUv = function (points: Vec2[], width: number, height: number) {
 }
 
 
-@ccclass('DelaunayAssembler')
-export class DelaunayAssembler extends Graphics {
+@ccclass('DelaunayAssemblerV2')
+export class DelaunayAssemblerV2 extends Graphics {
     @property({ group: "Render" })
     @property(Texture2D)
     baseTexture: Texture2D = null;
@@ -224,7 +114,6 @@ export class DelaunayAssembler extends Graphics {
         }
         polygonPoints = this.polygon;
        super.onLoad();
-        
     }
 
 
@@ -393,14 +282,14 @@ export class DelaunayAssembler extends Graphics {
             const vData = meshBuffer.vData;
             vData[dataOffset++] = x;
             vData[dataOffset++] = y;
-            vData[dataOffset++] = distance;
+            vData[dataOffset++] = 0;
             //Color.toArray(vData, Color.WHITE, dataOffset);
            // dataOffset += 4;
-           vData[dataOffset++] = 1;
-           vData[dataOffset++] = 1;
+           vData[dataOffset++] = distance;
+           vData[dataOffset++] = lineLong;
            vData[dataOffset++] = 0;
            vData[dataOffset++] = 1;
-            vData[dataOffset++] = lineLong;
+            vData[dataOffset++] = distance;
            
             meshBuffer.vertexStart++;
         }
@@ -412,8 +301,67 @@ export class DelaunayAssembler extends Graphics {
     /*
 
     /**Create vertex databuffer */
- 
-  
+    /*
+    public activeSubModel(idx: number) {
+        if (!this.model) {
+            warnID(4500, this.node.name);
+            return;
+        }
+
+        if (this.model.subModels.length <= idx) {
+            const gfxDevice: gfx.Device = director.root.device;
+            const vertexBuffer = gfxDevice.createBuffer(new gfx.BufferInfo(
+                gfx.BufferUsageBit.VERTEX | gfx.BufferUsageBit.TRANSFER_DST,
+                gfx.MemoryUsageBit.DEVICE,
+                65535 * stride2,
+                stride2,
+            ));
+            const indexBuffer = gfxDevice.createBuffer(new gfx.BufferInfo(
+                gfx.BufferUsageBit.INDEX | gfx.BufferUsageBit.TRANSFER_DST,
+                gfx.MemoryUsageBit.DEVICE,
+                65535 * Uint16Array.BYTES_PER_ELEMENT * 2,
+                Uint16Array.BYTES_PER_ELEMENT,
+            ));
+            const renderMesh = new RenderingSubMesh([vertexBuffer], attributes2, gfx.PrimitiveMode.TRIANGLE_LIST, indexBuffer);
+            renderMesh.subMeshIdx = 0;
+            if (this.getMaterialInstance(0)) {
+                this.model.initSubModel(idx, renderMesh, this.getMaterialInstance(0)!);
+            }
+            this["_graphicsUseSubMeshes"].push(renderMesh);
+        }
+    }
+    */
+    /**Refresh the rendering data */
+    /*
+    protected _uploadData() {
+        const impl = this.impl;
+        if (!impl) {
+            return;
+        }
+
+        const renderDataList = impl && impl.getRenderDataList();
+        if (renderDataList.length <= 0 || !this.model) {
+            return;
+        }
+
+        const subModelList = this.model.subModels;
+        for (let i = 0; i < renderDataList.length; i++) {
+            const renderData = renderDataList[i];
+        
+            const ia = subModelList[i].inputAssembler;
+            if (renderData.lastFilledVertex === renderData.vertexStart) { continue; }
+            const vb = new Float32Array(renderData.vData.buffer, 0, renderData.vertexStart * componentPerVertex2);
+            ia.vertexBuffers[0].update(vb);
+            ia.vertexCount = renderData.vertexStart;
+            const ib = new Uint16Array(renderData.iData.buffer, 0, renderData.indexStart);
+            ia.indexBuffer!.update(ib);
+            ia.indexCount = renderData.indexStart;
+            renderData.lastFilledVertex = renderData.vertexStart;
+            renderData.lastFilledIndex = renderData.indexStart;
+        }
+        this._isNeedUploadData = false;
+    }
+    */
 
 }
 

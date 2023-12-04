@@ -18,7 +18,9 @@
       "depthStencilState": {},
       "blendState": {
         "targets": [
-          {}
+          {
+            "blend": false
+          }
         ]
       }
     }

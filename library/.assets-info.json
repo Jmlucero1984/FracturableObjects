@@ -1,826 +1,834 @@
 {
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images.meta": {
-    "time": 1696087786995.4202
+    "time": 1701654529819.395
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images": {
-    "time": 1700445323659.889,
+    "time": 1701654582297.0972,
     "uuid": "7be6ec43-74a8-4c1c-a1ad-2924afe2aea4",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts.meta": {
-    "time": 1696815331603.9358
+    "time": 1701654529837.3235
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage.meta": {
-    "time": 1696003578212.6633
+    "time": 1701654529838.3245
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DraggableStomper.ts.meta": {
-    "time": 1690339615277.4927
+    "time": 1701654529858.616
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\LinkNodeClass.ts.meta": {
-    "time": 1691765725809.4893
+    "time": 1701654529860.6174
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\PlainVertexClass.ts.meta": {
-    "time": 1691765689374.605
+    "time": 1701654529863.2493
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Voronoi.ts.meta": {
-    "time": 1690666583136.5608
+    "time": 1701654529875.5117
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\Delaunay.ts.meta": {
-    "time": 1690601493593.0847
+    "time": 1701654529839.3247
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssembler.ts.meta": {
-    "time": 1691168845750.116
+    "time": 1701654529841.3247
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerImplementer.ts.meta": {
-    "time": 1691169104475.5017
+    "time": 1701654529842.3242
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayFracturable.ts.meta": {
-    "time": 1691168009756.8655
+    "time": 1701654529843.324
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayFractureClass.ts.meta": {
-    "time": 1691765652018.6433
+    "time": 1701654529844.325
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunaySplitter.ts.meta": {
-    "time": 1691183331345.826
+    "time": 1701654529846.6218
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\earcut.ts.meta": {
-    "time": 1690221190758.2063
+    "time": 1701654529857.6165
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\FractDelaunay.ts.meta": {
-    "time": 1691169204734.148
+    "time": 1701654529848.6233
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StaticFractureManager.ts.meta": {
-    "time": 1692595980487.0757
+    "time": 1701654529850.6177
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\WholeDelaunay.ts.meta": {
-    "time": 1691765464476.423
+    "time": 1701654529855.6167
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts": {
-    "time": 1700445359585.5166,
+    "time": 1701654582304.1655,
     "uuid": "ddf75d7e-8491-4df2-9f77-a5cce8c9ddf8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage": {
-    "time": 1700421037512.81,
+    "time": 1701675768028.1675,
     "uuid": "f89dd3c7-5442-418b-9f67-665a87026b08",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DraggableStomper.ts": {
-    "time": 1696305840096.633,
+    "time": 1701654529857.6165,
     "uuid": "bceda573-e8eb-42ae-9b94-b596a79c63f1",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\LinkNodeClass.ts": {
-    "time": 1691766868361.7178,
+    "time": 1701654529859.6165,
     "uuid": "0404e874-478f-495d-8f0d-108d75a276cf",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\PlainVertexClass.ts": {
-    "time": 1691766853276.2664,
+    "time": 1701654529861.7637,
     "uuid": "7e6d8b0d-e2f0-4d72-88bf-20c673fbbbb2",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Voronoi.ts": {
-    "time": 1691012882354.3933,
+    "time": 1701654529874.5159,
     "uuid": "0cb97678-24ed-4287-8c38-d652455deb99",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\Delaunay.ts": {
-    "time": 1700529098674.683,
+    "time": 1701654582301.0984,
     "uuid": "872abdec-75e5-40df-b485-ecc3f3647eba",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssembler.ts": {
-    "time": 1700531425187.2688,
+    "time": 1701695867291.4292,
     "uuid": "4163d385-48a5-44f6-a38f-dd2addb7d65f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerImplementer.ts": {
-    "time": 1700135450487.1152,
+    "time": 1701654582303.098,
     "uuid": "aefeda90-8599-4ad3-9fda-14c174d2e84a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayFracturable.ts": {
-    "time": 1696123996077.5193,
+    "time": 1701654529842.3242,
     "uuid": "342e9c0b-6905-48a9-a4cd-481d94838461",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayFractureClass.ts": {
-    "time": 1691766151938.1382,
+    "time": 1701654529844.325,
     "uuid": "4a653005-2874-4166-8d79-313c264ab0a4",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunaySplitter.ts": {
-    "time": 1696201093989.168,
+    "time": 1701654529846.6218,
     "uuid": "92af0796-c223-4d2a-9215-913be13beee6",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\earcut.ts": {
-    "time": 1690233232320.211,
+    "time": 1701654529856.6187,
     "uuid": "fa415f24-d8e0-4f2a-8dff-06ece744c4f0",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\FractDelaunay.ts": {
-    "time": 1700535291338.7036,
+    "time": 1701654582304.1655,
     "uuid": "04a9320d-a8ad-400b-9479-7c40e99cbf65",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StaticFractureManager.ts": {
-    "time": 1700531756720.9182,
+    "time": 1701654582304.1655,
     "uuid": "1fa103ab-54ae-493e-a45e-a64d695737f9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\WholeDelaunay.ts": {
-    "time": 1696124519642.393,
+    "time": 1701654529855.6167,
     "uuid": "80c6ee67-0faf-4b11-8b6e-3182e3d7af9d",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Background.jpg.meta": {
-    "time": 1696088170238.6921
+    "time": 1701654529821.3948
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Background.jpg": {
-    "time": 1696088162608.6882,
+    "time": 1701654529820.3958,
     "uuid": "0a81318e-0a12-4f3f-9d9f-00b3b4c3a388",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material.meta": {
-    "time": 1696088643639.2827
+    "time": 1701654529824.3948
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs.meta": {
-    "time": 1696088643641.2854
+    "time": 1701654529831.7336
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures.meta": {
-    "time": 1696088643642.3
+    "time": 1701654529875.5117
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.effect.meta": {
-    "time": 1690171003106.3389
+    "time": 1701690514641.1953
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material": {
-    "time": 1696088507538.2827,
+    "time": 1701654582298.0972,
     "uuid": "b4ac7f95-73e4-4d01-9b88-a50e1b6f5a01",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs": {
-    "time": 1696089254997.1677,
+    "time": 1701654582299.098,
     "uuid": "2bd3604e-801a-4819-bc22-46e887a938fa",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures": {
-    "time": 1696783542939.443,
+    "time": 1701654529991.4421,
     "uuid": "917f9265-f063-4427-95cb-d1950e02ed2c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.effect": {
-    "time": 1689883391227.1963,
+    "time": 1701695971297.3445,
     "uuid": "509b16b2-12be-4bda-9fe3-f67592b628a4",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\DelaunayMaterial.mtl.meta": {
-    "time": 1691177402608.7097
+    "time": 1701690514661.1956
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.mtl.meta": {
-    "time": 1687831767436.2896
+    "time": 1701654529829.507
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\DelaunayFracturable.prefab.meta": {
-    "time": 1691274490665.506
+    "time": 1701654529836.3242
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\1680857334247.jpg.meta": {
-    "time": 1688618233531.053
+    "time": 1701654529879.5227
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\atom_B_W.png.meta": {
-    "time": 1688683311772.7725
+    "time": 1701654529947.2659
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Background.jpg.meta": {
-    "time": 1688053578630.045
+    "time": 1701654529891.1936
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Background_city.jpg.meta": {
-    "time": 1688682398377.2905
+    "time": 1701654529893.1978
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\blueprint_1000_579.jpg.meta": {
-    "time": 1688692748854.7053
+    "time": 1701654529949.5457
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\blueprint_1000_579.png.meta": {
-    "time": 1688795956157.054
+    "time": 1701654529954.6824
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBeam_01.jpg.meta": {
-    "time": 1690167224843.735
+    "time": 1701654529894.195
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBeam_01_small.png.meta": {
-    "time": 1690202807954.8445
+    "time": 1701654529895.197
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBlock.png.meta": {
-    "time": 1690213517368.551
+    "time": 1701654529898.241
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\detonator_icon_triangle.png.meta": {
-    "time": 1688837308866.0925
+    "time": 1701654529957.6826
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\detonator_icon_triangle_small.png.meta": {
-    "time": 1688837308909.9756
+    "time": 1701654529958.6836
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\GenericTestingBlock_03_small.png.meta": {
-    "time": 1690339806368.7969
+    "time": 1701654529900.2344
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_100.jpg.meta": {
-    "time": 1688660481031.3333
+    "time": 1701654529901.2341
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_35.jpg.meta": {
-    "time": 1688660256213
+    "time": 1701654529903.2356
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_60.jpg.meta": {
-    "time": 1688660256197.0464
+    "time": 1701654529905.235
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_100.jpg.meta": {
-    "time": 1688449721623.391
+    "time": 1701654529906.2358
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_150.jpg.meta": {
-    "time": 1688449721651.317
+    "time": 1701654529907.235
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_50.jpg.meta": {
-    "time": 1688449721653.3108
+    "time": 1701654529909.239
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_5_20.jpg.meta": {
-    "time": 1688469944229.1592
+    "time": 1701654529910.233
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_5_50.jpg.meta": {
-    "time": 1688469944237.1384
+    "time": 1701654529912.2317
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icnonitos.jpg.meta": {
-    "time": 1688822283836.4697
+    "time": 1701654529968.246
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\IconManager.png.meta": {
-    "time": 1688822283664.7317
+    "time": 1701654529915.233
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow.png.meta": {
-    "time": 1688797177067.507
+    "time": 1701654529970.2454
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_connectorl.png.meta": {
-    "time": 1688840771315.2234
+    "time": 1701654529973.2437
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_connector_small.png.meta": {
-    "time": 1688840951758.3523
+    "time": 1701654529971.244
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_small.png.meta": {
-    "time": 1688797177054.5425
+    "time": 1701654529974.2441
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_very_small.png.meta": {
-    "time": 1688798166800.9412
+    "time": 1701654529975.2468
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ItemsPanel.png.meta": {
-    "time": 1688796152480.6697
+    "time": 1701654529916.232
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\palote.jpg.meta": {
-    "time": 1688414166698.9575
+    "time": 1701654529976.2437
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\palote_medium.jpg.meta": {
-    "time": 1688415717582.8738
+    "time": 1701654529983.0098
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\small.jpg.meta": {
-    "time": 1688415717579.8816
+    "time": 1701654529984.0105
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\SteelBeam_01.jpg.meta": {
-    "time": 1690165774030.8994
+    "time": 1701654529917.2341
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\structure.png.meta": {
-    "time": 1688693947259.8406
+    "time": 1701654529987.0105
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\uvPatterns.jpg.meta": {
-    "time": 1691464825653.256
+    "time": 1701654529991.4421
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\uvPattern_2.png.meta": {
-    "time": 1691464825567.582
+    "time": 1701654529989.4468
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\WoodBlock.png.meta": {
-    "time": 1690514389734.3472
+    "time": 1701654529944.552
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\PowerLine.mtl": {
-    "time": 1689880280520.4578,
+    "time": 1701654529828.5105,
     "uuid": "2cfe6327-9b4c-4a41-a5e5-aa4ba2a9949c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Material\\DelaunayMaterial.mtl": {
-    "time": 1700531524689.7937,
+    "time": 1701665318760.8203,
     "uuid": "5ee45c5d-27d4-400b-b0e8-80f2f7d6fdd9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\DelaunayFracturable.prefab": {
-    "time": 1700500100693.3071,
+    "time": 1701695347822.7583,
     "uuid": "c40d4796-c2e1-4b41-a38a-27fb449838ee",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Background_city.jpg": {
-    "time": 1688682213300.0125,
+    "time": 1701654529893.1978,
     "uuid": "bc124772-1f8e-45d7-a70d-3bb659a6f706",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Background.jpg": {
-    "time": 1688680903396.7007,
+    "time": 1701654529891.1936,
     "uuid": "e1301764-a402-4137-914a-8bfcef3a04a6",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\atom_B_W.png": {
-    "time": 1688683252639.34,
+    "time": 1701654529945.5527,
     "uuid": "375f5506-1274-4c6c-893c-03ec475dfe65",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\1680857334247.jpg": {
-    "time": 1680961539985.7295,
+    "time": 1701654529877.5115,
     "uuid": "4791fa1b-a7ad-4cec-bfd0-a53ddcc1e967",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBeam_01_small.png": {
-    "time": 1690202790864.682,
+    "time": 1701654529894.195,
     "uuid": "b20988ed-9234-4676-870a-ead37205d759",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\blueprint_1000_579.jpg": {
-    "time": 1688692672156.192,
+    "time": 1701654529948.546,
     "uuid": "d7a4cbac-c931-4558-9e8f-5b4958a9baa9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBeam_01.jpg": {
-    "time": 1689562013525.4265,
+    "time": 1701654529894.195,
     "uuid": "11ba7e06-c11d-484b-83f8-e51d297f0cea",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ConcreteBlock.png": {
-    "time": 1690213507834.4507,
+    "time": 1701654529897.2327,
     "uuid": "7b9e05c9-4ee3-4c16-a9f0-3e7664d1845f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\detonator_icon_triangle.png": {
-    "time": 1688837262301.579,
+    "time": 1701654529956.6843,
     "uuid": "77889dd7-6417-46bd-9c0a-f7d59bd83b75",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\blueprint_1000_579.png": {
-    "time": 1688795955319.406,
+    "time": 1701654529954.5464,
     "uuid": "19340774-a3dd-4e59-a3c1-7d80a6044e59",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\GenericTestingBlock_03_small.png": {
-    "time": 1689165078485.5354,
+    "time": 1701654529899.2358,
     "uuid": "1e1d2559-66cc-45ad-a097-5523e289af0d",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\detonator_icon_triangle_small.png": {
-    "time": 1688837304773.5793,
+    "time": 1701654529957.6826,
     "uuid": "db7c4641-7331-4704-b99d-639f63bffbd8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_100.jpg": {
-    "time": 1688660478817.609,
+    "time": 1701654529900.2344,
     "uuid": "36d4adc1-4a97-427c-ba69-492ba459e75c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_35.jpg": {
-    "time": 1688660253698.2883,
+    "time": 1701654529903.2356,
     "uuid": "c1223856-cdd2-4319-9aa2-eccdce32df7e",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_10_60.jpg": {
-    "time": 1688660196345.4834,
+    "time": 1701654529904.2358,
     "uuid": "38d81373-8d31-4838-8365-c310d501d1c5",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_100.jpg": {
-    "time": 1688449610498.7812,
+    "time": 1701654529906.2358,
     "uuid": "2b67c42f-a8da-4675-b3b1-4da17513731c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_150.jpg": {
-    "time": 1688449719623.2588,
+    "time": 1701654529907.235,
     "uuid": "bb62e325-133b-4c2c-afdb-1c698c246cc9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_5_20.jpg": {
-    "time": 1688469939578.9507,
+    "time": 1701654529910.233,
     "uuid": "d0ce6a7a-0a81-4d89-8310-0eae9d912252",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_25_50.jpg": {
-    "time": 1688449652157.0344,
+    "time": 1701654529908.234,
     "uuid": "41c80e26-dffa-4241-bb39-6dc49a3bc14c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icnonitos.jpg": {
-    "time": 1688822018767.7214,
+    "time": 1701654529967.2498,
     "uuid": "afc8e5d3-ebcd-46a1-ad60-e132fd5bfb66",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\Hormigon_5_50.jpg": {
-    "time": 1688469816807.0303,
+    "time": 1701654529911.2344,
     "uuid": "28059b45-38bf-4c5e-bb68-d2e29a6e7f84",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\IconManager.png": {
-    "time": 1688822280129.5579,
+    "time": 1701654529914.2395,
     "uuid": "ac9bb448-d186-463a-8868-be3f93909803",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow.png": {
-    "time": 1688797138318.496,
+    "time": 1701654529969.2458,
     "uuid": "26cd1a58-8647-4184-9282-624fac150707",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_connectorl.png": {
-    "time": 1688840767128.6663,
+    "time": 1701654529972.2434,
     "uuid": "819ba318-0830-469f-be71-1cc7689ea8dc",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_connector_small.png": {
-    "time": 1688840949265.7112,
+    "time": 1701654529970.2454,
     "uuid": "49015e1a-e740-451f-8386-791ffb8ab08c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_small.png": {
-    "time": 1688797173415.9187,
+    "time": 1701654529973.2437,
     "uuid": "11ea5593-35ed-4725-9df7-c1d56c12a4a4",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\palote_medium.jpg": {
-    "time": 1688415679523.2017,
+    "time": 1701654529982.0115,
     "uuid": "cd04bb35-71fb-4d79-8f32-6b350c844978",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\palote.jpg": {
-    "time": 1688414097924.884,
+    "time": 1701654529976.2437,
     "uuid": "a9103f60-2fba-4fb6-94d6-316e069c60c1",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\icon_blow_very_small.png": {
-    "time": 1688798162465.8293,
+    "time": 1701654529974.2441,
     "uuid": "b326c703-05a3-41c1-9d0e-a05eb617ba37",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\ItemsPanel.png": {
-    "time": 1688796146337.7646,
+    "time": 1701654529916.232,
     "uuid": "2b491d69-b686-4ed5-a652-54f9b805a4a2",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\small.jpg": {
-    "time": 1688415710628.6467,
+    "time": 1701654529984.0105,
     "uuid": "882e5737-5cef-4a3e-b069-cecedf60b4df",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\SteelBeam_01.jpg": {
-    "time": 1689562144612.6953,
+    "time": 1701654529917.2341,
     "uuid": "0a3e7eae-816e-44e6-88db-5db99ae6f5cd",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\uvPattern_2.png": {
-    "time": 1691464824158.9568,
+    "time": 1701654529988.44,
     "uuid": "700f2003-1d5b-402c-a3c2-ccca175020c9",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\WoodBlock.png": {
-    "time": 1690514381551.1675,
+    "time": 1701654529943.5515,
     "uuid": "eefc0ebf-38f9-4815-9bdd-a7359fb1fa8f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\uvPatterns.jpg": {
-    "time": 1691464786762.322,
+    "time": 1701654529991.4421,
     "uuid": "8f62efd7-261d-4ccf-bd7d-8d980b586e86",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Textures\\structure.png": {
-    "time": 1688693943099.3132,
+    "time": 1701654529987.0105,
     "uuid": "2cd6bcd7-63bf-48cb-998f-006715f0bf65",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\Delaunay.prefab.meta": {
-    "time": 1696089209987.119
+    "time": 1701654529834.3247
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\Stomper.prefab.meta": {
-    "time": 1696089103658.9954
+    "time": 1701654529837.3235
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\Stomper.prefab": {
-    "time": 1696089103653.9934,
+    "time": 1701654529836.3242,
     "uuid": "aa957858-1796-4e79-8a23-0652a594fcfc",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Prefabs\\Delaunay.prefab": {
-    "time": 1696089209939.121,
+    "time": 1701654529834.3247,
     "uuid": "847497b2-8e64-4105-9279-9f7b40e70f31",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene.meta": {
-    "time": 1696090151954.7886
+    "time": 1701654530139.083
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\scene.scene": {
-    "time": 1700534996490.3013,
+    "time": 1701696288665.413,
     "uuid": "f02deb64-e971-42b9-aa77-ab54ab789347",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Platform.jpg.meta": {
-    "time": 1696092269232.4436
+    "time": 1701654529823.3958
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Platform.jpg": {
-    "time": 1696092603558.289,
+    "time": 1701654529822.3958,
     "uuid": "3264f46e-18b2-44e6-bb19-5a5485e731c3",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Legacy.rar.meta": {
-    "time": 1696092695672.4412
+    "time": 1701654529859.6165
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Legacy.rar": {
-    "time": 1696092687970.3132,
+    "time": 1701654529858.616,
     "uuid": "5d6c7149-befa-4792-ac8d-da6a938eb58c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts.meta": {
-    "time": 1696250747796.3867
+    "time": 1701654529992.4438
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts": {
-    "time": 1696250824407.5642,
+    "time": 1701654530136.1255,
     "uuid": "8fe48077-ab7d-4913-a756-7ec3e7b4b7d8",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Bold.ttf.meta": {
-    "time": 1696250824479.5657
+    "time": 1701654529997.4407
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-BoldItalic.ttf.meta": {
-    "time": 1696250824468.5825
+    "time": 1701654530001.3474
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBold.ttf.meta": {
-    "time": 1696250824471.566
+    "time": 1701654530003.3452
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBoldItalic.ttf.meta": {
-    "time": 1696250824487.5642
+    "time": 1701654530005.3445
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLight.ttf.meta": {
-    "time": 1696250824475.5647
+    "time": 1701654530008.4175
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLightItalic.ttf.meta": {
-    "time": 1696250824484.5642
+    "time": 1701654530010.4175
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Italic.ttf.meta": {
-    "time": 1696250824488.564
+    "time": 1701654530017.9436
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Light.ttf.meta": {
-    "time": 1696250824492.564
+    "time": 1701654530022.3054
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-LightItalic.ttf.meta": {
-    "time": 1696250824495.5635
+    "time": 1701654530024.754
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Medium.ttf.meta": {
-    "time": 1696250824500.5642
+    "time": 1701654530026.8484
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-MediumItalic.ttf.meta": {
-    "time": 1696250824508.5645
+    "time": 1701654530029.855
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Regular.ttf.meta": {
-    "time": 1696250824503.5647
+    "time": 1701654530032.917
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBold.ttf.meta": {
-    "time": 1696250824505.566
+    "time": 1701654530034.9448
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBoldItalic.ttf.meta": {
-    "time": 1696250824537.567
+    "time": 1701654530036.9453
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Thin.ttf.meta": {
-    "time": 1696250824576.5662
+    "time": 1701654530039.9485
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ThinItalic.ttf.meta": {
-    "time": 1696250824602.566
+    "time": 1701654530136.1255
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-BoldItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530001.3474,
     "uuid": "c710b458-065c-4c56-9a20-dc26ab294c3a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBold.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530003.3452,
     "uuid": "f6eb2b3e-23c1-44da-b715-61ee3192657c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLight.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530007.3455,
     "uuid": "6de55213-5e06-409b-aa21-efcb1045ae1a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Bold.ttf": {
-    "time": 1627657804000,
+    "time": 1701654529995.4407,
     "uuid": "d995193d-339f-49b7-8b4a-ad72586fad78",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraLightItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530009.4172,
     "uuid": "b4a70cea-bb32-4821-b231-8d69a4c3d687",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ExtraBoldItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530005.3445,
     "uuid": "8b083092-d964-4787-85f7-846a4bf94393",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Italic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530017.1797,
     "uuid": "7e7cff5f-223a-4d20-8dd1-d78dac6e192c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Light.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530021.891,
     "uuid": "ec701ac6-2937-4539-8e1b-610c9b902d03",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-LightItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530024.4932,
     "uuid": "e59d20fb-94cf-41b5-baf9-52e8c476c550",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Medium.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530025.8457,
     "uuid": "08ae93c6-f547-49aa-a3c1-e553fc42e78f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Regular.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530031.3855,
     "uuid": "971610c3-9819-4c29-a283-4eeba3187e6d",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBold.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530033.945,
     "uuid": "41b7ac18-f283-418a-abe3-1560850008ab",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-MediumItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530028.848,
     "uuid": "9474be65-39ed-4264-8812-abd2cba91a90",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-SemiBoldItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530035.9482,
     "uuid": "bdaa4257-fabb-44ee-b18c-017f20b4b5a6",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-Thin.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530038.9468,
     "uuid": "79158f8e-f5a0-487f-a0fb-0fc33f1b342a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\fonts\\JetBrainsMonoNL-ThinItalic.ttf": {
-    "time": 1627657804000,
+    "time": 1701654530136.1255,
     "uuid": "cf1c15ed-d3aa-4ae9-887b-4c2829968951",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ScrollContentSizer.ts.meta": {
-    "time": 1696252561351.4055
+    "time": 1701654529864.5823
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ScrollContentSizer.ts": {
-    "time": 1696256297950.4578,
+    "time": 1701654529864.5823,
     "uuid": "22d16668-de4c-480b-a70b-6943437f5782",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\blackTile.png.meta": {
-    "time": 1696269469711.3618
+    "time": 1701654529824.3948
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\blackTile.png": {
-    "time": 1696269465562.7263,
+    "time": 1701654529823.3958,
     "uuid": "b47e517a-a5a4-4585-a6b3-1a7b6692a42b",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestClasses.ts.meta": {
-    "time": 1696283478244.621
+    "time": 1701654529870.5117
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\TestClasses.ts": {
-    "time": 1696283520488.658,
+    "time": 1701654529869.518,
     "uuid": "1278696e-e127-47b7-83b4-202c46cdda03",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation.meta": {
-    "time": 1696435044801.3054
+    "time": 1701654529865.513
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation": {
-    "time": 1696473146617.0186,
+    "time": 1701654582304.1655,
     "uuid": "4cd074b3-4b68-4985-bf3b-8879c70d1b00",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts.meta": {
-    "time": 1696435066212.6824
+    "time": 1701654529866.514
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tessellation.ts": {
-    "time": 1700437946539.3423,
+    "time": 1701654582304.1655,
     "uuid": "05a1bfb5-57ce-4f8b-ab52-d426550da754",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter.meta": {
-    "time": 1696473099919.0425
+    "time": 1701654529850.6177
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter": {
-    "time": 1696473316860.0183,
+    "time": 1701654529852.618,
     "uuid": "fca5afa5-67ec-4020-9057-1ba12f315440",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests.meta": {
-    "time": 1696436101593.3645
+    "time": 1701654529867.5142
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests": {
-    "time": 1700421103526.2842,
+    "time": 1701654582304.1655,
     "uuid": "0b5a5476-02e3-4968-992b-1967cd69601c",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests.meta": {
-    "time": 1696473314055.4634
+    "time": 1701654529852.618
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests": {
-    "time": 1696563923658.3218,
+    "time": 1701654582304.1655,
     "uuid": "a58cba0b-bff5-4ee5-8d1c-eb8f8e7a51c6",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts.meta": {
-    "time": 1696473303625.3008
+    "time": 1701654529853.6174
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\StocasticsScatter\\Tests\\StocasticsUTest.ts": {
-    "time": 1700421143659.6865,
+    "time": 1701654582304.1655,
     "uuid": "c7f30b5d-b1b4-4a0d-a68d-734237233ca2",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts.meta": {
-    "time": 1696209683307.1155
+    "time": 1701654529868.5134
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessellationTest.ts": {
-    "time": 1700423884503.1548,
+    "time": 1701654582304.1655,
     "uuid": "3d540730-6bb9-4d9e-b131-00a7b1a55e5f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ButtonScript.ts": {
-    "time": 1696815846240.7515,
+    "time": 1701654582300.0981,
     "uuid": "f081c753-2637-4472-a910-84a23defd32e",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\ButtonScript.ts.meta": {
-    "time": 1696809679313.145
+    "time": 1701654582300.0981
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Utest.utest.ts.meta": {
-    "time": 1696830629035.6675
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Utest.utest.ts": {
-    "time": 1696887146869.1826,
+    "time": 1701654582304.1655,
     "uuid": "2dc7b192-04ae-479d-b3a0-3a8e9ff8b9f2",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\unimplmented.txt.meta": {
-    "time": 1700070121451.2805
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\unimplmented.txt": {
-    "time": 1700076080639.3486,
+    "time": 1701654582304.1655,
     "uuid": "efff5561-067c-490f-afe3-9a5c18bafe48",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessToJsonTest.ts.meta": {
-    "time": 1700073658664.3904
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\TessToJsonTest.ts": {
-    "time": 1700421172785.9424,
+    "time": 1701654582304.1655,
     "uuid": "f0ed06eb-66ee-45c8-9be1-ea096479d6ca",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CharSTest.ts.meta": {
-    "time": 1700420209244.5076
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CharSTest.ts": {
-    "time": 1700502389842.1914,
+    "time": 1701654582304.1655,
     "uuid": "b249d52c-d4ee-4221-89a3-f24881942b0d",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CucutaTestBase.ts.meta": {
-    "time": 1700421103530.2869
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\ExampleTest.ts.meta": {
-    "time": 1700421103532.287
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\CucutaTestBase.ts": {
-    "time": 1700189414000,
+    "time": 1701654582304.1655,
     "uuid": "d4cc8c2e-f3ef-4183-b8ca-761d5ada5c3f",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Tesselation\\Tests\\ExampleTest.ts": {
-    "time": 1700226672000,
+    "time": 1701654582304.1655,
     "uuid": "e08bac0c-d50d-4739-ba15-11bd19cbd82a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Bridge_small.jpg.meta": {
-    "time": 1700445323958.8423
+    "time": 1701654582285.009
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\westminster_bridge_centring.jpg.meta": {
-    "time": 1700445323988.8433
+    "time": 1701654582297.0972
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\Bridge_small.jpg": {
-    "time": 1700445268218.174,
+    "time": 1701654582284.0105,
     "uuid": "1c302bbf-ecd6-4929-802c-17286892768a",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Images\\westminster_bridge_centring.jpg": {
-    "time": 1700445201068.8945,
+    "time": 1701654582297.0972,
     "uuid": "82bed00c-a7a4-460a-94fa-c026d47127f2",
     "missing": false
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Drawer.ts.meta": {
-    "time": 1700445359588.516
+    "time": 1701654582304.1655
   },
   "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\Drawer.ts": {
-    "time": 1700529174386.914,
+    "time": 1701654582304.1655,
     "uuid": "5f0cf6b8-60ba-4a71-a11d-efdf788aff65",
+    "missing": false
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerV2.ts.meta": {
+    "time": 1701675768042.1643
+  },
+  "C:\\Users\\jmluc\\FracturableObjects\\assets\\Scripts\\DelaunayPackage\\DelaunayAssemblerV2.ts": {
+    "time": 1701675896387.2195,
+    "uuid": "24aca7c9-99b6-44dc-9779-11f46aac780a",
     "missing": false
   }
 }
